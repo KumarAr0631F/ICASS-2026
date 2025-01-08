@@ -6,6 +6,7 @@ import Guideline from "./pages/Guideline";
 import Registration from "./pages/Registration";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Event from "./pages/Event";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Route path={"/contact"} element={<Contact />} />
         <Route path={"/guideline"} element={<Guideline />} />
         <Route path={"/registration"} element={<Registration />} />
+        <Route path={"/events"} element={<Event />} />
       </Routes>
       <Footer />
     </div>

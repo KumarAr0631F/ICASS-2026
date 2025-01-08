@@ -2,13 +2,16 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center px-4">
+    <div
+      onClick={scrollTo(0, 0)}
+      className="min-h-screen bg-gray-100 flex items-center justify-center px-4"
+    >
       <div className="bg-white p-6 rounded-lg shadow-lg max-w-md w-full">
         <h2 className="text-2xl font-bold mb-4 text-center text-gray-800">
           Contact Us
         </h2>
 
-        <form action="#" method="POST" className="space-y-4">
+        <form className="space-y-4">
           <div>
             <label
               htmlFor="name"
