@@ -4,32 +4,32 @@ import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-200">
+    <footer className="bg-gray-200 py-8">
       {/* Images Section */}
-      <div className="flex justify-center items-center mb-6 pt-5">
+      <div className="flex justify-center items-center mb-6 flex-wrap gap-4">
         <img
           src={assets.mru_logo}
           alt="Footer Image 1"
-          className="h-16 w-30 mx-2 rounded"
+          className="h-16 w-auto mx-2 rounded"
         />
         <img
           src={assets.icass2025}
           alt="Footer Image 2"
-          className="h-16 w-30 mx-2 rounded"
+          className="h-16 w-auto mx-2 rounded"
         />
       </div>
 
       {/* Text Section */}
-      <div className="text-center mb-8">
-        <p className="text-lg">
+      <div className="text-center mb-8 px-4">
+        <p className="text-lg text-gray-700">
           Manav Rachna University, Faridabad, Haryana, India
         </p>
       </div>
 
       {/* Useful Links and Socials */}
-      <div className="grid grid-cols-2 gap-8 px-8 md:px-20">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 px-8 md:px-20 md:justify-items-center">
         {/* Useful Links */}
-        <div>
+        <div className="text-center md:text-left">
           <h3 className="text-xl font-bold mb-4 border-b-2 border-gray-500 inline-block">
             Useful Links
           </h3>
@@ -37,7 +37,7 @@ const Footer = () => {
             <li>
               <NavLink
                 to={"/about"}
-                className="text-gray-900 hover:cursor-pointer transition"
+                className="text-gray-900 hover:text-blue-500 transition"
               >
                 About Us
               </NavLink>
@@ -45,7 +45,7 @@ const Footer = () => {
             <li>
               <NavLink
                 to={"/events"}
-                className="text-gray-900 hover:cursor-pointer transition"
+                className="text-gray-900 hover:text-blue-500 transition"
               >
                 Events
               </NavLink>
@@ -53,7 +53,7 @@ const Footer = () => {
             <li>
               <NavLink
                 to={"/contact"}
-                className="text-gray-900 hover:cursor-pointer transition"
+                className="text-gray-900 hover:text-blue-500 transition"
               >
                 Contact
               </NavLink>
@@ -61,7 +61,7 @@ const Footer = () => {
             <li>
               <NavLink
                 to={"/privacy-policy"}
-                className="text-gray-900 hover:cursor-pointer transition"
+                className="text-gray-900 hover:text-blue-500 transition"
               >
                 Privacy Policy
               </NavLink>
@@ -70,7 +70,7 @@ const Footer = () => {
         </div>
 
         {/* Socials */}
-        <div>
+        <div className="text-center md:text-left">
           <h3 className="text-xl font-bold mb-4 border-b-2 border-gray-500 inline-block">
             Socials
           </h3>
@@ -80,7 +80,7 @@ const Footer = () => {
                 href="https://facebook.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-900 hover:cursor-pointer transition"
+                className="text-gray-900 hover:text-blue-500 transition"
               >
                 Facebook
               </a>
@@ -90,7 +90,7 @@ const Footer = () => {
                 href="https://twitter.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-900 hover:cursor-pointer transition"
+                className="text-gray-900 hover:text-blue-500 transition"
               >
                 Twitter
               </a>
@@ -100,7 +100,7 @@ const Footer = () => {
                 href="https://instagram.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-900 hover:cursor-pointer transition"
+                className="text-gray-900 hover:text-blue-500 transition"
               >
                 Instagram
               </a>
@@ -110,7 +110,7 @@ const Footer = () => {
                 href="https://linkedin.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-900 hover:cursor-pointer transition"
+                className="text-gray-900 hover:text-blue-500 transition"
               >
                 LinkedIn
               </a>
@@ -120,9 +120,8 @@ const Footer = () => {
       </div>
 
       {/* Bottom Text */}
-      <div className="text-center mt-8 text-sm text-gray-400">
-        &copy;ICASS-2026. All rights
-        reserved.
+      <div className="text-center mt-8 text-sm text-gray-500 px-4">
+        &copy; ICASS-2026. All rights reserved.
       </div>
     </footer>
   );

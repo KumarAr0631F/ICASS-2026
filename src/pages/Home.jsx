@@ -13,7 +13,11 @@ const Home = () => {
 
       {/* Scrolling Text */}
       <div className="bg-red-600 text-white w-full">
-        <marquee behavior="scroll" direction="left" className="py-2 text-lg">
+        <marquee
+          behavior="scroll"
+          direction="left"
+          className="py-2 text-sm md:text-lg"
+        >
           Submission Date &#8226; 28th February, 2025 &#8226; Notification of
           Acceptance &#8226; 15th March, 2025 &#8226; Registration Deadline Date
           &#8226; 4th - 6th April, 2025
@@ -21,14 +25,14 @@ const Home = () => {
       </div>
 
       {/* Content Wrapper */}
-      <div className="w-full max-w-6xl px-8 py-4 mt-8">
+      <div className="w-full max-w-6xl px-4 md:px-8 lg:px-12 py-8">
         {/* About Manav Rachna University */}
-        <div className="mb-8">
-          <h3 className="text-blue-700 text-3xl font-bold">
+        <div className="mb-12">
+          <h3 className="text-blue-700 text-2xl md:text-3xl font-bold">
             About Manav Rachna University
           </h3>
           <hr className="bg-blue-700 border h-1 w-full my-2" />
-          <p className="text-lg text-gray-700 text-justify">
+          <p className="text-base md:text-lg text-gray-700 text-justify">
             Manav Rachna University is a leader in educational excellence,
             having recently received the prestigious NAAC Grade A accreditation
             in June 2024. This honor highlights the dedication to providing
@@ -40,21 +44,23 @@ const Home = () => {
             recognized in the Diamond band category under the Sustainable
             Institutions of India Green Rankings 2024, underscoring the
             commitment to sustainability and environmental stewardship. MRU has
-            also been ranked 5th amongst the Private and Deemed Multidisciplinary
-            Universities in the Delhi NCR region, according to The Week-Hansa
-            Research Best University Survey 2024. The School of Engineering has
-            received significant accolades, ranking 2nd in Faridabad and 3rd in
-            Haryana in the BW BusinessWorld Top Engineering Institutes Ranking
-            2024. These achievements showcase the unwavering commitment to
-            excellence in engineering education and research.
+            also been ranked 5th amongst the Private and Deemed
+            Multidisciplinary Universities in the Delhi NCR region, according to
+            The Week-Hansa Research Best University Survey 2024. The School of
+            Engineering has received significant accolades, ranking 2nd in
+            Faridabad and 3rd in Haryana in the BW BusinessWorld Top Engineering
+            Institutes Ranking 2024. These achievements showcase the unwavering
+            commitment to excellence in engineering education and research.
           </p>
         </div>
 
         {/* About Conference */}
-        <div className="mb-8">
-          <h3 className="text-blue-700 text-3xl font-bold">About Conference</h3>
+        <div className="mb-12">
+          <h3 className="text-blue-700 text-2xl md:text-3xl font-bold">
+            About Conference
+          </h3>
           <hr className="bg-blue-700 border h-1 w-full my-2" />
-          <p className="text-lg text-gray-700 text-justify">
+          <p className="text-base md:text-lg text-gray-700 text-justify">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique
             fugit doloribus deserunt labore. In, facilis excepturi ab aspernatur
             quibusdam cupiditate nostrum temporibus laudantium! Omnis repellat
@@ -63,14 +69,14 @@ const Home = () => {
         </div>
 
         {/* Conference Topics */}
-        <div className="mb-8">
-          <h3 className="text-blue-700 text-3xl font-bold">
+        <div className="mb-12">
+          <h3 className="text-blue-700 text-2xl md:text-3xl font-bold">
             Conference Topics (Not Limited to)
           </h3>
           <hr className="bg-blue-700 border h-1 w-full my-2" />
           {/* Two-column Grid */}
-          <div className="grid grid-cols-2 gap-8">
-            <ul className="list-disc pl-6 text-lg text-gray-700">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <ul className="list-disc pl-6 text-base md:text-lg text-gray-700">
               <li>Artificial Intelligence</li>
               <li>LLM (Large Language Models)</li>
               <li>Federated Learning</li>
@@ -98,7 +104,7 @@ const Home = () => {
               <li>IMoT (Internet of Medical Things)</li>
             </ul>
 
-            <ul className="list-disc pl-6 text-lg text-gray-700">
+            <ul className="list-disc pl-6 text-base md:text-lg text-gray-700">
               <li>Ontology</li>
               <li>Image Processing</li>
               <li>Wireless Communication Network</li>
@@ -130,17 +136,19 @@ const Home = () => {
 
         {/* Key Highlights */}
         <div>
-          <h3 className="text-blue-700 text-3xl font-bold">Key Highlights</h3>
+          <h3 className="text-blue-700 text-2xl md:text-3xl font-bold">
+            Key Highlights
+          </h3>
           <hr className="bg-blue-700 border h-1 w-full my-2" />
-          <p className="text-lg text-gray-700 text-justify">
+          <p className="text-base md:text-lg text-gray-700 text-justify">
             <b>• Focus Areas:</b> Advanced computing, information security, AI,
             and emerging trends in communication technologies.
           </p>
-          <p className="text-lg text-gray-700 text-justify">
+          <p className="text-base md:text-lg text-gray-700 text-justify">
             <b>• Global Participation:</b> International researchers,
             practitioners, and experts sharing cutting-edge research.
           </p>
-          <p className="text-lg text-gray-700 text-justify">
+          <p className="text-base md:text-lg text-gray-700 text-justify">
             <b>• Expert Sessions:</b> Keynote addresses and technical talks from
             industry leaders and academic pioneers.
           </p>
