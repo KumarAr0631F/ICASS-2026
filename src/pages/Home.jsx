@@ -18,9 +18,11 @@ const Home = () => {
           direction="left"
           className="py-2 text-sm md:text-lg"
         >
-          Submission Date &#8226; 28th February, 2025 &#8226; Notification of
-          Acceptance &#8226; 15th March, 2025 &#8226; Registration Deadline Date
-          &#8226; 4th - 6th April, 2025
+          Submission Date:- 30th November, 2025
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          Notification of Acceptance:- 10th January, 2026
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          Conference Date:- 6th - 7th February, 2026
         </marquee>
       </div>
 
@@ -51,6 +53,20 @@ const Home = () => {
             Faridabad and 3rd in Haryana in the BW BusinessWorld Top Engineering
             Institutes Ranking 2024. These achievements showcase the unwavering
             commitment to excellence in engineering education and research.
+          </p>
+        </div>
+
+        <div className="mb-12">
+          <h3 className="text-blue-700 text-2xl md:text-3xl font-bold">
+            School Of Engineering
+          </h3>
+          <hr className="bg-blue-700 border h-1 w-full my-2" />
+          <p className="text-base md:text-lg text-gray-700 text-justify">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum
+            iusto adipisci blanditiis accusamus earum. Recusandae dignissimos
+            necessitatibus aut tempore quibusdam! Quibusdam, fugiat quas. Neque
+            minima sapiente repellat inventore in adipisci alias et quidem
+            placeat at. Officia optio iure aliquid! Ipsum!
           </p>
         </div>
 
