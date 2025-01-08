@@ -1,6 +1,19 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
+
+const PDF_FILE_URL = "http://localhost:5173/ieee_copyright_process.pdf";
 
 const Guideline = () => {
+  const downloadFileAtURL = (url) => {
+    const fileName = url.split("/").pop();
+    const aTag = document.createElement("a");
+    aTag.href = url;
+    aTag.setAttribute("download", fileName);
+    document.body.appendChild(aTag);
+    aTag.click();
+    aTag.remove();
+  };
+
   return (
     <div>
       <div className="min-h-screen bg-gray-100 px-4 sm:px-6 lg:px-8">
@@ -26,9 +39,12 @@ const Guideline = () => {
           <h3 className="text-2xl sm:text-3xl font-bold p-2 m-3 text-center">
             Paper Formatting Guidelines
           </h3>
-          <button className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 m-3 rounded-lg text-sm sm:text-base">
+          <NavLink
+            to={"https://www.ieee.org/conferences/publishing/templates.html"}
+            className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 m-3 rounded-lg text-sm sm:text-base"
+          >
             Download Template
-          </button>
+          </NavLink>
         </div>
 
         {/* 7 Points Section */}
@@ -62,7 +78,7 @@ const Guideline = () => {
             </ul>
           </div>
         </div>
-        <div className="flex flex-col items-center p-4 sm:p-10 mt-6 bg-gray-100 shadow-lg rounded-lg">
+        <div className="flex flex-col items-center p-4 sm:p-10 mt-6 bg-gray-100 rounded-lg">
           <h3 className="text-2xl sm:text-3xl font-bold p-2 mb-4 text-center text-blue-600">
             General Instructions
           </h3>
@@ -112,6 +128,25 @@ const Guideline = () => {
               <li>All submissions should be made via Microsoft CMT.</li>
             </ul>
           </div>
+        </div>
+        <div className="flex flex-col sm:flex-row justify-around items-center p-4 sm:p-10 mt-6 rounded-lg">
+          <div className="text-center sm:text-left mb-4 sm:mb-0">
+            <h3 className="text-2xl sm:text-3xl font-bold p-2 text-gray-800">
+              IEEE E-Copyright Process Document
+            </h3>
+            <p className="ml-2 text-base sm:text-xl text-blue-500">
+              Final Submission with IEEE Xplore®-Compatible PDFs
+            </p>
+          </div>
+
+          <button
+            onClick={() => {
+              downloadFileAtURL(PDF_FILE_URL);
+            }}
+            className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg text-sm sm:text-base"
+          >
+            Download Template
+          </button>
         </div>
       </div>
     </div>
