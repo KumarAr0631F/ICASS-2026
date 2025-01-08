@@ -5,6 +5,7 @@ import Contact from "./pages/Contact";
 import Guideline from "./pages/Guideline";
 import Registration from "./pages/Registration";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Route path={"/guideline"} element={<Guideline />} />
         <Route path={"/registration"} element={<Registration />} />
       </Routes>
+      <Footer />
     </div>
   );
 };
