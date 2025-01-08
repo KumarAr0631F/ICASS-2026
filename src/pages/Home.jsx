@@ -28,6 +28,19 @@ const Home = () => {
 
       {/* Content Wrapper */}
       <div className="w-full max-w-6xl px-4 md:px-8 lg:px-12 py-8">
+        {/* About Conference */}
+        <div className="mb-12">
+          <h3 className="text-blue-700 text-2xl md:text-3xl font-bold">
+            About Conference
+          </h3>
+          <hr className="bg-blue-700 border h-1 w-full my-2" />
+          <p className="text-base md:text-lg text-gray-700 text-justify">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique
+            fugit doloribus deserunt labore. In, facilis excepturi ab aspernatur
+            quibusdam cupiditate nostrum temporibus laudantium! Omnis repellat
+            iste nulla accusamus, aliquam minima.
+          </p>
+        </div>
         {/* About Manav Rachna University */}
         <div className="mb-12">
           <h3 className="text-blue-700 text-2xl md:text-3xl font-bold">
@@ -67,20 +80,6 @@ const Home = () => {
             necessitatibus aut tempore quibusdam! Quibusdam, fugiat quas. Neque
             minima sapiente repellat inventore in adipisci alias et quidem
             placeat at. Officia optio iure aliquid! Ipsum!
-          </p>
-        </div>
-
-        {/* About Conference */}
-        <div className="mb-12">
-          <h3 className="text-blue-700 text-2xl md:text-3xl font-bold">
-            About Conference
-          </h3>
-          <hr className="bg-blue-700 border h-1 w-full my-2" />
-          <p className="text-base md:text-lg text-gray-700 text-justify">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique
-            fugit doloribus deserunt labore. In, facilis excepturi ab aspernatur
-            quibusdam cupiditate nostrum temporibus laudantium! Omnis repellat
-            iste nulla accusamus, aliquam minima.
           </p>
         </div>
 

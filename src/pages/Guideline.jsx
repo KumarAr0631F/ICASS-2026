@@ -113,6 +113,7 @@ const Guideline = () => {
             </ul>
           </div>
         </div>
+        <hr className="bg-blue-700 border h-1 w-full my-2" />
       </div>
     </div>
   );
