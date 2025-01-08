@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-const PDF_FILE_URL = "http://localhost:5173/ieee_copyright_process.pdf";
+const PDF_FILE_URL = "https://icass-2026.vercel.app/ieee_copyright_process.pdf";
 
 const Guideline = () => {
   const downloadFileAtURL = (url) => {
