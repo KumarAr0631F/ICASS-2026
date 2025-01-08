@@ -70,9 +70,14 @@ const Navbar = () => {
           >
             Registration
           </NavLink>
-          <button className="bg-red-500 py-2 px-3 text-white rounded-lg transition duration-200 hover:bg-red-600">
+          <NavLink
+            to={
+              "https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICCSAI2025"
+            }
+            className="bg-red-500 py-2 px-3 text-white rounded-lg transition duration-200 hover:bg-red-600"
+          >
             Submit Your Paper
-          </button>
+          </NavLink>
         </div>
 
         {/* Hamburger Menu - Mobile View */}
@@ -154,12 +159,15 @@ const Navbar = () => {
               </NavLink>
             </li>
             <li>
-              <button
+              <NavLink
+                to={
+                  "https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICCSAI2025"
+                }
                 className="bg-red-500 py-2 px-6 w-full text-white rounded-lg transition duration-200 hover:bg-red-600"
                 onClick={toggleMenu}
               >
                 Submit Your Paper
-              </button>
+              </NavLink>
             </li>
           </ul>
         </div>

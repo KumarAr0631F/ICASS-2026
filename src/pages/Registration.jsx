@@ -1,6 +1,9 @@
 import React from "react";
+import { useNavigate, NavLink } from "react-router-dom";
 
 const Registration = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="min-h-screen bg-gray-100 flex justify-center">
       <div className="container mx-auto p-4">
@@ -143,7 +146,9 @@ const Registration = () => {
             </div>
           </div>
           <div className="mt-7 flex justify-center">
-            <button className="bg-red-500 rounded-lg cursor-pointer p-2.5 m-4 text-white hover:bg-red-600 transition-all duration-300">Submit Your Paper</button>
+            <NavLink to={'https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICCSAI2025'} className="bg-red-500 rounded-lg cursor-pointer p-2.5 m-4 text-white hover:bg-red-600 transition-all duration-300">
+              Submit Your Paper
+            </NavLink>
           </div>
         </div>
       </div>
