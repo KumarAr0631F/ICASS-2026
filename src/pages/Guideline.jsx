@@ -62,6 +62,57 @@ const Guideline = () => {
             </ul>
           </div>
         </div>
+        <div className="flex flex-col items-center p-4 sm:p-10 mt-6 bg-gray-100 shadow-lg rounded-lg">
+          <h3 className="text-2xl sm:text-3xl font-bold p-2 mb-4 text-center text-blue-600">
+            General Instructions
+          </h3>
+          <div className="p-4 sm:p-6 rounded-lg w-full sm:w-3/4 lg:w-2/3">
+            <ul className="list-decimal text-base sm:text-lg pl-5 space-y-3 text-gray-800 leading-relaxed">
+              <li>Papers violating formatting guidelines may be rejected.</li>
+              <li>
+                Submissions must be original, unpublished work not under review
+                elsewhere.
+              </li>
+              <li>
+                Simultaneous submissions to other conferences or journals are
+                prohibited.
+              </li>
+              <li>
+                All manuscripts must be written in English and prepared as a PDF
+                document.
+              </li>
+              <li>
+                Papers should strictly adhere to the IEEE two-column format with
+                10pt font size.
+              </li>
+              <li>
+                The page limit is six (6) pages. An additional two pages are
+                allowed with extra charges as specified.
+              </li>
+              <li>
+                All figures, tables, and references must fit within the page
+                limit.
+              </li>
+              <li>
+                Papers will be reviewed based on originality, significance,
+                technical quality, and clarity.
+              </li>
+              <li>
+                The decision to accept or reject a paper rests with the
+                Technical Program Committee.
+              </li>
+              <li>
+                Accepted papers must address reviewers' comments and meet final
+                submission requirements.
+              </li>
+              <li>
+                The Conference Chair reserves the right to exclude papers not
+                presented or meeting guidelines from the proceedings.
+              </li>
+              <li>All submissions should be made via Microsoft CMT.</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   );
