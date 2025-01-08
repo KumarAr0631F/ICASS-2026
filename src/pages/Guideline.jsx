@@ -62,7 +62,6 @@ const Guideline = () => {
             </ul>
           </div>
         </div>
-        
       </div>
     </div>
   );
