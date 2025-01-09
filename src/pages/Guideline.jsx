@@ -48,7 +48,7 @@ const Guideline = () => {
         </div>
 
         {/* 7 Points Section */}
-        <div className="flex justify-center mt-5">
+        <div className="flex justify-center text-justify mt-5">
           <div className=" p-4 sm:p-6 rounded-lg w-full sm:w-3/4 lg:w-2/3">
             <ul className="list-decimal text-base sm:text-lg pl-5 text-gray-900">
               <li>Paper Size: US Letter (8.5" x 11").</li>
@@ -78,7 +78,7 @@ const Guideline = () => {
             </ul>
           </div>
         </div>
-        <div className="flex flex-col items-center p-4 sm:p-10 mt-6 bg-gray-100 rounded-lg">
+        <div className="flex flex-col items-center text-justify p-4 sm:p-10 mt-6 bg-gray-100 rounded-lg">
           <h3 className="text-2xl sm:text-3xl font-bold p-2 mb-4 text-center text-blue-600">
             General Instructions
           </h3>
