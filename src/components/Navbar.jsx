@@ -23,24 +23,24 @@ const Navbar = () => {
         <div className="flex items-center space-x-4">
           <img
             onClick={() => navigate("/")}
-            src={assets.icass2025}
+            src={assets.icass2026}
             alt="Logo"
-            className="h-10 w-auto cursor-pointer"
+            className="h-16 w-auto cursor-pointer"
           />
           <img
             src={assets.mru_logo}
             alt="Logo 2"
-            className="h-10 w-auto hidden sm:block"
+            className="h-16 w-auto hidden sm:block"
           />
           <img
             src={assets.mru_soe}
             alt="Logo 3"
-            className="h-10 w-auto hidden md:block"
+            className="h-16 w-auto hidden md:block"
           />
           <img
             src={assets.mru}
             alt="Logo 4"
-            className="h-10 w-auto hidden lg:block"
+            className="h-16 w-auto hidden lg:block"
           />
         </div>
 

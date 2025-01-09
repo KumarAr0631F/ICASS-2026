@@ -13,7 +13,7 @@ const Footer = () => {
           className="h-16 w-auto mx-2 rounded"
         />
         <img
-          src={assets.icass2025}
+          src={assets.icass2026}
           alt="Footer Image 2"
           className="h-16 w-auto mx-2 rounded"
         />
