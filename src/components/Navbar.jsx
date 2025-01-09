@@ -9,17 +9,20 @@ const Navbar = () => {
   // Toggle menu and prevent page scroll
   const toggleMenu = () => {
     setIsMenuOpen((prev) => !prev);
-    if (!isMenuOpen) {
-      document.body.classList.add("overflow-hidden");
-    } else {
-      document.body.classList.remove("overflow-hidden");
-    }
+    document.body.classList.toggle("overflow-hidden", !isMenuOpen);
+  };
+
+  // Scroll to top when a menu item is clicked
+  const handleMenuItemClick = (path) => {
+    toggleMenu(); // Close the menu
+    window.scrollTo(0, 0); // Scroll to the top
+    navigate(path); // Navigate to the route
   };
 
   return (
     <nav className="bg-slate-100 shadow-md sticky top-0 z-50">
       <div className="container mx-auto flex items-center justify-between px-4 py-2">
-        {/* Left Section - Single Logo for Mobile View */}
+        {/* Left Section - Logos */}
         <div className="flex items-center space-x-4">
           <img
             onClick={() => navigate("/")}
@@ -71,9 +74,7 @@ const Navbar = () => {
             Registration
           </NavLink>
           <NavLink
-            to={
-              "https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICCSAI2025"
-            }
+            to="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICCSAI2025"
             className="bg-red-500 py-2 px-3 text-white rounded-lg transition duration-200 hover:bg-red-600"
           >
             Submit Your Paper
@@ -119,59 +120,59 @@ const Navbar = () => {
       </div>
 
       {/* Dropdown Menu for Mobile */}
-      {isMenuOpen && (
-        <div className="md:hidden bg-slate-100 shadow-lg">
-          <ul className="flex flex-col items-center space-y-4 py-4">
-            <li>
-              <NavLink
-                to="/"
-                className="hover:text-yellow-300 transition duration-200"
-                onClick={toggleMenu}
-              >
-                Home
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                to="/contact"
-                className="hover:text-yellow-300 transition duration-200"
-                onClick={toggleMenu}
-              >
-                Contact Us
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                to="/guidelines"
-                className="hover:text-yellow-300 transition duration-200"
-                onClick={toggleMenu}
-              >
-                Guidelines
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                to="/registration"
-                className="hover:text-yellow-300 transition duration-200"
-                onClick={toggleMenu}
-              >
-                Registration
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                to={
-                  "https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICCSAI2025"
-                }
-                className="bg-red-500 py-2 px-6 w-full text-white rounded-lg transition duration-200 hover:bg-red-600"
-                onClick={toggleMenu}
-              >
-                Submit Your Paper
-              </NavLink>
-            </li>
-          </ul>
-        </div>
-      )}
+      <div
+        className={`fixed top-16 left-0 w-full bg-slate-100 shadow-lg transition-all duration-300 z-40 ${
+          isMenuOpen ? "h-1/2" : "h-0"
+        } overflow-hidden`}
+      >
+        <ul className="flex flex-col items-center space-y-4 py-8 px-4">
+          <li>
+            <button
+              onClick={() => handleMenuItemClick("/")}
+              className="text-lg hover:text-yellow-300 transition duration-200"
+            >
+              Home
+            </button>
+          </li>
+          <li>
+            <button
+              onClick={() => handleMenuItemClick("/contact")}
+              className="text-lg hover:text-yellow-300 transition duration-200"
+            >
+              Contact Us
+            </button>
+          </li>
+          <li>
+            <button
+              onClick={() => handleMenuItemClick("/guidelines")}
+              className="text-lg hover:text-yellow-300 transition duration-200"
+            >
+              Guidelines
+            </button>
+          </li>
+          <li>
+            <button
+              onClick={() => handleMenuItemClick("/registration")}
+              className="text-lg hover:text-yellow-300 transition duration-200"
+            >
+              Registration
+            </button>
+          </li>
+          <li>
+            <button
+              onClick={() =>
+                window.open(
+                  "https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICCSAI2025",
+                  "_blank"
+                )
+              }
+              className="bg-red-500 py-2 px-6 w-full text-center text-white rounded-lg transition duration-200 hover:bg-red-600"
+            >
+              Submit Your Paper
+            </button>
+          </li>
+        </ul>
+      </div>
     </nav>
   );
 };

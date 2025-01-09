@@ -16,7 +16,7 @@ const Home = () => {
         <marquee
           behavior="scroll"
           direction="left"
-          className="py-2 text-sm md:text-lg"
+          className="py-2 text-center flex text-sm md:text-lg"
         >
           Submission Date:- 30th November, 2025
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
