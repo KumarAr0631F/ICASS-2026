@@ -68,8 +68,9 @@ const Navbar = () => {
             Guidelines
           </NavLink>
           <NavLink
+            onClick={scrollTo(0, 0)}
             to="/tracks-and-topics"
-            className="hover:cursor-pointer transition duration-200"
+            className="hover:cursor-pointer"
           >
             Tracks and Topics
           </NavLink>
@@ -135,7 +136,7 @@ const Navbar = () => {
           <li>
             <button
               onClick={() => handleMenuItemClick("/")}
-              className="text-lg hover:text-yellow-300 transition duration-200"
+              className="text-lg"
             >
               Home
             </button>
@@ -143,7 +144,7 @@ const Navbar = () => {
           <li>
             <button
               onClick={() => handleMenuItemClick("/contact")}
-              className="text-lg hover:text-yellow-300 transition duration-200"
+              className="text-lg "
             >
               Contact Us
             </button>
@@ -151,16 +152,16 @@ const Navbar = () => {
           <li>
             <button
               onClick={() => handleMenuItemClick("/guidelines")}
-              className="text-lg hover:text-yellow-300 transition duration-200"
+              className="text-lg"
             >
               Guidelines
             </button>
           </li>
-         
+
           <li>
             <button
               onClick={() => handleMenuItemClick("/tracks-and-topics")}
-              className="text-lg hover:text-yellow-300 transition duration-200"
+              className="text-lg"
             >
               Tracks and Events
             </button>
@@ -168,7 +169,7 @@ const Navbar = () => {
           <li>
             <button
               onClick={() => handleMenuItemClick("/registration")}
-              className="text-lg hover:text-yellow-300 transition duration-200"
+              className="text-lg"
             >
               Registration
             </button>
