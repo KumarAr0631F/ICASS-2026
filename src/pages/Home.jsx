@@ -1,5 +1,6 @@
 import React from "react";
 import { assets } from "../assets/assets";
+import { NavLink } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -22,7 +23,7 @@ const Home = () => {
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           Notification of Acceptance:- 10th January, 2026
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          Conference Date:- 6th - 7th February, 2026
+          Conference Date:- 12th - 13th February, 2026
         </marquee>
       </div>
 
@@ -35,10 +36,18 @@ const Home = () => {
           </h3>
           <hr className="bg-blue-700 border h-1 w-full my-2" />
           <p className="text-base md:text-lg text-gray-700 text-justify">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique
-            fugit doloribus deserunt labore. In, facilis excepturi ab aspernatur
-            quibusdam cupiditate nostrum temporibus laudantium! Omnis repellat
-            iste nulla accusamus, aliquam minima.
+            The{" "}
+            <b>
+              International Conference on Intelligent Computing and Automation
+              for Sustainable Solutions (ICASS-2026)
+            </b>{" "}
+            is a prestigious platform that brings together researchers,
+            academicians, industry experts, and practitioners to discuss and
+            share advancements in the fields of intelligent computing,
+            automation, and sustainable technologies. The primary focus of the
+            conference is to address the growing need for innovative solutions
+            that integrate cutting-edge technology with sustainability
+            principles to address global challenges.
           </p>
         </div>
         {/* About Manav Rachna University */}
@@ -48,24 +57,32 @@ const Home = () => {
           </h3>
           <hr className="bg-blue-700 border h-1 w-full my-2" />
           <p className="text-base md:text-lg text-gray-700 text-justify">
-            Manav Rachna University is a leader in educational excellence,
-            having recently received the prestigious NAAC Grade A accreditation
-            in June 2024. This honor highlights the dedication to providing
-            high-quality education and fostering an environment of academic
-            rigor and innovation. The status as a top-tier university is further
-            reinforced by achieving the Platinum band in the Outcome-Based
-            Education Rankings 2024, reflecting the strong focus on student
-            outcomes and academic effectiveness. Additionally, MRU has been
-            recognized in the Diamond band category under the Sustainable
-            Institutions of India Green Rankings 2024, underscoring the
-            commitment to sustainability and environmental stewardship. MRU has
-            also been ranked 5th amongst the Private and Deemed
-            Multidisciplinary Universities in the Delhi NCR region, according to
-            The Week-Hansa Research Best University Survey 2024. The School of
-            Engineering has received significant accolades, ranking 2nd in
-            Faridabad and 3rd in Haryana in the BW BusinessWorld Top Engineering
-            Institutes Ranking 2024. These achievements showcase the unwavering
-            commitment to excellence in engineering education and research.
+            Manav Rachna University (MRU){" "}
+            <NavLink
+              className={"text-blue-700 cursor-pointer"}
+              to={"http://mru.edu.in"}
+            >
+              (http://mru.edu.in)
+            </NavLink>{" "}
+            is a leader in educational excellence providing high-quality
+            education with an environment of academic rigor and innovation. The
+            university offers UG/PG/Doctoral programmes in various disciplines
+            including engineering, management, law, applied sciences, education
+            and humanities etc. It has recently received the prestigious NAAC
+            Grade A accreditation in June 2024 and Platinum band in the
+            Outcome-Based Education Rankings 2024. Additionally, the university
+            has been recognized in the Diamond band category under the
+            Sustainable Institutions of India Green Rankings 2024, underscoring
+            the commitment to sustainability and environmental stewardship. With
+            its striving vision and distinctive methodology, the university has
+            received QS I Gauge Overall Diamond rating, with a Platinum rating
+            in Academic Development & Employability and a Diamond rating in
+            Teaching Learning Process, Faculty Quality, Facilities and Social
+            Responsibility. MRU has also been ranked 5th in Delhi NCR & 20th in
+            North India under Private & Deemed Multidisciplinary Universities
+            category also ranked 13th nationally and 9th in North India among
+            Emerging Multidisciplinary Universities in the prestigious THE
+            WEEK 2024 rankings.
           </p>
         </div>
 
@@ -156,16 +173,19 @@ const Home = () => {
           </h3>
           <hr className="bg-blue-700 border h-1 w-full my-2" />
           <p className="text-base md:text-lg text-gray-700 text-justify">
-            <b>• Focus Areas:</b> Advanced computing, information security, AI,
-            and emerging trends in communication technologies.
+            <b>• Promote Research and Innovation:</b> To foster the exchange of
+            ideas and promote research in intelligent computing and automation
+            with an emphasis on sustainable practices.
           </p>
           <p className="text-base md:text-lg text-gray-700 text-justify">
-            <b>• Global Participation:</b> International researchers,
-            practitioners, and experts sharing cutting-edge research.
+            <b>• Encourage Collaboration:</b> To create opportunities for
+            collaboration among researchers, industries, and policymakers to
+            design eco-friendly and efficient systems.
           </p>
           <p className="text-base md:text-lg text-gray-700 text-justify">
-            <b>• Expert Sessions:</b> Keynote addresses and technical talks from
-            industry leaders and academic pioneers.
+            <b>• Showcase Emerging Technologies:</b> To provide a platform for
+            presenting breakthroughs in intelligent computing and automation
+            that contribute to sustainable development.
           </p>
         </div>
       </div>
