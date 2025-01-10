@@ -68,6 +68,12 @@ const Navbar = () => {
             Guidelines
           </NavLink>
           <NavLink
+            to="/tracks-and-topics"
+            className="hover:cursor-pointer transition duration-200"
+          >
+            Tracks and Topics
+          </NavLink>
+          <NavLink
             to="/registration"
             className="hover:cursor-pointer transition duration-200"
           >
@@ -148,6 +154,15 @@ const Navbar = () => {
               className="text-lg hover:text-yellow-300 transition duration-200"
             >
               Guidelines
+            </button>
+          </li>
+         
+          <li>
+            <button
+              onClick={() => handleMenuItemClick("/tracks-and-topics")}
+              className="text-lg hover:text-yellow-300 transition duration-200"
+            >
+              Tracks and Events
             </button>
           </li>
           <li>
