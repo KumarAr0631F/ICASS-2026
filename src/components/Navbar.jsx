@@ -67,13 +67,7 @@ const Navbar = () => {
           >
             Guidelines
           </NavLink>
-          <NavLink
-            onClick={scrollTo(0, 0)}
-            to="/tracks-and-topics"
-            className="hover:cursor-pointer"
-          >
-            Tracks and Topics
-          </NavLink>
+          
           <NavLink
             to="/registration"
             className="hover:cursor-pointer transition duration-200"
