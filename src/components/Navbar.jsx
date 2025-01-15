@@ -65,7 +65,7 @@ const Navbar = () => {
             to="/guidelines"
             className="hover:cursor-pointer transition duration-200"
           >
-            Guidelines
+            Author's Guidelines
           </NavLink>
           <NavLink
             onClick={scrollTo(0, 0)}
@@ -154,7 +154,7 @@ const Navbar = () => {
               onClick={() => handleMenuItemClick("/guidelines")}
               className="text-lg"
             >
-              Guidelines
+              Author's Guidelines
             </button>
           </li>
 
