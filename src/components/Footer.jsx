@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-200 py-8">
+    <footer className="bg-gray-200 py-8 flex">
       {/* Images Section */}
       <div className="flex justify-center items-center mb-6 flex-wrap gap-4">
         <img
