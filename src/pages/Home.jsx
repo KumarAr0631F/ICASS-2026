@@ -1,8 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import { assets } from "../assets/assets";
 import { NavLink } from "react-router-dom";
 
 const Home = () => {
+  const [openTrack, setOpenTrack] = useState(false);
+  const toggleTrack = () => {
+    setOpenTrack(!openTrack);
+  };
+
   return (
     <div className="w-full min-h-screen bg-gray-100 flex flex-col items-center justify-center">
       {/* Full-width Image */}
@@ -90,84 +95,86 @@ const Home = () => {
           </p>
         </div>
 
-        <div className="mb-12">
-          <h3 className="text-blue-700 text-2xl md:text-3xl font-bold">
-            School Of Engineering
-          </h3>
-          <hr className="bg-blue-700 border h-1 w-full my-2" />
-          <p className="text-base md:text-lg text-gray-700 text-justify">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum
-            iusto adipisci blanditiis accusamus earum. Recusandae dignissimos
-            necessitatibus aut tempore quibusdam! Quibusdam, fugiat quas. Neque
-            minima sapiente repellat inventore in adipisci alias et quidem
-            placeat at. Officia optio iure aliquid! Ipsum!
-          </p>
-        </div>
-
         {/* Conference Topics */}
         <div className="mb-12">
           <h3 className="text-blue-700 text-2xl md:text-3xl font-bold">
-            Conference Topics (Not Limited to)
+            Conference Tracks (Not Limited to)
           </h3>
           <hr className="bg-blue-700 border h-1 w-full my-2" />
-          {/* Two-column Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <ul className="list-disc pl-6 text-base md:text-lg text-gray-700">
-              <li>Artificial Intelligence</li>
-              <li>LLM (Large Language Models)</li>
-              <li>Federated Learning</li>
-              <li>Data Science</li>
-              <li>Big Data</li>
-              <li>Software Reliability Engineering</li>
-              <li>Blockchain</li>
-              <li>Cryptography</li>
-              <li>Watermarking</li>
-              <li>Privacy and Preservation</li>
-              <li>Information Security</li>
-              <li>Digital Services and Protection Mechanism</li>
-              <li>Cyber Security</li>
-              <li>Electronics & Communication Engineering</li>
-              <li>Renewable Energy</li>
-              <li>Control Systems</li>
-              <li>AI in Fashion Technology</li>
-              <li>Soft Computing</li>
-              <li>Quantum Computing</li>
-              <li>Machine Learning</li>
-              <li>Deep Learning</li>
-              <li>5G/6G/7G Technologies</li>
-              <li>IoT (Internet of Things)</li>
-              <li>IIoT (Industrial IoT)</li>
-              <li>IMoT (Internet of Medical Things)</li>
-            </ul>
+          <p className="text-lg lg:text-xl text-justify mb-6">
+            The conference <strong>ICASS-2026</strong> aims to foster on the
+            theme
+            <em>“Harnessing AI for a Digital Future”</em>, by leveraging
+            intelligent computing, automation, and sustainable solutions for
+            securing a digital future for everyone. The conference will feature
+            the following tracks and related topics (but not limited to):
+          </p>
 
-            <ul className="list-disc pl-6 text-base md:text-lg text-gray-700">
-              <li>Ontology</li>
-              <li>Image Processing</li>
-              <li>Wireless Communication Network</li>
-              <li>Bitcoin</li>
-              <li>Robotics and Automation</li>
-              <li>Smart Grid</li>
-              <li>Electric Vehicles</li>
-              <li>Cryptocurrency</li>
-              <li>Distributed & Parallel Computing</li>
-              <li>High Performance Computing</li>
-              <li>Cloud Quality Management</li>
-              <li>Cloud & Grid Computing</li>
-              <li>Mobile Computing</li>
-              <li>Edge Computing</li>
-              <li>Fog Computing</li>
-              <li>Cognitive Computing</li>
-              <li>Computer Vision and Image Processing Applications</li>
-              <li>Intelligent Computing Systems</li>
-              <li>AR/VR/Metaverse</li>
-              <li>Human Computer Interface</li>
-              <li>Cyborg</li>
-              <li>Sustainability</li>
-              <li>Multimedia Technology</li>
-              <li>E-commerce</li>
-              <li>DNA Computing</li>
-            </ul>
-          </div>
+          <ul className=" list-inside space-y-4 text-lg lg:text-xl">
+            <li
+              onClick={toggleTrack}
+              className="bg-blue-200 py-3 px-2.5 rounded-lg cursor-pointer"
+            >
+              <strong>Track-1:</strong> Computational Intelligent Systems and
+              Applications
+            </li>
+            {openTrack && (
+              <div className="mt-4 bg-white p-4 rounded shadow-sm">
+                <table className="w-full table-auto border border-gray-300">
+                  <thead>
+                    <tr className="bg-gray-100"></tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td className="border border-gray-300 px-4 py-2">
+                        Row 1 Data 1
+                      </td>
+                      <td className="border border-gray-300 px-4 py-2">
+                        Row 1 Data 2
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="border border-gray-300 px-4 py-2">
+                        Row 2 Data 1
+                      </td>
+                      <td className="border border-gray-300 px-4 py-2">
+                        Row 2 Data 2
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="border border-gray-300 px-4 py-2">
+                        Row 3 Data 1
+                      </td>
+                      <td className="border border-gray-300 px-4 py-2">
+                        Row 3 Data 2
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            )}
+            <li className="bg-blue-200 py-3 px-2.5 rounded-lg">
+              <strong>Track-2:</strong> Data Analytics and Decision Sciences
+            </li>
+            <li className="bg-blue-200 py-3 px-2.5 rounded-lg">
+              <strong>Track-3:</strong> Futuristic Tools, Technologies &
+              Applications
+            </li>
+            <li className="bg-blue-200 py-3 px-2.5 rounded-lg">
+              <strong>Track-4:</strong> Smart Electronics and Next-Gen
+              Communication
+            </li>
+            <li className="bg-blue-200 py-3 px-2.5 rounded-lg">
+              <strong>Track-5:</strong> Smart Cities and Sustainability
+            </li>
+            <li className="bg-blue-200 py-3 px-2.5 rounded-lg">
+              <strong>Track-6:</strong> Industry 5.0 and Cyber Physical Systems
+            </li>
+            <li className="bg-blue-200 py-3 px-2.5 rounded-lg">
+              <strong>Track-7:</strong> Smart Materials for Sustainable
+              Technology
+            </li>
+          </ul>
         </div>
 
         {/* Key Highlights */}
