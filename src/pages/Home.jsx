@@ -113,7 +113,7 @@ const Home = () => {
           <strong>Track-2:</strong> Data Analytics and Decision Sciences
         </li> 
         <li>
-          <strong>Track-3:</strong> Futuristic Tools, Technologies & Application
+          <strong>Track-3:</strong> Futuristic Tools, Technologies & Applications
         </li>
         <li>
           <strong>Track-4:</strong> Smart Electronics and Next-Gen Communication
