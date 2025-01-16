@@ -75,7 +75,7 @@ const Navbar = () => {
             Registration
           </NavLink>
           <NavLink
-            to="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICCSAI2025"
+            to="https://cmt3.research.microsoft.com/User/Login"
             className="bg-red-500 py-2 px-3 text-white rounded-lg transition duration-200 hover:bg-red-600"
           >
             Submit Your Paper

@@ -36,6 +36,26 @@ const Home = () => {
         </marquee>
       </div>
 
+      <div className=" flex items-center justify-center mt-5 text-center bg-gray-100">
+        <div className="space-y-2">
+          <h1 className="text-xl font-bold">International Conference</h1>
+          <p className="text-lg">On</p>
+          <p className="text-xl font-semibold">
+            Intelligent Computing and Automation for Sustainable Solution
+          </p>
+          <p className="text-lg text-red-500 font-semibold">
+            February 12<sup>th</sup> - 13<sup>th</sup>, 2026
+          </p>
+          <p className="text-lg">Organised by</p>
+          <p className="text-lg font-medium">
+            Department of Computer Science & Technology
+          </p>
+          <p className="text-lg">
+            Manav Rachna University, Faridabad, Haryana, India
+          </p>
+        </div>
+      </div>
+
       {/* Content Wrapper */}
       <div className="w-full max-w-6xl px-4 md:px-8 lg:px-12 py-8">
         {/* About Conference */}
@@ -111,66 +131,61 @@ const Home = () => {
           </p>
 
           <ul className=" list-inside space-y-4 text-lg lg:text-xl">
-            <li
-              onClick={toggleTrack}
-              className="bg-blue-200 py-3 px-2.5 rounded-lg cursor-pointer"
-            >
+            <li className="text-2xl">
               <strong>Track-1:</strong> Computational Intelligent Systems and
               Applications
             </li>
-            {openTrack && (
-              <div className="mt-4 bg-white p-4 rounded shadow-sm">
-                <table className="w-full table-auto border border-gray-300">
-                  <thead>
-                    <tr className="bg-gray-100"></tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td className="border border-gray-300 px-4 py-2">
-                        Row 1 Data 1
-                      </td>
-                      <td className="border border-gray-300 px-4 py-2">
-                        Row 1 Data 2
-                      </td>
-                    </tr>
-                    <tr>
-                      <td className="border border-gray-300 px-4 py-2">
-                        Row 2 Data 1
-                      </td>
-                      <td className="border border-gray-300 px-4 py-2">
-                        Row 2 Data 2
-                      </td>
-                    </tr>
-                    <tr>
-                      <td className="border border-gray-300 px-4 py-2">
-                        Row 3 Data 1
-                      </td>
-                      <td className="border border-gray-300 px-4 py-2">
-                        Row 3 Data 2
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            )}
-            <li className="bg-blue-200 py-3 px-2.5 rounded-lg">
+            <ul className="list-inside">
+              <li className="list-disc">
+                AI, Machine Learning & its Applications
+              </li>
+              <li className="list-disc">Human-Computer Interaction</li>
+              <li className="list-disc">
+                Computer Vision and Image Processing
+              </li>
+              <li className="list-disc">
+                Natural Language Processing, Understanding & Generation
+              </li>
+              <li className="list-disc">
+                Cognitive and Computational Neuroscience
+              </li>
+              <li className="list-disc">
+                Soft Computing Techniques in Decision-Making
+              </li>
+              <li className="list-disc">
+                Applications of Fuzzy Systems in Industry and Research
+              </li>
+              <li className="list-disc">
+                Cloud Computing and IoT in Manufacturing
+              </li>
+              <li className="list-disc">
+                Privacy-Preserving Computation and Data Handling
+              </li>
+              <li className="list-disc">Intelligent Optimization Techniques</li>
+              <li className="list-disc">Nature-Inspired Algorithms</li>
+              <li className="list-disc">
+                Security and Privacy in Intelligent Systems
+              </li>
+            </ul>
+
+            <li>
               <strong>Track-2:</strong> Data Analytics and Decision Sciences
             </li>
-            <li className="bg-blue-200 py-3 px-2.5 rounded-lg">
+            <li>
               <strong>Track-3:</strong> Futuristic Tools, Technologies &
               Applications
             </li>
-            <li className="bg-blue-200 py-3 px-2.5 rounded-lg">
+            <li>
               <strong>Track-4:</strong> Smart Electronics and Next-Gen
               Communication
             </li>
-            <li className="bg-blue-200 py-3 px-2.5 rounded-lg">
+            <li>
               <strong>Track-5:</strong> Smart Cities and Sustainability
             </li>
-            <li className="bg-blue-200 py-3 px-2.5 rounded-lg">
+            <li>
               <strong>Track-6:</strong> Industry 5.0 and Cyber Physical Systems
             </li>
-            <li className="bg-blue-200 py-3 px-2.5 rounded-lg">
+            <li>
               <strong>Track-7:</strong> Smart Materials for Sustainable
               Technology
             </li>
