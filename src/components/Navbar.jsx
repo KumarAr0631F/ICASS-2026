@@ -112,7 +112,7 @@ const Navbar = () => {
           </li>
           <li>
             <button
-              onClick={() => handleMenuItemClick("/contact")}
+              onClick={() => handleMenuItemClick("/commitee")}
               className="text-lg "
             >
               Committees
@@ -120,7 +120,7 @@ const Navbar = () => {
           </li>
           <li>
             <button
-              onClick={() => handleMenuItemClick("/contact")}
+              onClick={() => handleMenuItemClick("/speakers")}
               className="text-lg "
             >
               Speakers
@@ -128,7 +128,7 @@ const Navbar = () => {
           </li>
           <li>
             <button
-              onClick={() => handleMenuItemClick("/contact")}
+              onClick={() => handleMenuItemClick("/schedule")}
               className="text-lg "
             >
               Conference Schedule
@@ -153,7 +153,7 @@ const Navbar = () => {
           </li>
           <li>
             <button
-              onClick={() => handleMenuItemClick("/guidelines")}
+              onClick={() => handleMenuItemClick("/venue-travels")}
               className="text-lg"
             >
               Venue & Travels
@@ -161,7 +161,7 @@ const Navbar = () => {
           </li>
           <li>
             <button
-              onClick={() => handleMenuItemClick("/guidelines")}
+              onClick={() => handleMenuItemClick("/contact")}
               className="text-lg"
             >
               Contact Us
@@ -171,7 +171,7 @@ const Navbar = () => {
             <button
               onClick={() =>
                 window.open(
-                  "https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICCSAI2025",
+                  "https://cmt3.research.microsoft.com/User/Login",
                   "_blank"
                 )
               }
