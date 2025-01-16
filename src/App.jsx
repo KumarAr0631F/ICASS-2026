@@ -7,11 +7,13 @@ import Registration from "./pages/Registration";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Event from "./pages/Event";
+import HomeNavbar from "./components/HomeNavbar";
 
 const App = () => {
   return (
     <div>
       <Navbar />
+      <HomeNavbar />
       <Routes>
         <Route path={"/"} element={<Home />} />
         <Route path={"/contact"} element={<Contact />} />

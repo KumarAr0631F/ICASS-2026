@@ -3,9 +3,33 @@ import { assets } from "../assets/assets";
 import { NavLink } from "react-router-dom";
 
 const Home = () => {
-  const [openTrack, setOpenTrack] = useState(false);
-  const toggleTrack = () => {
-    setOpenTrack(!openTrack);
+  const [openTrackOne, setOpenTrackOne] = useState(false);
+  const [openTrackTwo, setOpenTrackTwo] = useState(false);
+  const [openTrackThree, setOpenTrackThree] = useState(false);
+  const [openTrackFour, setOpenTrackFour] = useState(false);
+  const [openTrackFive, setOpenTrackFive] = useState(false);
+  const [openTrackSix, setOpenTrackSix] = useState(false);
+  const [openTrackSeven, setOpenTrackSeven] = useState(false);
+  const toggleTrackOne = () => {
+    setOpenTrackOne(!openTrackOne);
+  };
+  const toggleTrackTwo = () => {
+    setOpenTrackTwo(!openTrackTwo);
+  };
+  const toggleTrackThree = () => {
+    setOpenTrackThree(!openTrackThree);
+  };
+  const toggleTrackFour = () => {
+    setOpenTrackFour(!openTrackFour);
+  };
+  const toggleTrackFive = () => {
+    setOpenTrackFive(!openTrackFive);
+  };
+  const toggleTrackSix = () => {
+    setOpenTrackSix(!openTrackSix);
+  };
+  const toggleTrackSeven = () => {
+    setOpenTrackSeven(!openTrackSeven);
   };
 
   return (
@@ -38,19 +62,19 @@ const Home = () => {
 
       <div className=" flex items-center justify-center mt-5 text-center bg-gray-100">
         <div className="space-y-2">
-          <h1 className="text-xl font-bold">International Conference</h1>
-          <p className="text-lg">On</p>
-          <p className="text-xl font-semibold">
+          <h1 className="text-2xl font-bold">International Conference</h1>
+          <p className="text-2xl">On</p>
+          <p className="text-2xl font-semibold">
             Intelligent Computing and Automation for Sustainable Solution
           </p>
-          <p className="text-lg text-red-500 font-semibold">
+          <p className="text-2xl text-red-500 font-semibold">
             February 12<sup>th</sup> - 13<sup>th</sup>, 2026
           </p>
-          <p className="text-lg">Organised by</p>
-          <p className="text-lg font-medium">
+          <p className="text-2xl">Organised by</p>
+          <p className="text-2xl font-medium">
             Department of Computer Science & Technology
           </p>
-          <p className="text-lg">
+          <p className="text-2xl">
             Manav Rachna University, Faridabad, Haryana, India
           </p>
         </div>
@@ -131,64 +155,240 @@ const Home = () => {
           </p>
 
           <ul className=" list-inside space-y-4 text-lg lg:text-xl">
-            <li className="text-2xl">
+            <li
+              className="text-xl cursor-pointer bg-blue-200 py-3 px-2.5 rounded-lg"
+              onClick={toggleTrackOne}
+            >
               <strong>Track-1:</strong> Computational Intelligent Systems and
               Applications
             </li>
-            <ul className="list-inside">
-              <li className="list-disc">
-                AI, Machine Learning & its Applications
-              </li>
-              <li className="list-disc">Human-Computer Interaction</li>
-              <li className="list-disc">
-                Computer Vision and Image Processing
-              </li>
-              <li className="list-disc">
-                Natural Language Processing, Understanding & Generation
-              </li>
-              <li className="list-disc">
-                Cognitive and Computational Neuroscience
-              </li>
-              <li className="list-disc">
-                Soft Computing Techniques in Decision-Making
-              </li>
-              <li className="list-disc">
-                Applications of Fuzzy Systems in Industry and Research
-              </li>
-              <li className="list-disc">
-                Cloud Computing and IoT in Manufacturing
-              </li>
-              <li className="list-disc">
-                Privacy-Preserving Computation and Data Handling
-              </li>
-              <li className="list-disc">Intelligent Optimization Techniques</li>
-              <li className="list-disc">Nature-Inspired Algorithms</li>
-              <li className="list-disc">
-                Security and Privacy in Intelligent Systems
-              </li>
-            </ul>
+            {openTrackOne && (
+              <ul className="list-inside ml-5">
+                <li className="list-disc">
+                  AI, Machine Learning & its Applications
+                </li>
+                <li className="list-disc">Human-Computer Interaction</li>
+                <li className="list-disc">
+                  Computer Vision and Image Processing
+                </li>
+                <li className="list-disc">
+                  Natural Language Processing, Understanding & Generation
+                </li>
+                <li className="list-disc">
+                  Cognitive and Computational Neuroscience
+                </li>
+                <li className="list-disc">
+                  Soft Computing Techniques in Decision-Making
+                </li>
+                <li className="list-disc">
+                  Applications of Fuzzy Systems in Industry and Research
+                </li>
+                <li className="list-disc">
+                  Cloud Computing and IoT in Manufacturing
+                </li>
+                <li className="list-disc">
+                  Privacy-Preserving Computation and Data Handling
+                </li>
+                <li className="list-disc">
+                  Intelligent Optimization Techniques
+                </li>
+                <li className="list-disc">Nature-Inspired Algorithms</li>
+                <li className="list-disc">
+                  Security and Privacy in Intelligent Systems
+                </li>
+              </ul>
+            )}
 
-            <li>
+            <li
+              className="text-xl cursor-pointer bg-blue-200 py-3 px-2.5 rounded-lg "
+              onClick={toggleTrackTwo}
+            >
               <strong>Track-2:</strong> Data Analytics and Decision Sciences
             </li>
-            <li>
+            {openTrackTwo && (
+              <ul className="list-inside ml-5">
+                <li className="list-disc">
+                  Data Analytics and Big Data Technologies with Applications
+                </li>
+                <li className="list-disc">
+                  AI-Driven Decision Support Systems{" "}
+                </li>
+                <li className="list-disc">
+                  Predictive and Prescriptive Analytics
+                </li>
+                <li className="list-disc">Data Engineering and Management</li>
+                <li className="list-disc">
+                  Computational Complexity in Decision-Making Models
+                </li>
+                <li className="list-disc">Human-Centric Data Science</li>
+                <li className="list-disc">
+                  Decision and Statistical Inference
+                </li>
+                <li className="list-disc">
+                  Cognitive and Behavioral Aspects of Data Interpretation
+                </li>
+                <li className="list-disc">Data Integrity and Security</li>
+                <li className="list-disc">
+                  Business Intelligence and Data Mining
+                </li>
+              </ul>
+            )}
+            <li
+              className="text-xl cursor-pointer bg-blue-200 py-3 px-2.5 rounded-lg"
+              onClick={toggleTrackThree}
+            >
               <strong>Track-3:</strong> Futuristic Tools, Technologies &
               Applications
             </li>
-            <li>
+            {openTrackThree && (
+              <ul className="list-inside ml-5">
+                <li className="list-disc">
+                  Computational Mechanics and Simulations
+                </li>
+                <li className="list-disc">
+                  Artificial Intelligence and Machine Learning in Mechanical
+                  Systems
+                </li>
+                <li className="list-disc">Generative AI and LLMs</li>
+                <li className="list-disc">Edge and Fog Computing</li>
+                <li className="list-disc">Autonomic Computing</li>
+                <li className="list-disc">AR/VR Technology</li>
+                <li className="list-disc">Hybrid Intelligent Systems</li>
+                <li className="list-disc">Bio-Inspired Engineering</li>
+                <li className="list-disc">AI & Emotions</li>
+                <li className="list-disc">Quantum Computing</li>
+                <li className="list-disc">DNA Computing</li>
+                <li className="list-disc">Blockchain Systems</li>
+              </ul>
+            )}
+            <li
+              className="text-xl cursor-pointer bg-blue-200 py-3 px-2.5 rounded-lg"
+              onClick={toggleTrackFour}
+            >
               <strong>Track-4:</strong> Smart Electronics and Next-Gen
               Communication
             </li>
-            <li>
+            {openTrackFour && (
+              <ul className="list-inside ml-5">
+                <li className="list-disc">5G and 6G Technology</li>
+                <li className="list-disc">
+                  Electronic Devices, Circuits, and Systems
+                </li>
+                <li className="list-disc">
+                  Renewable Energy Sources and Technology including hydrogen.
+                </li>
+                <li className="list-disc">
+                  RF, Microwaves, Wireless and Optical Communication
+                </li>
+                <li className="list-disc">VLSI and Low Power Electronics</li>
+                <li className="list-disc">Biosensors</li>
+                <li className="list-disc">
+                  Robotics, Control, Automation and Instrumentation
+                </li>
+                <li className="list-disc">
+                  Power Electronics and Applications
+                </li>
+                <li className="list-disc">
+                  Power Generation, Transmission and Distribution
+                </li>
+                <li className="list-disc">
+                  Solar, Wind, and Battery Technology
+                </li>
+                <li className="list-disc">Biomedical Electronics</li>
+                <li className="list-disc">Photonic Technologies</li>
+              </ul>
+            )}
+            <li
+              className="text-xl cursor-pointer bg-blue-200 py-3 px-2.5 rounded-lg"
+              onClick={toggleTrackFive}
+            >
               <strong>Track-5:</strong> Smart Cities and Sustainability
             </li>
-            <li>
+            {openTrackFive && (
+              <ul className="list-inside ml-5">
+                <li className="list-disc">Smart Energy Efficient Systems</li>
+                <li className="list-disc">
+                  Sustainable Manufacturing Practices
+                </li>
+                <li className="list-disc">
+                  Smart Grids and Green Energy Systems
+                </li>
+                <li className="list-disc">Smart Internet of Things</li>
+                <li className="list-disc">
+                  Energy Efficiency in Mechanical Systems
+                </li>
+                <li className="list-disc">Renewable Energy Systems</li>
+                <li className="list-disc">
+                  Sustainable Transportation and Mobility
+                </li>
+                <li className="list-disc">Smart Waste Management Systems</li>
+              </ul>
+            )}
+            <li
+              className="text-xl cursor-pointer bg-blue-200 py-3 px-2.5 rounded-lg"
+              onClick={toggleTrackSix}
+            >
               <strong>Track-6:</strong> Industry 5.0 and Cyber Physical Systems
             </li>
-            <li>
+            {openTrackSix && (
+              <ul className="list-inside ml-5">
+                <li className="list-disc">Advanced Robotics and Automation</li>
+                <li className="list-disc">
+                  Additive Manufacturing and 3D Printing
+                </li>
+                <li className="list-disc">Smart Sensors and Actuators</li>
+                <li className="list-disc">Smart Buildings</li>
+                <li className="list-disc">
+                  Digital Manufacturing and Smart Factories
+                </li>
+                <li className="list-disc">Human-Machine Interaction</li>
+                <li className="list-disc">Autonomous vehicles</li>
+                <li className="list-disc">Smart Healthcare</li>
+              </ul>
+            )}
+            <li
+              className="text-xl cursor-pointer bg-blue-200 py-3 px-2.5 rounded-lg"
+              onClick={toggleTrackSeven}
+            >
               <strong>Track-7:</strong> Smart Materials for Sustainable
               Technology
             </li>
+            {openTrackSeven && (
+              <ul className="list-inside ml-5">
+                <li className="list-disc">Eco-friendly Smart Materials</li>
+                <li className="list-disc">
+                  Recyclable and Reusable Smart Materials
+                </li>
+                <li className="list-disc">
+                  Smart Materials for Energy Applications
+                </li>
+                <li className="list-disc">
+                  Green Synthesis of Smart Materials
+                </li>
+                <li className="list-disc">
+                  Solid State and Thin-film Batteries
+                </li>
+                <li className="list-disc">
+                  Smart Materials for Sensors and Related Technology
+                </li>
+                <li className="list-disc">
+                  Applications of AI for Sustainable Technology
+                </li>
+                <li className="list-disc">
+                  Artificial Intelligence and Materials Innovation
+                </li>
+                <li className="list-disc">Energy Storage and Sustainability</li>
+                <li className="list-disc">
+                  AI for Materials Synthesis & Discovery
+                </li>
+                <li className="list-disc">
+                  AI for batteries, supercapacitors, and other energy devices
+                </li>
+                <li className="list-disc">
+                  Smart materials & AI for data storage
+                </li>
+              </ul>
+            )}
           </ul>
         </div>
 

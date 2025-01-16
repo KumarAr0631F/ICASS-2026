@@ -50,31 +50,6 @@ const Navbar = () => {
         {/* Right Section - Navigation Links */}
         <div className="hidden md:flex space-x-6 items-center">
           <NavLink
-            to="/"
-            className="hover:cursor-pointer transition duration-200"
-          >
-            Home
-          </NavLink>
-          <NavLink
-            to="/contact"
-            className="hover:cursor-pointer transition duration-200"
-          >
-            Contact Us
-          </NavLink>
-          <NavLink
-            to="/guidelines"
-            className="hover:cursor-pointer transition duration-200"
-          >
-            Author's Guidelines
-          </NavLink>
-
-          <NavLink
-            to="/registration"
-            className="hover:cursor-pointer transition duration-200"
-          >
-            Registration
-          </NavLink>
-          <NavLink
             to="https://cmt3.research.microsoft.com/User/Login"
             className="bg-red-500 py-2 px-3 text-white rounded-lg transition duration-200 hover:bg-red-600"
           >
@@ -122,8 +97,8 @@ const Navbar = () => {
 
       {/* Dropdown Menu for Mobile */}
       <div
-        className={`fixed top-16 left-0 w-full bg-slate-100 shadow-lg transition-all duration-300 z-40 ${
-          isMenuOpen ? "h-1/2" : "h-0"
+        className={`fixed top-16 left-0 w-full h-full bg-slate-100 shadow-lg transition-all duration-300 z-40 ${
+          isMenuOpen ? "-translate-x-0" : "translate-x-full"
         } overflow-hidden`}
       >
         <ul className="flex flex-col items-center space-y-4 py-8 px-4">
@@ -140,7 +115,23 @@ const Navbar = () => {
               onClick={() => handleMenuItemClick("/contact")}
               className="text-lg "
             >
-              Contact Us
+              Committees
+            </button>
+          </li>
+          <li>
+            <button
+              onClick={() => handleMenuItemClick("/contact")}
+              className="text-lg "
+            >
+              Speakers
+            </button>
+          </li>
+          <li>
+            <button
+              onClick={() => handleMenuItemClick("/contact")}
+              className="text-lg "
+            >
+              Conference Schedule
             </button>
           </li>
           <li>
@@ -158,6 +149,22 @@ const Navbar = () => {
               className="text-lg"
             >
               Registration
+            </button>
+          </li>
+          <li>
+            <button
+              onClick={() => handleMenuItemClick("/guidelines")}
+              className="text-lg"
+            >
+              Venue & Travels
+            </button>
+          </li>
+          <li>
+            <button
+              onClick={() => handleMenuItemClick("/guidelines")}
+              className="text-lg"
+            >
+              Contact Us
             </button>
           </li>
           <li>
