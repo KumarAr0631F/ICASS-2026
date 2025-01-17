@@ -10,8 +10,8 @@ const Registration = () => {
       <div className="container mx-auto p-4">
      
       <div className="text" >
-        <b><h1 className="imp b-3">Important Dates</h1></b>
-        <ul>
+        <b><h1 className="text-3xl text-gray-900n mb-5">Important Dates</h1></b>
+        <ul className="text-xl mb-5">
           <li>Submission Date:- 30<sup>th</sup> November, 2025</li>
           <li>Notification Of Exceptance:- 10<sup>th</sup> January, 2026</li>
           <li>Camera-Ready/Final PaperSubmission:-25<sup>th</sup> January, 2026</li>
