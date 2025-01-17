@@ -10,6 +10,8 @@ import HomeNavbar from "./components/HomeNavbar";
 import Committe from "./pages/Committe";
 import ConferenceSchedule from "./pages/ConferenceSchedule";
 import TravelGuide from "./pages/TravelGuide";
+import Accomodation from "./pages/Accomodation";
+import VenueDetails from "./pages/VenueDetails";
 const App = () => {
 
   return (
@@ -24,6 +26,8 @@ const App = () => {
         <Route path="/committee" element={<Committe />} />
         <Route path="/Schedule" element={<ConferenceSchedule />} />
         <Route path="/travel-guide" element={<TravelGuide />} />
+        <Route path="/accommodations" element={<Accomodation />} />
+        <Route path="/venue-details" element={<VenueDetails />} />
 
 
       </Routes>
