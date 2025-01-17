@@ -147,7 +147,7 @@ const Home = () => {
           <hr className="bg-blue-700 border h-1 w-full my-2" />
           <p className="text-lg lg:text-xl text-justify mb-6">
         The conference <strong>ICASS-2026</strong> aims to foster on the theme
-        <em>“Harnessing AI for a Digital Future”</em>, by leveraging intelligent
+        <b><em>“Harnessing AI for a Digital Future”</em></b>, by leveraging intelligent
         computing, automation, and sustainable solutions for securing a digital
         future for everyone. The conference will feature the following tracks
         and related topics (but not limited to):
