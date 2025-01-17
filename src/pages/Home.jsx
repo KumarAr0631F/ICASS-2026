@@ -72,7 +72,7 @@ const Home = () => {
           </p>
           <p className="text-2xl">Organised by</p>
           <p className="text-2xl font-medium">
-            Department of Computer Science & Technology
+            School of Engineering
           </p>
           <p className="text-2xl">
             Manav Rachna University, Faridabad, Haryana, India
