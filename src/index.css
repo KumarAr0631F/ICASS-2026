@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.manavheadig{
+    display : grid ;
+    justify-content: center ;
+    align-items: center;
+    text-align: center ;
+}

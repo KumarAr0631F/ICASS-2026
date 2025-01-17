@@ -4,28 +4,27 @@ import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-200 py-8 flex">
-      {/* Images Section */}
-      <div className="flex justify-center items-center mb-6 flex-wrap gap-4">
-  {/* Logo 1 with Text */}
-  <div className="flex flex-col items-center">
-    <img
-      src={assets.mru_logo}
-      alt="Footer Image 1"
-      className="h-16 w-auto mx-2 rounded"
-    />
-  </div>
-
-  {/* Logo 2 with Text */}
-  <div className="flex flex-col items-center">
-    <img
-      src={assets.icass2026}
-      alt="Footer Image 2"
-      className="h-16 w-auto mx-2 rounded"
-    />
-  </div>
-</div>
-
+    <footer className="bg-gray-200 py-8 items-center">
+      {/* Images and Text Section */}
+      <div className="  items-center mb-6 manavheadig">
+        {/* Images Section */}
+        <div className="flex justify-center items-center flex-wrap gap-4">
+          <img
+            src={assets.mru_logo}
+            alt="Footer Image 1"
+            className="h-16 w-auto mx-2 rounded"
+          />
+          <img
+            src={assets.icass2026}
+            alt="Footer Image 2"
+            className="h-16 w-auto mx-2 rounded"
+          />
+        </div>
+        {/* Text Below Images */}
+          <p className="text-lg text-gray-700 mt-4">
+            Manav Rachna University, Faridabad, Haryana, India
+          </p>
+      </div>
 
       {/* Useful Links and Socials */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 px-8 md:px-20 md:justify-items-center">
