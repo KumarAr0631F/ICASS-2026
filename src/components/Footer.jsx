@@ -1,3 +1,4 @@
+import "./Footer.css"
 import React from "react";
 import { assets } from "../assets/assets";
 import { NavLink } from "react-router-dom";

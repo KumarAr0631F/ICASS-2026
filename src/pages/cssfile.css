@@ -1,0 +1,11 @@
+.cssfilee{
+    display : flex
+} 
+.text{
+    text-align: center ;
+
+}
+.imp{
+    font-size: 2rem;
+    color : grey ;
+}

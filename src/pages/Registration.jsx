@@ -1,31 +1,45 @@
 import React from "react";
 import { useNavigate, NavLink } from "react-router-dom";
-
+import "./cssfile.css"
 const Registration = () => {
   const navigate = useNavigate();
 
   return (
     <div className="min-h-screen bg-gray-100 flex justify-center">
-
+      
       <div className="container mx-auto p-4">
+     
+      <div className="text" >
+        <b><h1 className="imp b-3">Important Dates</h1></b>
+        <ul>
+          <li>Submission Date:- 30<sup>th</sup> November, 2025</li>
+          <li>Notification Of Exceptance:- 10<sup>th</sup> January, 2026</li>
+          <li>Camera-Ready/Final PaperSubmission:-25<sup>th</sup> January, 2026</li>
+          <li>Early Bird Registration:- 28<sup>th</sup> January, 2026</li>
+          <li>Conference Date:- 12<sup>th</sup>-13<sup>th</sup> February, 2026</li>
+        </ul>
+      </div>
+     
         <h1 className="text-3xl font-bold text-center mb-8 text-gray-800">
           Registration Details
         </h1>
-        <div className="overflow-x-auto">
+        <div className="overflow-x-auto ">
+       
+
           <table className="table-auto w-full border border-gray-700 bg-white shadow-lg rounded-lg">
             <thead className="border border-gray-700">
               <tr className="bg-gray-200 text-gray-800">
                 <th className="px-4 py-2 text-center border border-gray-700">
-                  Registration Type
+                  Description
                 </th>
                 <th className="px-4 py-2 text-center border border-gray-700">
-                  Country of Registration
+                  Type
                 </th>
                 <th className="px-4 py-2 text-center border border-gray-700">
-                  IEEE Member
+                  @Rs
                 </th>
                 <th className="px-4 py-2 text-center border border-gray-700">
-                  Non-IEEE Member
+                  @$
                 </th>
               </tr>
             </thead>
@@ -33,16 +47,16 @@ const Registration = () => {
               {/* Example Row 1 */}
               <tr className="border border-gray-700">
                 <td className="px-4 py-2 border border-gray-700">
-                  Regular Author
+                  Research Scholar/UG/PG Student
                 </td>
                 <td className="px-4 py-2 border border-gray-700">
-                  India <br /> Foreigner
+                  IEEE <br /> NON-IEEE
                 </td>
                 <td className="px-4 py-2 border border-gray-700">
-                  7000 INR <br /> 350 USD
+                  6500<br></br>7500
                 </td>
                 <td className="px-4 py-2 border border-gray-700">
-                  9000 INR <br /> 400 USD
+                  200 <br/> 250
                 </td>
               </tr>
               {/* Example Row 2 */}
@@ -51,39 +65,39 @@ const Registration = () => {
                   Student Author
                 </td>
                 <td className="px-4 py-2 border border-gray-700">
-                  India <br /> Foreigner
+                IEEE <br /> NON-IEEE
                 </td>
                 <td className="px-4 py-2 border border-gray-700">
-                  5000 INR <br /> 200 USD
+                  6000 <br /> 7000
                 </td>
                 <td className="px-4 py-2 border border-gray-700">
-                  6000 INR <br /> 300 USD
+                  100 <br /> 150
                 </td>
               </tr>
               {/* Add more rows as needed */}
               <tr className="border border-gray-700">
                 <td className="px-4 py-2 border border-gray-700">Industry</td>
                 <td className="px-4 py-2 border border-gray-700">
-                  India <br /> Foreigner
+                IEEE <br /> NON-IEEE
                 </td>
                 <td className="px-4 py-2 border border-gray-700">
-                  7000 INR <br /> 350 USD
+                  8000 <br /> 9000
                 </td>
                 <td className="px-4 py-2 border border-gray-700">
-                  9000 INR <br /> 400 USD
+                  200 <br /> 250
                 </td>
               </tr>
 
               <tr className="border border-gray-700">
                 <td className="px-4 py-2 border border-gray-700">Attendee</td>
                 <td className="px-4 py-2 border border-gray-700">
-                  India <br /> Foreigner
+                IEEE <br /> NON-IEEE
                 </td>
                 <td className="px-4 py-2 border border-gray-700">
-                  3000 INR <br /> 50 USD
+                  2500 
                 </td>
                 <td className="px-4 py-2 border border-gray-700">
-                  3500 INR <br /> 100 USD
+                  75
                 </td>
               </tr>
             </tbody>
