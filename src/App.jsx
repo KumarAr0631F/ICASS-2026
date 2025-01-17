@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 import HomeNavbar from "./components/HomeNavbar";
 import Committe from "./pages/Committe";
 import ConferenceSchedule from "./pages/ConferenceSchedule";
+import TravelGuide from "./pages/TravelGuide";
 const App = () => {
 
   return (
@@ -22,6 +23,7 @@ const App = () => {
         <Route path="/registration" element={<Registration />} />
         <Route path="/committee" element={<Committe />} />
         <Route path="/Schedule" element={<ConferenceSchedule />} />
+        <Route path="/travel-guide" element={<TravelGuide />} />
 
 
       </Routes>
