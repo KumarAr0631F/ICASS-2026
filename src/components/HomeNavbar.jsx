@@ -19,17 +19,29 @@ const HomeNavbar = () => {
           {/* Dropdown Menu for Committees */}
           <div className="relative group">
             <NavLink
-              to="#"
+            to="/committee"
               className="font-semibold hover:bg-blue-600 px-3 py-2 rounded-md"
             >
-              Committees
+              Organising Committees
             </NavLink>
-            <div className="absolute hidden text-sm group-hover:flex flex-col bg-white border rounded-md shadow-lg mt-2 w-48 z-10">
+            {/* <div className="absolute hidden text-sm group-hover:flex flex-col bg-white border rounded-md shadow-lg mt-2 w-48 z-10">
               <NavLink
-                to="/organising-committee"
+                to="/committee/patrons"
                 className="block px-4 py-2 text-gray-800 hover:bg-blue-100"
               >
-                Organising Committee
+                Patrons
+              </NavLink>
+              <NavLink
+                to="/chairs"
+                className="block px-4 py-2 text-gray-800 hover:bg-blue-100"
+              >
+                Chairs
+              </NavLink>
+              <NavLink
+                to="/working-committee"
+                className="block px-4 py-2 text-gray-800 hover:bg-blue-100"
+              >
+                Working Committee
               </NavLink>
               <NavLink
                 to="/advisory-committee"
@@ -41,18 +53,13 @@ const HomeNavbar = () => {
                 to="/technical-committee"
                 className="block px-4 py-2 text-gray-800 hover:bg-blue-100"
               >
-                Technical Committee
+                Technicalv Program Committee
               </NavLink>
-            </div>
+            </div> */}
           </div>
 
           {/* Other Nav Links */}
-          <NavLink
-            to="/speakers"
-            className="font-semibold hover:bg-blue-600 px-3 py-2 rounded-md"
-          >
-            Speakers
-          </NavLink>
+          
           <NavLink
             to="/schedule"
             className="font-semibold hover:bg-blue-600 px-3 py-2 rounded-md"

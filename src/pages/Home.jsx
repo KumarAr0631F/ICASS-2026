@@ -65,7 +65,7 @@ const Home = () => {
           <h1 className="text-2xl font-bold">International Conference</h1>
           <p className="text-2xl">On</p>
           <p className="text-2xl font-semibold">
-            Intelligent Computing and Automation for Sustainable Solution
+            Intelligent Computing and Automation for Sustainable Solutions
           </p>
           <p className="text-2xl text-red-500 font-semibold">
             February 12<sup>th</sup> - 13<sup>th</sup>, 2026

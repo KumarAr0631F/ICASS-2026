@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route, useLocation } from "react-router-dom";
+import { Routes, Route} from "react-router-dom";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import Guideline from "./pages/Guideline";
@@ -7,9 +7,9 @@ import Registration from "./pages/Registration";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import HomeNavbar from "./components/HomeNavbar";
-
+import Committe from "./pages/Committe";
+import ConferenceSchedule from "./pages/ConferenceSchedule";
 const App = () => {
-  const location = useLocation();
 
   return (
     <div>
@@ -20,6 +20,10 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/guidelines" element={<Guideline />} />
         <Route path="/registration" element={<Registration />} />
+        <Route path="/committee" element={<Committe />} />
+        <Route path="/Schedule" element={<ConferenceSchedule />} />
+
+
       </Routes>
       <Footer />
     </div>
