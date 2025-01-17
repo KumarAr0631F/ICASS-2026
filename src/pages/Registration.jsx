@@ -6,8 +6,9 @@ const Registration = () => {
 
   return (
     <div className="min-h-screen bg-gray-100 flex justify-center">
+
       <div className="container mx-auto p-4">
-        <h1 className="text-5xl font-bold text-center mb-8 text-gray-800">
+        <h1 className="text-3xl font-bold text-center mb-8 text-gray-800">
           Registration Details
         </h1>
         <div className="overflow-x-auto">
