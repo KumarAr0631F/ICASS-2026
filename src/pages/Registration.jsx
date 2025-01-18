@@ -1,7 +1,6 @@
 import React from "react";
 import { useNavigate, NavLink } from "react-router-dom";
 const Registration = () => {
-  const navigate = useNavigate();
 
   return (
     <div className="min-h-screen bg-gray-100 flex justify-center">
