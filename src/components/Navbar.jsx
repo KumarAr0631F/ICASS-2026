@@ -105,12 +105,12 @@ const Navbar = () => {
 
       {/* Dropdown Menu for Mobile */}
       <div
-        className={`fixed top-[4rem] right-0 h-[calc(100vh-4rem)] w-64 bg-slate-100 shadow-lg z-40 transform transition-transform duration-300 ${
+        className={`fixed top-[5rem] right-0 h-[calc(100vh-4rem)] w-64 bg-slate-100 shadow-lg z-40 transform transition-transform duration-300 ${
           isMenuOpen ? "translate-x-0" : "translate-x-full"
         }`}
         style={{ overflowY: "auto" }}
       >
-        <ul className="flex flex-col space-y-4 py-8 px-4">
+        <ul className="flex flex-col items-center justify-center space-y-4 py-8 px-4">
           {[
             { label: "Home", path: "/" },
             { label: "Committees", path: "/committee" },
@@ -132,7 +132,7 @@ const Navbar = () => {
             {/* Venue Dropdown */}
             <button
               onClick={toggleVenueDropdown}
-              className="text-lg flex items-center justify-between w-full"
+              className="text-lg flex items-center justify-center w-full"
             >
               Venue & Travels
               <svg
@@ -155,9 +155,9 @@ const Navbar = () => {
             {isVenueDropdownOpen && (
               <ul className="pl-4 mt-2 space-y-2">
                 {[
-                  { label: "Conference Venue", path: "/venue" },
-                  { label: "Accommodation", path: "/accommodation" },
-                  { label: "Tourist Places Nearby", path: "/tourist-places" },
+                  { label: "Conference Venue", path: "/travel-guide" },
+                  { label: "Accommodation", path: "/accommodations" },
+                  { label: "Tourist Places Nearby", path: "/venue-details" },
                 ].map((item) => (
                   <li key={item.label}>
                     <button
