@@ -53,7 +53,7 @@ const HomeNavbar = () => {
                 to="/technical-committee"
                 className="block px-4 py-2 text-gray-800 hover:bg-blue-100"
               >
-                Technicalv Program Committee
+                Technical Program Committee
               </NavLink>
             </div> */}
           </div>

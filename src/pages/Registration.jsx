@@ -1,31 +1,38 @@
 import React from "react";
 import { useNavigate, NavLink } from "react-router-dom";
-import "./cssfile.css"
 const Registration = () => {
   const navigate = useNavigate();
 
   return (
     <div className="min-h-screen bg-gray-100 flex justify-center">
-      
       <div className="container mx-auto p-4">
-     
-      <div className="text" >
-        <b><h1 className="text-3xl text-gray-900n mb-5">Important Dates</h1></b>
-        <ul className="text-xl mb-5">
-          <li>Submission Date:- 30<sup>th</sup> November, 2025</li>
-          <li>Notification Of Exceptance:- 10<sup>th</sup> January, 2026</li>
-          <li>Camera-Ready/Final PaperSubmission:-25<sup>th</sup> January, 2026</li>
-          <li>Early Bird Registration:- 28<sup>th</sup> January, 2026</li>
-          <li>Conference Date:- 12<sup>th</sup>-13<sup>th</sup> February, 2026</li>
-        </ul>
-      </div>
-     
+        <div className="text-center">
+          <b>
+            <h1 className="text-3xl text-gray-900n mb-5">Important Dates</h1>
+          </b>
+          <ul className="text-xl mb-5">
+            <li>
+              Submission Date:- 30<sup>th</sup> November, 2025
+            </li>
+            <li>
+              Notification Of Exceptance:- 10<sup>th</sup> January, 2026
+            </li>
+            <li>
+              Camera-Ready/Final PaperSubmission:-25<sup>th</sup> January, 2026
+            </li>
+            <li>
+              Early Bird Registration:- 28<sup>th</sup> January, 2026
+            </li>
+            <li>
+              Conference Date:- 12<sup>th</sup>-13<sup>th</sup> February, 2026
+            </li>
+          </ul>
+        </div>
+
         <h1 className="text-3xl font-bold text-center mb-8 text-gray-800">
           Registration Details
         </h1>
         <div className="overflow-x-auto ">
-       
-
           <table className="table-auto w-full border border-gray-700 bg-white shadow-lg rounded-lg">
             <thead className="border border-gray-700">
               <tr className="bg-gray-200 text-gray-800">
@@ -56,7 +63,7 @@ const Registration = () => {
                   6500<br></br>7500
                 </td>
                 <td className="px-4 py-2 border border-gray-700">
-                  200 <br/> 250
+                  200 <br /> 250
                 </td>
               </tr>
               {/* Example Row 2 */}
@@ -65,7 +72,7 @@ const Registration = () => {
                   Student Author
                 </td>
                 <td className="px-4 py-2 border border-gray-700">
-                IEEE <br /> NON-IEEE
+                  IEEE <br /> NON-IEEE
                 </td>
                 <td className="px-4 py-2 border border-gray-700">
                   6000 <br /> 7000
@@ -78,7 +85,7 @@ const Registration = () => {
               <tr className="border border-gray-700">
                 <td className="px-4 py-2 border border-gray-700">Industry</td>
                 <td className="px-4 py-2 border border-gray-700">
-                IEEE <br /> NON-IEEE
+                  IEEE <br /> NON-IEEE
                 </td>
                 <td className="px-4 py-2 border border-gray-700">
                   8000 <br /> 9000
@@ -91,14 +98,10 @@ const Registration = () => {
               <tr className="border border-gray-700">
                 <td className="px-4 py-2 border border-gray-700">Attendee</td>
                 <td className="px-4 py-2 border border-gray-700">
-                IEEE <br /> NON-IEEE
+                  IEEE <br /> NON-IEEE
                 </td>
-                <td className="px-4 py-2 border border-gray-700">
-                  2500 
-                </td>
-                <td className="px-4 py-2 border border-gray-700">
-                  75
-                </td>
+                <td className="px-4 py-2 border border-gray-700">2500</td>
+                <td className="px-4 py-2 border border-gray-700">75</td>
               </tr>
             </tbody>
           </table>
@@ -161,7 +164,10 @@ const Registration = () => {
             </div>
           </div>
           <div className="mt-7 flex justify-center">
-            <NavLink to={'https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICCSAI2025'} className="bg-red-500 rounded-lg cursor-pointer p-2.5 m-4 text-white hover:bg-red-600 transition-all duration-300">
+            <NavLink
+              to={"https://cmt3.research.microsoft.com/User/Login"}
+              className="bg-red-500 rounded-lg cursor-pointer p-2.5 m-4 text-white hover:bg-red-600 transition-all duration-300"
+            >
               Submit Your Paper
             </NavLink>
           </div>
