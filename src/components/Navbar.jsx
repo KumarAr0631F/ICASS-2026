@@ -107,7 +107,7 @@ const Navbar = () => {
         <ul className="flex flex-col space-y-4 py-8 px-4">
           {[
             { label: "Home", path: "/" },
-            { label: "Committees", path: "/commitee" },
+            { label: "Committees", path: "/committee" },
             { label: "Conference Schedule", path: "/schedule" },
             { label: "Author's Guidelines", path: "/guidelines" },
             { label: "Registration", path: "/registration" },
