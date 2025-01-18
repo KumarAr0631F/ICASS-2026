@@ -28,8 +28,6 @@ const App = () => {
         <Route path="/travel-guide" element={<TravelGuide />} />
         <Route path="/accommodations" element={<Accomodation />} />
         <Route path="/venue-details" element={<VenueDetails />} />
-
-
       </Routes>
       <Footer />
     </div>
