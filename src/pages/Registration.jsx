@@ -56,13 +56,13 @@ const Registration = () => {
                 <td className="px-4 py-2 border border-gray-700">
                   Research Scholar/UG/PG Student
                 </td>
-                <td className="px-4 py-2 border border-gray-700">
+                <td className="px-4 py-2 border text-center border-gray-700">
                   IEEE <br /> NON-IEEE
                 </td>
-                <td className="px-4 py-2 border border-gray-700">
+                <td className="px-4 py-2 border text-center border-gray-700">
                   6500<br></br>7500
                 </td>
-                <td className="px-4 py-2 border border-gray-700">
+                <td className="px-4 py-2 border text-center border-gray-700">
                   200 <br /> 250
                 </td>
               </tr>
@@ -71,37 +71,41 @@ const Registration = () => {
                 <td className="px-4 py-2 border border-gray-700">
                   Student Author
                 </td>
-                <td className="px-4 py-2 border border-gray-700">
+                <td className="px-4 py-2 border text-center border-gray-700">
                   IEEE <br /> NON-IEEE
                 </td>
-                <td className="px-4 py-2 border border-gray-700">
+                <td className="px-4 py-2 border text-center border-gray-700">
                   6000 <br /> 7000
                 </td>
-                <td className="px-4 py-2 border border-gray-700">
+                <td className="px-4 py-2 border text-center border-gray-700">
                   100 <br /> 150
                 </td>
               </tr>
               {/* Add more rows as needed */}
               <tr className="border border-gray-700">
                 <td className="px-4 py-2 border border-gray-700">Industry</td>
-                <td className="px-4 py-2 border border-gray-700">
+                <td className="px-4 py-2 border text-center border-gray-700">
                   IEEE <br /> NON-IEEE
                 </td>
-                <td className="px-4 py-2 border border-gray-700">
+                <td className="px-4 py-2 border text-center border-gray-700">
                   8000 <br /> 9000
                 </td>
-                <td className="px-4 py-2 border border-gray-700">
+                <td className="px-4 py-2 border text-center border-gray-700">
                   200 <br /> 250
                 </td>
               </tr>
 
               <tr className="border border-gray-700">
                 <td className="px-4 py-2 border border-gray-700">Attendee</td>
-                <td className="px-4 py-2 border border-gray-700">
+                <td className="px-4 py-2 border text-center border-gray-700">
                   IEEE <br /> NON-IEEE
                 </td>
-                <td className="px-4 py-2 border border-gray-700">2500</td>
-                <td className="px-4 py-2 border border-gray-700">75</td>
+                <td className="px-4 py-2 border text-center border-gray-700">
+                  2500
+                </td>
+                <td className="px-4 py-2 border text-center border-gray-700">
+                  75
+                </td>
               </tr>
             </tbody>
           </table>
