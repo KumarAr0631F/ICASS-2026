@@ -109,7 +109,7 @@ const Registration = () => {
               </tr>
             </tbody>
           </table>
-          <div className="pt-6 text-red-600">
+          <div className="pt-6 text-red-600 text-justify">
             <p className="text-xl">
               * Extra page charge of ₹1000/- INR per page Indian author and $50
               per page International author will be chargeable to the author's
