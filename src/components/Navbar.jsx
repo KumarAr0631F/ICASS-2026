@@ -5,11 +5,17 @@ import { assets } from "../assets/assets";
 const Navbar = () => {
   const navigate = useNavigate();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isVenueDropdownOpen, setIsVenueDropdownOpen] = useState(false);
 
   // Toggle menu and prevent page scroll
   const toggleMenu = () => {
     setIsMenuOpen((prev) => !prev);
     document.body.style.overflow = isMenuOpen ? "auto" : "hidden"; // Prevent scrolling when menu is open
+  };
+
+  // Toggle the venue dropdown
+  const toggleVenueDropdown = () => {
+    setIsVenueDropdownOpen((prev) => !prev);
   };
 
   // Scroll to top and navigate to the desired path
@@ -111,7 +117,6 @@ const Navbar = () => {
             { label: "Conference Schedule", path: "/schedule" },
             { label: "Author's Guidelines", path: "/guidelines" },
             { label: "Registration", path: "/registration" },
-            { label: "Venue & Travels", path: "/venue-travels" },
             { label: "Contact Us", path: "/contact" },
           ].map((item) => (
             <li key={item.label}>
@@ -123,6 +128,49 @@ const Navbar = () => {
               </button>
             </li>
           ))}
+          <li>
+            {/* Venue Dropdown */}
+            <button
+              onClick={toggleVenueDropdown}
+              className="text-lg flex items-center justify-between w-full"
+            >
+              Venue & Travels
+              <svg
+                className={`w-5 h-5 transition-transform duration-300 ${
+                  isVenueDropdownOpen ? "rotate-180" : "rotate-0"
+                }`}
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M19 9l-7 7-7-7"
+                ></path>
+              </svg>
+            </button>
+            {isVenueDropdownOpen && (
+              <ul className="pl-4 mt-2 space-y-2">
+                {[
+                  { label: "Conference Venue", path: "/venue" },
+                  { label: "Accommodation", path: "/accommodation" },
+                  { label: "Tourist Places Nearby", path: "/tourist-places" },
+                ].map((item) => (
+                  <li key={item.label}>
+                    <button
+                      onClick={() => handleMenuItemClick(item.path)}
+                      className="text-base"
+                    >
+                      {item.label}
+                    </button>
+                  </li>
+                ))}
+              </ul>
+            )}
+          </li>
           <li>
             <button
               onClick={() =>
