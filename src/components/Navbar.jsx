@@ -9,8 +9,15 @@ const Navbar = () => {
 
   // Toggle menu and prevent page scroll
   const toggleMenu = () => {
-    setIsMenuOpen((prev) => !prev);
-    document.body.style.overflow = isMenuOpen ? "auto" : "hidden"; // Prevent scrolling when menu is open
+    if (isMenuOpen) {
+      // Close menu and reset dropdown
+      setIsVenueDropdownOpen(false);
+      setIsMenuOpen(false);
+      document.body.style.overflow = "auto";
+    } else {
+      setIsMenuOpen(true);
+      document.body.style.overflow = "hidden"; // Prevent scrolling when menu is open
+    }
   };
 
   // Toggle the venue dropdown
@@ -105,12 +112,12 @@ const Navbar = () => {
 
       {/* Dropdown Menu for Mobile */}
       <div
-        className={`fixed top-[5rem] right-0 h-[calc(100vh-4rem)] w-64 bg-slate-100 shadow-lg z-40 transform transition-transform duration-300 ${
+        className={`fixed top-[4rem] right-0 h-[calc(100vh-4rem)] w-64 bg-slate-100 shadow-lg z-40 transform transition-transform duration-300 ${
           isMenuOpen ? "translate-x-0" : "translate-x-full"
         }`}
         style={{ overflowY: "auto" }}
       >
-        <ul className="flex flex-col items-center justify-center space-y-4 py-8 px-4">
+        <ul className="flex flex-col space-y-4 py-8 px-4">
           {[
             { label: "Home", path: "/" },
             { label: "Committees", path: "/committee" },
@@ -132,7 +139,7 @@ const Navbar = () => {
             {/* Venue Dropdown */}
             <button
               onClick={toggleVenueDropdown}
-              className="text-lg flex items-center justify-center w-full"
+              className="text-lg flex items-center justify-between w-full"
             >
               Venue & Travels
               <svg
@@ -155,9 +162,9 @@ const Navbar = () => {
             {isVenueDropdownOpen && (
               <ul className="pl-4 mt-2 space-y-2">
                 {[
-                  { label: "Conference Venue", path: "/travel-guide" },
-                  { label: "Accommodation", path: "/accommodations" },
-                  { label: "Tourist Places Nearby", path: "/venue-details" },
+                  { label: "Conference Venue", path: "/venue" },
+                  { label: "Accommodation", path: "/accommodation" },
+                  { label: "Tourist Places Nearby", path: "/tourist-places" },
                 ].map((item) => (
                   <li key={item.label}>
                     <button

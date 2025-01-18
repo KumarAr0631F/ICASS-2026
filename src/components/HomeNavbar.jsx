@@ -19,7 +19,7 @@ const HomeNavbar = () => {
           {/* Dropdown Menu for Committees */}
           <div className="relative group">
             <NavLink
-            to="/committee"
+              to="/committee"
               className="font-semibold hover:bg-blue-600 px-3 py-2 rounded-md"
             >
               Organising Committees
@@ -59,7 +59,7 @@ const HomeNavbar = () => {
           </div>
 
           {/* Other Nav Links */}
-          
+
           <NavLink
             to="/schedule"
             className="font-semibold hover:bg-blue-600 px-3 py-2 rounded-md"
@@ -89,19 +89,19 @@ const HomeNavbar = () => {
             </NavLink>
             <div className="absolute hidden text-sm group-hover:flex flex-col bg-white border rounded-md shadow-lg mt-2 w-48 z-10">
               <NavLink
-                to="/travel-guide"
+                to="/venue"
                 className="block px-4 py-2 text-gray-800 hover:bg-blue-100"
               >
                 Conference Venue
               </NavLink>
               <NavLink
-                to="/accommodations"
+                to="/accommodation"
                 className="block px-4 py-2 text-gray-800 hover:bg-blue-100"
               >
                 Accommodations
               </NavLink>
               <NavLink
-                to="/venue-details"
+                to="/tourist-places"
                 className="block px-4 py-2 text-gray-800 hover:bg-blue-100"
               >
                 Tourist Places Nearby
