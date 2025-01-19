@@ -1,7 +1,6 @@
 import React from "react";
-import { useNavigate, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 const Registration = () => {
-
   return (
     <div className="min-h-screen bg-gray-100 flex justify-center">
       <div className="container mx-auto p-4">
