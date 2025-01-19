@@ -4,30 +4,30 @@ const Registration = () => {
   return (
     <div className="min-h-screen bg-gray-100 flex justify-center">
       <div className="container mx-auto p-4">
-        <div className="text-center">
-          <b>
-            <h1 className="text-3xl text-gray-900n mb-5">Important Dates</h1>
-          </b>
-          <ul className="text-xl mb-5">
+        <div className="text-start">
+          <h1 className="text-3xl text-gray-900 mb-5">
+            <b>Important Dates</b>
+          </h1>
+          <ul className="text-xl mb-5 list-disc list-inside">
             <li>
-              Submission Date:- 30<sup>th</sup> November, 2025
+              Submission Date: 30<sup>th</sup> November, 2025
             </li>
             <li>
-              Notification Of Exceptance:- 10<sup>th</sup> January, 2026
+              Notification of Acceptance: 10<sup>th</sup> January, 2026
             </li>
             <li>
-              Camera-Ready/Final PaperSubmission:-25<sup>th</sup> January, 2026
+              Camera-Ready/Final Paper Submission: 25<sup>th</sup> January, 2026
             </li>
             <li>
-              Early Bird Registration:- 28<sup>th</sup> January, 2026
+              Early Bird Registration: 28<sup>th</sup> January, 2026
             </li>
             <li>
-              Conference Date:- 12<sup>th</sup>-13<sup>th</sup> February, 2026
+              Conference Date: 12<sup>th</sup>-13<sup>th</sup> February, 2026
             </li>
           </ul>
         </div>
 
-        <h1 className="text-3xl font-bold text-center mb-8 text-gray-800">
+        <h1 className="text-3xl font-bold text-start mb-8 text-gray-800">
           Registration Details
         </h1>
         <div className="overflow-x-auto ">
