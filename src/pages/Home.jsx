@@ -60,7 +60,7 @@ const Home = () => {
         </marquee>
       </div>
 
-      <div className=" flex items-center justify-center mt-5 text-center bg-gray-100">
+      {/* <div className=" flex items-center justify-center mt-5 text-center bg-gray-100">
         <div className="space-y-2">
           <h1 className="text-2xl font-bold">International Conference</h1>
           <p className="text-2xl">On</p>
@@ -78,7 +78,7 @@ const Home = () => {
             Manav Rachna University, Faridabad, Haryana, India
           </p>
         </div>
-      </div>
+      </div> */}
 
       {/* Content Wrapper */}
       <div className="w-full max-w-6xl px-4 md:px-8 lg:px-12 py-8">
@@ -146,12 +146,16 @@ const Home = () => {
           </h3>
           <hr className="bg-blue-700 border h-1 w-full my-2" />
           <p className="text-lg lg:text-xl text-justify mb-6">
-        The conference <strong>ICASS-2026</strong> aims to foster on the theme
-        <b><em>“Harnessing AI for a Digital Future”</em></b>, by leveraging intelligent
-        computing, automation, and sustainable solutions for securing a digital
-        future for everyone. The conference will feature the following tracks
-        and related topics (but not limited to):
-      </p>
+            The conference <strong>ICASS-2026</strong> aims to foster on the
+            theme
+            <b>
+              <em>“Harnessing AI for a Digital Future”</em>
+            </b>
+            , by leveraging intelligent computing, automation, and sustainable
+            solutions for securing a digital future for everyone. The conference
+            will feature the following tracks and related topics (but not
+            limited to):
+          </p>
 
           <ul className=" list-inside space-y-4 text-lg lg:text-xl">
             <li
