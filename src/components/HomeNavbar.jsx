@@ -78,6 +78,17 @@ const HomeNavbar = () => {
           >
             Registration
           </NavLink>
+          <button
+            onClick={() =>
+              window.open(
+                "https://cmt3.research.microsoft.com/User/Login",
+                "_blank"
+              )
+            }
+            className="font-semibold hover:bg-blue-600 px-3 py-2 rounded-md"
+          >
+            Submit Your Paper
+          </button>
 
           {/* Dropdown Menu for Venue and Travels */}
           <div className="relative group">
