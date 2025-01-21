@@ -4,11 +4,11 @@ const Registration = () => {
   return (
     <div className="min-h-screen bg-gray-100 flex justify-center">
       <div className="container mx-auto p-4">
-        <div className="text-start">
+        <div className="text-center">
           <h1 className="text-3xl text-gray-900 mb-5">
             <b>Important Dates</b>
           </h1>
-          <ul className="text-xl mb-5 list-disc list-inside">
+          <ul className="text-xl mb-5 list-inside text-center inline-block">
             <li>
               Submission Date: 30<sup>th</sup> November, 2025
             </li>
@@ -27,7 +27,7 @@ const Registration = () => {
           </ul>
         </div>
 
-        <h1 className="text-3xl font-bold text-start mb-8 text-gray-800">
+        <h1 className="text-3xl font-bold text-center mb-8 text-gray-800">
           Registration Details
         </h1>
         <div className="overflow-x-auto ">
