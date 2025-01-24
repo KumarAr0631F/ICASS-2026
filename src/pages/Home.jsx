@@ -417,6 +417,13 @@ const Home = () => {
             that contribute to sustainable development.
           </p>
         </div>
+        <div className="mt-5">
+          <h3 className="text-blue-700 text-2xl md:text-3xl font-bold">
+            Our Sponsors
+          </h3>
+          <hr className="bg-blue-700 border h-1 w-full my-2" />
+          <img className="w-auto" src={assets.sponsor_logo_1} alt="" />
+        </div>
       </div>
     </div>
   );

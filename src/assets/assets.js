@@ -13,6 +13,7 @@ import mru_soe from "./mru_soe.jpg";
 import registration from "./registration.jpg";
 import sponsors from "./sponsors.jpg";
 import venue from "./venue.jpg";
+import sponsor_logo_1 from "./sponsor_logo_1.jpg"
 
 export const assets = {
   author_guidelines,
@@ -31,4 +32,5 @@ export const assets = {
   sponsors,
   sponsors,
   venue,
+  sponsor_logo_1,
 };

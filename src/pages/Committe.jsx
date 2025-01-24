@@ -45,9 +45,6 @@ const Committe = () => {
               Prof. (Dr.) Sangita Banga, Pro-Vice-Chancellor, Manav Rachna
               University, Faridabad
             </li>
-            <li>
-              Dr. R.K Arora, Registrar, Manav Rachna University, Faridabad
-            </li>
           </ul>
         </div>
 
