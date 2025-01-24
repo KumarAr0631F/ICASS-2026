@@ -9,7 +9,7 @@ const Registration = () => {
             <b>Important Dates</b>
           </h1>
           <div className="flex justify-center items-center">
-            <ul className="text-xl mb-5 list-inside text-start">
+            <ul className="text-xl list-disc mb-5 list-inside text-start">
               <li>
                 Submission Date: 30<sup>th</sup> November, 2025
               </li>
