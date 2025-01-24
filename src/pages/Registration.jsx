@@ -8,24 +8,25 @@ const Registration = () => {
           <h1 className="text-3xl text-gray-900 mb-5">
             <b>Important Dates</b>
           </h1>
-          <div className="text-start">
-          <ul className="text-xl mb-5 list-inside text-center inline-block">
-            <li>
-              Submission Date: 30<sup>th</sup> November, 2025
-            </li>
-            <li>
-              Notification of Acceptance: 10<sup>th</sup> January, 2026
-            </li>
-            <li>
-              Camera-Ready/Final Paper Submission: 25<sup>th</sup> January, 2026
-            </li>
-            <li>
-              Early Bird Registration: 28<sup>th</sup> January, 2026
-            </li>
-            <li>
-              Conference Date: 12<sup>th</sup>-13<sup>th</sup> February, 2026
-            </li>
-          </ul>
+          <div className="flex justify-center items-center">
+            <ul className="text-xl mb-5 list-inside text-start">
+              <li>
+                Submission Date: 30<sup>th</sup> November, 2025
+              </li>
+              <li>
+                Notification of Acceptance: 10<sup>th</sup> January, 2026
+              </li>
+              <li>
+                Camera-Ready/Final Paper Submission: 25<sup>th</sup> January,
+                2026
+              </li>
+              <li>
+                Early Bird Registration: 28<sup>th</sup> January, 2026
+              </li>
+              <li>
+                Conference Date: 12<sup>th</sup>-13<sup>th</sup> February, 2026
+              </li>
+            </ul>
           </div>
         </div>
 
