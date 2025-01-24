@@ -17,10 +17,10 @@ const Guideline = () => {
   return (
     <div>
       <div className="min-h-screen bg-gray-100 px-4 sm:px-6 lg:px-8">
-        
-        <h3 className="flex justify-center font-bold text-4xl sm:text-6xl mt-2 text-center">
+        <h3 className="flex justify-center font-bold text-2xl sm:text-3xl mt-2 text-center">
           Author's Guidelines
         </h3>
+
         <div className="flex items-center justify-center text-base sm:text-lg mt-5">
           <p className="text-justify text-gray-900 w-full sm:w-3/4 lg:w-1/2">
             Authors are invited to submit original, high-quality, and previously
