@@ -17,9 +17,7 @@ const Guideline = () => {
   return (
     <div>
       <div className="min-h-screen bg-gray-100 px-4 sm:px-6 lg:px-8">
-        <p className="flex justify-center font-bold text-blue-500 text-2xl sm:text-3xl mt-4 mb-3">
-          Conference Guidelines
-        </p>
+        
         <h3 className="flex justify-center font-bold text-4xl sm:text-6xl mt-2 text-center">
           Author's Guidelines
         </h3>
