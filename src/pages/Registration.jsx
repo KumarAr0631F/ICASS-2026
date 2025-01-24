@@ -8,6 +8,7 @@ const Registration = () => {
           <h1 className="text-3xl text-gray-900 mb-5">
             <b>Important Dates</b>
           </h1>
+          <div className="text-start">
           <ul className="text-xl mb-5 list-inside text-center inline-block">
             <li>
               Submission Date: 30<sup>th</sup> November, 2025
@@ -25,88 +26,91 @@ const Registration = () => {
               Conference Date: 12<sup>th</sup>-13<sup>th</sup> February, 2026
             </li>
           </ul>
+          </div>
         </div>
 
         <h1 className="text-3xl font-bold text-center mb-8 text-gray-800">
           Registration Details
         </h1>
-        <div className="overflow-x-auto ">
-          <table className="table-auto w-full border border-gray-700 bg-white shadow-lg rounded-lg">
-            <thead className="border border-gray-700">
-              <tr className="bg-gray-200 text-gray-800">
-                <th className="px-4 py-2 text-center border border-gray-700">
-                  Description
-                </th>
-                <th className="px-4 py-2 text-center border border-gray-700">
-                  Type
-                </th>
-                <th className="px-4 py-2 text-center border border-gray-700">
-                  @Rs
-                </th>
-                <th className="px-4 py-2 text-center border border-gray-700">
-                  @$
-                </th>
-              </tr>
-            </thead>
-            <tbody className="border border-gray-700">
-              {/* Example Row 1 */}
-              <tr className="border border-gray-700">
-                <td className="px-4 py-2 border border-gray-700">
-                  Research Scholar/UG/PG Student
-                </td>
-                <td className="px-4 py-2 border text-center border-gray-700">
-                  IEEE <br /> NON-IEEE
-                </td>
-                <td className="px-4 py-2 border text-center border-gray-700">
-                  6500<br></br>7500
-                </td>
-                <td className="px-4 py-2 border text-center border-gray-700">
-                  200 <br /> 250
-                </td>
-              </tr>
-              {/* Example Row 2 */}
-              <tr className="border border-gray-700">
-                <td className="px-4 py-2 border border-gray-700">
-                  Student Author
-                </td>
-                <td className="px-4 py-2 border text-center border-gray-700">
-                  IEEE <br /> NON-IEEE
-                </td>
-                <td className="px-4 py-2 border text-center border-gray-700">
-                  6000 <br /> 7000
-                </td>
-                <td className="px-4 py-2 border text-center border-gray-700">
-                  100 <br /> 150
-                </td>
-              </tr>
-              {/* Add more rows as needed */}
-              <tr className="border border-gray-700">
-                <td className="px-4 py-2 border border-gray-700">Industry</td>
-                <td className="px-4 py-2 border text-center border-gray-700">
-                  IEEE <br /> NON-IEEE
-                </td>
-                <td className="px-4 py-2 border text-center border-gray-700">
-                  8000 <br /> 9000
-                </td>
-                <td className="px-4 py-2 border text-center border-gray-700">
-                  200 <br /> 250
-                </td>
-              </tr>
+        <div className="overflow-x-auto">
+          <div className="mx-auto flex justify-center">
+            <table className="table-auto w-auto max-w-screen-sm border border-gray-700 bg-white shadow-lg rounded-lg">
+              <thead className="border border-gray-700">
+                <tr className="bg-gray-200 text-gray-800">
+                  <th className="px-4 py-2 text-center border border-gray-700">
+                    Description
+                  </th>
+                  <th className="px-4 py-2 text-center border border-gray-700">
+                    Type
+                  </th>
+                  <th className="px-4 py-2 text-center border border-gray-700">
+                    @Rs
+                  </th>
+                  <th className="px-4 py-2 text-center border border-gray-700">
+                    @$
+                  </th>
+                </tr>
+              </thead>
+              <tbody className="border border-gray-700">
+                <tr className="border border-gray-700">
+                  <td className="px-4 py-2 border border-gray-700">
+                    Research Scholar/UG/PG Student
+                  </td>
+                  <td className="px-4 py-2 border text-center border-gray-700">
+                    IEEE <br /> NON-IEEE
+                  </td>
+                  <td className="px-4 py-2 border text-center border-gray-700">
+                    6500
+                    <br />
+                    7500
+                  </td>
+                  <td className="px-4 py-2 border text-center border-gray-700">
+                    200 <br /> 250
+                  </td>
+                </tr>
+                <tr className="border border-gray-700">
+                  <td className="px-4 py-2 border border-gray-700">
+                    Student Author
+                  </td>
+                  <td className="px-4 py-2 border text-center border-gray-700">
+                    IEEE <br /> NON-IEEE
+                  </td>
+                  <td className="px-4 py-2 border text-center border-gray-700">
+                    6000 <br /> 7000
+                  </td>
+                  <td className="px-4 py-2 border text-center border-gray-700">
+                    100 <br /> 150
+                  </td>
+                </tr>
+                <tr className="border border-gray-700">
+                  <td className="px-4 py-2 border border-gray-700">Industry</td>
+                  <td className="px-4 py-2 border text-center border-gray-700">
+                    IEEE <br /> NON-IEEE
+                  </td>
+                  <td className="px-4 py-2 border text-center border-gray-700">
+                    8000 <br /> 9000
+                  </td>
+                  <td className="px-4 py-2 border text-center border-gray-700">
+                    200 <br /> 250
+                  </td>
+                </tr>
 
-              <tr className="border border-gray-700">
-                <td className="px-4 py-2 border border-gray-700">Attendee</td>
-                <td className="px-4 py-2 border text-center border-gray-700">
-                  IEEE <br /> NON-IEEE
-                </td>
-                <td className="px-4 py-2 border text-center border-gray-700">
-                  2500
-                </td>
-                <td className="px-4 py-2 border text-center border-gray-700">
-                  75
-                </td>
-              </tr>
-            </tbody>
-          </table>
+                <tr className="border border-gray-700">
+                  <td className="px-4 py-2 border border-gray-700">Attendee</td>
+                  <td className="px-4 py-2 border text-center border-gray-700">
+                    IEEE <br /> NON-IEEE
+                  </td>
+                  <td className="px-4 py-2 border text-center border-gray-700">
+                    2500
+                  </td>
+                  <td className="px-4 py-2 border text-center border-gray-700">
+                    75
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
           <div className="pt-6 text-red-600 text-justify">
             <p className="text-xl">
               * Extra page charge of ₹1000/- INR per page Indian author and $50
