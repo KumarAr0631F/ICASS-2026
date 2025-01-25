@@ -422,7 +422,48 @@ const Home = () => {
             Our Sponsors
           </h3>
           <hr className="bg-blue-700 border h-1 w-full my-2" />
-          <img className="w-auto" src={assets.sponsor_logo_1} alt="" />
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+            <img
+              className="w-[15rem] h-auto"
+              src={assets.sponsor_logo_1}
+              alt=""
+            />
+            <img
+              className="w-[15rem] h-auto"
+              src={assets.sponsor_logo_1}
+              alt=""
+            />
+            <img
+              className="w-[15rem] h-auto"
+              src={assets.sponsor_logo_1}
+              alt=""
+            />
+            <img
+              className="w-[15rem] h-auto"
+              src={assets.sponsor_logo_1}
+              alt=""
+            />
+            <img
+              className="w-[15rem] h-auto"
+              src={assets.sponsor_logo_1}
+              alt=""
+            />
+            <img
+              className="w-[15rem] h-auto"
+              src={assets.sponsor_logo_1}
+              alt=""
+            />
+            <img
+              className="w-[15rem] h-auto"
+              src={assets.sponsor_logo_1}
+              alt=""
+            />
+            <img
+              className="w-[15rem] h-auto"
+              src={assets.sponsor_logo_1}
+              alt=""
+            />
+          </div>
         </div>
       </div>
     </div>

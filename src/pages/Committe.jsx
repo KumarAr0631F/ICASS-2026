@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useRef } from "react";
 
 const Committe = () => {
+  const sectionRef = useRef(null);
+
   return (
     <div className="bg-gray-50 min-h-screen py-10">
       {/* Page Title */}
@@ -11,7 +13,11 @@ const Committe = () => {
       </div>
 
       {/* Content Section */}
-      <div className="container mx-auto px-6 md:px-12">
+      <div
+        className="container mx-auto px-6 md:px-12"
+        ref={sectionRef}
+        id="committe-section-1"
+      >
         {/* Patrons Section */}
         <div className="mb-12">
           <h1 className="text-2xl  font-semibold text-blue-500 mb-4">
@@ -49,7 +55,7 @@ const Committe = () => {
         </div>
 
         {/* Chairs Section */}
-        <div className="mb-12">
+        <div className="mb-12" id="committe-section-2">
           <h1 className="text-2xl font-semibold text-blue-500 mb-4">Chairs</h1>
           <hr className="border-t border-blue-500 mb-6" />
 
@@ -114,6 +120,12 @@ const Committe = () => {
               Faridabad
             </li>
           </ul>
+        </div>
+        <div className="mb-12" id="committe-section-3">
+          <h1 className="text-2xl font-semibold text-blue-500 mb-4">
+            Organising committee
+          </h1>
+          <hr className="border-t border-blue-500 mb-6" />
         </div>
       </div>
     </div>

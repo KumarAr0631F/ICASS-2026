@@ -18,7 +18,7 @@ const Guideline = () => {
     <div className="min-h-screen bg-gray-100 px-4 sm:px-6 lg:px-8 flex flex-col items-center">
       {/* Author's Guidelines Section */}
       <div className="flex flex-col items-center justify-center p-4 sm:p-10 mt-6 w-full sm:w-3/4 lg:w-2/3">
-        <h3 className="text-3xl font-bold p-2 m-3 text-center">
+        <h3 className="text-3xl text-blue-600 font-bold p-2 m-3 text-center">
           Author's Guidelines
         </h3>
 
@@ -37,8 +37,8 @@ const Guideline = () => {
       </div>
 
       {/* Paper Formatting Guidelines Section */}
-      <div className="flex flex-col items-center justify-center p-4 sm:p-10 mt-6 w-full sm:w-3/4 lg:w-2/3">
-        <h3 className="text-2xl sm:text-3xl font-bold p-2 m-3 text-center">
+      <div className="flex flex-col items-center justify-center p-4 sm:p-10 mt-2 w-full sm:w-3/4 lg:w-2/3">
+        <h3 className="text-2xl text-blue-600 sm:text-3xl font-bold p-2 m-3 text-center">
           Paper Formatting Guidelines
         </h3>
         <div className="p-4 sm:p-6 rounded-lg w-full">

@@ -1,7 +1,14 @@
-import React from "react";
+import React, { useRef } from "react";
 import { NavLink } from "react-router-dom";
 
 const HomeNavbar = () => {
+  const scrollToSection = (id) => {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <div className="p-1 text-white bg-blue-500 hidden md:flex items-center justify-around">
       {/* Navbar Container */}
@@ -19,43 +26,33 @@ const HomeNavbar = () => {
           {/* Dropdown Menu for Committees */}
           <div className="relative group">
             <NavLink
-              to="/committee"
+              to={"/committee"}
               className="font-semibold hover:bg-blue-600 px-3 py-2 rounded-md"
             >
               Organising Committees
             </NavLink>
-            {/* <div className="absolute hidden text-sm group-hover:flex flex-col bg-white border rounded-md shadow-lg mt-2 w-48 z-10">
-              <NavLink
-                to="/committee/patrons"
-                className="block px-4 py-2 text-gray-800 hover:bg-blue-100"
-              >
-                Patrons
-              </NavLink>
-              <NavLink
-                to="/chairs"
-                className="block px-4 py-2 text-gray-800 hover:bg-blue-100"
-              >
-                Chairs
-              </NavLink>
-              <NavLink
-                to="/working-committee"
-                className="block px-4 py-2 text-gray-800 hover:bg-blue-100"
-              >
-                Working Committee
-              </NavLink>
-              <NavLink
-                to="/advisory-committee"
-                className="block px-4 py-2 text-gray-800 hover:bg-blue-100"
-              >
-                Advisory Committee
-              </NavLink>
-              <NavLink
-                to="/technical-committee"
-                className="block px-4 py-2 text-gray-800 hover:bg-blue-100"
-              >
-                Technical Program Committee
-              </NavLink>
-            </div> */}
+            <div className="absolute hidden text-sm group-hover:flex flex-col bg-white border rounded-md shadow-lg mt-2 w-full z-10">
+              <ul className="cursor-pointer">
+                <li
+                  onClick={() => scrollToSection("committe-section-1")}
+                  className="block px-4 py-2 text-gray-800 hover:bg-blue-100"
+                >
+                  Patrons
+                </li>
+                <li
+                  onClick={() => scrollToSection("committe-section-2")}
+                  className="block px-4 py-2 text-gray-800 hover:bg-blue-100"
+                >
+                  Chairs
+                </li>
+                <li
+                  onClick={() => scrollToSection("committe-section-3")}
+                  className="block px-4 py-2 text-gray-800 hover:bg-blue-100"
+                >
+                  Organising Committee
+                </li>
+              </ul>
+            </div>
           </div>
 
           {/* Other Nav Links */}
@@ -78,17 +75,6 @@ const HomeNavbar = () => {
           >
             Registration
           </NavLink>
-          <button
-            onClick={() =>
-              window.open(
-                "https://cmt3.research.microsoft.com/User/Login",
-                "_blank"
-              )
-            }
-            className="font-semibold hover:bg-blue-600 px-3 py-2 rounded-md"
-          >
-            Submit Your Paper
-          </button>
 
           {/* Dropdown Menu for Venue and Travels */}
           <div className="relative group">
