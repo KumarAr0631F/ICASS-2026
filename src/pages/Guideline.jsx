@@ -98,7 +98,13 @@ const Guideline = () => {
             <li>
               The page limit is six (6) pages. An additional two pages are
               allowed with extra charges as specified in the{" "}
-              <NavLink to={"/registration"} className={"text-blue-700 underline"}>registration details.</NavLink>
+              <NavLink
+                to="/registration"
+                onClick={() => window.scrollTo(0, 0)}
+                className="text-blue-700 underline"
+              >
+                registration details.
+              </NavLink>
             </li>
             <li>
               All figures, tables, and references must fit within the page
