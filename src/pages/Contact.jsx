@@ -34,36 +34,42 @@ const Contact = () => {
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-100">
-      <div className="max-w-md w-full bg-white p-6 rounded-lg shadow-lg">
-        <h2 className="text-xl font-bold mb-4 text-center">Contact Us</h2>
+    <div className="flex items-center justify-center min-h-screen bg-gray-100 p-4">
+      <div className="w-full max-w-lg bg-white p-6 rounded-lg shadow-lg">
+        <h2 className="text-2xl font-bold mb-4 text-center text-gray-800">
+          Contact Us
+        </h2>
         <form onSubmit={handleSubmit} className="space-y-4">
           <input
             type="text"
             name="name"
             placeholder="Your Name"
-            className="w-full p-2 border rounded-md"
+            className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
             onChange={(e) => setName(e.target.value)}
+            value={name}
             required
           />
           <input
             type="email"
             name="email"
             placeholder="Your Email"
-            className="w-full p-2 border rounded-md"
+            className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
             onChange={(e) => setEmail(e.target.value)}
+            value={email}
             required
           />
           <textarea
             name="message"
             placeholder="Your Message"
-            className="w-full p-2 border rounded-md"
+            className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 resize-none"
+            rows="4"
             onChange={(e) => setMessage(e.target.value)}
+            value={message}
             required
           ></textarea>
           <button
             type="submit"
-            className="w-full bg-blue-500 text-white p-2 rounded-md"
+            className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold p-3 rounded-md transition duration-300"
           >
             Send Message
           </button>
