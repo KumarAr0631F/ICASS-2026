@@ -105,7 +105,7 @@ const Home = () => {
         </div>
         {/* About Manav Rachna University */}
         <div className="mb-12">
-          <h3 className="text-blue-00 text-2xl md:text-3xl font-bold">
+          <h3 className="text-blue-700 text-2xl md:text-3xl font-bold">
             About Manav Rachna University
           </h3>
           <hr className="bg-blue-700 border h-1 w-full my-2" />

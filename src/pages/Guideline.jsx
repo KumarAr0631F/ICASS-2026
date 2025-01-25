@@ -42,7 +42,7 @@ const Guideline = () => {
           Paper Formatting Guidelines
         </h3>
         <div className="p-4 sm:p-6 rounded-lg w-full">
-          <ul className="list-decimal text-base sm:text-lg pl-5 text-gray-900">
+          <ul className="list-decimal text-justify sm:text-lg pl-5 text-gray-900">
             <li>Paper Size: US Letter (8.5" x 11").</li>
             <li>
               Paper Length: Maximum of 6 pages, including figures, tables, and
@@ -97,8 +97,8 @@ const Guideline = () => {
             </li>
             <li>
               The page limit is six (6) pages. An additional two pages are
-              allowed with extra charges as specified in the registration
-              details.
+              allowed with extra charges as specified in the{" "}
+              <NavLink to={"/registration"} className={"text-blue-700 underline"}>registration details.</NavLink>
             </li>
             <li>
               All figures, tables, and references must fit within the page
