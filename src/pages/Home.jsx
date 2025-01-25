@@ -38,7 +38,7 @@ const Home = () => {
       <img
         src={assets.mru_poster}
         alt="Home Background"
-        className="w-full h-auto"
+        className="w-[57rem] h-auto"
       />
 
       {/* Scrolling Text */}
