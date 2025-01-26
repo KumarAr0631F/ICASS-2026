@@ -36,13 +36,13 @@ const Navbar = () => {
   return (
     <nav className="bg-slate-100 sticky top-0 z-50">
       {/* Logos and Submit Your Paper button in a single line (only on desktop) */}
-      <div className="bg-gray-100 py-3 px-4 hidden md:flex justify-between items-center">
+      <div className="bg-gray-100 ml-5 mr-5 hidden md:flex justify-between items-center">
         {/* Logos */}
-        <div className="flex flex-1 space-x-6 justify-start">
+        <div className="flex flex-1 space-x-6 justify-start items-center">
           <img
             src={assets.icass2026} // Replace with your logo source
             alt="Logo 1"
-            className="h-10 w-auto"
+            className="h-[64px] w-[160px]"
           />
           <img
             src={assets.mru_logo} // Replace with your logo source

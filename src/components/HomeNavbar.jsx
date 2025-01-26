@@ -25,20 +25,19 @@ const HomeNavbar = () => {
 
           {/* Dropdown Menu for Committees */}
           <div className="relative group">
-            <NavLink
-              to={"/committee"}
-              className="font-semibold hover:bg-blue-600 px-3 py-2 rounded-md"
-            >
+            <NavLink className="font-semibold hover:bg-blue-600 px-3 py-2 rounded-md">
               Organising Committees
             </NavLink>
             <div className="absolute hidden text-sm group-hover:flex flex-col bg-white border rounded-md shadow-lg mt-2 w-full z-10">
               <ul className="cursor-pointer">
-                <li
-                  onClick={() => scrollToSection("committe-section-1")}
-                  className="block px-4 py-2 text-gray-800 hover:bg-blue-100"
-                >
-                  Patrons
-                </li>
+                <NavLink to={"/committee"}>
+                  <li
+                    onClick={() => scrollToSection("committe-section-1")}
+                    className="block px-4 py-2 text-gray-800 hover:bg-blue-100"
+                  >
+                    Patrons
+                  </li>
+                </NavLink>
                 <li
                   onClick={() => scrollToSection("committe-section-2")}
                   className="block px-4 py-2 text-gray-800 hover:bg-blue-100"
