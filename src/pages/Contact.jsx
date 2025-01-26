@@ -27,6 +27,7 @@ const Contact = () => {
         setName("");
         setEmail("");
         setMessage("");
+        alert("We will contact you soon.");
       })
       .catch((error) => {
         console.log("Error in sending email.", error);
