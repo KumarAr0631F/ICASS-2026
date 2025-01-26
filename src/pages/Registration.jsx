@@ -5,7 +5,7 @@ const Registration = () => {
     <div className="min-h-screen bg-gray-100 flex justify-center">
       <div className="container mx-auto p-4">
         <div className="text-center">
-          <h1 className="text-3xl text-gray-900 mb-5">
+          <h1 className="text-3xl text-blue-700 mb-5">
             <b>Important Dates</b>
           </h1>
           <div className="flex justify-center items-center">
@@ -30,7 +30,7 @@ const Registration = () => {
           </div>
         </div>
 
-        <h1 className="text-3xl font-bold text-center mb-8 text-gray-800">
+        <h1 className="text-3xl font-bold text-center mb-8 text-blue-700">
           Registration Details
         </h1>
         <div className="overflow-x-auto">
@@ -121,7 +121,7 @@ const Registration = () => {
           </div>
           <div className="flex justify-center items-center pt-10">
             <div>
-              <h1 className="text-3xl font-bold text-gray-900 text-center mb-6">
+              <h1 className="text-3xl font-bold text-blue-700 text-center mb-6">
                 Account Details
               </h1>
               <table className="table-auto border border-gray-700 bg-white shadow-lg rounded-lg">

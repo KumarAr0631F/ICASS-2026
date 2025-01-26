@@ -4,7 +4,7 @@ const TravelGuide = () => {
   return (
     <div className=" py-10 px-5 md:px-20 text-justify">
       <div className="max-w-4xl mx-auto bg-white shadow-md rounded-lg p-6">
-        <h1 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4">
+        <h1 className="text-2xl md:text-3xl text-center font-bold text-blue-700 mb-4">
           Conference Venue
         </h1>
         <p className="text-gray-700 mb-6">
