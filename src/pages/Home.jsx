@@ -35,6 +35,7 @@ const Home = () => {
   return (
     <div className="w-full min-h-screen bg-gray-100 flex flex-col items-center justify-center">
       {/* Full-width Image */}
+
       <img
         src={assets.mru_poster}
         alt="Home Background"
@@ -58,6 +59,11 @@ const Home = () => {
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           Conference Date:- 12th - 13th February, 2026
         </marquee>
+      </div>
+      <div className="mt-3 grid grid-cols-2 gap-x-4 items-center sm:hidden">
+        <img className="w-[16em] h-auto" src={assets.mru_logo} alt="MRU Logo" />
+        <img className="w-[16em] h-auto" src={assets.mru_soe} alt="MRU SOE" />
+        <img className="w-[16em] h-auto" src={assets.mru} alt="MRU" />
       </div>
 
       {/* <div className=" flex items-center justify-center mt-5 text-center bg-gray-100">

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { assets } from "../assets/assets";
+import { NavLink } from "react-router-dom";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -39,11 +40,13 @@ const Navbar = () => {
       <div className="bg-gray-100 ml-5 mr-5 hidden md:flex justify-between items-center">
         {/* Logos */}
         <div className="flex flex-1 space-x-6 justify-start items-center">
-          <img
-            src={assets.icass2026} // Replace with your logo source
-            alt="Logo 1"
-            className="h-[64px] w-[160px]"
-          />
+          <NavLink to={"/"}>
+            <img
+              src={assets.icass2026} // Replace with your logo source
+              alt="Logo 1"
+              className="h-[64px] w-[160px]"
+            />
+          </NavLink>
           <img
             src={assets.mru_logo} // Replace with your logo source
             alt="Logo 2"
