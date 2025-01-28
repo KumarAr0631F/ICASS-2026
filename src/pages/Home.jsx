@@ -91,7 +91,7 @@ const Home = () => {
         {/* About Conference */}
         <div className="mb-12">
           <h3 className="text-blue-700 text-2xl md:text-3xl font-bold">
-            About Conference
+            About ICASS-2026
           </h3>
           <hr className="bg-blue-700 border h-1 w-full my-2" />
           <p className="text-base md:text-lg text-gray-700 text-justify">
@@ -424,51 +424,42 @@ const Home = () => {
           </p>
         </div>
         <div className="mt-5">
+          <h1 className="text-blue-700 text-2xl md:text-3xl font-bold">Publication Opportunity</h1>
+          <hr className="bg-blue-700 border h-1 w-full my-2" />
+          <p className="text-justify">Articles will be published in proceedings of IEEE Xplore, extended version of the selected articles will be published in various SCOPUS indexed journals.(With additional cost</p>
+        </div>
+        <div className="mt-5">
           <h3 className="text-blue-700 text-2xl md:text-3xl font-bold">
             Our Sponsors
           </h3>
           <hr className="bg-blue-700 border h-1 w-full my-2" />
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
-            <img
+            
+            <div className=" flex items-center justify-center text-center">
+               <img
               className="w-[15rem] h-auto"
-              src={assets.sponsor_logo_1}
+              src={assets.sponsor_logo_2}
               alt=""
             />
+            </div>
+           
             <img
-              className="w-[15rem] h-auto"
-              src={assets.sponsor_logo_1}
+              className="w-[15rem] h-[15rem] items-center"
+              src={assets.sponsor_logo_3}
               alt=""
             />
-            <img
-              className="w-[15rem] h-auto"
-              src={assets.sponsor_logo_1}
-              alt=""
-            />
-            <img
-              className="w-[15rem] h-auto"
-              src={assets.sponsor_logo_1}
-              alt=""
-            />
-            <img
-              className="w-[15rem] h-auto"
-              src={assets.sponsor_logo_1}
-              alt=""
-            />
-            <img
-              className="w-[15rem] h-auto"
-              src={assets.sponsor_logo_1}
-              alt=""
-            />
-            <img
-              className="w-[15rem] h-auto"
-              src={assets.sponsor_logo_1}
-              alt=""
-            />
-            <img
-              className="w-[15rem] h-auto"
-              src={assets.sponsor_logo_1}
-              alt=""
-            />
+            
+          </div>
+        </div>
+        <div className="mt-5">
+          <h3 className="text-blue-700 text-2xl md:text-3xl font-bold">
+            Knowledge Partners
+          </h3>
+          <hr className="bg-blue-700 border h-1 w-full my-2" />
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+            
+            
+            
           </div>
         </div>
       </div>

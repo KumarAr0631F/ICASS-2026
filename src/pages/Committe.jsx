@@ -51,6 +51,10 @@ const Committe = () => {
               Prof. (Dr.) Sangita Banga, Pro-Vice-Chancellor, Manav Rachna
               University, Faridabad
             </li>
+            <li>
+              Prof (Dr) Shruti Vashisht, Professor and Dean (Academics), Manav
+              Rachna University, Faridabad
+            </li>
           </ul>
         </div>
 
@@ -64,10 +68,7 @@ const Committe = () => {
             General Chair
           </h2>
           <ul className="list-disc text-justify ml-6 mb-8 text-gray-700">
-            <li>
-              Prof (Dr) Shruti Vashisht, Professor and Dean (Academics), Manav
-              Rachna University, Faridabad
-            </li>
+            
             <li>
               Prof (Dr) Dipali Bansal, Professor and Dean, School of Engineering
               (SoE), Manav Rachna University, Faridabad

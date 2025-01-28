@@ -75,6 +75,15 @@ const Contact = () => {
             Send Message
           </button>
         </form>
+        <div className="mt-4 text-center text-gray-600 font-medium">
+          Contact on:-{" "}
+          <a
+            href="mailto:icass2026@mru.edu.in"
+            className="text-blue-500 hover:underline"
+          >
+            icass2026@mru.edu.in
+          </a>
+        </div>
       </div>
     </div>
   );

@@ -14,6 +14,8 @@ import registration from "./registration.jpg";
 import sponsors from "./sponsors.jpg";
 import venue from "./venue.jpg";
 import sponsor_logo_1 from "./sponsor_logo_1.jpg"
+import sponsor_logo_2 from "./sponsor_logo_2.png"
+import sponsor_logo_3 from "./sponsor_logo_3.png"
 
 export const assets = {
   author_guidelines,
@@ -33,4 +35,6 @@ export const assets = {
   sponsors,
   venue,
   sponsor_logo_1,
+  sponsor_logo_2,
+  sponsor_logo_3,
 };
