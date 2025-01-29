@@ -12,14 +12,15 @@ import ConferenceSchedule from "./pages/ConferenceSchedule";
 import TravelGuide from "./pages/TravelGuide";
 import Accomodation from "./pages/Accomodation";
 import VenueDetails from "./pages/VenueDetails";
-import AutoSlidingCarousel from "./pages/AutoSlidingCarousel";
 import Patrons from "./pages/Patrons";
+import OrganisingCommitte from "./pages/OrganisingCommitte";
+import AdvisoryCommittee from "./pages/AdvisoryCommittee";
+import TechnicalProgramCommittee from "./pages/TechnicalProgramCommittee";
 const App = () => {
   return (
     <div>
       <Navbar />
       <HomeNavbar />
-      
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
@@ -31,6 +32,12 @@ const App = () => {
         <Route path="/accommodation" element={<Accomodation />} />
         <Route path="/tourist-places" element={<VenueDetails />} />
         <Route path="/patrons" element={<Patrons />} />
+        <Route path="/organising-committee" element={<OrganisingCommitte />} />
+        <Route path="/advisory-committee" element={<AdvisoryCommittee />} />
+        <Route
+          path="/technical-committee"
+          element={<TechnicalProgramCommittee />}
+        />
       </Routes>
       <Footer />
     </div>

@@ -26,37 +26,29 @@ const HomeNavbar = () => {
           {/* Dropdown Menu for Committees */}
           <div className="relative group">
             <NavLink className="font-semibold hover:bg-blue-600 px-3 py-2 rounded-md">
-               Committees
+              Committees
             </NavLink>
             <div className="absolute hidden text-sm group-hover:flex flex-col bg-white border rounded-md shadow-lg mt-2 w-full z-10">
               <ul className="cursor-pointer">
                 <NavLink to={"/patrons"}>
-                  <li
-                    className="block px-4 py-2 text-gray-800 hover:bg-blue-100"
-                  >
+                  <li className="block px-4 py-2 text-gray-800 hover:bg-blue-100">
                     Patrons & Chairs
                   </li>
                 </NavLink>
-                <NavLink to={'organising-committee'}>
-                <li
-                  className="block px-4 py-2 text-gray-800 hover:bg-blue-100"
-                >
-                  Organising Committee
-                </li>
+                <NavLink to={"/organising-committee"}>
+                  <li className="block px-4 py-2 text-gray-800 hover:bg-blue-100">
+                    Organising Committee
+                  </li>
                 </NavLink>
-                <NavLink to={'advisory-committee'}>
-                <li
-                  className="block px-4 py-2 text-gray-800 hover:bg-blue-100"
-                >
-                  Advisory Committee
-                </li>
+                <NavLink to={"/advisory-committee"}>
+                  <li className="block px-4 py-2 text-gray-800 hover:bg-blue-100">
+                    Advisory Committee
+                  </li>
                 </NavLink>
-                <NavLink to={'technical-committee'}>
-                <li
-                  className="block px-4 py-2 text-gray-800 hover:bg-blue-100"
-                >
-                  Technical Program Committee
-                </li>
+                <NavLink to={"/technical-committee"}>
+                  <li className="block px-4 py-2 text-gray-800 hover:bg-blue-100">
+                    Technical Program Committee
+                  </li>
                 </NavLink>
               </ul>
             </div>
