@@ -1,40 +1,29 @@
-import author_guidelines from "./author_guidelines.jpg";
-import call_for_papers from "./call_for_papers.jpg";
-import conference_tracks from "./conference_tracks.jpg";
 import icass2026 from "./icass2026.png";
-import important_dates from "./important_dates.jpg";
-import JSW_Group_logo from "./JSW_Group_logo.svg";
-import maplocation from "./maplocation.png";
 import mru_logo from "./mru_logo.jpeg";
 import mru from "./mru.jpg";
 import mru_panorama_2_copy from "./mru_panorama_2_copy.jpg";
 import mru_poster from "./mru_poster.png";
 import mru_soe from "./mru_soe.jpg";
-import registration from "./registration.jpg";
-import sponsors from "./sponsors.jpg";
-import venue from "./venue.jpg";
-import sponsor_logo_1 from "./sponsor_logo_1.jpg"
-import sponsor_logo_2 from "./sponsor_logo_2.png"
-import sponsor_logo_3 from "./sponsor_logo_3.png"
+import sponsor_logo_2 from "./sponsor_logo_2.png";
+import sponsor_logo_3 from "./sponsor_logo_3.png";
+import place_1 from "./place_1.png";
+import place_2 from "./place_2.png";
+import place_3 from "./place_3.png";
+import place_4 from "./place_4.png";
+import place_5 from "./place_5.png";
 
 export const assets = {
-  author_guidelines,
-  call_for_papers,
-  conference_tracks,
   icass2026,
-  important_dates,
-  JSW_Group_logo,
-  maplocation,
   mru_logo,
   mru_panorama_2_copy,
   mru_poster,
   mru,
   mru_soe,
-  registration,
-  sponsors,
-  sponsors,
-  venue,
-  sponsor_logo_1,
   sponsor_logo_2,
   sponsor_logo_3,
+  place_1,
+  place_2,
+  place_3,
+  place_4,
+  place_5,
 };
