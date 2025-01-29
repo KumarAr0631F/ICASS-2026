@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div className="flex justify-center text-3xl items-center min-h-screen bg-gray-100">
       <div className="bg-white shadow-lg rounded-lg p-6">
-        <h2 className="text-3xl font-bold mb-4">Contact Information</h2>
+        <h2 className="text-3xl font-bold text-blue-700  mb-4">Contact Information</h2>
         <table className="table-auto border-collapse border border-gray-300 w-full">
           <tbody>
             <tr>
