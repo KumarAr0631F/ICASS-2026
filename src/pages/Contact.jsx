@@ -13,7 +13,7 @@ const Contact = () => {
               <td className="border border-gray-900 px-4 py-2">For General Enquiries</td>
               <td className="border border-gray-900 px-4 py-2">icass2026@mru.edu.in</td>
             </tr>
-            <tr className="bg-gray-100">
+            <tr>
               <td className="border border-gray-900 px-4 py-2">For Conference related Enquiries</td>
               <td className="border border-gray-900 px-4 py-2">icass2026@mru.edu.in</td>
             </tr>
