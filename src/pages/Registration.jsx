@@ -55,15 +55,15 @@ const Registration = () => {
               <tbody className="border border-gray-700">
                 <tr className="border border-gray-700">
                   <td className="px-4 py-2 border border-gray-700">
-                    Research Scholar/UG/PG Student
+                    Academician/Research Scholar
                   </td>
                   <td className="px-4 py-2 border text-center border-gray-700">
                     IEEE <br /> NON-IEEE
                   </td>
                   <td className="px-4 py-2 border text-center border-gray-700">
-                    6500
+                    7000
                     <br />
-                    7500
+                    8000
                   </td>
                   <td className="px-4 py-2 border text-center border-gray-700">
                     200 <br /> 250
@@ -71,7 +71,7 @@ const Registration = () => {
                 </tr>
                 <tr className="border border-gray-700">
                   <td className="px-4 py-2 border border-gray-700">
-                    Student Author
+                    UG/PG Student
                   </td>
                   <td className="px-4 py-2 border text-center border-gray-700">
                     IEEE <br /> NON-IEEE
@@ -97,7 +97,7 @@ const Registration = () => {
                 </tr>
 
                 <tr className="border border-gray-700">
-                  <td className="px-4 py-2 border border-gray-700">Attendee</td>
+                  <td className="px-4 py-2 border border-gray-700">Co-Author/Attendee</td>
                   <td className="px-4 py-2 border text-center border-gray-700">
                     IEEE <br /> NON-IEEE
                   </td>
