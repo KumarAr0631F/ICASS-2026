@@ -11,20 +11,20 @@ const Registration = () => {
           </h1>
           <div className="flex justify-center items-center">
             <ul className="text-xl list-disc mb-5 list-inside text-start">
-              <li>
+              <li className="text-xs sm:text-base">
                 Submission Date: 30<sup>th</sup> November, 2025
               </li>
-              <li>
+              <li className="text-xs sm:text-base">
                 Notification of Acceptance: 10<sup>th</sup> January, 2026
               </li>
-              <li>
+              <li className="text-xs sm:text-base">
                 Camera-Ready/Final Paper Submission: 25<sup>th</sup> January,
                 2026
               </li>
-              <li>
+              <li className="text-xs sm:text-base">
                 Early Bird Registration: 28<sup>th</sup> January, 2026
               </li>
-              <li>
+              <li className="text-xs sm:text-base">
                 Conference Date: 12<sup>th</sup>-13<sup>th</sup> February, 2026
               </li>
             </ul>
@@ -35,8 +35,8 @@ const Registration = () => {
           Registration Details
         </h1>
         <div className="overflow-x-hidden">
-          <div className="mx-auto flex justify-center">
-            <table className="table-auto w-[60%] max-w-[90%] border border-gray-700 bg-white shadow-lg rounded-lg table-layout-fixed">
+          <div className="mx-auto flex justify-center text-sm">
+            <table className="table-auto w-full max-w-[90%] border border-gray-700 bg-white shadow-lg rounded-lg table-layout-fixed">
               <thead className="border border-gray-700">
                 <tr className="bg-gray-200 text-gray-800">
                   <th className="px-2 py-2 text-center border border-gray-700">
@@ -55,7 +55,7 @@ const Registration = () => {
               </thead>
               <tbody className="border border-gray-700">
                 <tr className="border border-gray-700">
-                  <td className="px-2 py-2 border border-gray-700">
+                  <td className="px-2 py-2 border border-gray-700 break-words text-xs sm:text-base lg:text-lg">
                     Academician/Research Scholar
                   </td>
                   <td className="px-2 py-2 border text-center border-gray-700">
@@ -70,7 +70,7 @@ const Registration = () => {
                   </td>
                 </tr>
                 <tr className="border border-gray-700">
-                  <td className="px-2 py-2 border border-gray-700">
+                  <td className="px-2 py-2 border border-gray-700 break-words text-xs sm:text-base lg:text-lg">
                     UG/PG Student
                   </td>
                   <td className="px-2 py-2 border text-center border-gray-700">
@@ -84,7 +84,9 @@ const Registration = () => {
                   </td>
                 </tr>
                 <tr className="border border-gray-700">
-                  <td className="px-2 py-2 border border-gray-700">Industry</td>
+                  <td className="px-2 py-2 border border-gray-700 break-words text-xs sm:text-base lg:text-lg">
+                    Industry
+                  </td>
                   <td className="px-2 py-2 border text-center border-gray-700">
                     IEEE <br /> NON-IEEE
                   </td>
@@ -97,7 +99,7 @@ const Registration = () => {
                 </tr>
 
                 <tr className="border border-gray-700">
-                  <td className="px-2 py-2 border border-gray-700">
+                  <td className="px-2 py-2 border border-gray-700 break-words text-xs sm:text-base lg:text-lg">
                     Co-Author/Attendee
                   </td>
                   <td className="px-2 py-2 border text-center border-gray-700">
@@ -116,9 +118,9 @@ const Registration = () => {
 
           <div className="pt-6 text-red-600 text-justify">
             <p className="text-xl">
-              * Extra page charge of ₹1000/- INR per page (Indian author) and $50
-              per page (International author) will be chargeable to the author's
-              during registration process.
+              * Extra page charge of ₹1000/- INR per page (Indian author) and
+              $50 per page (International author) will be chargeable to the
+              author's during registration process.
             </p>
           </div>
           <div className="flex justify-center items-center pt-10">
