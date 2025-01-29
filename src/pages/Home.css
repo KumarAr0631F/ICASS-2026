@@ -1,0 +1,7 @@
+.imagetext {
+    background-image: url("../assets/mru_poster.png");
+    background-size: cover;
+    background-position: center;
+    height: 40rem;
+    width: 100%;
+}

@@ -49,23 +49,22 @@ const Guideline = () => {
               1000 per page (Indian authors) or $50 per page (International
               authors).
             </li>
+
             <li>
-              Formatting: Double-column layout, single-spaced, using 10pt Times
-              New Roman font.
+              Use the IEEE template provided via the link below for paper
+              formatting.
             </li>
-            <li>
-              Margins: Top: 1" (25 mm) on the title page; 0.75" (19 mm)
-              elsewhere. Left, Right, and Bottom margins: 0.75" (19 mm).
-            </li>
-            <li>
-              File Format: PDF, with a maximum size of 5MB. All fonts must be
-              embedded.
-            </li>
-            <li>No page numbering should be included in the manuscript.</li>
-            <li>
-              Use the IEEE MS Word template provided via the link above for
-              proper formatting.
-            </li>
+            <ul className="ml-5">
+              <li>MS Word Template</li>
+              <li className="ml-5">A4</li>
+              <li>LaTeX Template</li>
+              <li className="ml-5">
+                LaTeX Template Instructions [Be sure to use the template's
+                conference mode.]
+              </li>
+              <li className="ml-5">Template</li>
+              <li className="ml-5">LaTeX Bibliography Files</li>
+            </ul>
           </ul>
         </div>
       </div>

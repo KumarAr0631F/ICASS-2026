@@ -45,10 +45,10 @@ const Registration = () => {
                     Type
                   </th>
                   <th className="px-4 py-2 text-center border border-gray-700">
-                    @Rs
+                    Indian Author (Rs)
                   </th>
                   <th className="px-4 py-2 text-center border border-gray-700">
-                    @$
+                    International Author ($)
                   </th>
                 </tr>
               </thead>
@@ -114,8 +114,8 @@ const Registration = () => {
 
           <div className="pt-6 text-red-600 text-justify">
             <p className="text-xl">
-              * Extra page charge of ₹1000/- INR per page Indian author and $50
-              per page International author will be chargeable to the author's
+              * Extra page charge of ₹1000/- INR per page (Indian author) and $50
+              per page (International author) will be chargeable to the author's
               during registration process.
             </p>
           </div>
