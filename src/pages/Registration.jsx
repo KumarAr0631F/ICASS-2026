@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+
 const Registration = () => {
   return (
     <div className="min-h-screen bg-gray-100 flex justify-center">
@@ -35,7 +36,7 @@ const Registration = () => {
         </h1>
         <div className="overflow-x-auto">
           <div className="mx-auto flex justify-center text-sm">
-            <table className="table-auto w-auto max-w-screen-sm border border-gray-700 bg-white shadow-lg rounded-lg">
+            <table className="table-auto w-full max-w-screen-md border border-gray-700 bg-white shadow-lg rounded-lg">
               <thead className="border border-gray-700">
                 <tr className="bg-gray-200 text-gray-800">
                   <th className="px-4 py-2 text-center border border-gray-700">
@@ -54,7 +55,7 @@ const Registration = () => {
               </thead>
               <tbody className="border border-gray-700">
                 <tr className="border border-gray-700">
-                  <td className="px-4 py-2 border border-gray-700">
+                  <td className="px-4 py-2 border border-gray-700 break-words">
                     Academician/Research Scholar
                   </td>
                   <td className="px-4 py-2 border text-center border-gray-700">
@@ -70,7 +71,7 @@ const Registration = () => {
                   </td>
                 </tr>
                 <tr className="border border-gray-700">
-                  <td className="px-4 py-2 border border-gray-700">
+                  <td className="px-4 py-2 border border-gray-700 break-words">
                     UG/PG Student
                   </td>
                   <td className="px-4 py-2 border text-center border-gray-700">
@@ -84,7 +85,9 @@ const Registration = () => {
                   </td>
                 </tr>
                 <tr className="border border-gray-700">
-                  <td className="px-4 py-2 border border-gray-700">Industry</td>
+                  <td className="px-4 py-2 border border-gray-700 break-words">
+                    Industry
+                  </td>
                   <td className="px-4 py-2 border text-center border-gray-700">
                     IEEE <br /> NON-IEEE
                   </td>
@@ -97,7 +100,9 @@ const Registration = () => {
                 </tr>
 
                 <tr className="border border-gray-700">
-                  <td className="px-4 py-2 border border-gray-700">Co-Author/Attendee</td>
+                  <td className="px-4 py-2 border border-gray-700 break-words">
+                    Co-Author/Attendee
+                  </td>
                   <td className="px-4 py-2 border text-center border-gray-700">
                     IEEE <br /> NON-IEEE
                   </td>
