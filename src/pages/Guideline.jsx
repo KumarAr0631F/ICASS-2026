@@ -116,6 +116,17 @@ const Guideline = () => {
           </ul>
         </div>
       </div>
+      <div>
+        <h1>Policy on Plagiarism</h1>
+        <hr className="bg-blue-700 border h-1 w-full my-2" />
+        <ul>
+          <li>Authors must avoid plagiarism in any form.</li>
+          <li>Submissions should be original, unpublished research and not under review elsewhere.</li>
+          <li>Papers found to be plagiarized at any stage of the review will be rejected.</li>
+          <li>Authors are collectively and individually responsible for the content of their published manuscripts, as per the copyright transfer agreement.</li>
+          <li>It is the responsibility of each author to maintain the highest ethical standards regarding plagiarism.</li>
+        </ul>
+      </div>
     </div>
   );
 };

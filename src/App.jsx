@@ -13,6 +13,7 @@ import TravelGuide from "./pages/TravelGuide";
 import Accomodation from "./pages/Accomodation";
 import VenueDetails from "./pages/VenueDetails";
 import AutoSlidingCarousel from "./pages/AutoSlidingCarousel";
+import Patrons from "./pages/Patrons";
 const App = () => {
   return (
     <div>
@@ -29,6 +30,7 @@ const App = () => {
         <Route path="/venue" element={<TravelGuide />} />
         <Route path="/accommodation" element={<Accomodation />} />
         <Route path="/tourist-places" element={<VenueDetails />} />
+        <Route path="/patrons" element={<Patrons />} />
       </Routes>
       <Footer />
     </div>

@@ -15,8 +15,7 @@ const Committe = () => {
       {/* Content Section */}
       <div
         className="container mx-auto px-6 md:px-12"
-        ref={sectionRef}
-        id="committe-section-1"
+     
       >
         {/* Patrons Section */}
         <div className="mb-12">
