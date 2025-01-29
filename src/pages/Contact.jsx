@@ -1,6 +1,3 @@
-import { useState } from "react";
-import emailjs from "@emailjs/browser";
-
 const Contact = () => {
   return (
     <div className="flex justify-center text-2xl items-center min-h-screen bg-gray-100 px-4 sm:px-6 md:px-8 overflow-hidden">
