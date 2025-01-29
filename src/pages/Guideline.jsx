@@ -23,14 +23,7 @@ const Guideline = () => {
         </h3>
         <div className="p-4 sm:p-5 rounded-lg w-full">
           <p className="text-justify text-gray-900 text-base sm:text-lg">
-            Authors are invited to submit original, high-quality, and previously
-            unpublished research articles. Submissions must not be under review
-            by any other publication or conference. All manuscripts should be
-            submitted electronically via Microsoft CMT in strict adherence to
-            the IEEE standard two-column conference template, which can be
-            accessed through the provided link. Each manuscript is limited to a
-            maximum of six (6) pages, including figures, tables, and references.
-            Additional pages may be accommodated with a nominal fee.
+          Authors are invited to submit original, high-quality, and previously unpublished research papers. Submissions should not be under review by any other journal or conference. All manuscripts must be submitted electronically via Microsoft CMT, following the IEEE standard two-column conference template, which is available through the provided link. Each manuscript is limited to a maximum of six (6) pages, including figures, tables, and references. Additional pages can be included for an additional fee.
           </p>
         </div>
       </div>
