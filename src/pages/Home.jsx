@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { assets } from "../assets/assets";
 import { NavLink } from "react-router-dom";
+import {useNavigate} from "react-router-dom"
 
 const Home = () => {
   const [openTrackOne, setOpenTrackOne] = useState(false);
@@ -31,6 +32,10 @@ const Home = () => {
   const toggleTrackSeven = () => {
     setOpenTrackSeven(!openTrackSeven);
   };
+
+  const handlClickk = () => {
+  Navigate("/contact") ;
+  }
 
   return (
     <div className="w-full min-h-screen bg-gray-100 flex flex-col items-center justify-center">
@@ -458,7 +463,10 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <button> Contact-Us </button>
     </div>
+
+    
   );
 };
 

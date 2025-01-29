@@ -55,6 +55,9 @@ const Committe = () => {
               Prof (Dr) Shruti Vashisht, Professor and Dean (Academics), Manav
               Rachna University, Faridabad
             </li>
+            <li>
+              Shree Ramesh Nayar, Registrar, Manav Rachna University, Faridabad
+            </li>
           </ul>
         </div>
 
