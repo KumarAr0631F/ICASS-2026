@@ -34,7 +34,7 @@ const Registration = () => {
           Registration Details
         </h1>
         <div className="overflow-x-auto">
-          <div className="mx-auto flex justify-center">
+          <div className="mx-auto flex justify-center text-sm">
             <table className="table-auto w-auto max-w-screen-sm border border-gray-700 bg-white shadow-lg rounded-lg">
               <thead className="border border-gray-700">
                 <tr className="bg-gray-200 text-gray-800">
