@@ -10,21 +10,21 @@ const Registration = () => {
             <b>Important Dates</b>
           </h1>
           <div className="flex justify-center items-center">
-            <ul className="text-xl list-disc mb-5 list-inside text-start">
-              <li className="text-xs sm:text-base">
+            <ul className="text-3xl list-disc mb-5 list-inside text-start">
+              <li className="sm:text-lg">
                 Submission Date: 30<sup>th</sup> November, 2025
               </li>
-              <li className="text-xs sm:text-base">
+              <li className="sm:text-lg">
                 Notification of Acceptance: 10<sup>th</sup> January, 2026
               </li>
-              <li className="text-xs sm:text-base">
+              <li className="sm:text-lg">
                 Camera-Ready/Final Paper Submission: 25<sup>th</sup> January,
                 2026
               </li>
-              <li className="text-xs sm:text-base">
+              <li className="sm:text-lg">
                 Early Bird Registration: 28<sup>th</sup> January, 2026
               </li>
-              <li className="text-xs sm:text-base">
+              <li className="sm:text-lg">
                 Conference Date: 12<sup>th</sup>-13<sup>th</sup> February, 2026
               </li>
             </ul>
