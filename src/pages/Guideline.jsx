@@ -36,13 +36,13 @@ const Guideline = () => {
       </div>
 
       {/* Paper Formatting Guidelines Section */}
-      <div className="flex flex-col items-center justify-center p-4 sm:p-6  w-full sm:w-3/4 lg:w-2/3">
+      <div className="flex flex-col items-center justify-center p-4 sm:p-6 w-full sm:w-3/4 lg:w-2/3">
         <h3 className="text-2xl text-blue-600 sm:text-3xl font-bold mb-3 text-center">
           Paper Formatting Guidelines
         </h3>
         <div className="p-4 sm:p-5 rounded-lg w-full">
           <ul className="list-decimal text-justify sm:text-lg pl-5 text-gray-900 space-y-2">
-            <li>Paper Size: US Letter (8.5" x 11").</li>
+            
             <li>
               Paper Length: Maximum of 6 pages, including figures, tables, and
               references. Two additional pages are permitted with a charge of ₹
@@ -55,15 +55,15 @@ const Guideline = () => {
               formatting.
             </li>
             <ul className="ml-5">
-              <li>MS Word Template</li>
-              <li className="ml-5">A4</li>
-              <li>LaTeX Template</li>
-              <li className="ml-5">
+              <li>1. MS Word Template</li>
+              <li className=" list-disc ml-10">A4</li>
+              <li>2. LaTeX Template</li>
+              <li className=" list-disc ml-10">
                 LaTeX Template Instructions [Be sure to use the template's
                 conference mode.]
               </li>
-              <li className="ml-5">Template</li>
-              <li className="ml-5">LaTeX Bibliography Files</li>
+              <li className=" list-disc ml-10">Template</li>
+              <li className=" list-disc ml-10">LaTeX Bibliography Files</li>
             </ul>
           </ul>
         </div>
@@ -76,7 +76,8 @@ const Guideline = () => {
         </h3>
         <div className="p-4 sm:p-5 rounded-lg w-full">
           <ul className="list-decimal text-base sm:text-lg pl-5 space-y-2 text-gray-800 leading-relaxed">
-            <li>Papers violating formatting guidelines may be rejected.</li>
+            <li>All submissions must be made via Microsoft CMT.</li>
+            <li>Papers should strictly adhere to the IEEE, papers violating formatting guidelines may be rejected.</li>
             <li>
               Submissions must be original, unpublished work not under review
               elsewhere.
@@ -86,12 +87,7 @@ const Guideline = () => {
               prohibited.
             </li>
             <li>
-              All manuscripts must be written in English and prepared as a PDF
-              document.
-            </li>
-            <li>
-              Papers should strictly adhere to the IEEE two-column format with
-              10pt font size.
+              All manuscripts must be written in English.
             </li>
             <li>
               The page limit is six (6) pages. An additional two pages are
@@ -124,7 +120,6 @@ const Guideline = () => {
               The Conference Chair reserves the right to exclude papers not
               presented or meeting guidelines from the proceedings.
             </li>
-            <li>All submissions should be made via Microsoft CMT.</li>
           </ul>
         </div>
       </div>
