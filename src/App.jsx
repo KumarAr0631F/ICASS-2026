@@ -12,11 +12,13 @@ import ConferenceSchedule from "./pages/ConferenceSchedule";
 import TravelGuide from "./pages/TravelGuide";
 import Accomodation from "./pages/Accomodation";
 import VenueDetails from "./pages/VenueDetails";
+import AutoSlidingCarousel from "./pages/AutoSlidingCarousel";
 const App = () => {
   return (
     <div>
       <Navbar />
       <HomeNavbar />
+      <AutoSlidingCarousel/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />

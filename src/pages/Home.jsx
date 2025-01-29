@@ -41,9 +41,7 @@ const Home = () => {
   return (
     <div className="w-full min-h-screen bg-gray-100 flex flex-col items-center justify-center">
       {/* Full-width Image */}
-      <div className="imagetext">
-        
-      </div>
+      
       {/* Scrolling Text */}
       <div className="bg-red-600 text-white w-full">
         <marquee
