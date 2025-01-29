@@ -2,7 +2,9 @@ import React, { useState } from "react";
 import { assets } from "../assets/assets";
 import { NavLink } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
+
 import "./Home.css";
+import AutoSlidingCarousel from "./AutoSlidingCarousel";
 
 const Home = () => {
   const [openTrackOne, setOpenTrackOne] = useState(false);
@@ -38,9 +40,11 @@ const Home = () => {
     Navigate("/contact");
   };
 
-  return (
+  return (<>
+    <AutoSlidingCarousel/>
     <div className="w-full min-h-screen bg-gray-100 flex flex-col items-center justify-center">
       {/* Full-width Image */}
+      
       
       {/* Scrolling Text */}
       <div className="bg-red-600 text-white w-full">
@@ -459,7 +463,7 @@ const Home = () => {
         </div>
       </div>
     </div>
-  );
+    </>);
 };
 
 export default Home;
