@@ -148,23 +148,28 @@ const Navbar = () => {
               </svg>
             </button>
             {isCommitteesDropdownOpen && (
-              <ul className="pl-4 mt-2 space-y-2">
-                {[{ label: "patrons & chairs", path: "/patrons" },
-                  { label: "Organising Committees", path: "/organising-committee" },
+              <ul className="ml-5 mt-2 grid items-start space-y-2">
+                {[
+                  { label: "patrons & chairs", path: "/patrons" },
+                  {
+                    label: "Organising Committees",
+                    path: "/organising-committee",
+                  },
                   { label: "Advisory Committee", path: "/advisory-committee" },
-                  { label: "Techinal program Committee", path: "/technical-committee" },
-                ].map(
-                  (item) => (
-                    <li key={item.label}>
-                      <button
-                        onClick={() => handleMenuItemClick(item.path)}
-                        className="text-base"
-                      >
-                        {item.label}
-                      </button>
-                    </li>
-                  )
-                )}
+                  {
+                    label: "Techinal Committee",
+                    path: "/technical-committee",
+                  }, // Added extraClass
+                ].map((item) => (
+                  <li key={item.label} className={item.extraClass || ""}>
+                    <button
+                      onClick={() => handleMenuItemClick(item.path)}
+                      className="text-base"
+                    >
+                      {item.label}
+                    </button>
+                  </li>
+                ))}
               </ul>
             )}
           </li>
