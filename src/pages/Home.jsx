@@ -120,7 +120,7 @@ const Home = () => {
                 className={"text-blue-700 cursor-pointer"}
                 to={"http://mru.edu.in"}
               >
-                (http://mru.edu.in)
+                (http://manavrachna.edu.in)
               </NavLink>{" "}
               is a leader in educational excellence providing high-quality
               education with an environment of academic rigor and innovation.
