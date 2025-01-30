@@ -4,13 +4,11 @@ const AdvisoryCommittee = () => {
   return (
     <div>
       {/* Content Section */}
-      <div className="container mx-auto px-6 md:px-12">
-        {/* Patrons Section */}
+      <div className="container gap-[4rem] flex p-5 mx-auto px-6 md:px-12">
         <div className="mb-3">
-          <hr className="border-t border-blue-500 mb-5" />
 
           {/* Chief Patrons */}
-          <h2 className="text-xl font-semibold text-gray-700">
+          <h2 className="text-xl font-semibold mb-3 text-gray-700">
             International Advisory Committee
           </h2>
           <ul className="list-disc ml-6 mb-3 text-justify text-gray-700">
@@ -107,7 +105,7 @@ const AdvisoryCommittee = () => {
           </ul>
         </div>
         <div>
-          <h3 className="text-xl font-semibold text-gray-700">
+          <h3 className="text-xl font-semibold mb-3 text-gray-700">
             National Advisory Committee
           </h3>
           <ul className="list-disc ml-6 mb-3 text-justify text-gray-700">

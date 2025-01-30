@@ -1,68 +1,152 @@
 import React from "react";
 
-const AdvisoryCommittee = () => {
+const Patrons = () => {
   return (
     <div>
       {/* Content Section */}
       <div className="container mx-auto px-6 md:px-12">
-        {/* Advisory Committees Section */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {/* Left Column: International Advisory Committee */}
-          <div className="mb-3">
-            <hr className="border-t border-blue-500 mb-5" />
-            <h2 className="text-xl font-semibold text-gray-700">
-              International Advisory Committee
-            </h2>
-            <ul className="list-disc ml-6 mb-3 text-justify text-gray-700">
-              <li>Prof (Dr) Ramjee Prasad Professor, Aarhus University, Denmark</li>
-              <li>Prof (Dr) Uma Jha, Senior IEEE Fellow and Professor of Practice, ECE, University of Florida, Gainesville, Florida USA</li>
-              <li>Prof (Dr) Parag Kulkarni Professor, Tokyo International University, Japan</li>
-              <li>Prof (Dr) Wen-Cheng Lai Professor, Dept. of Electrical Eng., Ming Chi University of Technology, Taiwan</li>
-              <li>Prof (Dr) Valentina Emilia Balas Professor, Aurel Vlaicu University of Arad, Romania</li>
-              <li>Prof. (Dr) Prashant Jha Professor, MedTech Innovation and Entrepreneurship, King’s College, London, UK</li>
-              <li>Prof (Dr.) Shipra Suman Professor, University of London, United Kingdom</li>
-              <li>Prof (Dr) Vinod Kumar Professor, Department of Physics, The University of the West Indies, St. Augustine, Trinidad & Tobago</li>
-              <li>Prof (Dr) Sudipto Ghosh Professor, Computer Science, Colorado State University, USA</li>
-              <li>Prof (Dr) John Martin Professor, School of Engineering and Computer Science, Jazan University, Saudi Arabia</li>
-              <li>Prof (Dr) Madan Singh Professor, National University of Lesotho, South Africa</li>
-              <li>Prof (Dr) Gulshan Kumar Professor, BITS, Dubai, UAE</li>
-              <li>Prof (Dr.) Saraju P Mohanty Professor, University of North Texas, Denton, Texas, USA</li>
-              <li>Dr Muluneh Lemma Woldesemayat Associate Professor and Scientific Director of Arba Minch Institute of Technology (AMiT) Bsc Arba Minch University, Ethiopia</li>
-              <li>Dr Milkias Berhanu Tuka Associate Professor, Addis Ababa Science and Technology University, College of Engineering , Ethiopia</li>
-              <li>Dr Arindam Pal Director, Data Science and Optimization, Optym Bangaluru, Conjoint Senior Lecturer, University of New South Wales, Sydney, Australia</li>
-            </ul>
-          </div>
+        {/* Patrons Section */}
+        <div className="mb-3">
+          <hr className="border-t border-blue-500 mb-5" />
 
-          {/* Right Column: National Advisory Committee */}
-          <div>
-            <h3 className="text-xl font-semibold text-gray-700">
-              National Advisory Committee
-            </h3>
-            <ul className="list-disc ml-6 mb-3 text-justify text-gray-700">
-              <li>Dr. K R Suresh Nair Chair, Adhoc Committee on Entrepreneurship and Innovation , Asia Pacific R10, IEEE Managing Director, Amara Raja Design Alpha Pvt. Ltd, Kerala</li>
-              <li>Prof (Dr) Bhim Singh Professor, IIT Delhi, Delhi</li>
-              <li>Prof (Dr) MN Hooda Director, Bharati Vidyapeeth's Institute of Computer Applications and Management, Delhi</li>
-              <li>Prof (Dr.) Anjana Gosain Professor and Dean, USICT, GGSIPU, New Delhi</li>
-              <li>Prof. (Dr) Prerna Gaur Professor, NSUT, New Delhi</li>
-              <li>Prof (Dr) Jasdeep Kaur Dhanoa Professor and Head, Dept of ECE, Indira Gandhi Delhi Technical University For Women, Kashmere Gate, Delhi</li>
-              <li>Prof (Dr) Ranganath. M. Singari Professor, Department of Mechanical Engineering, DTU</li>
-              <li>Prof (Dr) MPS Bhatia Professor, NSUT, New Delhi</li>
-              <li>Prof (Dr) Vasudha Bhatnagar Professor, DTU, New Delhi</li>
-              <li>Prof (Dr) B V R Reddy Professor, USICT, GGSIPU, New Delhi</li>
-              <li>Prof (Dr) Deepti Gupta Professor, IIT Bombay, Mumbai</li>
-              <li>Prof (Dr) Arpan K Kar Professor, IIT Delhi, New Delhi</li>
-              <li>Prof (Dr) I. K. Bhat Ex VC, Manav Rachna University, Faridabad</li>
-              <li>Prof (Dr) M. Emran Khan Professor, Department of Mechanical Engineering, JMI, Delhi</li>
-              <li>Prof (Dr) B Balamurugan Professor and Dean Academics, Shiv Nadar University, Noida</li>
-              <li>Mr. Kapil Google India</li>
-              <li>Mr. Anil Kumar Saini Scientist, CEERI, Pilani</li>
-              <li>Prof (Dr) Amrita Rai Professor, Lloyd College, Greater Noida</li>
-            </ul>
-          </div>
+          {/* Chief Patrons */}
+          <h2 className="text-xl font-semibold text-gray-700">
+            Chief Patrons
+          </h2>
+          <ul className="list-disc ml-6 mb-3 text-justify text-gray-700">
+            <li>Dr Prashant Bhalla, Hon'ble Chancellor, MRU, Faridabad</li>
+            <li>Dr Amit Bhalla, Hon'ble Vice President, MRU, Faridabad</li>
+          </ul>
+
+          {/* Patrons */}
+          <h2 className="text-xl font-semibold text-gray-700">
+            Patron(s)
+          </h2>
+          <ul className="list-disc ml-6 text-justify text-gray-700">
+            <li>
+              Prof (Dr.) Deependra Kr Jha, Hon'ble Vice Chancellor, MRU,
+              Faridabad
+            </li>
+            <li>
+              Prof (Dr.) Sangita Banga, Pro-Vice-Chancellor, MRU, Faridabad
+            </li>
+            <li>
+              Prof (Dr) Shruti Vashisht, Professor and Dean (Academics), MRU,
+              Faridabad
+            </li>
+            <li>Sh Ramesh Nair, Registrar, MRU, Faridabad</li>
+          </ul>
+        </div>
+
+        {/* Chairs Section */}
+        <div>
+          {/* General Chair */}
+          <h2 className="text-lg font-medium text-gray-700">
+            General Chair
+          </h2>
+          <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
+            <li>
+              Prof (Dr) Dipali Bansal, Professor and Dean, SoE, MRU, Faridabad
+            </li>
+          </ul>
+
+          {/* Conference Chair */}
+          <h2 className="text-lg font-medium text-gray-700">
+            Conference Chair
+          </h2>
+          <ul className="list-disc text-justify  ml-6 text-gray-700 mb-3">
+            <li>
+              Prof (Dr) Manpreet Kaur, Professor and Head, DoCST,MRU, Faridabad
+            </li>
+          </ul>
+        </div>
+
+        {/* Additional Sections */}
+        <div>
+          <h2 className="text-xl font-semibold text-gray-800">
+            Convener(s)
+          </h2>
+          <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
+            <li>
+              Dr Meenakshi Gupta, Associate Professor, Associate Head, DoECE,
+              MRU, Faridabad
+            </li>
+            <li>
+              Dr Ganga Sharma, Associate Professor, DoCST, SoE, MRU, Faridabad
+            </li>
+          </ul>
+
+          <h2 className="text-xl font-semibold text-gray-800">
+            Conference Secretary(s)
+          </h2>
+          <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
+            <li>
+              Dr Prashant Bhardwaj, Associate Professor, DoME, MRU, Faridabad
+            </li>
+            <li>
+              Dr Gianender Kajal, Assistant Professor, DoME, MRU, Faridabad
+            </li>
+          </ul>
+          <h2 className="text-xl font-semibold text-gray-800">
+            Technical Program Chair
+          </h2>
+          <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
+            <li>
+              Dr D K Sharma, Professor, Department of Physics, MRU, Faridabad
+            </li>
+            <li>Dr Joginder Singh, Professor, DoME, MRU, Faridabad</li>
+            <li>Dr Mrinal Pandey, Professor, DoCST,MRU, Faridabad</li>
+            <li>Dr Niharika Thakur, DoECE, MRU, Faridabad</li>
+          </ul>
+          <h2 className="text-xl font-semibold text-gray-800">
+            Steering Committee Chair
+          </h2>
+          <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
+            <li>Dr Ajit Katiyar, Professor and Head, DoME, MRU, Faridabad</li>
+          </ul>
+          <h2 className="text-xl font-semibold text-gray-800">
+            Finance Chair/ Treasurer
+          </h2>
+          <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
+            <li>
+              Dr Sandeep Kumar, Professor, Department of Physics, MRU, Faridabad
+            </li>
+            <li>Dr Chandni Magoo, Associate Head, DoCST, MRU, Faridabad</li>
+            <li>Dr. J. P. Sharma, Associate Professor, DoME, MRU, Faridabad</li>
+            <li>Dr Nitika, DoECE, MRU, Faridabad</li>
+          </ul>
+          <h2 className="text-xl font-semibold text-gray-800">
+            Publication chair(s)
+          </h2>
+          <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
+            <li>Dr Sachin Lakra, Professor, DoCST,MRU, Faridabad</li>
+            <li>
+              Dr Urmila Pilania, Associate Professor, DoCST,MRU, Faridabad
+            </li>
+            <li>
+              Dr Priyanka Bansal, Associate Professor, DoECE,MRU, Faridabad
+            </li>
+            <li>
+              Dr. Jitender Kumar, Assistant Professor, Department of Physics,
+              MRU, Faridabad
+            </li>
+          </ul>
+          <h2 className="text-xl font-semibold text-gray-800">
+            Publicity chair(s)
+          </h2>
+          <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
+            <li>Dr. Parneeta Dhariwal, Professor, DoCST,MRU, Faridabad</li>
+            <li>Dr Mamta Arora, Associate ProfessorDoCST,MRU, Faridabad</li>
+            <li>Dr Smriti Mishra, Associate Professor, DoME,MRU, Faridabad</li>
+            <li>
+              Dr Arpit Sand, Assistant Professor, Department of Chemistry, MRU,
+              Faridabad
+            </li>
+          </ul>
         </div>
       </div>
     </div>
   );
 };
 
-export default AdvisoryCommittee;
+export default Patrons;
