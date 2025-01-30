@@ -10,7 +10,7 @@ const HomeNavbar = () => {
   };
 
   return (
-    <div className="p-1 text-white bg-blue-500 hidden md:flex items-center justify-around">
+    <div className="text-white bg-blue-500 hidden md:flex items-center justify-around">
       {/* Navbar Container */}
       <div className="flex items-center justify-between">
         {/* Navigation Links */}

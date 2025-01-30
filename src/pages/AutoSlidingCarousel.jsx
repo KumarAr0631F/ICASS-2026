@@ -22,19 +22,19 @@ const AutoSlidingCarousel = () => {
   return (
     <Carousel activeIndex={index} onSelect={handleSelect} interval={3000} className='slider' >
       <Carousel.Item>
-        <img className="d-block w-full h-[650px]" src={assets.mru_poster} alt="First slide" />
+        <img className="d-block w-100" src={assets.mru_poster} alt="First slide" />
       </Carousel.Item>
       <Carousel.Item>
-        <img className="d-block w-full h-[650px]" src={assets.manav_rachna}  alt="Second slide" />
+        <img className="d-block w-full h-[704px]" src={assets.manav_rachna}  alt="Second slide" />
       </Carousel.Item>
       <Carousel.Item>
-        <img className="d-block w-full h-[650px]" src={assets.mru_poster}   alt="Third slide" />
+        <img className="d-block w-100" src={assets.mru_poster}   alt="Third slide" />
       </Carousel.Item>    
         <Carousel.Item>
-        <img className="d-block w-full h-[650px]" src={assets.mru_poster}   alt="Third slide" />
+        <img className="d-block w-100" src={assets.mru_poster}   alt="Third slide" />
       </Carousel.Item>
       <Carousel.Item>
-        <img className="d-block w-full h-[650px]" src={assets.mru_poster}   alt="Third slide" />
+        <img className="d-block w-100" src={assets.mru_poster}   alt="Third slide" />
       </Carousel.Item>
 
     </Carousel>
