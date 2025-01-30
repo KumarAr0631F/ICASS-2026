@@ -4,7 +4,7 @@ const AdvisoryCommittee = () => {
   return (
     <div>
       {/* Content Section */}
-      <div className="container flex flex-col md:flex-row gap-8 p-5 mx-auto px-6 md:px-12">
+      <div className="container flex flex-col md:flex-row gap-[200px] p-5 mx-auto px-6 md:px-12">
         <div className="mb-3">
 
           {/* Chief Patrons */}
