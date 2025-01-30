@@ -107,8 +107,27 @@ const AdvisoryCommittee = () => {
           </ul>
         </div>
         <div>
-          <h3>National Advisory Committee</h3>
+          <h3 className="text-xl font-semibold text-gray-700">National Advisory Committee</h3>
           <ul>
+            <li>Dr. K R Suresh Nair	Chair, Adhoc Committee on Entrepreneurship and Innovation , Asia Pacific R10, IEEE
+Managing Director, Amara Raja Design Alpha Pvt. Ltd, Kerala
+</li>
+            <li>Prof (Dr) Bhim Singh	Professor, IIT Delhi, Delhi</li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
             <li></li>
           </ul>
         </div>

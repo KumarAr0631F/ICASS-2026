@@ -109,7 +109,7 @@ const Patrons = () => {
           </h2>
           <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
             <li>
-              Dr Sandeep Singh, Professor, Department of Physics, MRU, Faridabad
+              Dr Sandeep Kumar, Professor, Department of Physics, MRU, Faridabad
             </li>
             <li>Dr Chandni Magoo, Associate Head, DoCST, MRU, Faridabad</li>
             <li>Dr. J. P. Sharma, Associate Professor, DoME, MRU, Faridabad</li>
