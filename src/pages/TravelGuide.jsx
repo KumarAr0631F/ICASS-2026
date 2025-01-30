@@ -1,4 +1,5 @@
 import React from "react";
+import {NavLink} from "react-router-dom"
 
 const TravelGuide = () => {
   return (
@@ -69,11 +70,17 @@ const TravelGuide = () => {
         <p className="text-gray-700">
           For queries related to the conference venue, please reach out to us:
           <br />
-          <strong>Email:</strong> [Provide Email Address]
+          <strong>Email:</strong> icass2026@mru.edu.in
           <br />
           <strong>Phone:</strong> [Provide Contact Number]
           <br />
-          <strong>Website:</strong> [Insert University Website Link]
+          <strong>Website:</strong>{" "}
+          <NavLink
+            className={"text-blue-700 cursor-pointer"}
+            to={"http://mru.edu.in"}
+          >
+            http://manavrachna.edu.in
+          </NavLink>{" "}
         </p>
         <div className="mt-5 flex justify-center items-center">
           <iframe
