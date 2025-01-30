@@ -313,7 +313,7 @@ const Navbar = () => {
                 to="#"
                 className="font-semibold hover:bg-blue-600 px-3 py-2 rounded-md"
               >
-                Venue and Travels
+                Venue and Travel
               </NavLink>
               <div className="absolute hidden text-sm group-hover:flex flex-col bg-white border rounded-md shadow-lg mt-2 w-48 z-10">
                 <NavLink
