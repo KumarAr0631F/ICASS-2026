@@ -107,28 +107,55 @@ const AdvisoryCommittee = () => {
           </ul>
         </div>
         <div>
-          <h3 className="text-xl font-semibold text-gray-700">National Advisory Committee</h3>
-          <ul>
-            <li>Dr. K R Suresh Nair	Chair, Adhoc Committee on Entrepreneurship and Innovation , Asia Pacific R10, IEEE
-Managing Director, Amara Raja Design Alpha Pvt. Ltd, Kerala
-</li>
-            <li>Prof (Dr) Bhim Singh	Professor, IIT Delhi, Delhi</li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+          <h3 className="text-xl font-semibold text-gray-700">
+            National Advisory Committee
+          </h3>
+          <ul className="list-disc ml-6 mb-3 text-justify text-gray-700">
+            <li>
+              Dr. K R Suresh Nair Chair, Adhoc Committee on Entrepreneurship and
+              Innovation , Asia Pacific R10, IEEE Managing Director, Amara Raja
+              Design Alpha Pvt. Ltd, Kerala
+            </li>
+            <li>Prof (Dr) Bhim Singh Professor, IIT Delhi, Delhi</li>
+            <li>
+              Prof (Dr) MN Hooda Director, Bharati Vidyapeeth's Institute of
+              Computer Applications and Management, Delhi
+            </li>
+            <li>
+              Prof (Dr.) Anjana Gosain Professor and Dean, USICT, GGSIPU, New
+              Delhi
+            </li>
+            <li>Prof. (Dr) Prerna Gaur Professor, NSUT, New Delhi</li>
+            <li>
+              Prof (Dr) Jasdeep Kaur Dhanoa Professor and Head, Dept of ECE,
+              Indira Gandhi Delhi Technical University For Women, Kashmere Gate,
+              Delhi
+            </li>
+            <li>
+              Prof (Dr) Ranganath. M. Singari Professor, Department of
+              Mechanical Engineering, DTU
+            </li>
+            <li>Prof (Dr) MPS Bhatia Professor, NSUT, New Delhi</li>
+            <li>Prof (Dr) Vasudha Bhatnagar Professor, DTU, New Delhi</li>
+            <li>Prof (Dr) B V R Reddy Professor, USICT, GGSIPU, New Delhi</li>
+            <li>Prof (Dr) Deepti Gupta Professor, IIT Bombay, Mumbai</li>
+            <li>Prof (Dr) Arpan K Kar Professor, IIT Delhi, New Delhi</li>
+            <li>
+              Prof (Dr) I. K. Bhat Ex VC, Manav Rachna University, Faridabad
+            </li>
+            <li>
+              Prof (Dr) M. Emran Khan Professor, Department of Mechanical
+              Engineering, JMI, Delhi
+            </li>
+            <li>
+              Prof (Dr) B Balamurugan Professor and Dean Academics, Shiv Nadar
+              University, Noida
+            </li>
+            <li>Mr. Kapil Google India</li>
+            <li>Mr. Anil Kumar Saini Scientist, CEERI, Pilani</li>
+            <li>
+              Prof (Dr) Amrita Rai Professor, Lloyd College, Greater Noida
+            </li>
           </ul>
         </div>
       </div>

@@ -137,7 +137,7 @@ const Patrons = () => {
           <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
             <li>Dr. Parneeta Dhariwal, Professor, DoCST,MRU, Faridabad</li>
             <li>Dr Mamta Arora, Associate ProfessorDoCST,MRU, Faridabad</li>
-            <li>Dr Smriti Sharma, Associate Professor, DoME,MRU, Faridabad</li>
+            <li>Dr Smriti Mishra, Associate Professor, DoME,MRU, Faridabad</li>
             <li>
               Dr Arpit Sand, Assistant Professor, Department of Chemistry, MRU,
               Faridabad
