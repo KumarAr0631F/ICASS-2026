@@ -72,8 +72,6 @@ const TravelGuide = () => {
           <br />
           <strong>Email:</strong> icass2026@mru.edu.in
           <br />
-          <strong>Phone:</strong> [Provide Contact Number]
-          <br />
           <strong>Website:</strong>{" "}
           <NavLink
             className={"text-blue-700 cursor-pointer"}
