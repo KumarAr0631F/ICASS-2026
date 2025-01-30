@@ -103,7 +103,7 @@ const Registration = () => {
                     Co-Author/Attendee
                   </td>
                   <td className="px-2 py-2 border text-center border-gray-700">
-                    IEEE <br /> NON-IEEE
+                    
                   </td>
                   <td className="px-2 py-2 border text-center border-gray-700">
                     2500
