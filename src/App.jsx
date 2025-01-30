@@ -6,7 +6,6 @@ import Guideline from "./pages/Guideline";
 import Registration from "./pages/Registration";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import HomeNavbar from "./components/HomeNavbar";
 import Committe from "./pages/Committe";
 import ConferenceSchedule from "./pages/ConferenceSchedule";
 import TravelGuide from "./pages/TravelGuide";
