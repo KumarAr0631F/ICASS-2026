@@ -145,6 +145,18 @@ const Home = () => {
             </p>
           </div>
 
+          <div className="mb-12">
+            <h3 className="text-blue-700 text-2xl md:text-3xl font-bold">
+              About School of Engineering
+            </h3>
+            <hr className="bg-blue-700 border h-1 w-full my-2" />
+            <p className="text-base md:text-lg text-gray-700 text-justify">
+            The School of Engineering at Manav Rachna University is a premier institution dedicated to providing top-tier engineering education. It offers a wide array of undergraduate, postgraduate and PhD programs, focusing on a blend of theoretical knowledge and practical application. The school is equipped with state-of-the-art infrastructure, including modern laboratories, advanced research facilities, and cutting-edge technology. The school places a strong emphasis on innovation, problem-solving, and skill development, and fosters a culture of entrepreneurship, encouraging students to think creatively and contribute to society through their engineering expertise. The school has won various awards and accreditations such as QS I-Gauge 2025 subject ratings for Engineering, NBA etc. which is the hallmark of the quality technical education.
+            </p>
+          </div>
+
+
+
           {/* Conference Topics */}
           <div className="mb-12">
             <h3 className="text-blue-700 text-2xl md:text-3xl font-bold">
