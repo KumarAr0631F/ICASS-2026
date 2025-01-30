@@ -42,21 +42,21 @@ const AutoSlidingCarousel = () => {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="d-block w-full h-[164px] sm:h-[200px] md:h-[350px] lg:h-[504px] object-cover"
           src={assets.mru_poster}
           alt="Third slide"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
-          src={assets.mru_poster}
+          className="d-block w-full h-[164px] sm:h-[200px] md:h-[350px] lg:h-[504px] object-cover"
+          src={assets.manav_rachna}
           alt="Third slide"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="d-block w-full h-[164px] sm:h-[200px] md:h-[350px] lg:h-[504px] object-cover"
           src={assets.mru_poster}
           alt="Third slide"
         />
