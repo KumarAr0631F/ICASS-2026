@@ -6,23 +6,23 @@ const Patrons = () => {
       {/* Content Section */}
       <div className="container mx-auto px-6 md:px-12">
         {/* Patrons Section */}
-        <div className="mb-12">
-          <hr className="border-t border-blue-500 mb-6" />
+        <div className="mb-3">
+          <hr className="border-t border-blue-500 mb-5" />
 
           {/* Chief Patrons */}
-          <h2 className="text-xl font-semibold text-gray-700 mb-4">
+          <h2 className="text-xl font-semibold text-gray-700">
             Chief Patrons
           </h2>
-          <ul className="list-disc ml-6 mb-8 text-justify text-gray-700">
+          <ul className="list-disc ml-6 mb-3 text-justify text-gray-700">
             <li>Dr Prashant Bhalla, Hon'ble Chancellor, MRU, Faridabad</li>
             <li>Dr Amit Bhalla, Hon'ble Vice President, MRU, Faridabad</li>
           </ul>
 
           {/* Patrons */}
-          <h2 className="text-xl font-semibold text-gray-700 mb-4">
+          <h2 className="text-xl font-semibold text-gray-700">
             Patron(s)
           </h2>
-          <ul className="list-disc ml-6 text-justify mb-8 text-gray-700">
+          <ul className="list-disc ml-6 text-justify text-gray-700">
             <li>
               Prof (Dr.) Deependra Kr Jha, Hon'ble Vice Chancellor, MRU,
               Faridabad
@@ -39,22 +39,22 @@ const Patrons = () => {
         </div>
 
         {/* Chairs Section */}
-        <div className="mb-12">
+        <div>
           {/* General Chair */}
-          <h2 className="text-lg font-medium text-gray-700 mb-4">
+          <h2 className="text-lg font-medium text-gray-700">
             General Chair
           </h2>
-          <ul className="list-disc text-justify ml-6 mb-8 text-gray-700">
+          <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
             <li>
               Prof (Dr) Dipali Bansal, Professor and Dean, SoE, MRU, Faridabad
             </li>
           </ul>
 
           {/* Conference Chair */}
-          <h2 className="text-lg font-medium text-gray-700 mb-4">
+          <h2 className="text-lg font-medium text-gray-700">
             Conference Chair
           </h2>
-          <ul className="list-disc text-justify  ml-6 mb-8 text-gray-700">
+          <ul className="list-disc text-justify  ml-6 text-gray-700 mb-3">
             <li>
               Prof (Dr) Manpreet Kaur, Professor and Head, DoCST,MRU, Faridabad
             </li>
@@ -63,10 +63,10 @@ const Patrons = () => {
 
         {/* Additional Sections */}
         <div>
-          <h2 className="text-xl font-semibold text-gray-800 mb-4">
+          <h2 className="text-xl font-semibold text-gray-800">
             Convener(s)
           </h2>
-          <ul className="list-disc text-justify ml-6 mb-8 text-gray-700">
+          <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
             <li>
               Dr Meenakshi Gupta, Associate Professor, Associate Head, DoECE,
               MRU, Faridabad
@@ -76,10 +76,10 @@ const Patrons = () => {
             </li>
           </ul>
 
-          <h2 className="text-xl font-semibold text-gray-800 mb-4">
+          <h2 className="text-xl font-semibold text-gray-800">
             Conference Secretary(s)
           </h2>
-          <ul className="list-disc text-justify ml-6 mb-8 text-gray-700">
+          <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
             <li>
               Dr Prashant Bhardwaj, Associate Professor, DoME, MRU, Faridabad
             </li>
@@ -87,10 +87,10 @@ const Patrons = () => {
               Dr Gianender Kajal, Assistant Professor, DoME, MRU, Faridabad
             </li>
           </ul>
-          <h2 className="text-xl font-semibold text-gray-800 mb-4">
+          <h2 className="text-xl font-semibold text-gray-800">
             Technical Program Chair
           </h2>
-          <ul className="list-disc text-justify ml-6 mb-8 text-gray-700">
+          <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
             <li>
               Dr D K Sharma, Professor, Department of Physics, MRU, Faridabad
             </li>
@@ -98,16 +98,16 @@ const Patrons = () => {
             <li>Dr Mrinal Pandey, Professor, DoCST,MRU, Faridabad</li>
             <li>Dr Niharika Thakur, DoECE, MRU, Faridabad</li>
           </ul>
-          <h2 className="text-xl font-semibold text-gray-800 mb-4">
+          <h2 className="text-xl font-semibold text-gray-800">
             Steering Committee Chair
           </h2>
-          <ul className="list-disc text-justify ml-6 mb-8 text-gray-700">
+          <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
             <li>Dr Ajit Katiyar, Professor and Head, DoME, MRU, Faridabad</li>
           </ul>
-          <h2 className="text-xl font-semibold text-gray-800 mb-4">
+          <h2 className="text-xl font-semibold text-gray-800">
             Finance Chair/ Treasurer
           </h2>
-          <ul className="list-disc text-justify ml-6 mb-8 text-gray-700">
+          <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
             <li>
               Dr Sandeep Singh, Professor, Department of Physics, MRU, Faridabad
             </li>
@@ -115,10 +115,10 @@ const Patrons = () => {
             <li>Dr. J. P. Sharma, Associate Professor, DoME, MRU, Faridabad</li>
             <li>Dr Nitika, DoECE, MRU, Faridabad</li>
           </ul>
-          <h2 className="text-xl font-semibold text-gray-800 mb-4">
+          <h2 className="text-xl font-semibold text-gray-800">
             Publication chair(s)
           </h2>
-          <ul className="list-disc text-justify ml-6 mb-8 text-gray-700">
+          <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
             <li>Dr Sachin Lakra, Professor, DoCST,MRU, Faridabad</li>
             <li>
               Dr Urmila Pilania, Associate Professor, DoCST,MRU, Faridabad
@@ -131,10 +131,10 @@ const Patrons = () => {
               MRU, Faridabad
             </li>
           </ul>
-          <h2 className="text-xl font-semibold text-gray-800 mb-4">
+          <h2 className="text-xl font-semibold text-gray-800">
             Publicity chair(s)
           </h2>
-          <ul className="list-disc text-justify ml-6 mb-8 text-gray-700">
+          <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
             <li>Dr. Parneeta Dhariwal, Professor, DoCST,MRU, Faridabad</li>
             <li>Dr Mamta Arora, Associate ProfessorDoCST,MRU, Faridabad</li>
             <li>Dr Smriti Sharma, Associate Professor, DoME,MRU, Faridabad</li>

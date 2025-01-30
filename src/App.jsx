@@ -6,7 +6,6 @@ import Guideline from "./pages/Guideline";
 import Registration from "./pages/Registration";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import Committe from "./pages/Committe";
 import ConferenceSchedule from "./pages/ConferenceSchedule";
 import TravelGuide from "./pages/TravelGuide";
 import Accomodation from "./pages/Accomodation";
@@ -24,7 +23,6 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/guidelines" element={<Guideline />} />
         <Route path="/registration" element={<Registration />} />
-        <Route path="/committee" element={<Committe />} />
         <Route path="/schedule" element={<ConferenceSchedule />} />
         <Route path="/venue" element={<TravelGuide />} />
         <Route path="/accommodation" element={<Accomodation />} />
