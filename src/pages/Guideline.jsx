@@ -118,7 +118,12 @@ const Guideline = () => {
             </li>
             <li>
               The Conference Chair reserves the right to exclude papers not
-              presented or meeting guidelines from the proceedings.
+              presented or meeting guidelines from the proceedings. 
+            </li>
+            <li>
+              At least one author for each accepted paper must register and
+              present their accepted paper in the conference for consideration
+              of publication on IEEE Xplore.
             </li>
           </ul>
         </div>

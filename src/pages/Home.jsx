@@ -53,9 +53,9 @@ const Home = () => {
             direction="left"
             className="py-1 text-center flex text-sm md:text-lg"
           >
-            Full Paper Submission Deadline:- 31st October, 2025
+            Full Paper Submission Deadline:- 30st August, 2025
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Notification of Acceptance:- 15th December, 2025
+            Notification of Acceptance:- 30th October, 2025
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             Registration/Camera Ready Submission:- 15th January, 2026
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

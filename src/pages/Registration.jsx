@@ -12,14 +12,14 @@ const Registration = () => {
           <div className="flex justify-center items-center">
             <ul className="text-xl list-disc mb-5 list-inside text-start">
               <li className="sm:text-lg">
-                Full Paper Submission Deadline: 31<sup>st</sup> October, 2025
+                Full Paper Submission Deadline: 30<sup>th</sup> August, 2025
               </li>
               <li className="sm:text-lg">
-                Notification of Acceptance: 15<sup>th</sup> December, 2025
+                Notification of Acceptance: 30<sup>th</sup> October, 2025
               </li>
               <li className="sm:text-lg">
-                Registration/Camera-Ready Submission: 15<sup>th</sup> January,
-                2026
+                Registration/Camera-Ready Submission Deadline: 15<sup>th</sup> November,
+                2025
               </li>
               <li className="sm:text-lg">
                 Conference Date: 12<sup>th</sup>-13<sup>th</sup> February, 2026
@@ -99,9 +99,7 @@ const Registration = () => {
                   <td className="px-2 py-2 border border-gray-700 break-words text-xs sm:text-base lg:text-lg">
                     Co-Author/Attendee
                   </td>
-                  <td className="px-2 py-2 border text-center border-gray-700">
-                    
-                  </td>
+                  <td className="px-2 py-2 border text-center border-gray-700"></td>
                   <td className="px-2 py-2 border text-center border-gray-700">
                     2500
                   </td>
@@ -125,14 +123,14 @@ const Registration = () => {
               <h1 className="text-3xl font-bold text-blue-700 text-center mb-6">
                 Account Details
               </h1>
-              <table className="table-auto border border-gray-700 bg-white shadow-lg rounded-lg">
+              <table className="table-auto border w-[560px] border-gray-700 bg-white shadow-lg rounded-lg">
                 <tbody className="border border-gray-700">
                   <tr className="border border-gray-700">
                     <td className="px-4 py-2 border border-gray-700">
                       Name of Account
                     </td>
                     <td className="px-4 py-2 border border-gray-700">
-                      Manav Rachna University
+                      Manav Rachna University Operations
                     </td>
                   </tr>
                   <tr className="border border-gray-700">
@@ -140,7 +138,7 @@ const Registration = () => {
                       Account Number
                     </td>
                     <td className="px-4 py-2 border border-gray-700">
-                      XXXXXXXXXXXXXXX
+                      50200050331373
                     </td>
                   </tr>
                   <tr className="border border-gray-700">
@@ -148,15 +146,7 @@ const Registration = () => {
                       IFSC Code
                     </td>
                     <td className="px-4 py-2 border border-gray-700">
-                      2030XXXXX6000
-                    </td>
-                  </tr>
-                  <tr className="border border-gray-700">
-                    <td className="px-4 py-2 border border-gray-700">
-                      Bank Name
-                    </td>
-                    <td className="px-4 py-2 border border-gray-700">
-                      HDFC Bank
+                      HDFC0002549
                     </td>
                   </tr>
                   <tr className="border border-gray-700">
@@ -165,6 +155,15 @@ const Registration = () => {
                     </td>
                     <td className="px-4 py-2 border border-gray-700">
                       XXXXXXXXXXXX
+                    </td>
+                  </tr>
+                  <tr className="border border-gray-700">
+                    <td className="px-4 py-2 border border-gray-700">
+                      Bank Name (with branch address)
+                    </td>
+                    <td className="px-4 py-2 border border-gray-700 break-words">
+                      HDFC Bank, H Block, opposite Celebrity Homes, Palam Vihar,
+                      Gurgaon-122017, Haryana
                     </td>
                   </tr>
                 </tbody>

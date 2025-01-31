@@ -55,27 +55,27 @@ const touristPlaces = [
 const VenueDetails = () => {
   return (
     <div className="min-h-screen bg-gray-100 p-6">
-      <h1 className="text-4xl font-bold text-center mb-6 text-blue-700">
+      <h1 className="text-3xl font-bold text-center mb-6 text-blue-700">
         Nearby Tourist Places
       </h1>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-5xl mx-auto">
         {touristPlaces.map((place, index) => (
           <div
             key={index}
-            className="bg-white shadow-lg rounded-lg overflow-hidden transition-transform transform hover:scale-105"
+            className="bg-white shadow-md rounded-lg overflow-hidden transition-transform transform hover:scale-105"
           >
             <img
-              className="w-full h-56 object-cover"
+              className="w-full h-40 object-cover" // Reduced height here
               src={place.image}
               alt={place.name}
             />
-            <div className="p-4">
-              <h2 className="text-2xl font-semibold text-gray-800">
+            <div className="p-3"> {/* Reduced padding here */}
+              <h2 className="text-xl font-semibold text-gray-800"> {/* Reduced font size here */}
                 {place.name}
               </h2>
               <p className="text-gray-600 text-sm">{place.location}</p>
-              <p className="mt-2 text-gray-700">{place.description}</p>
+              <p className="mt-2 text-gray-700 text-sm">{place.description}</p>
               <a
                 href={place.mapLink}
                 target="_blank"
