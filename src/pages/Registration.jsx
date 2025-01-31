@@ -26,7 +26,7 @@ const Registration = () => {
                 2025
               </li>
               <li className="sm:text-lg">
-                Conference Date: 12<sup>th</sup>-13<sup>th</sup> February, 2026
+                Conference Date(s): 12<sup>th</sup>-13<sup>th</sup> February, 2026
               </li>
             </ul>
           </div>
