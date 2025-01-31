@@ -18,7 +18,11 @@ const Registration = () => {
                 Notification of Acceptance: 30<sup>th</sup> October, 2025
               </li>
               <li className="sm:text-lg">
-                Registration/Camera-Ready Submission Deadline: 15<sup>th</sup> November,
+                Registration Deadline: 5<sup>th</sup> November,
+                2025
+              </li>
+              <li className="sm:text-lg">
+              Camera-Ready Submission Deadline: 30<sup>th</sup> November,
                 2025
               </li>
               <li className="sm:text-lg">
