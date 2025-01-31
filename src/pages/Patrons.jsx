@@ -113,7 +113,7 @@ const Patrons = () => {
             </li>
             <li>Dr Chandni Magoo, Associate Head, DoCST, MRU, Faridabad</li>
             <li>Dr. J. P. Sharma, Associate Professor, DoME, MRU, Faridabad</li>
-            <li>Dr Nitika,Associate Professor, DoECE, MRU, Faridabad</li>
+            <li>Dr Nitika, Associate Professor, DoECE, MRU, Faridabad</li>
           </ul>
           <h2 className="text-xl font-semibold text-gray-800">
             Publication chair(s)
