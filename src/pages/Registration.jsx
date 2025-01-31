@@ -18,7 +18,7 @@ const Registration = () => {
                 Notification of Acceptance: 30<sup>th</sup> October, 2025
               </li>
               <li className="sm:text-lg">
-                Registration Deadline: 5<sup>th</sup> November,
+                Registration Deadline: 10<sup>th</sup> November,
                 2025
               </li>
               <li className="sm:text-lg">
