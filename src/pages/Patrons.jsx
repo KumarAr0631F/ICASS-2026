@@ -95,7 +95,7 @@ const Patrons = () => {
             </li>
             <li>Dr Joginder Singh, Professor, DoME, MRU, Faridabad</li>
             <li>Dr Mrinal Pandey, Professor, DoCST, MRU, Faridabad</li>
-            <li>Dr Niharika Thakur, DoECE, MRU, Faridabad</li>
+            <li>Dr Niharika Thakur, Associate Professor, DoECE, MRU, Faridabad</li>
           </ul>
           <h2 className="text-xl font-semibold text-gray-800">
             Steering Committee Chair
