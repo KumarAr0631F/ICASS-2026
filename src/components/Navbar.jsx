@@ -131,7 +131,7 @@ const Navbar = () => {
             >
               Committees
               <svg
-                className={`w-5 h-5 transition-transform duration-300 ${
+                className={`w-5 h-5 mt-1 transition-transform duration-300 ${
                   isCommitteesDropdownOpen ? "rotate-180" : "rotate-0"
                 }`}
                 fill="none"
@@ -260,7 +260,6 @@ const Navbar = () => {
             <div className="relative group w-max">
               <NavLink className="font-semibold hover:bg-blue-600 px-3 py-2 rounded-md flex items-center justify-between w-full">
                 <span>Committees</span>
-                <span className="ml-1">▼</span>
               </NavLink>
               <div className="absolute hidden text-sm group-hover:flex flex-col bg-white border rounded-md shadow-lg mt-2 w-full z-10">
                 <ul className="cursor-pointer">
