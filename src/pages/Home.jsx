@@ -43,7 +43,7 @@ const Home = () => {
   return (
     <>
       <AutoSlidingCarousel />
-      <div onClick={window.scrollTo(0,0)} className="w-full min-h-screen bg-gray-100 flex flex-col items-center justify-center">
+      <div className="w-full min-h-screen bg-gray-100 flex flex-col items-center justify-center">
         {/* Full-width Image */}
 
         {/* Scrolling Text */}
@@ -158,7 +158,7 @@ const Home = () => {
           {/* Conference Topics */}
           <div className="mb-12">
             <h3 className="text-blue-700 text-2xl font-bold">
-              Conference Tracks (Not Limited to)
+              Conference Tracks
             </h3>
             <hr className="bg-blue-700 border h-1 w-full my-2" />
             <p className="text-justify mb-6">
@@ -476,7 +476,9 @@ const Home = () => {
               Knowledge Partners
             </h3>
             <hr className="bg-blue-700 border h-1 w-full my-2" />
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4"></div>
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+              to be updates soon...
+            </div>
           </div>
         </div>
       </div>
