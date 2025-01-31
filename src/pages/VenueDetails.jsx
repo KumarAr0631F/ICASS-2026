@@ -3,49 +3,52 @@ import { assets } from "../assets/assets";
 
 const touristPlaces = [
   {
-    name: "Taj Mahal",
-    location: "Agra, India",
+    name: "Barsana",
+    location: "Uttar Pradesh, India",
     image: assets.place_1,
     description:
-      "One of the Seven Wonders of the World, a symbol of love and Mughal architecture.",
-    mapLink:
-      "https://www.google.com/maps/place/Taj+Mahal/@27.1751495,78.0395673,17z/data=!3m1!4b1!4m6!3m5!1s0x39747121d702ff6d:0xdd2ae4803f767dde!8m2!3d27.1751448!4d78.0421422!16zL20vMGw4Y2I?entry=ttu&g_ep=EgoyMDI1MDEyNy4wIKXMDSoASAFQAw%3D%3D",
+      "The birthplace of Radha Rani, famous for the Lathmar Holi festival.",
+    mapLink: "https://www.google.com/maps/place/Barsana,+Uttar+Pradesh+281405/@27.6485702,77.3668968,15z/data=!3m1!4b1!4m6!3m5!1s0x397319e00db4f8df:0xcb42db313d95573d!8m2!3d27.6463577!4d77.3768099!16zL20vMGNfMDU1?entry=ttu&g_ep=EgoyMDI1MDEyOC4wIKXMDSoASAFQAw%3D%3D",
   },
   {
-    name: "Red Fort",
-    location: "Delhi, India",
+    name: "Vrindavan",
+    location: "Uttar Pradesh, India",
     image: assets.place_2,
     description:
-      "A historic fort that served as the main residence of the Mughal emperors.",
-    mapLink:
-      "https://www.google.com/maps/search/red+fort/@28.6550306,77.2346206,16z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI1MDEyNy4wIKXMDSoASAFQAw%3D%3D",
+      "A sacred town associated with Lord Krishna, known for its beautiful temples.",
+    mapLink: "https://www.google.com/maps/place/Vrindavan,+Uttar+Pradesh/@27.5648854,77.618171,13z/data=!4m6!3m5!1s0x39736fcb5e9a2309:0x9868374c5faaf3ce!8m2!3d27.5650088!4d77.6593394!16zL20vMDRmeXFm?entry=ttu&g_ep=EgoyMDI1MDEyOC4wIKXMDSoASAFQAw%3D%3D",
   },
   {
-    name: "Jaipur City Palace",
-    location: "Jaipur, India",
+    name: "Lotus Temple",
+    location: "Delhi, India",
     image: assets.place_3,
     description:
-      "A stunning blend of Mughal and Rajasthani architecture with museums and courtyards.",
-    mapLink:
-      "https://www.google.com/maps/place/The+City+Palace/@26.9257991,75.8210965,17z/data=!3m1!4b1!4m6!3m5!1s0x396db40b8620b0c1:0x44801531017d7b60!8m2!3d26.9257943!4d75.8236714!16s%2Fm%2F07kctys?entry=ttu&g_ep=EgoyMDI1MDEyNy4wIKXMDSoASAFQAw%3D%3D",
+      "A Bahá'í House of Worship, famous for its lotus-shaped architectural design.",
+    mapLink: "https://www.google.com/maps/search/lotus+temple/@28.5535031,77.2562873,17z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI1MDEyOC4wIKXMDSoASAFQAw%3D%3D",
   },
   {
-    name: "Gateway of India",
-    location: "Mumbai, India",
+    name: "Akshardham Temple",
+    location: "Delhi, India",
     image: assets.place_4,
     description:
-      "A grand archway that overlooks the Arabian Sea, built during British rule.",
-    mapLink:
-      "https://www.google.com/maps/search/Gateway+of+India/@18.9219799,72.8320688,17z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI1MDEyNy4wIKXMDSoASAFQAw%3D%3D",
+      "A magnificent Hindu temple known for its intricate carvings and cultural exhibitions.",
+    mapLink: "https://www.google.com/maps/place/Akshardham+Temple/@28.613132,77.274185,17z/data=!3m1!4b1!4m6!3m5!1s0x390d030000ef6bc1:0x1a6d4326f14e5b37!8m2!3d28.6131274!4d77.2787984!16s%2Fg%2F11w1xtnh01?entry=ttu&g_ep=EgoyMDI1MDEyOC4wIKXMDSoASAFQAw%3D%3D",
   },
   {
-    name: "Mysore Palace",
-    location: "Mysore, India",
+    name: "India Gate",
+    location: "Delhi, India",
     image: assets.place_5,
     description:
-      "A royal palace with Indo-Saracenic architecture, illuminated beautifully at night.",
-    mapLink:
-      "https://www.google.com/maps/place/Mysore+Palace/@12.3051682,76.6526,17z/data=!3m1!4b1!4m6!3m5!1s0x3baf701103f9a1f9:0xc37fbae2a124da0d!8m2!3d12.305163!4d76.6551749!16zL20vMDU2Y2xf?entry=ttu&g_ep=EgoyMDI1MDEyNy4wIKXMDSoASAFQAw%3D%3D",
+      "A war memorial dedicated to Indian soldiers who fought in World War I.",
+    mapLink: "https://www.google.com/maps/place/India+Gate,+New+Delhi,+Delhi/@28.6090749,77.2226051,15z/data=!3m1!4b1!4m6!3m5!1s0x390ce2db961be393:0xf6c7ef5ee6dd10ae!8m2!3d28.6110886!4d77.2345184!16s%2Fg%2F12hmk810l?entry=ttu&g_ep=EgoyMDI1MDEyOC4wIKXMDSoASAFQAw%3D%3D",
+  },
+  {
+    name: "Qutub Minar",
+    location: "Delhi, India",
+    image: assets.place_6,
+    description:
+      "A UNESCO World Heritage Site, the tallest brick minaret in the world.",
+    mapLink: "https://www.google.com/maps/place/Qutab+Minar,+Seth+Sarai,+Mehrauli,+New+Delhi,+Delhi+110030/@28.5244993,77.1829428,17z/data=!3m1!4b1!4m6!3m5!1s0x390d1e065dc72379:0xf6e7259f610de1d7!8m2!3d28.5244946!4d77.1855177!16zL20vMDNjX2g4?entry=ttu&g_ep=EgoyMDI1MDEyOC4wIKXMDSoASAFQAw%3D%3D",
   },
 ];
 

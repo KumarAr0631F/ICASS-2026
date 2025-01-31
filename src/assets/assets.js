@@ -11,6 +11,7 @@ import place_2 from "./place_2.png";
 import place_3 from "./place_3.png";
 import place_4 from "./place_4.png";
 import place_5 from "./place_5.png";
+import place_6 from "./place_6.png";
 import manav_rachna from "./manav_rachna.png"
 
 export const assets = {
@@ -27,5 +28,6 @@ export const assets = {
   place_3,
   place_4,
   place_5,
+  place_6,
   manav_rachna,
 };
