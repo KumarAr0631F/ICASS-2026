@@ -31,7 +31,7 @@ const Patrons = () => {
               Prof (Dr) Sangeeta Banga, Pro-Vice-Chancellor, MRU, Faridabad
             </li>
             <li>
-              Prof (Dr) Shruti Vashisht, Professor and Dean (Academics), MRU,
+              Prof (Dr) Shruti Vashist, Professor and Dean (Academics), MRU,
               Faridabad
             </li>
             <li>Shree Ramesh Nair, Registrar, MRU, Faridabad</li>
