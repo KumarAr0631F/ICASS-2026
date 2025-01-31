@@ -53,7 +53,7 @@ const Home = () => {
             direction="left"
             className="py-2 text-center flex text-sm md:text-lg"
           >
-            Paper Submission Date:- 31th October, 2025
+            Paper Submission Deadline:- 31th October, 2025
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             Notification of Acceptance:- 15th December, 2025
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

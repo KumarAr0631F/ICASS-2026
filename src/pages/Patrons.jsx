@@ -127,7 +127,7 @@ const Patrons = () => {
               Dr Priyanka Bansal, Associate Professor, DoECE,MRU, Faridabad
             </li>
             <li>
-              Dr. Jitender Kumar, Assistant Professor, Department of Physics,
+              Dr. Jitender Pal Singh, Ramanujan Fellow, Department of Physics,
               MRU, Faridabad
             </li>
           </ul>
