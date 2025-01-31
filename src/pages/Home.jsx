@@ -446,8 +446,8 @@ const Home = () => {
             <p className="text-justify">
               Accepted and presented papers will be submitted for inclusion into
               IEEE Xplore subject to meeting IEEE Xplore’s scope and quality
-              requirements. Extended version of the selected articles will be
-              published in various SCOPUS indexed journals(with additional cost).
+              requirements. Extended version of the selected papers will be
+              submitted for publication in various SCOPUS indexed journals (with additional cost).
             </p>
           </div>
           <div className="mt-5">
