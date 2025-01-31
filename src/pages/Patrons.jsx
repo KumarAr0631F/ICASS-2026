@@ -11,7 +11,7 @@ const Patrons = () => {
 
           {/* Chief Patrons */}
           <h2 className="text-xl font-semibold text-gray-700">
-            Chief Patrons
+            Chief Patron(s)
           </h2>
           <ul className="list-disc ml-6 mb-3 text-justify text-gray-700">
             <li>Dr Prashant Bhalla, Hon'ble Chancellor, MRU, Faridabad</li>
@@ -24,17 +24,17 @@ const Patrons = () => {
           </h2>
           <ul className="list-disc ml-6 text-justify text-gray-700">
             <li>
-              Prof (Dr.) Deependra Kr Jha, Hon'ble Vice Chancellor, MRU,
+              Prof (Dr) Deependra Kr Jha, Hon'ble Vice Chancellor, MRU,
               Faridabad
             </li>
             <li>
-              Prof (Dr.) Sangita Banga, Pro-Vice-Chancellor, MRU, Faridabad
+              Prof (Dr) Sangeeta Banga, Pro-Vice-Chancellor, MRU, Faridabad
             </li>
             <li>
               Prof (Dr) Shruti Vashisht, Professor and Dean (Academics), MRU,
               Faridabad
             </li>
-            <li>Sh Ramesh Nair, Registrar, MRU, Faridabad</li>
+            <li>Shree Ramesh Nair, Registrar, MRU, Faridabad</li>
           </ul>
         </div>
 
@@ -56,7 +56,7 @@ const Patrons = () => {
           </h2>
           <ul className="list-disc text-justify  ml-6 text-gray-700 mb-3">
             <li>
-              Prof (Dr) Manpreet Kaur, Professor and Head, DoCST,MRU, Faridabad
+              Prof (Dr) Manpreet Kaur, Professor and Head, DoCST, MRU, Faridabad
             </li>
           </ul>
         </div>
@@ -68,8 +68,7 @@ const Patrons = () => {
           </h2>
           <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
             <li>
-              Dr Meenakshi Gupta, Associate Professor, Associate Head, DoECE,
-              MRU, Faridabad
+              Dr Meenakshi Gupta, Associate Professor, Associate Head, DoECE, MRU, Faridabad
             </li>
             <li>
               Dr Ganga Sharma, Associate Professor, DoCST, SoE, MRU, Faridabad
@@ -88,14 +87,14 @@ const Patrons = () => {
             </li>
           </ul>
           <h2 className="text-xl font-semibold text-gray-800">
-            Technical Program Chair
+            Technical Program Chair(s)
           </h2>
           <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
             <li>
-              Dr D K Sharma, Professor, Department of Physics, MRU, Faridabad
+              Dr D K Sharma, Professor, DoSc, MRU, Faridabad
             </li>
             <li>Dr Joginder Singh, Professor, DoME, MRU, Faridabad</li>
-            <li>Dr Mrinal Pandey, Professor, DoCST,MRU, Faridabad</li>
+            <li>Dr Mrinal Pandey, Professor, DoCST, MRU, Faridabad</li>
             <li>Dr Niharika Thakur, DoECE, MRU, Faridabad</li>
           </ul>
           <h2 className="text-xl font-semibold text-gray-800">
@@ -105,39 +104,38 @@ const Patrons = () => {
             <li>Dr Ajit Katiyar, Professor and Head, DoME, MRU, Faridabad</li>
           </ul>
           <h2 className="text-xl font-semibold text-gray-800">
-            Finance Chair/ Treasurer
+            Finance Chair/ Treasurer(s)
           </h2>
           <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
             <li>
-              Dr Sandeep Kumar, Professor, Department of Physics, MRU, Faridabad
+              Dr Sandeep Kumar, Professor, DoSc, MRU, Faridabad
             </li>
             <li>Dr Chandni Magoo, Associate Head, DoCST, MRU, Faridabad</li>
-            <li>Dr. J. P. Sharma, Associate Professor, DoME, MRU, Faridabad</li>
+            <li>Dr J. P. Sharma, Associate Professor, DoME, MRU, Faridabad</li>
             <li>Dr Nitika, Associate Professor, DoECE, MRU, Faridabad</li>
           </ul>
           <h2 className="text-xl font-semibold text-gray-800">
-            Publication chair(s)
+            Publication Chair(s)
           </h2>
           <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
-            <li>Dr Sachin Lakra, Professor, DoCST,MRU, Faridabad</li>
+            <li>Dr Sachin Lakra, Professor, DoCST, MRU, Faridabad</li>
             <li>
-              Dr Urmila Pilania, Associate Professor, DoCST,MRU, Faridabad
+              Dr Urmila Pilania, Associate Professor, DoCST, MRU, Faridabad
             </li>
             <li>
-              Dr Priyanka Bansal, Associate Professor, DoECE,MRU, Faridabad
+              Dr Priyanka Bansal, Associate Professor, DoECE, MRU, Faridabad
             </li>
             <li>
-              Dr. Jitender Pal Singh, Ramanujan Fellow, Department of Physics,
-              MRU, Faridabad
+              Dr Jitendra Pal Singh, Ramanujan Fellow, DoSc, MRU, Faridabad
             </li>
           </ul>
           <h2 className="text-xl font-semibold text-gray-800">
-            Publicity chair(s)
+            Publicity Chair(s)
           </h2>
           <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
-            <li>Dr. Parneeta Dhariwal, Professor, DoCST,MRU, Faridabad</li>
-            <li>Dr Mamta Arora, Associate ProfessorDoCST,MRU, Faridabad</li>
-            <li>Dr Smriti Mishra, Associate Professor, DoME,MRU, Faridabad</li>
+            <li>Dr Parneeta Dhariwal, Professor, DoCST, MRU, Faridabad</li>
+            <li>Dr Mamta Arora, Associate Professor, DoCST, MRU, Faridabad</li>
+            <li>Dr Smriti Mishra, Associate Professor, DoME, MRU, Faridabad</li>
             <li>
               Dr Arpit Sand, Professor, DoSc, MRU, Faridabad
             </li>
