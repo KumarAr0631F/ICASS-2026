@@ -43,7 +43,7 @@ const Home = () => {
   return (
     <>
       <AutoSlidingCarousel />
-      <div className="w-full min-h-screen bg-gray-100 flex flex-col items-center justify-center">
+      <div onClick={window.scrollTo(0,0)} className="w-full min-h-screen bg-gray-100 flex flex-col items-center justify-center">
         {/* Full-width Image */}
 
         {/* Scrolling Text */}
