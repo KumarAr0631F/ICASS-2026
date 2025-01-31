@@ -71,7 +71,7 @@ const Patrons = () => {
               Dr Meenakshi Gupta, Associate Professor, Associate Head, DoECE, MRU, Faridabad
             </li>
             <li>
-              Dr Ganga Sharma, Associate Professor, DoCST, SoE, MRU, Faridabad
+              Dr Ganga Sharma, Associate Professor, DoCST, MRU, Faridabad
             </li>
           </ul>
 
