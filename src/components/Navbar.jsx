@@ -257,9 +257,10 @@ const Navbar = () => {
             </NavLink>
 
             {/* Dropdown Menu for Committees */}
-            <div className="relative group">
-              <NavLink className="font-semibold hover:bg-blue-600 px-3 py-2 rounded-md">
-                Committees
+            <div className="relative group w-max">
+              <NavLink className="font-semibold hover:bg-blue-600 px-3 py-2 rounded-md flex items-center justify-between w-full">
+                <span>Committees</span>
+                <span className="ml-1">▼</span>
               </NavLink>
               <div className="absolute hidden text-sm group-hover:flex flex-col bg-white border rounded-md shadow-lg mt-2 w-full z-10">
                 <ul className="cursor-pointer">
