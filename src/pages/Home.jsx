@@ -51,9 +51,9 @@ const Home = () => {
           <marquee
             behavior="scroll"
             direction="left"
-            className="py-2 text-center flex text-sm md:text-lg"
+            className="py-1 text-center flex text-sm md:text-lg"
           >
-            Paper Submission Deadline:- 31st October, 2025
+            Full Paper Submission Deadline:- 31st October, 2025
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             Notification of Acceptance:- 15th December, 2025
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -157,11 +157,11 @@ const Home = () => {
 
           {/* Conference Topics */}
           <div className="mb-12">
-            <h3 className="text-blue-700 text-2xl md:text-3xl font-bold">
+            <h3 className="text-blue-700 text-2xl font-bold">
               Conference Tracks (Not Limited to)
             </h3>
             <hr className="bg-blue-700 border h-1 w-full my-2" />
-            <p className="text-lg lg:text-xl text-justify mb-6">
+            <p className="text-justify mb-6">
               The conference <strong>ICASS-2026</strong> aims to foster on the
               theme
               <b>
@@ -173,9 +173,9 @@ const Home = () => {
               (but not limited to):
             </p>
 
-            <ul className=" list-inside space-y-4 text-lg lg:text-xl">
+            <ul className=" list-inside space-y-4">
               <li
-                className="text-xl cursor-pointer bg-blue-200 py-3 px-2.5 rounded-lg"
+                className="cursor-pointer bg-blue-200 py-3 px-2.5 rounded-lg"
                 onClick={toggleTrackOne}
               >
                 <strong>Track-1:</strong> Computational Intelligent Systems and
@@ -219,7 +219,7 @@ const Home = () => {
               )}
 
               <li
-                className="text-xl cursor-pointer bg-blue-200 py-3 px-2.5 rounded-lg "
+                className="cursor-pointer bg-blue-200 py-3 px-2.5 rounded-lg "
                 onClick={toggleTrackTwo}
               >
                 <strong>Track-2:</strong> Data Analytics and Decision Sciences
@@ -253,7 +253,7 @@ const Home = () => {
                 </ul>
               )}
               <li
-                className="text-xl cursor-pointer bg-blue-200 py-3 px-2.5 rounded-lg"
+                className=" cursor-pointer bg-blue-200 py-3 px-2.5 rounded-lg"
                 onClick={toggleTrackThree}
               >
                 <strong>Track-3:</strong> Futuristic Tools, Technologies &
@@ -281,7 +281,7 @@ const Home = () => {
                 </ul>
               )}
               <li
-                className="text-xl cursor-pointer bg-blue-200 py-3 px-2.5 rounded-lg"
+                className=" cursor-pointer bg-blue-200 py-3 px-2.5 rounded-lg"
                 onClick={toggleTrackFour}
               >
                 <strong>Track-4:</strong> Smart Electronics and Next-Gen
@@ -318,7 +318,7 @@ const Home = () => {
                 </ul>
               )}
               <li
-                className="text-xl cursor-pointer bg-blue-200 py-3 px-2.5 rounded-lg"
+                className="cursor-pointer bg-blue-200 py-3 px-2.5 rounded-lg"
                 onClick={toggleTrackFive}
               >
                 <strong>Track-5:</strong> Smart Cities and Sustainability
@@ -344,7 +344,7 @@ const Home = () => {
                 </ul>
               )}
               <li
-                className="text-xl cursor-pointer bg-blue-200 py-3 px-2.5 rounded-lg"
+                className="cursor-pointer bg-blue-200 py-3 px-2.5 rounded-lg"
                 onClick={toggleTrackSix}
               >
                 <strong>Track-6:</strong> Industry 5.0 and Cyber Physical
@@ -369,7 +369,7 @@ const Home = () => {
                 </ul>
               )}
               <li
-                className="text-xl cursor-pointer bg-blue-200 py-3 px-2.5 rounded-lg"
+                className="cursor-pointer bg-blue-200 py-3 px-2.5 rounded-lg"
                 onClick={toggleTrackSeven}
               >
                 <strong>Track-7:</strong> Smart Materials for Sustainable

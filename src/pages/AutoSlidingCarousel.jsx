@@ -28,7 +28,7 @@ const AutoSlidingCarousel = () => {
     >
       <Carousel.Item>
         <img
-          className="d-block w-full h-[164px] sm:h-[200px] md:h-[350px] lg:h-[564px] object-cover"
+          className="d-block w-full h-[164px] sm:h-[200px] md:h-[350px] lg:h-[464px] object-cover"
           src={assets.mru_poster}
           alt="First slide"
         />
@@ -36,28 +36,28 @@ const AutoSlidingCarousel = () => {
 
       <Carousel.Item>
         <img
-          className="d-block w-full h-[164px] sm:h-[200px] md:h-[350px] lg:h-[564px] object-cover"
+          className="d-block w-full h-[164px] sm:h-[200px] md:h-[350px] lg:h-[464px] object-cover"
           src={assets.manav_rachna}
           alt="Second slide"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-full h-[164px] sm:h-[200px] md:h-[350px] lg:h-[564px] object-cover"
+          className="d-block w-full h-[164px] sm:h-[200px] md:h-[350px] lg:h-[464px] object-cover"
           src={assets.mru_poster}
           alt="Third slide"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-full h-[164px] sm:h-[200px] md:h-[350px] lg:h-[564px] object-cover"
+          className="d-block w-full h-[164px] sm:h-[200px] md:h-[350px] lg:h-[464px] object-cover"
           src={assets.manav_rachna}
           alt="Third slide"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-full h-[164px] sm:h-[200px] md:h-[350px] lg:h-[564px] object-cover"
+          className="d-block w-full h-[164px] sm:h-[200px] md:h-[350px] lg:h-[464px] object-cover"
           src={assets.mru_poster}
           alt="Third slide"
         />
