@@ -139,8 +139,7 @@ const Patrons = () => {
             <li>Dr Mamta Arora, Associate ProfessorDoCST,MRU, Faridabad</li>
             <li>Dr Smriti Mishra, Associate Professor, DoME,MRU, Faridabad</li>
             <li>
-              Dr Arpit Sand, Assistant Professor, Department of Chemistry, MRU,
-              Faridabad
+              Dr Arpit Sand, Professor, DoSc, MRU, Faridabad
             </li>
           </ul>
         </div>
