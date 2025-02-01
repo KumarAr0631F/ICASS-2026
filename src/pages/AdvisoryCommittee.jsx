@@ -102,7 +102,7 @@ const AdvisoryCommittee = () => {
           </ul>
         </div>
         <div>
-          <h3 className="text-xl font-semibold mb-3 text-gray-700">
+          <h3 className="text-xl font-semibold lg:mt-0 mt-[-13rem] mb-3 text-gray-700">
             National Advisory Committee
           </h3>
           <ul className="list-disc ml-6 mb-3 text-justify text-gray-700">
