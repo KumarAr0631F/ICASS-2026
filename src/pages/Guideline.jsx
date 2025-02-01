@@ -39,8 +39,8 @@ const Guideline = () => {
       </div>
 
       {/* Paper Formatting Guidelines Section */}
-      <div className="flex flex-col mt-[-3rem] items-center justify-center sm:p-6 w-full sm:w-3/4 lg:w-2/3">
-        <h3 className="text-2xl text-blue-600 sm:text-3xl font-bold text-center">
+      <div className="flex flex-col lg:mt-[-3rem] mb-4 items-center justify-center sm:p-6 w-full sm:w-3/4 lg:w-2/3">
+        <h3 className="text-2xl text-blue-600 mb-3 sm:text-3xl font-bold text-center">
           Paper Formatting Guidelines
         </h3>
         <div className="sm:p-5 pl-5 pr-6 rounded-lg w-full">
@@ -72,12 +72,12 @@ const Guideline = () => {
       </div>
 
       {/* General Instructions Section */}
-      <div className="flex flex-col items-center mt-[-3rem] text-justify sm:p-6 bg-gray-100 rounded-lg w-full sm:w-3/4 lg:w-2/3">
+      <div className="flex flex-col lg:mt-[-3rem] items-center justify-center sm:p-6 w-full sm:w-3/4 lg:w-2/3">
         <h3 className="text-2xl sm:text-3xl font-bold text-center text-blue-600">
           General Instructions
         </h3>
         <div className="p-4 sm:p-5 rounded-lg w-full">
-          <ul className="list-decimal text-base ml-5 lg:mt-[0rem] sm:text-lg space-y-2 text-gray-800 ">
+          <ul className="list-decimal text-justify text-base ml-5 lg:mt-[0rem] sm:text-lg space-y-2 text-gray-800 ">
             <li>All submissions must be made via Microsoft CMT.</li>
             <li>
               Papers should strictly adhere to the IEEE format, papers violating
@@ -128,12 +128,12 @@ const Guideline = () => {
           </ul>
         </div>
       </div>
-      <div className="flex flex-col mt-[-3rem] items-center text-justify sm:p-6 bg-gray-100 rounded-lg w-full sm:w-3/4 lg:w-2/3">
-        <h3 className="text-2xl sm:text-3xl font-bold text-center text-blue-600">
+      <div className="flex flex-col lg:mt-[-3rem] items-center justify-center sm:p-6 w-full sm:w-3/4 lg:w-2/3">
+        <h3 className="text-2xl sm:text-3xl mb-3 font-bold text-center text-blue-600">
           Policy on Plagiarism
         </h3>
         <div className=" sm:p-5 rounded-lg w-full">
-          <ul className="list-decimal text-base sm:text-lg pl-5 space-y-2 text-gray-800 ">
+          <ul className="list-decimal text-justify text-base sm:text-lg pl-5 space-y-2 text-gray-800 ">
             <li>Authors must avoid plagiarism in any form.</li>
             <li>
               Submissions should be original, unpublished research and not under
