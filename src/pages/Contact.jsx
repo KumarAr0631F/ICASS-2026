@@ -1,22 +1,43 @@
 const Contact = () => {
   return (
-    <div className="flex justify-center text-2xl items-center min-h-screen bg-gray-100 px-4 sm:px-6 md:px-8 overflow-hidden">
-      <div className="bg-white shadow-lg rounded-lg p-6 w-full max-w-4xl">
-        <h2 className="text-2xl font-bold text-blue-700 mb-4 text-center sm:text-left">Contact Information</h2>
-        <table className="table-auto border-collapse border border-gray-300 w-full">
+    <div className="flex justify-center items-center min-h-screen bg-gradient-to-r from-blue-50 to-gray-100 px-4 sm:px-6 md:px-8">
+      <div className="bg-white shadow-2xl rounded-2xl p-8 w-full max-w-3xl border border-gray-200 flex flex-col justify-center items-center">
+        <h2 className="text-3xl font-extrabold text-blue-700 mb-6 text-center">
+          Contact Information
+        </h2>
+        <table className="table-auto w-full border-collapse">
           <tbody>
-            <tr>
-              <td className="border border-gray-900 px-4 py-2 text-sm sm:text-base">For General Enquiries</td>
-              <td className="border border-gray-900 px-4 py-2 text-sm sm:text-base truncate">icass2026@mru.edu.in</td>
-            </tr>
-            <tr>
-              <td className="border border-gray-900 px-4 py-2 text-sm sm:text-base">For Conference related Enquiries</td>
-              <td className="border border-gray-900 px-4 py-2 text-sm sm:text-base truncate">icass2026@mru.edu.in</td>
-            </tr>
-            <tr>
-              <td className="border border-gray-900 px-4 py-2 text-sm sm:text-base">For Paper Submission Enquiries</td>
-              <td className="border border-gray-900 px-4 py-2 text-sm sm:text-base truncate">icass2026@mru.edu.in</td>
-            </tr>
+            {[
+              {
+                title: "For General Enquiries",
+                email: "icass2026@mru.edu.in",
+              },
+              {
+                title: "For Conference related Enquiries",
+                email: "icass2026@mru.edu.in",
+              },
+              {
+                title: "For Paper Submission Enquiries",
+                email: "icass2026@mru.edu.in",
+              },
+            ].map((contact, index) => (
+              <tr
+                key={index}
+                className="hover:bg-gray-50 transition-colors duration-200"
+              >
+                <td className="border border-gray-300 px-4 py-3 text-sm sm:text-base font-medium text-gray-700">
+                  {contact.title}
+                </td>
+                <td className="border border-gray-300 px-4 py-3 text-sm sm:text-base text-blue-600 text-center">
+                  <a
+                    href={`mailto:${contact.email}`}
+                    className="hover:underline break-words"
+                  >
+                    {contact.email}
+                  </a>
+                </td>
+              </tr>
+            ))}
           </tbody>
         </table>
       </div>
