@@ -19,8 +19,7 @@ const AdvisoryCommittee = () => {
               ECE, University of Florida, Gainesville, FloridaUSA
             </li>
             <li>
-              Prof (Dr) Parag Kulkarni Professor, Tokyo International
-              University, Japan
+              Prof (Dr) Parag Kulkarni, Professor, Tokyo International University, Japan and Founder, Chief Scientist and Advisor, iKnowlation Research Labs Pvt Ltd
             </li>
             <li>
               Prof (Dr) Wen-Cheng Lai Professor, Dept. of Electrical Eng., Ming

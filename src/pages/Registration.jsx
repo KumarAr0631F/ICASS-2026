@@ -122,12 +122,12 @@ const Registration = () => {
               author's during registration process.
             </p>
           </div>
-          <div className="flex justify-center items-center pt-10">
+          <div className="flex justify-center text-sm items-center pt-10">
             <div>
               <h1 className="text-3xl font-bold text-blue-700 text-center mb-6">
                 Account Details
               </h1>
-              <table className="table-auto border w-[560px] border-gray-700 bg-white shadow-lg rounded-lg">
+              <table className="table-auto flex lg:ml-32 lg:w-[75%] justify-center items-center bg-white border-collapse border border-gray-300">
                 <tbody className="border border-gray-700">
                   <tr className="border border-gray-700">
                     <td className="px-4 py-2 border border-gray-700">
