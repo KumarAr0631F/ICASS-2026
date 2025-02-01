@@ -268,40 +268,40 @@ const Navbar = () => {
               </button>
               <ul class="dropdown-menu">
                 <li>
-                  <a
+                  <NavLink
                     onClick={window.scrollTo(0, 0)}
                     class="dropdown-item"
                     href="/patrons"
                   >
                     Patrons & Chairs
-                  </a>
+                  </NavLink>
                 </li>
                 <li>
-                  <a
+                  <NavLink
                     onClick={window.scrollTo(0, 0)}
                     class="dropdown-item"
                     href="/organising-committee"
                   >
                     Organising Committee
-                  </a>
+                  </NavLink>
                 </li>
                 <li>
-                  <a
+                  <NavLink
                     onClick={window.scrollTo(0, 0)}
                     class="dropdown-item"
                     href="/advisory-committee"
                   >
                     Advisory Committee
-                  </a>
+                  </NavLink>
                 </li>
                 <li>
-                  <a
+                  <NavLink
                     onClick={window.scrollTo(0, 0)}
                     class="dropdown-item"
                     href="/Technical-committee"
                   >
                     Technical Program Committee
-                  </a>
+                  </NavLink>
                 </li>
               </ul>
             </div>
@@ -340,31 +340,31 @@ const Navbar = () => {
               </button>
               <ul class="dropdown-menu">
                 <li>
-                  <a
+                  <NavLink
                     onClick={window.scrollTo(0, 0)}
                     class="dropdown-item"
                     href="/venue"
                   >
                     Conference Venue
-                  </a>
+                  </NavLink>
                 </li>
                 <li>
-                  <a
+                  <NavLink
                     onClick={window.scrollTo(0, 0)}
                     class="dropdown-item"
                     href="/accommodation"
                   >
                     Accommodation
-                  </a>
+                  </NavLink>
                 </li>
                 <li>
-                  <a
+                  <NavLink
                     onClick={window.scrollTo(0, 0)}
                     class="dropdown-item"
                     href="/tourist-places"
                   >
                     Tourist Places nearby
-                  </a>
+                  </NavLink>
                 </li>
               </ul>
             </div>
