@@ -18,9 +18,9 @@ const Guideline = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 px-4 sm:px-6 lg:px-8 flex flex-col items-center">
+    <div className="min-h-screen bg-gray-100 p-4 sm:px-6 lg:px-8 flex flex-col items-center">
       {/* Author's Guidelines Section */}
-      <div className="flex flex-col items-center justify-center sm:p-6 mt-4 w-full sm:w-3/4 lg:w-2/3">
+      <div className="flex flex-col items-center justify-center sm:p-6  w-full sm:w-3/4 lg:w-2/3">
         <h3 className="text-3xl text-blue-600 font-bold text-center">
           Author's Guidelines
         </h3>
@@ -39,12 +39,12 @@ const Guideline = () => {
       </div>
 
       {/* Paper Formatting Guidelines Section */}
-      <div className="flex flex-col items-center justify-center sm:p-6 w-full sm:w-3/4 lg:w-2/3">
+      <div className="flex flex-col mt-[-3rem] items-center justify-center sm:p-6 w-full sm:w-3/4 lg:w-2/3">
         <h3 className="text-2xl text-blue-600 sm:text-3xl font-bold text-center">
           Paper Formatting Guidelines
         </h3>
-        <div className="sm:p-5 rounded-lg w-full">
-          <ul className="list-decimal text-justify sm:text-lg pl-5 text-gray-900 space-y-2">
+        <div className="sm:p-5 pl-5 pr-6 rounded-lg w-full">
+          <ul className="list-decimal ml-5 text-justify lg:mt-[0rem] sm:text-lg pl-10text-gray-900 space-y-2">
             <li>
               Paper Length: Maximum of 6 pages, including figures, tables, and
               references. Two additional pages are permitted with a charge of ₹
@@ -72,12 +72,12 @@ const Guideline = () => {
       </div>
 
       {/* General Instructions Section */}
-      <div className="flex flex-col items-center text-justify sm:p-6 bg-gray-100 rounded-lg w-full sm:w-3/4 lg:w-2/3">
+      <div className="flex flex-col items-center mt-[-3rem] text-justify sm:p-6 bg-gray-100 rounded-lg w-full sm:w-3/4 lg:w-2/3">
         <h3 className="text-2xl sm:text-3xl font-bold text-center text-blue-600">
           General Instructions
         </h3>
         <div className="p-4 sm:p-5 rounded-lg w-full">
-          <ul className="list-decimal text-base sm:text-lg pl-5 space-y-2 text-gray-800 ">
+          <ul className="list-decimal text-base ml-5 lg:mt-[0rem] sm:text-lg space-y-2 text-gray-800 ">
             <li>All submissions must be made via Microsoft CMT.</li>
             <li>
               Papers should strictly adhere to the IEEE format, papers violating
@@ -128,7 +128,7 @@ const Guideline = () => {
           </ul>
         </div>
       </div>
-      <div className="flex flex-col items-center text-justify sm:p-6 bg-gray-100 rounded-lg w-full sm:w-3/4 lg:w-2/3">
+      <div className="flex flex-col mt-[-3rem] items-center text-justify sm:p-6 bg-gray-100 rounded-lg w-full sm:w-3/4 lg:w-2/3">
         <h3 className="text-2xl sm:text-3xl font-bold text-center text-blue-600">
           Policy on Plagiarism
         </h3>
