@@ -329,7 +329,46 @@ const Navbar = () => {
               Registration
             </NavLink>
 
-           
+            <div className="dropdown-center">
+              <button
+                className="btn text-white border-none hover:bg-blue-600 font-semibold text-xl dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Venue & Travels
+              </button>
+              <ul className="dropdown-menu">
+                <li>
+                  <NavLink
+                    onClick={() => window.scrollTo(0, 0)}
+                    className="dropdown-item"
+                    to="/venue"
+                  >
+                    Conference Venue
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    onClick={() => window.scrollTo(0, 0)}
+                    className="dropdown-item"
+                    to="/accommodation"
+                  >
+                    Accommodation
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    onClick={() => window.scrollTo(0, 0)}
+                    className="dropdown-item"
+                    to="/tourist-places"
+                  >
+                    Tourist Places nearby
+                  </NavLink>
+                </li>
+              </ul>
+            </div>
+
             <NavLink
               onClick={window.scrollTo(0, 0)}
               to="/contact"
