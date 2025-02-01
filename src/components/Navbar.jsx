@@ -271,7 +271,7 @@ const Navbar = () => {
                   <NavLink
                     onClick={window.scrollTo(0, 0)}
                     class="dropdown-item"
-                    href="/patrons"
+                    to="/patrons"
                   >
                     Patrons & Chairs
                   </NavLink>
@@ -280,7 +280,7 @@ const Navbar = () => {
                   <NavLink
                     onClick={window.scrollTo(0, 0)}
                     class="dropdown-item"
-                    href="/organising-committee"
+                    to="/organising-committee"
                   >
                     Organising Committee
                   </NavLink>
@@ -289,7 +289,7 @@ const Navbar = () => {
                   <NavLink
                     onClick={window.scrollTo(0, 0)}
                     class="dropdown-item"
-                    href="/advisory-committee"
+                    to="/advisory-committee"
                   >
                     Advisory Committee
                   </NavLink>
@@ -298,7 +298,7 @@ const Navbar = () => {
                   <NavLink
                     onClick={window.scrollTo(0, 0)}
                     class="dropdown-item"
-                    href="/Technical-committee"
+                    to="/Technical-committee"
                   >
                     Technical Program Committee
                   </NavLink>
@@ -343,7 +343,7 @@ const Navbar = () => {
                   <NavLink
                     onClick={window.scrollTo(0, 0)}
                     class="dropdown-item"
-                    href="/venue"
+                    to="/venue"
                   >
                     Conference Venue
                   </NavLink>
@@ -352,7 +352,7 @@ const Navbar = () => {
                   <NavLink
                     onClick={window.scrollTo(0, 0)}
                     class="dropdown-item"
-                    href="/accommodation"
+                    to="/accommodation"
                   >
                     Accommodation
                   </NavLink>
@@ -361,7 +361,7 @@ const Navbar = () => {
                   <NavLink
                     onClick={window.scrollTo(0, 0)}
                     class="dropdown-item"
-                    href="/tourist-places"
+                    to="/tourist-places"
                   >
                     Tourist Places nearby
                   </NavLink>
