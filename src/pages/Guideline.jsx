@@ -1,7 +1,10 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-const PDF_FILE_URL = "https://icass-2026.vercel.app/ieee_copyright_process.pdf";
+const PDF_FILE_URL1 = "http://localhost:5173/conference-template-a4.docx";
+const PDF_FILE_URL2 = "http://localhost:5173/IEEEtran_HOWTO LaTeX.pdf";
+const PDF_FILE_URL3 = "http://localhost:5173/IEEE-conference-template-062824.pdf";
+const PDF_FILE_URL4 = "http://localhost:5173/IEEEtran_bst_HOWTO.pdf";
 
 const Guideline = () => {
   const downloadFileAtURL = (url) => {
@@ -55,14 +58,14 @@ const Guideline = () => {
             </li>
             <ul className="ml-5">
               <li>1. MS Word Template</li>
-              <li className=" list-disc ml-10">A4</li>
+              <li onClick={() => downloadFileAtURL(PDF_FILE_URL1)} className="text-blue-700 cursor-pointer underline list-disc ml-10">A4</li>
               <li>2. LaTeX Template</li>
-              <li className=" list-disc ml-10">
+              <li onClick={()=> downloadFileAtURL(PDF_FILE_URL2)} className=" list-disc ml-10 cursor-pointer underline text-blue-700">
                 LaTeX Template Instructions [Be sure to use the template's
                 conference mode.]
               </li>
-              <li className=" list-disc ml-10">Template</li>
-              <li className=" list-disc ml-10">LaTeX Bibliography Files</li>
+              <li  onClick={()=> downloadFileAtURL(PDF_FILE_URL3)} className=" list-disc ml-10 cursor-pointer underline text-blue-700">Template</li>
+              <li  onClick={()=> downloadFileAtURL(PDF_FILE_URL4)} className=" list-disc ml-10 cursor-pointer underline text-blue-700">LaTeX Bibliography Files</li>
             </ul>
           </ul>
         </div>
