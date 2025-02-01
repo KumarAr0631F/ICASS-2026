@@ -129,9 +129,6 @@ const Guideline = () => {
               In case of more than one paper submissions by author (s), each
               accepted paper needs to be registered separately.
             </li>
-            <li>
-              
-            </li>
           </ul>
         </div>
       </div>

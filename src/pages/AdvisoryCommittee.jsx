@@ -52,8 +52,7 @@ const AdvisoryCommittee = () => {
               Computer Science, Jazan University, Saudi Arabia
             </li>
             <li>
-              Prof (Dr) Madan Singh Professor, National University of Lesotho,
-              South Africa.
+              Prof (Dr) Madan Singh Professor, National University of Lesotho, Lesotho,          Southern Africa.
             </li>
             <li>Prof (Dr) Gulshan Kumar Professor, BITS, Dubai, UAE</li>
             <li>
