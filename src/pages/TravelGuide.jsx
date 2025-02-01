@@ -1,5 +1,5 @@
 import React from "react";
-import {NavLink} from "react-router-dom"
+import { NavLink } from "react-router-dom";
 
 const TravelGuide = () => {
   return (
@@ -11,9 +11,9 @@ const TravelGuide = () => {
         <p className="text-gray-700 mb-6">
           <strong>Manav Rachna University</strong>
           <br />
-          Aravalli Campus, Sector 43, Surajkund Road,
+          Manav Rachna University Manav Rachna Campus Rd Gadakhor Basti Village,
           <br />
-          Faridabad, Haryana - 121004, India
+          Sector 43 Faridabad, Haryana 121004
         </p>
 
         <h2 className="text-xl font-semibold text-gray-800 mb-3">
