@@ -256,35 +256,37 @@ const Navbar = () => {
               Home
             </NavLink>
 
-            {/* Dropdown Menu for Committees */}
-            <div className="relative group w-max">
-              <NavLink className="font-semibold hover:bg-blue-600 px-3 py-2 rounded-md flex items-center justify-between w-full">
-                <span>Committees</span>
-              </NavLink>
-              <div className="absolute hidden text-sm group-hover:flex flex-col bg-white border rounded-md shadow-lg mt-2 w-full z-10">
-                <ul className="cursor-pointer">
-                  <NavLink to={"/patrons"}>
-                    <li className="block px-4 py-2 text-gray-800 hover:bg-blue-100">
-                      Patrons & Chairs
-                    </li>
-                  </NavLink>
-                  <NavLink to={"/organising-committee"}>
-                    <li className="block px-4 py-2 text-gray-800 hover:bg-blue-100">
-                      Organising Committee
-                    </li>
-                  </NavLink>
-                  <NavLink to={"/advisory-committee"}>
-                    <li className="block px-4 py-2 text-gray-800 hover:bg-blue-100">
-                      Advisory Committee
-                    </li>
-                  </NavLink>
-                  <NavLink to={"/technical-committee"}>
-                    <li className="block px-4 py-2 text-gray-800 hover:bg-blue-100">
-                      Technical Program Committee
-                    </li>
-                  </NavLink>
-                </ul>
-              </div>
+            <div class="dropdown-center">
+              <button
+                class="btn text-white border-none hover:bg-blue-600 font-semibold text-xl dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Committees
+              </button>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="/patrons">
+                    Patrons & Chairs
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/organising-committee">
+                    Organising Committee
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/advisory-committee">
+                    Advisory Committee
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/Technical-committee">
+                    Technical Program Committee
+                  </a>
+                </li>
+              </ul>
             </div>
 
             {/* Other Nav Links */}
@@ -307,34 +309,32 @@ const Navbar = () => {
               Registration
             </NavLink>
 
-            {/* Dropdown Menu for Venue and Travels */}
-            <div className="relative group">
-              <NavLink
-                to="#"
-                className="font-semibold hover:bg-blue-600 px-3 py-2 rounded-md"
+            <div class="dropdown-center">
+              <button
+                class="btn text-white border-none hover:bg-blue-600 font-semibold text-xl dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
               >
-                Venue and Travel
-              </NavLink>
-              <div className="absolute hidden text-sm group-hover:flex flex-col bg-white border rounded-md shadow-lg mt-2 w-48 z-10">
-                <NavLink
-                  to="/venue"
-                  className="block px-4 py-2 text-gray-800 hover:bg-blue-100"
-                >
-                  Conference Venue
-                </NavLink>
-                <NavLink
-                  to="/accommodation"
-                  className="block px-4 py-2 text-gray-800 hover:bg-blue-100"
-                >
-                  Accommodations
-                </NavLink>
-                <NavLink
-                  to="/tourist-places"
-                  className="block px-4 py-2 text-gray-800 hover:bg-blue-100"
-                >
-                  Tourist Places Nearby
-                </NavLink>
-              </div>
+                Venue & Travels
+              </button>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="/venue">
+                    Conference Venue
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/accommodation">
+                    Accommodation
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/tourist-places">
+                    Tourist Places nearby
+                  </a>
+                </li>
+              </ul>
             </div>
 
             <NavLink

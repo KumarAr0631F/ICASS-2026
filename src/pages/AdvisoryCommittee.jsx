@@ -6,7 +6,6 @@ const AdvisoryCommittee = () => {
       {/* Content Section */}
       <div className="container flex flex-col md:flex-row gap-[200px] p-5 mx-auto px-6 md:px-12">
         <div className="mb-3">
-
           {/* Chief Patrons */}
           <h2 className="text-xl font-semibold mb-3 text-gray-700">
             International Advisory Committee
@@ -52,7 +51,8 @@ const AdvisoryCommittee = () => {
               Computer Science, Jazan University, Saudi Arabia
             </li>
             <li>
-              Prof (Dr) Madan Singh Professor, National University of Lesotho, Lesotho,          Southern Africa.
+              Prof (Dr) Madan Singh Professor, National University of Lesotho,
+              Lesotho, Southern Africa.
             </li>
             <li>Prof (Dr) Gulshan Kumar Professor, BITS, Dubai, UAE</li>
             <li>
@@ -92,6 +92,11 @@ const AdvisoryCommittee = () => {
               Energies and Atomic Energy Commission (CEA), Paris-Saclay, France
             </li>
             <li>
+              Dr Ilyos Rabbimov, Researcher, Center for Economic Research and
+              Reform under the Administration of the President of the Republic
+              of Uzbekistan, Tashkent, Uzbekistan
+            </li>
+            <li>
               Mr. Prashant Gupta, Software Development Manager, Amazon, USA
             </li>
           </ul>
@@ -102,9 +107,9 @@ const AdvisoryCommittee = () => {
           </h3>
           <ul className="list-disc ml-6 mb-3 text-justify text-gray-700">
             <li>
-              Dr. K R Suresh, Nair Chair, Adhoc Committee on Entrepreneurship and
-              Innovation , Asia Pacific R10, IEEE Managing Director, Amara Raja
-              Design Alpha Pvt. Ltd, Kerala
+              Dr. K R Suresh, Nair Chair, Adhoc Committee on Entrepreneurship
+              and Innovation , Asia Pacific R10, IEEE Managing Director, Amara
+              Raja Design Alpha Pvt. Ltd, Kerala
             </li>
             <li>Prof (Dr) Bhim Singh Professor, IIT Delhi, Delhi</li>
             <li>
