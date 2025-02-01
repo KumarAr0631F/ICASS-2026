@@ -1,10 +1,10 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-const PDF_FILE_URL1 = "http://localhost:5173/conference-template-a4.docx";
-const PDF_FILE_URL2 = "http://localhost:5173/IEEEtran_HOWTO LaTeX.pdf";
-const PDF_FILE_URL3 = "http://localhost:5173/IEEE-conference-template-062824.pdf";
-const PDF_FILE_URL4 = "http://localhost:5173/IEEEtran_bst_HOWTO.pdf";
+const PDF_FILE_URL1 = "https://icass-2026.vercel.app//conference-template-a4.docx";
+const PDF_FILE_URL2 = "https://icass-2026.vercel.app/IEEEtran_HOWTO LaTeX.pdf";
+const PDF_FILE_URL3 = "https://icass-2026.vercel.app/conference-template-062824.pdf";
+const PDF_FILE_URL4 = "https://icass-2026.vercel.app/IEEEtran_bst_HOWTO.pdf";
 
 const Guideline = () => {
   const downloadFileAtURL = (url) => {
