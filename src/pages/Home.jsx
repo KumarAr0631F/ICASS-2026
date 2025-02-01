@@ -55,13 +55,13 @@ const Home = () => {
           >
             Full Paper Submission Deadline:- 30th August, 2025
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Notification of Acceptance:- 30th< October, 2025
+            Notification of Acceptance:- 30th October, 2025
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Registration Deadline:- 10th< November, 2025
+            Registration Deadline:- 10th November, 2025
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Camera Ready Submission Deadline:- 30th< November, 2025
+            Camera Ready Submission Deadline:- 30th November, 2025
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Conference Date:- 12th< - 13th< February, 2026
+            Conference Date:- 12th - 13th February, 2026
           </marquee>
         </div>
 
@@ -151,11 +151,22 @@ const Home = () => {
             </h3>
             <hr className="bg-blue-700 border h-1 w-full my-2" />
             <p className="text-base md:text-lg text-gray-700 text-justify">
-            The School of Engineering at Manav Rachna University is a premier institution dedicated to providing top-tier engineering education. It offers a wide array of undergraduate, postgraduate and PhD programs, focusing on a blend of theoretical knowledge and practical application. The school is equipped with state-of-the-art infrastructure, including modern laboratories, advanced research facilities, and cutting-edge technology. The school places a strong emphasis on innovation, problem-solving, and skill development, and fosters a culture of entrepreneurship, encouraging students to think creatively and contribute to society through their engineering expertise. The school has won various awards and accreditations such as QS I-Gauge 2025 subject ratings for Engineering, NBA etc. which is the hallmark of the quality technical education.
+              The School of Engineering at Manav Rachna University is a premier
+              institution dedicated to providing top-tier engineering education.
+              It offers a wide array of undergraduate, postgraduate and PhD
+              programs, focusing on a blend of theoretical knowledge and
+              practical application. The school is equipped with
+              state-of-the-art infrastructure, including modern laboratories,
+              advanced research facilities, and cutting-edge technology. The
+              school places a strong emphasis on innovation, problem-solving,
+              and skill development, and fosters a culture of entrepreneurship,
+              encouraging students to think creatively and contribute to society
+              through their engineering expertise. The school has won various
+              awards and accreditations such as QS I-Gauge 2025 subject ratings
+              for Engineering, NBA etc. which is the hallmark of the quality
+              technical education.
             </p>
           </div>
-
-
 
           {/* Conference Topics */}
           <div className="mb-12">
@@ -449,7 +460,8 @@ const Home = () => {
               Accepted and presented papers will be submitted for inclusion into
               IEEE Xplore subject to meeting IEEE Xplore’s scope and quality
               requirements. Extended version of the selected papers will be
-              submitted for publication in various SCOPUS indexed journals (with additional cost).
+              submitted for publication in various SCOPUS indexed journals (with
+              additional cost).
             </p>
           </div>
           <div className="mt-5">
