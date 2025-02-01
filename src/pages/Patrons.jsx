@@ -34,14 +34,14 @@ const Patrons = () => {
               Prof (Dr) Shruti Vashist, Professor and Dean (Academics), MRU,
               Faridabad
             </li>
-            <li>Shree Ramesh Nair, Registrar, MRU, Faridabad</li>
+            <li>Sh Ramesh Nair, Registrar, MRU, Faridabad</li>
           </ul>
         </div>
 
         {/* Chairs Section */}
         <div>
           {/* General Chair */}
-          <h2 className="text-lg font-medium text-gray-700">
+          <h2 className="text-xl font-medium text-gray-700">
             General Chair
           </h2>
           <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
@@ -51,7 +51,7 @@ const Patrons = () => {
           </ul>
 
           {/* Conference Chair */}
-          <h2 className="text-lg font-medium text-gray-700">
+          <h2 className="text-xl font-medium text-gray-700">
             Conference Chair
           </h2>
           <ul className="list-disc text-justify  ml-6 text-gray-700 mb-3">
