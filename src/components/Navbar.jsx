@@ -257,20 +257,20 @@ const Navbar = () => {
               Home
             </NavLink>
 
-            <div class="dropdown-center">
+            <div className="dropdown-center">
               <button
-                class="btn text-white border-none hover:bg-blue-600 font-semibold text-xl dropdown-toggle"
+                className="btn text-white border-none hover:bg-blue-600 font-semibold text-xl dropdown-toggle"
                 type="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
                 Committees
               </button>
-              <ul class="dropdown-menu">
+              <ul className="dropdown-menu">
                 <li>
                   <NavLink
-                    onClick={window.scrollTo(0, 0)}
-                    class="dropdown-item"
+                    onClick={() => window.scrollTo(0, 0)}
+                    className="dropdown-item"
                     to="/patrons"
                   >
                     Patrons & Chairs
@@ -278,8 +278,8 @@ const Navbar = () => {
                 </li>
                 <li>
                   <NavLink
-                    onClick={window.scrollTo(0, 0)}
-                    class="dropdown-item"
+                    onClick={() => window.scrollTo(0, 0)}
+                    className="dropdown-item"
                     to="/organising-committee"
                   >
                     Organising Committee
@@ -287,8 +287,8 @@ const Navbar = () => {
                 </li>
                 <li>
                   <NavLink
-                    onClick={window.scrollTo(0, 0)}
-                    class="dropdown-item"
+                    onClick={() => window.scrollTo(0, 0)}
+                    className="dropdown-item"
                     to="/advisory-committee"
                   >
                     Advisory Committee
@@ -296,8 +296,8 @@ const Navbar = () => {
                 </li>
                 <li>
                   <NavLink
-                    onClick={window.scrollTo(0, 0)}
-                    class="dropdown-item"
+                    onClick={() => window.scrollTo(0, 0)}
+                    className="dropdown-item"
                     to="/Technical-committee"
                   >
                     Technical Program Committee
