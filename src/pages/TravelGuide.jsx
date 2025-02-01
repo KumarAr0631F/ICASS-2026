@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const TravelGuide = () => {
   return (
-    <div className=" py-10 px-5 md:px-20 text-justify">
+    <div className=" py-10  md:px-20 text-justify">
       <div className="max-w-4xl mx-auto bg-white shadow-md rounded-lg p-6">
         <h1 className="text-2xl md:text-3xl text-center font-bold text-blue-700 mb-4">
           Conference Venue
