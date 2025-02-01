@@ -17,18 +17,6 @@ const TravelGuide = () => {
         </p>
 
         <h2 className="text-xl font-semibold text-gray-800 mb-3">
-          About the Venue:
-        </h2>
-        <p className="text-gray-700 mb-4">
-          Manav Rachna University is renowned for its state-of-the-art campus
-          and world-class facilities, making it an ideal location for hosting
-          conferences, seminars, and academic events. Located in the heart of
-          the National Capital Region (NCR), the university offers a perfect
-          blend of modern infrastructure and a serene environment, ensuring a
-          productive and engaging experience for all participants.
-        </p>
-
-        <h2 className="text-xl font-semibold text-gray-800 mb-3">
           Venue Features:
         </h2>
         <ul className="list-disc list-inside text-gray-700 mb-4">
