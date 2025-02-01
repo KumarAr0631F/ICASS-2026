@@ -122,8 +122,7 @@ const Guideline = () => {
             </li>
             <li>
               The decision to accept or reject a paper rests with the Technical
-              Program Committee also conference chairs reserve the rights to exclude papers not
-              presented or meeting guidelines from the proceedings.
+              Program Committee. Also, conference chair reserves the right to exclude papers not presented or meeting guidelines.
             </li>
           </ul>
         </div>
