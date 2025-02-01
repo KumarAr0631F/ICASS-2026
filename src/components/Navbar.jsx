@@ -329,20 +329,20 @@ const Navbar = () => {
               Registration
             </NavLink>
 
-            <div class="dropdown-center">
+            <div className="dropdown-center">
               <button
-                class="btn text-white border-none hover:bg-blue-600 font-semibold text-xl dropdown-toggle"
+                className="btn text-white border-none hover:bg-blue-600 font-semibold text-xl dropdown-toggle"
                 type="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
                 Venue & Travels
               </button>
-              <ul class="dropdown-menu">
+              <ul className="dropdown-menu">
                 <li>
                   <NavLink
-                    onClick={window.scrollTo(0, 0)}
-                    class="dropdown-item"
+                    onClick={() => window.scrollTo(0, 0)}
+                    className="dropdown-item"
                     to="/venue"
                   >
                     Conference Venue
@@ -350,8 +350,8 @@ const Navbar = () => {
                 </li>
                 <li>
                   <NavLink
-                    onClick={window.scrollTo(0, 0)}
-                    class="dropdown-item"
+                    onClick={() => window.scrollTo(0, 0)}
+                    className="dropdown-item"
                     to="/accommodation"
                   >
                     Accommodation
@@ -359,8 +359,8 @@ const Navbar = () => {
                 </li>
                 <li>
                   <NavLink
-                    onClick={window.scrollTo(0, 0)}
-                    class="dropdown-item"
+                    onClick={() => window.scrollTo(0, 0)}
+                    className="dropdown-item"
                     to="/tourist-places"
                   >
                     Tourist Places nearby
@@ -368,7 +368,6 @@ const Navbar = () => {
                 </li>
               </ul>
             </div>
-
             <NavLink
               onClick={window.scrollTo(0, 0)}
               to="/contact"
