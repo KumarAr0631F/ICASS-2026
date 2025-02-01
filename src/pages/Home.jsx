@@ -53,15 +53,15 @@ const Home = () => {
             direction="left"
             className="py-1 text-center flex text-sm md:text-lg"
           >
-            Full Paper Submission Deadline:- 30<sup>th</sup> August, 2025
+            Full Paper Submission Deadline:- 30th August, 2025
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Notification of Acceptance:- 30<sup>th</sup> October, 2025
+            Notification of Acceptance:- 30th< October, 2025
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Registration Deadline:- 10<sup>th</sup> November, 2025
+            Registration Deadline:- 10th< November, 2025
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Camera Ready Submission Deadline:- 30<sup>th</sup> November, 2025
+            Camera Ready Submission Deadline:- 30th< November, 2025
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Conference Date:- 12<sup>th</sup> - 13<sup>th</sup> February, 2026
+            Conference Date:- 12th< - 13th< February, 2026
           </marquee>
         </div>
 
