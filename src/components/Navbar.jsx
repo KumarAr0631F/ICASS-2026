@@ -250,6 +250,7 @@ const Navbar = () => {
           <div className="flex items-center text-xl space-x-6">
             {/* Home Link */}
             <NavLink
+              onClick={window.scrollTo(0, 0)}
               to="/"
               className="font-semibold hover:bg-blue-600 px-3 py-2 rounded-md"
             >
@@ -267,22 +268,38 @@ const Navbar = () => {
               </button>
               <ul class="dropdown-menu">
                 <li>
-                  <a class="dropdown-item" href="/patrons">
+                  <a
+                    onClick={window.scrollTo(0, 0)}
+                    class="dropdown-item"
+                    href="/patrons"
+                  >
                     Patrons & Chairs
                   </a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="/organising-committee">
+                  <a
+                    onClick={window.scrollTo(0, 0)}
+                    class="dropdown-item"
+                    href="/organising-committee"
+                  >
                     Organising Committee
                   </a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="/advisory-committee">
+                  <a
+                    onClick={window.scrollTo(0, 0)}
+                    class="dropdown-item"
+                    href="/advisory-committee"
+                  >
                     Advisory Committee
                   </a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="/Technical-committee">
+                  <a
+                    onClick={window.scrollTo(0, 0)}
+                    class="dropdown-item"
+                    href="/Technical-committee"
+                  >
                     Technical Program Committee
                   </a>
                 </li>
@@ -291,18 +308,21 @@ const Navbar = () => {
 
             {/* Other Nav Links */}
             <NavLink
+              onClick={window.scrollTo(0, 0)}
               to="/schedule"
               className="font-semibold hover:bg-blue-600 px-3 py-2 rounded-md"
             >
               Conference Schedule
             </NavLink>
             <NavLink
+              onClick={window.scrollTo(0, 0)}
               to="/guidelines"
               className="font-semibold hover:bg-blue-600 px-3 py-2 rounded-md"
             >
               Author's Guidelines
             </NavLink>
             <NavLink
+              onClick={window.scrollTo(0, 0)}
               to="/registration"
               className="font-semibold hover:bg-blue-600 px-3 py-2 rounded-md"
             >
@@ -320,17 +340,29 @@ const Navbar = () => {
               </button>
               <ul class="dropdown-menu">
                 <li>
-                  <a class="dropdown-item" href="/venue">
+                  <a
+                    onClick={window.scrollTo(0, 0)}
+                    class="dropdown-item"
+                    href="/venue"
+                  >
                     Conference Venue
                   </a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="/accommodation">
+                  <a
+                    onClick={window.scrollTo(0, 0)}
+                    class="dropdown-item"
+                    href="/accommodation"
+                  >
                     Accommodation
                   </a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="/tourist-places">
+                  <a
+                    onClick={window.scrollTo(0, 0)}
+                    class="dropdown-item"
+                    href="/tourist-places"
+                  >
                     Tourist Places nearby
                   </a>
                 </li>
@@ -338,6 +370,7 @@ const Navbar = () => {
             </div>
 
             <NavLink
+              onClick={window.scrollTo(0, 0)}
               to="/contact"
               className="font-semibold hover:bg-blue-600 px-3 py-2 rounded-md"
             >
