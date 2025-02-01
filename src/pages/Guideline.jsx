@@ -77,7 +77,7 @@ const Guideline = () => {
           <ul className="list-decimal text-base sm:text-lg pl-5 space-y-2 text-gray-800 leading-relaxed">
             <li>All submissions must be made via Microsoft CMT.</li>
             <li>
-              Papers should strictly adhere to the IEEE, papers violating
+              Papers should strictly adhere to the IEEE format, papers violating
               formatting guidelines may be rejected.
             </li>
             <li>
@@ -105,29 +105,22 @@ const Guideline = () => {
               limit.
             </li>
             <li>
-              Papers will be reviewed based on originality, significance,
-              technical quality, and clarity.
-            </li>
-            <li>
-              The decision to accept or reject a paper rests with the Technical
-              Program Committee.
-            </li>
-            <li>
               Accepted papers must address reviewers' comments and meet final
               submission requirements.
             </li>
             <li>
-              The Conference Chair reserves the right to exclude papers not
-              presented or meeting guidelines from the proceedings.
-            </li>
-            <li>
               At least one author for each accepted paper must register and
               present their accepted paper in the conference for consideration
-              of publication on IEEE Xplore.
+              of publication in IEEE Xplore.
             </li>
             <li>
-              In case of more than one paper submissions by author (s), each
+              In case of more than one paper submissions by author(s), each
               accepted paper needs to be registered separately.
+            </li>
+            <li>
+              The decision to accept or reject a paper rests with the Technical
+              Program Committee also conference chairs reserve the rights to exclude papers not
+              presented or meeting guidelines from the proceedings.
             </li>
           </ul>
         </div>
