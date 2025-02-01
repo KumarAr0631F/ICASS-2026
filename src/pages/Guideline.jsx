@@ -130,8 +130,7 @@ const Guideline = () => {
               accepted paper needs to be registered separately.
             </li>
             <li>
-              The conference is scheduled to be conducted in hybrid mode from
-              12th-13th February, 2026.
+              
             </li>
           </ul>
         </div>
