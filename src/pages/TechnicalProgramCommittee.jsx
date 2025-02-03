@@ -119,7 +119,7 @@ const TechnicalProgramCommittee = () => {
             </li>
             <li>Ms Priyanka Mangla, Scientist D, ISRO, New Delhi, India</li>
             <li>
-              Mr Vineet Valentine Davis, Sr. Vice President, JSW Energy, India
+              Mr Vineet Valentine Davis, Chief Operating Officer, Welspun New Energy Ltd, Mumbai, India
             </li>
           </ul>
         </div>
