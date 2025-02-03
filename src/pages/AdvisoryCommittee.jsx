@@ -12,50 +12,57 @@ const AdvisoryCommittee = () => {
           </h2>
           <ul className="list-disc ml-6 mb-3 text-justify text-gray-700">
             <li>
-              Prof (Dr) Ramjee Prasad Professor, Aarhus University, Denmark
+              Prof (Dr) Ramjee Prasad, Professor, Aarhus University, Denmark
             </li>
             <li>
               Prof (Dr) Uma Jha, Senior IEEE Fellow and Professor of Practice,
               ECE, University of Florida, Gainesville, FloridaUSA
             </li>
             <li>
-              Prof (Dr) Parag Kulkarni, Professor, Tokyo International University, Japan and Founder, Chief Scientist and Advisor, iKnowlation Research Labs Pvt Ltd
+              Prof (Dr) Parag Kulkarni, Professor, Tokyo International
+              University, Japan and Founder, Chief Scientist and Advisor,
+              iKnowlation Research Labs Pvt Ltd
             </li>
             <li>
-              Prof (Dr) Wen-Cheng Lai Professor, Dept. of Electrical Eng., Ming
+              Dr Marta Zurek-Mortka, Head of Mechatronics and Prototyping
+              Centre, Lukasiewicz Research Network - Institute for Sustainable
+              Technologies, Warsaw, Poland
+            </li>
+            <li>
+              Prof (Dr) Wen-Cheng Lai, Professor, Dept. of Electrical Eng., Ming
               Chi University of Technology, Taiwan
             </li>
             <li>
-              Prof (Dr) Valentina Emilia Balas Professor, Aurel Vlaicu
+              Prof (Dr) Valentina Emilia Balas, Professor, Aurel Vlaicu
               University of Arad, Romania
             </li>
             <li>
-              Prof. (Dr) Prashant Jha Professor, MedTech Innovation and
+              Prof. (Dr) Prashant Jha, Professor, MedTech Innovation and
               Entrepreneurship, King’s College, London, UK
             </li>
             <li>
-              Prof (Dr.) Shipra Suman Professor, University of London, United
+              Prof (Dr.) Shipra Suman, Professor, University of London, United
               Kingdom
             </li>
             <li>
-              Prof (Dr) Vinod Kumar Professor, Department of Physics, The
+              Prof (Dr) Vinod Kumar, Professor, Department of Physics, The
               University of the West Indies, St. Augustine, Trinidad & Tobago.
             </li>
             <li>
-              Prof (Dr) Sudipto Ghosh Professor, Computer Science, Colorado
+              Prof (Dr) Sudipto Ghosh, Professor, Computer Science, Colorado
               State University, USA
             </li>
             <li>
-              Prof (Dr) John Martin Professor, School of Engineering and
+              Prof (Dr) John Martin, Professor, School of Engineering and
               Computer Science, Jazan University, Saudi Arabia
             </li>
             <li>
-              Prof (Dr) Madan Singh Professor, National University of Lesotho,
+              Prof (Dr) Madan Singh, Professor, National University of Lesotho,
               Lesotho, Southern Africa.
             </li>
-            <li>Prof (Dr) Gulshan Kumar Professor, BITS, Dubai, UAE</li>
+            <li>Prof (Dr) Gulshan Kumar, Professor, BITS, Dubai, UAE</li>
             <li>
-              Prof (Dr.) Saraju P Mohanty Professor, University of North Texas,
+              Prof (Dr.) Saraju P Mohanty, Professor, University of North Texas,
               Denton, Texas, USA
             </li>
             <li>
@@ -105,26 +112,17 @@ const AdvisoryCommittee = () => {
             National Advisory Committee
           </h3>
           <ul className="list-disc ml-6 mb-3 text-justify text-gray-700">
-            <li>
-              Dr. K R Suresh, Nair Chair, Adhoc Committee on Entrepreneurship
-              and Innovation , Asia Pacific R10, IEEE Managing Director, Amara
-              Raja Design Alpha Pvt. Ltd, Kerala
-            </li>
-            <li>Prof (Dr) Bhim Singh Professor, IIT Delhi, Delhi</li>
+            <li>Prof (Dr) Bhim Singh, Professor, IIT Delhi, Delhi</li>
             <li>
               Prof (Dr) MN Hooda, Director, Bharati Vidyapeeth's Institute of
               Computer Applications and Management, Delhi
             </li>
             <li>
-              Prof (Dr.) Anjana Gosain, Professor and Dean, USICT, GGSIPU, New
+              Prof (Dr) Anjana Gosain, Professor and Dean, USICT, GGSIPU, New
               Delhi
             </li>
             <li>Prof. (Dr) Prerna Gaur, Professor, NSUT, New Delhi</li>
-            <li>
-              Prof (Dr) Jasdeep Kaur Dhanoa, Professor and Head, Dept of ECE,
-              Indira Gandhi Delhi Technical University For Women, Kashmere Gate,
-              Delhi
-            </li>
+
             <li>
               Prof (Dr) Ranganath. M. Singari, Professor, Department of
               Mechanical Engineering, DTU

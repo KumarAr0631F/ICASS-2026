@@ -119,6 +119,7 @@ const Patrons = () => {
           </h2>
           <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
             <li>Dr Sachin Lakra, Professor, DoCST, MRU, Faridabad</li>
+            <li>Dr Aparna Vyas, Associate Professor, DoSc, MRU, Faridabad</li>
             <li>
               Dr Urmila Pilania, Associate Professor, DoCST, MRU, Faridabad
             </li>

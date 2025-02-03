@@ -17,7 +17,7 @@ const TechnicalProgramCommittee = () => {
             <li>Prof (Dr) Ajay Gairola, Professor, IIT Roorkee,UP</li>
             <li>Prof (Dr) K.V. Arya, Professor, IIITM, Gwalior</li>
             <li>
-              Prof (Dr.) Tanzila Saba, Professor, Prince Sultan University,
+              Prof (Dr) Tanzila Saba, Professor, Prince Sultan University,
               Riyadh, Saudi Arabia
             </li>
             <li>
@@ -42,7 +42,7 @@ const TechnicalProgramCommittee = () => {
             </li>
             <li>Prof (Dr) Amit, Professor, DTU, New Delhi</li>
             <li>
-              Prof (Dr.) C. Patvardhan, Professor, Dayalbagh Educational
+              Prof (Dr) C. Patvardhan, Professor, Dayalbagh Educational
               Institute, Agra
             </li>
             <li>
@@ -54,72 +54,72 @@ const TechnicalProgramCommittee = () => {
               Science and Technology, Faridabad
             </li>
             <li>
-              Dr. Sapna Gambhir, Associate Professor, John Mason University, USA
+              Dr Sapna Gambhir, Associate Professor, John Mason University, USA
             </li>
             <li>
-              Dr. Abhinav Dhall, Associate Professor, IIT Ropar, Flinders
+              Dr Abhinav Dhall, Associate Professor, IIT Ropar, Flinders
               University, Adelaide, Australia.
             </li>
             <li>
-              Dr. Rajiv Nandan Rai, Associate Professor, IIT Kharagpur, West
+              Dr Rajiv Nandan Rai, Associate Professor, IIT Kharagpur, West
               Bengal
             </li>
             <li>Dr Anuj Grover, Associate Professor, IIT Delhi, New Delhi</li>
             <li>
-              Dr. Jagdish Chand Bansal, Associate Professor, South Asian
+              Dr Jagdish Chand Bansal, Associate Professor, South Asian
               University, New Delhi
             </li>
             <li>
-              Dr. Nihar Ranjan Roy, Associate Professor and Head, CSE, Vivekanand
+              Dr Nihar Ranjan Roy, Associate Professor and Head, CSE, Vivekanand
               Institute of Professional Studies, New Delhi
             </li>
             <li>Dr. Anand Gupta, Associate Professor, NSUT, New Delhi</li>
             <li>
-              Dr. Vishal Gupta, Associate Professor, UIET, Punjab University
+              Dr Vishal Gupta, Associate Professor, UIET, Punjab University
             </li>
             <li>
-              Dr. Ashok Yadav, Associate Professor, Dayalbagh Educational
+              Dr Ashok Yadav, Associate Professor, Dayalbagh Educational
               Institute, Agra
             </li>
             <li>
               Dr Navdeep Dhaliwal, Associate Professor, MCM College Chandigarh
             </li>
             <li>
-              Dr. Naveen Sharma, Assistant Professor, Department of Mechanical
+              Dr Naveen Sharma, Assistant Professor, Department of Mechanical
               Engineering, NSUT, New Delhi
             </li>
             <li>
-              Dr. Ashima Singh, Assistant Professor, Thapar University, Patiala
+              Dr Ashima Singh, Assistant Professor, Thapar University, Patiala
             </li>
             <li>
-              Dr. Deepak Gupta, Assistant Professor, Maharaja Agrasen Institute
+              Dr Deepak Gupta, Assistant Professor, Maharaja Agrasen Institute
               of Technology, New Delhi
             </li>
             <li>
-              Ms. Neha Gupta, Assistant Professor, Bharti Vidyapith College of
+              Ms Neha Gupta, Assistant Professor, Bharti Vidyapith College of
               Engineering, New Delhi
             </li>
-            <li>Dr. Kumod Kumar Gupta, Assistant Professor, NIET, Noida</li>
-            <li>Dr. Samayveer Singh, Assistant Professor, NIT, Jalandhar</li>
-            <li>Dr. Vidhi Khanduja, Assistant Professor, Delhi University</li>
+            <li>Dr Kumod Kumar Gupta, Assistant Professor, NIET, Noida</li>
+            <li>Dr Samayveer Singh, Assistant Professor, NIT, Jalandhar</li>
+            <li>Dr Vidhi Khanduja, Assistant Professor, Delhi University</li>
             <li>
-              Dr. Divya Chaudhary, Assistant Professor, Northeastern University,
+              Dr Divya Chaudhary, Assistant Professor, Northeastern University,
               Seattle, USA
             </li>
             <li>
-              Mr. Anil Kumar Saini, Principal, Scientist, CEERI, Pilani, India
+              Mr Anil Kumar Saini, Principal, Scientist, CEERI, Pilani, India
             </li>
             <li>
-              Dr. Savita Maurya Shah, Managing Director, IMPEX Pvt.. Ltd.,
+              Dr Savita Maurya Shah, Managing Director, IMPEX Pvt.. Ltd.,
               Maharashtra
             </li>
-            <li>Ms. Samta Sapra, Lead Technical Analyst, TCS, USA</li>
+            <li>Ms Samta Sapra, Lead Technical Analyst, TCS, USA</li>
             <li>
-              Dr. Yogita Gupta, NPD Project Analyst, Kholer, Gurugram, India
+              Dr Yogita Gupta, NPD Project Analyst, Kholer, Gurugram, India
             </li>
-            <li>Ms. Priyanka Mangla, Scientist D, ISRO, New Delhi, India</li>
+            <li>Ms Priyanka Mangla, Scientist D, ISRO, New Delhi, India</li>
             <li>
-              Mr. Vineet Valentine Davis, Sr. Vice President, JSW Energy, India
+              Mr Vineet Valentine Davis, Sr. Vice President, JSW Energy, India
             </li>
           </ul>
         </div>
