@@ -6,6 +6,7 @@ import mru_poster from "./mru_poster.png";
 import mru_soe from "./mru_soe.jpg";
 import sponsor_logo_2 from "./sponsor_logo_2.png";
 import sponsor_logo_3 from "./sponsor_logo_3.png";
+import sponsor_logo_4 from "./sponsor_logo_4.png";
 import place_1 from "./place_1.png";
 import place_2 from "./place_2.png";
 import place_3 from "./place_3.png";
@@ -23,6 +24,7 @@ export const assets = {
   mru_soe,
   sponsor_logo_2,
   sponsor_logo_3,
+  sponsor_logo_4,
   place_1,
   place_2,
   place_3,
