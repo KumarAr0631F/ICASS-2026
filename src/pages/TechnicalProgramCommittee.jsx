@@ -17,10 +17,6 @@ const TechnicalProgramCommittee = () => {
             <li>Prof (Dr) Ajay Gairola, Professor, IIT Roorkee,UP</li>
             <li>Prof (Dr) K.V. Arya, Professor, IIITM, Gwalior</li>
             <li>
-              Prof (Dr) Tanzila Saba, Professor, Prince Sultan University,
-              Riyadh, Saudi Arabia
-            </li>
-            <li>
               Prof (Dr) M.P. Singh, Director, SET, Dr. Bhimrao Ambedkar
               University, Agra
             </li>
