@@ -103,55 +103,64 @@ const OrganisingCommitte = () => {
             </li>
           </ul>
           <h2 className="text-xl font-semibold text-gray-800">
-            Technical Program Chair(s)
+          Hospitality/ Accommodation Committee
           </h2>
           <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
-            <li>Dr D K Sharma, Professor, DoSc, MRU, Faridabad</li>
-            <li>Dr Joginder Singh, Professor, DoME, MRU, Faridabad</li>
-            <li>Dr Mrinal Pandey, Professor, DoCST, MRU, Faridabad</li>
+            <li>Dr Sanjay Singh, Associate Professor, DoCST,  MRU, Faridabad
+            </li>
+            <li>Dr Jai Prakash, Associate Professor, DoSc,  MRU, Faridabad
+            </li>
+            <li>Mr Pradeep Kr Mouria, Assistant Professor, DoME, MRU, Faridabad
+            </li>
             <li>
-              Dr Niharika Thakur, Associate Professor, DoECE, MRU, Faridabad
+            Mr Mandeep Bhadana, Assistant Professor, DoME, MRU, Faridabad
+            </li>
+            <li>
+            Dr Deepti Maikhuri, Assistant Professor, DoSc, MRU, Faridabad
             </li>
           </ul>
           <h2 className="text-xl font-semibold text-gray-800">
-            Steering Committee Chair
+          Industry Collaboration and Sponsorship Committee
           </h2>
           <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
-            <li>Dr Ajit Katiyar, Professor and Head, DoME, MRU, Faridabad</li>
-          </ul>
-          <h2 className="text-xl font-semibold text-gray-800">
-            Finance Chair/ Treasurer(s)
-          </h2>
-          <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
-            <li>Dr Sandeep Kumar, Professor, DoSc, MRU, Faridabad</li>
-            <li>Dr Chandni Magoo, Associate Head, DoCST, MRU, Faridabad</li>
-            <li>Dr J. P. Sharma, Associate Professor, DoME, MRU, Faridabad</li>
-            <li>Dr Nitika, Associate Professor, DoECE, MRU, Faridabad</li>
-          </ul>
-          <h2 className="text-xl font-semibold text-gray-800">
-            Publication Chair(s)
-          </h2>
-          <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
-            <li>Dr Sachin Lakra, Professor, DoCST, MRU, Faridabad</li>
-            <li>Dr Aparna Vyas, Associate Professor, DoSc, MRU, Faridabad</li>
-            <li>
-              Dr Urmila Pilania, Associate Professor, DoCST, MRU, Faridabad
+            <li>Dr Pooja Ahuja, Associate Professor, DoCST,  MRU, Faridabad
             </li>
-            <li>
-              Dr Priyanka Bansal, Associate Professor, DoECE, MRU, Faridabad
+            <li>Dr Abhishek Saxena, Associate Professor, DoCST,  MRU, Faridabad
             </li>
-            <li>
-              Dr Jitendra Pal Singh, Ramanujan Fellow, DoSc, MRU, Faridabad
+            <li>Dr Pawan Kumar Sharma, Associate Professor, DoECE,  MRU, Faridabad
             </li>
           </ul>
           <h2 className="text-xl font-semibold text-gray-800">
-            Publicity Chair(s)
+          Event Management Committee
           </h2>
           <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
-            <li>Dr Parneeta Dhaliwal, Professor, DoCST, MRU, Faridabad</li>
-            <li>Dr Mamta Arora, Associate Professor, DoCST, MRU, Faridabad</li>
-            <li>Dr Smriti Mishra, Associate Professor, DoME, MRU, Faridabad</li>
-            <li>Dr Arpit Sand, Professor, DoSc, MRU, Faridabad</li>
+            <li>Ms Anupriya Sharma, Assistant Professor, DoCST, MRU, Faridabad
+            </li>
+            <li>Dr Monika Garg, Associate Professor, DoCST, MRU, Faridabad
+            </li>
+            <li>Dr Deepti Thakral, Associate Professor, DoCST, MRU, Faridabad
+            </li>
+            <li>Dr Priti Gupta, Assistant Professor, DoECE, MRU, Faridabad</li>
+          </ul>
+          <h2 className="text-xl font-semibold text-gray-800">
+          Technical Report and Content Writing
+          </h2>
+          <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
+            <li>Dr Javed Idrisi, Professor, DoSc, MRU, Faridabad
+            </li>
+            <li>Dr Neelu Chaudhary, Associate Professor, DoCST, MRU, Faridabad
+            </li>
+            <li>
+            Mr Ram Chatterjee, Assistant Professor, DoCST, MRU, Faridabad
+            </li>
+          </ul>
+          <h2 className="text-xl font-semibold text-gray-800">
+          Graphics and Printing
+          </h2>
+          <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
+            <li>Mr Anup Singh Kushwaha, Assistant Professor, DoCST, MRU, Faridabad
+            </li>
+            <li>Dr Awwab Mohammad, Assistant Professor, DoCST, MRU, Faridabad</li>
           </ul>
         </div>
       </div>
