@@ -143,7 +143,7 @@ const AdvisoryCommittee = () => {
               Prof (Dr) B Balamurugan, Professor and Dean Academics, Shiv Nadar
               University, Noida
             </li>
-            <li>Mr. Kapil, Google, India</li>
+            <li>Mr. Sanjay Jain, Head of Google for Education, India</li>
             <li>Mr. Anil Kumar Saini, Scientist, CEERI, Pilani</li>
             <li>
               Prof (Dr) Amrita Rai, Professor, Lloyd College, Greater Noida

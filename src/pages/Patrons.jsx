@@ -134,7 +134,7 @@ const Patrons = () => {
             Publicity Chair(s)
           </h2>
           <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
-            <li>Dr Parneeta Dhariwal, Professor, DoCST, MRU, Faridabad</li>
+            <li>Dr Parneeta Dhaliwal, Professor, DoCST, MRU, Faridabad</li>
             <li>Dr Mamta Arora, Associate Professor, DoCST, MRU, Faridabad</li>
             <li>Dr Smriti Mishra, Associate Professor, DoME, MRU, Faridabad</li>
             <li>
