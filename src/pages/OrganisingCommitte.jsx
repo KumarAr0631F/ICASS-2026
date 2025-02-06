@@ -150,7 +150,7 @@ const OrganisingCommitte = () => {
               Dr Deepti Thakral, Associate Professor, DoCST, MRU, Faridabad
             </li>
             <li>Dr Priti Gupta, Assistant Professor, DoECE, MRU, Faridabad</li>
-            <li>Dr Ananna Bardhan, Assistant Professor, DoSc, MRU, Faridaba</li>
+            <li>Dr Ananna Bardhan, Assistant Professor, DoSc, MRU, Faridabad</li>
           </ul>
           <h2 className="text-xl font-semibold text-gray-800">
             Technical Report and Content Writing
