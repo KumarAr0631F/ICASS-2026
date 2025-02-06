@@ -19,12 +19,10 @@ const Patrons = () => {
           </ul>
 
           {/* Patrons */}
-          <h2 className="text-xl font-semibold text-gray-700">
-            Patron(s)
-          </h2>
+          <h2 className="text-xl font-semibold text-gray-700">Patron(s)</h2>
           <ul className="list-disc ml-6 text-justify text-gray-700">
             <li>
-              Prof (Dr) Deependra Kr Jha, Hon'ble Vice Chancellor, MRU,
+              Prof (Dr) Deependra Kumar Jha, Hon'ble Vice Chancellor, MRU,
               Faridabad
             </li>
             <li>
@@ -34,16 +32,14 @@ const Patrons = () => {
               Prof (Dr) Shruti Vashist, Professor and Dean (Academics), MRU,
               Faridabad
             </li>
-            <li>Sh Ramesh Nair, Registrar, MRU, Faridabad</li>
+            <li>Shri Ramesh Nair, Registrar, MRU, Faridabad</li>
           </ul>
         </div>
 
         {/* Chairs Section */}
         <div>
           {/* General Chair */}
-          <h2 className="text-xl font-medium text-gray-700">
-            General Chair
-          </h2>
+          <h2 className="text-xl font-medium text-gray-700">General Chair</h2>
           <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
             <li>
               Prof (Dr) Dipali Bansal, Professor and Dean, SoE, MRU, Faridabad
@@ -54,25 +50,35 @@ const Patrons = () => {
           <h2 className="text-xl font-medium text-gray-700">
             Conference Chair
           </h2>
-          <ul className="list-disc text-justify  ml-6 text-gray-700 mb-3">
+          <ul classNa me="list-disc text-justify  ml-6 text-gray-700 mb-3">
             <li>
               Prof (Dr) Manpreet Kaur, Professor and Head, DoCST, MRU, Faridabad
+            </li>
+          </ul>
+          <h2 className="text-xl font-medium text-gray-700">
+            Executive Chair(s)
+          </h2>
+          <ul classNa me="list-disc text-justify  ml-6 text-gray-700 mb-3">
+            <li>
+              Prof (Dr) Deepa Arora, Director QAA and Professor, DoSc MRU,
+              Faridabad
+            </li>
+            <li>
+              Prof (Dr) Meena Kapahi, Director International Relations and
+              Professor, DoSc, MRU, Faridabad
             </li>
           </ul>
         </div>
 
         {/* Additional Sections */}
         <div>
-          <h2 className="text-xl font-semibold text-gray-800">
-            Convener(s)
-          </h2>
+          <h2 className="text-xl font-semibold text-gray-800">Convener(s)</h2>
           <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
             <li>
-              Dr Meenakshi Gupta, Associate Professor, Associate Head, DoECE, MRU, Faridabad
+              Dr Meenakshi Gupta, Associate Professor, Associate Head, DoECE,
+              MRU, Faridabad
             </li>
-            <li>
-              Dr Ganga Sharma, Associate Professor, DoCST, MRU, Faridabad
-            </li>
+            <li>Dr Ganga Sharma, Associate Professor, DoCST, MRU, Faridabad</li>
           </ul>
 
           <h2 className="text-xl font-semibold text-gray-800">
@@ -91,34 +97,46 @@ const Patrons = () => {
           </h2>
           <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
             <li>
-              Dr D K Sharma, Professor, DoSc, MRU, Faridabad
+              Prof (Dr) D K Sharma, Dean Examination and Professor, DoSc, MRU,
+              Faridabad
             </li>
-            <li>Dr Joginder Singh, Professor, DoME, MRU, Faridabad</li>
-            <li>Dr Mrinal Pandey, Professor, DoCST, MRU, Faridabad</li>
-            <li>Dr Niharika Thakur, Associate Professor, DoECE, MRU, Faridabad</li>
+            <li>Prof (Dr) Joginder Singh, Professor, DoME, MRU, Faridabad</li>
+            <li>Prof (Dr) Mrinal Pandey, Professor, DoCST, MRU, Faridabad</li>
+            <li>
+              Dr Niharika Thakur, Associate Professor, DoECE, MRU, Faridabad
+            </li>
           </ul>
           <h2 className="text-xl font-semibold text-gray-800">
-            Steering Committee Chair
+            Steering Committee Chair(s)
           </h2>
           <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
-            <li>Dr Ajit Katiyar, Professor and Head, DoME, MRU, Faridabad</li>
+            <li>Prof (Dr) Ajit, Professor and Head, DoME, MRU, Faridabad</li>
+            <li>
+              Prof (Dr) Prinima Gupta, Director PhD and Professor, DoCST, MRU,
+              Faridabad
+            </li>
+            <li>
+              Prof (Dr) Jyoti Pruthi, Director Regional Outreach and Professor,
+              DoCST, MRU, Faridabad
+            </li>
           </ul>
           <h2 className="text-xl font-semibold text-gray-800">
             Finance Chair/ Treasurer(s)
           </h2>
           <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
-            <li>
-              Dr Sandeep Kumar, Professor, DoSc, MRU, Faridabad
-            </li>
+            <li>Prof (Dr) Sandeep Kumar, Professor, DoSc, MRU, Faridabad</li>
             <li>Dr Chandni Magoo, Associate Head, DoCST, MRU, Faridabad</li>
-            <li>Dr J. P. Sharma, Associate Professor, DoME, MRU, Faridabad</li>
+            <li>Dr J P Sharma, Associate Professor, DoME, MRU, Faridabad</li>
+            <li>
+              Ms Shefali Chopra, Dy Registrar Examination and R&S, MRU Faridabad
+            </li>
             <li>Dr Nitika, Associate Professor, DoECE, MRU, Faridabad</li>
           </ul>
           <h2 className="text-xl font-semibold text-gray-800">
             Publication Chair(s)
           </h2>
           <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
-            <li>Dr Sachin Lakra, Professor, DoCST, MRU, Faridabad</li>
+            <li>Prof (Dr) Sachin Lakra, Professor, DoCST, MRU, Faridabad</li>
             <li>Dr Aparna Vyas, Associate Professor, DoSc, MRU, Faridabad</li>
             <li>
               Dr Urmila Pilania, Associate Professor, DoCST, MRU, Faridabad
@@ -134,12 +152,12 @@ const Patrons = () => {
             Publicity Chair(s)
           </h2>
           <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
-            <li>Dr Parneeta Dhaliwal, Professor, DoCST, MRU, Faridabad</li>
+            <li>
+              Prof (Dr) Parneeta Dhaliwal, Professor, DoCST, MRU, Faridabad
+            </li>
             <li>Dr Mamta Arora, Associate Professor, DoCST, MRU, Faridabad</li>
             <li>Dr Smriti Mishra, Associate Professor, DoME, MRU, Faridabad</li>
-            <li>
-              Dr Arpit Sand, Professor, DoSc, MRU, Faridabad
-            </li>
+            <li>Prof (Dr) Arpit Sand, Professor, DoSc, MRU, Faridabad</li>
           </ul>
         </div>
       </div>
