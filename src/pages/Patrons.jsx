@@ -50,7 +50,7 @@ const Patrons = () => {
           <h2 className="text-xl font-medium text-gray-700">
             Conference Chair
           </h2>
-          <ul classNa me="list-disc text-justify  ml-6 text-gray-700 mb-3">
+          <ul className="list-disc text-justify  ml-6 text-gray-700 mb-3">
             <li>
               Prof (Dr) Manpreet Kaur, Professor and Head, DoCST, MRU, Faridabad
             </li>
@@ -58,7 +58,7 @@ const Patrons = () => {
           <h2 className="text-xl font-medium text-gray-700">
             Executive Chair(s)
           </h2>
-          <ul classNa me="list-disc text-justify  ml-6 text-gray-700 mb-3">
+          <ul className="list-disc text-justify  ml-6 text-gray-700 mb-3">
             <li>
               Prof (Dr) Deepa Arora, Director QAA and Professor, DoSc MRU,
               Faridabad
@@ -152,12 +152,10 @@ const Patrons = () => {
             Publicity Chair(s)
           </h2>
           <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
-            <li>
-              Prof (Dr) Parneeta Dhaliwal, Professor, DoCST, MRU, Faridabad
-            </li>
+            <li>Prof (Dr) Parneeta Dhaliwal, Professor, DoCST, MRU, Faridabad</li>
             <li>Dr Mamta Arora, Associate Professor, DoCST, MRU, Faridabad</li>
             <li>Dr Smriti Mishra, Associate Professor, DoME, MRU, Faridabad</li>
-            <li>Prof (Dr) Arpit Sand, Professor, DoSc, MRU, Faridabad</li>
+            <li>Dr Arpit Sand, Professor, DoSc, MRU, Faridabad</li>
           </ul>
         </div>
       </div>
