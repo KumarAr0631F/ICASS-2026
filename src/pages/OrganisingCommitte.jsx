@@ -80,7 +80,7 @@ const OrganisingCommitte = () => {
             <li>
               Dr Piyush Charan, Associate Professor, DoECE, MRU, Faridabad
             </li>
-            <li>DDr A Jayamani, Assistant Professor, DoSc, MRU, Faridabad</li>
+            <li>Dr A Jayamani, Assistant Professor, DoSc, MRU, Faridabad</li>
             <li>
               Dr Piyush Mahendru, Assistant Professor, DoME, MRU, Faridabad
             </li>
