@@ -44,9 +44,9 @@ const AdvisoryCommittee = () => {
           </h3>
           <ul className="list-disc ml-6 mb-3 text-justify text-gray-700">
             <li>Prof (Dr) Bhim Singh, Professor, IIT Delhi, Delhi</li>
-            <li>Prof (Dr) MN Hooda, Director, Bharati Vidyapeeth's Institute of Computer Applications and Management, Delhi</li>
+            <li>Prof (Dr) MN Hoda, Director, Bharati Vidyapeeth's Institute of Computer Applications and Management, Delhi</li>
             <li>Prof (Dr) Anjana Gosain, Professor and Dean, USICT, GGSIPU, New Delhi</li>
-            <li>Prof (Dr) Prerna Gaur, Professor, NSUT, New Delhi</li>
+            <li>Prof (Dr) Prerna Gaur, Chair, IEEE India Council and Director, NSUT, New Delhi</li>
             <li>Prof (Dr) Ranganath. M. Singari, Professor, Department of Mechanical Engineering, DTU</li>
             <li>Prof (Dr) MPS Bhatia, Professor, NSUT, New Delhi</li>
             <li>Prof (Dr) Vasudha Bhatnagar, Professor, DTU, New Delhi</li>
