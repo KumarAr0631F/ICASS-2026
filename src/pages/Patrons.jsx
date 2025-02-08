@@ -142,7 +142,7 @@ const Patrons = () => {
               Dr Urmila Pilania, Associate Professor, DoCST, MRU, Faridabad
             </li>
             <li>
-              Dr Priyanka Bansal, Associate Professor, DoECE, MRU, Faridabad
+              Dr Priyanka Bansal, Professor, DoECE, MRU, Faridabad
             </li>
             <li>
               Dr Jitendra Pal Singh, Ramanujan Fellow, DoSc, MRU, Faridabad
