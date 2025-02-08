@@ -48,14 +48,14 @@ const Navbar = () => {
               className="h-[64px] w-[160px]"
             />
           </NavLink>
-          <img src={assets.mru_logo} alt="Logo 2" className="h-10 w-auto" />
+          <img src={assets.mru_logo} alt="Logo 2" className="h-10 w-auto " />
           <img src={assets.mru_soe} alt="Logo 3" className="h-10 w-auto" />
           <img src={assets.mru} alt="Logo 4" className="h-10 w-auto" />
         </div>
 
         <div className="ml-6">
           <Link
-            to="https://cmt3.research.microsoft.com/User/Login"
+            to="https://cmt3.research.microsoft.com/ICASS2026/"
             target="_blank"
             className="bg-red-500 py-2 px-6 text-center text-white rounded-lg transition duration-200 hover:bg-red-600"
           >
@@ -234,7 +234,7 @@ const Navbar = () => {
           </li>
           <div>
             <Link
-              to="https://cmt3.research.microsoft.com/User/Login"
+              to="https://cmt3.research.microsoft.com/ICASS2026/"
               target="_blank"
               className="bg-red-500 py-1 px-6 text-center text-white rounded-lg transition duration-200 hover:bg-red-600"
             >

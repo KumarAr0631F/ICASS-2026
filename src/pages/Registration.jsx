@@ -176,7 +176,7 @@ const Registration = () => {
           </div>
           <div className="mt-7 flex justify-center">
             <NavLink
-              to={"https://cmt3.research.microsoft.com/User/Login"}
+              to={"https://cmt3.research.microsoft.com/ICASS2026/"}
               className="bg-red-500 rounded-lg cursor-pointer p-2.5 m-4 text-white hover:bg-red-600 transition-all duration-300"
             >
               Submit Your Paper
