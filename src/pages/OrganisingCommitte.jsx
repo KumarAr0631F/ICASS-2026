@@ -15,9 +15,9 @@ const OrganisingCommitte = () => {
           </h2>
           <ul className="list-disc ml-6 mb-3 text-justify text-gray-700">
             <li>Dr Ranjana Jain, Associate Professor, DoCST, MRU, Faridabad</li>
-            <li>Dr Meena Chaudahry, Associate Professor, MRU, Faridabad</li>
+            <li>Dr Meena Chaudhary, Associate Professor, MRU, Faridabad</li>
             <li>Dr Ekta Rawat, Assistant Professor, DoSc, MRU, Faridabad</li>
-            <li>Mr Varun Yadav, Assistant Professor,  DoECE, MRU, Faridabad</li>
+            <li>Mr Varun Yadav, Assistant Professor, DoECE, MRU, Faridabad</li>
             <li>Ms Jyoti Nanwal, DoCST, MRU, Faridabad</li>
             <li>
               Mr Nazish Ahmad Samsi, Assistant Professor, DoME, MRU, Faridabad
@@ -36,7 +36,7 @@ const OrganisingCommitte = () => {
               Mr Deepak, Superintendent, Office of Dean Engg, MRU, Faridabad
             </li>
             <li>
-              Mr Sanjeev Kumar Kannojia, Office Coordinator, DoCST, MRU
+              Mr Sanjeev Kumar Kannojia, Office Coordinator, DoCST, MRU,
               Faridabad
             </li>
           </ul>
@@ -49,11 +49,11 @@ const OrganisingCommitte = () => {
             Publication Committee
           </h2>
           <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
-            <li>Dr S K Shukla, Professor, DoSc,MRU, Faridabad</li>
+            <li>Dr S K Shukla, Professor, DoSc, MRU, Faridabad</li>
             <li>Dr Charu Pathak, Professor, DoECE, MRU, Faridabad</li>
-            <li>Dr Manoj Kumar, DoCST, MRU, Faridabad</li>
+            <li>Dr Manoj Kumar, Associate Professor, DoCST, MRU, Faridabad</li>
             <li>Dr Zeba Naaz, Assistant Professor, DoME, MRU, Faridabad</li>
-            <li>Dr Shalu, Assistant Professor, DoCST,  MRU, Faridabad</li>
+            <li>Dr Shalu, Assistant Professor, DoCST, MRU, Faridabad</li>
             <li>Ms Ashima, Assistant Professor, DoCST, MRU, Faridabad</li>
           </ul>
 
@@ -94,7 +94,7 @@ const OrganisingCommitte = () => {
           </h2>
           <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
             <li>
-              Dr Bhanu Pratap Chaudhary, Assistant Professor,  DoECE, MRU,
+              Dr Bhanu Pratap Chaudhary, Assistant Professor, DoECE, MRU,
               Faridabad
             </li>
             <li>
@@ -105,7 +105,7 @@ const OrganisingCommitte = () => {
             </li>
             <li>Ms Esha Khanna, Assistant Professor, DoCST, MRU, Faridabad</li>
             <li>
-              Ms Tamanna Sachdeva, Assistant Professor DoCST,  MRU, Faridabad
+              Ms Tamanna Sachdeva, Assistant Professor, DoCST, MRU, Faridabad
             </li>
           </ul>
           <h2 className="text-xl font-semibold text-gray-800">
@@ -113,14 +113,14 @@ const OrganisingCommitte = () => {
           </h2>
           <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
             <li>
-              Dr Sanjay Singh, Associate Professor, DoCST,  MRU, Faridabad
+              Dr Sanjay Singh, Associate Professor, DoCST, MRU, Faridabad
             </li>
-            <li>Dr Jai Prakash, Associate Professor, DoSc,  MRU, Faridabad</li>
+            <li>Dr Jai Prakash, Associate Professor, DoSc, MRU, Faridabad</li>
             <li>
               Mr Pradeep Kr Mouria, Assistant Professor, DoME, MRU, Faridabad
             </li>
             <li>
-              Mr Mandeep Bhadana, Assistant Professor, DoME, MRU, Faridabad
+              Mr Mandeep Bhadana, Assistant Professor, DoME, MRU, Faridabad
             </li>
             <li>
               Dr Deepti Maikhuri, Assistant Professor, DoSc, MRU, Faridabad
@@ -130,12 +130,12 @@ const OrganisingCommitte = () => {
             Industry Collaboration and Sponsorship Committee
           </h2>
           <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
-            <li>Dr Pooja Ahuja, Associate Professor, DoCST,  MRU, Faridabad</li>
+            <li>Dr Pooja Ahuja, Associate Professor, DoCST, MRU, Faridabad</li>
             <li>
-              Dr Abhishek Saxena, Associate Professor, DoCST,  MRU, Faridabad
+              Dr Abhishek Saxena, Associate Professor, DoCST, MRU, Faridabad
             </li>
             <li>
-              Dr Pawan Kumar Sharma, Associate Professor, DoECE,  MRU, Faridabad
+              Dr Pawan Kumar Sharma, Associate Professor, DoECE, MRU, Faridabad
             </li>
           </ul>
           <h2 className="text-xl font-semibold text-gray-800">
