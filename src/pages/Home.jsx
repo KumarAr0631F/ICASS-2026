@@ -451,7 +451,7 @@ const Home = () => {
               that contribute to sustainable development.
             </p>
           </div>
-          <div className="mt-5">
+          {/* <div className="mt-5">
             <h1 className="text-blue-700 text-2xl md:text-3xl font-bold">
               Publication Opportunity
             </h1>
@@ -463,7 +463,7 @@ const Home = () => {
               submitted for publication in various SCOPUS indexed journals (with
               additional cost).
             </p>
-          </div>
+          </div> */}
           <div className="mt-5">
             <h3 className="text-blue-700 text-2xl md:text-3xl font-bold">
               Our Sponsors

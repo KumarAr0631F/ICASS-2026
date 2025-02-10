@@ -9,8 +9,7 @@ const AdvisoryCommittee = () => {
             International Advisory Committee
           </h2>
           <ul className="list-disc ml-6 mb-3 text-justify text-gray-700">
-            <li>Prof (Dr) Ramjee Prasad, Professor, Aarhus University, Denmark</li>
-            <li>Prof (Dr) Uma Jha, Senior IEEE Fellow and Professor of Practice, ECE, University of Florida, Gainesville, Florida USA</li>
+            <li>Prof (Dr) Uma Jha, Senior IEEE Fellow and Professor of Practice, ECE, University of Florida, Gainesville, Florida, USA</li>
             <li>Prof (Dr) Parag Kulkarni, Professor, Tokyo International University, Japan and Founder, Chief Scientist and Advisor, iKnowlation Research Labs Pvt Ltd</li>
             <li>Dr Marta Zurek-Mortka, Head of Mechatronics and Prototyping Centre, Lukasiewicz Research Network - Institute for Sustainable Technologies, Warsaw, Poland</li>
             <li>
@@ -18,18 +17,18 @@ const AdvisoryCommittee = () => {
             </li>
             <li>Prof (Dr) Wen-Cheng Lai, Professor, Dept. of Electrical Eng., Ming Chi University of Technology, Taiwan</li>
             <li>Prof (Dr) Valentina Emilia Balas, Professor, Aurel Vlaicu University of Arad, Romania</li>
-            <li>Prof. (Dr) Prashant Jha, Professor, MedTech Innovation and Entrepreneurship, King’s College, London, UK</li>
+            <li>Prof (Dr) Prashant Jha, Professor, MedTech Innovation and Entrepreneurship, King’s College, London, UK</li>
             <li>Prof (Dr) Shipra Suman, Professor, University of London, United Kingdom</li>
-            <li>Prof (Dr) Vinod Kumar, Professor, Department of Physics, The University of the West Indies, St. Augustine, Trinidad & Tobago.</li>
+            <li>Prof (Dr) Vinod Kumar, Professor, Department of Physics, The University of the West Indies, St. Augustine, Trinidad & Tobago</li>
             <li>Prof (Dr) Sudipto Ghosh, Professor, Computer Science, Colorado State University, USA</li>
             <li>Prof (Dr) John Martin, Professor, School of Engineering and Computer Science, Jazan University, Saudi Arabia</li>
-            <li>Prof (Dr) Madan Singh, Professor, National University of Lesotho, Lesotho, Southern Africa.</li>
+            <li>Prof (Dr) Madan Singh, Professor, National University of Lesotho, Lesotho, Southern Africa</li>
             <li>Prof (Dr) Gulshan Kumar, Professor, BITS, Dubai, UAE</li>
             <li>Dr Muluneh Lemma Woldesemayat, Associate Professor and Scientific Director of Arba Minch Institute of Technology (AMiT), Bsc, Arba Minch University, Ethiopia</li>
             <li>Dr Milkias Berhanu Tuka, Associate Professor, Addis Ababa Science and Technology University, College of Engineering, Ethiopia</li>
             <li>Dr Arindam Pal, Director, Data Science and Optimization, Optym Bangaluru, Conjoint Senior Lecturer, University of New South Wales, Sydney, Australia</li>
             <li>Dr Parnika Gupta, Senior Engineer, Global Foundries, Belgium</li>
-            <li>Dr Promod Thakur, Assistant Professor, Hubert Curien Laboratory, Jean Monnet University in Saint-Etienne, France.</li>
+            <li>Dr Promod Thakur, Assistant Professor, Hubert Curien Laboratory, Jean Monnet University in Saint-Etienne, France</li>
             <li>Dr Mohit Mittal, Data Scientist, Shiratech-Knowtion GmgH, Germany</li>
             <li>Dr Jae Yeon Park, Senior Researcher, Korea Atomic Energy Research Institute, Daejeon, South Korea</li>
             <li>Dr Mohammad Ali Jallal, Research Fellow, French Alternative Energies and Atomic Energy Commission (CEA), Paris-Saclay, France</li>
@@ -43,7 +42,8 @@ const AdvisoryCommittee = () => {
             National Advisory Committee
           </h3>
           <ul className="list-disc ml-6 mb-3 text-justify text-gray-700">
-            <li>Prof (Dr) Bhim Singh, Professor, IIT Delhi, Delhi</li>
+            <li>Prof (Dr) Bhim Singh, SERB National Science Chair and Professor Emeritus, IIT Delhi, Delhi</li>
+            <li>Mr Deepak Mathur, Vice President, IEEE MGA</li>
             <li>Prof (Dr) MN Hoda, Director, Bharati Vidyapeeth's Institute of Computer Applications and Management, Delhi</li>
             <li>Prof (Dr) Anjana Gosain, Professor and Dean, USICT, GGSIPU, New Delhi</li>
             <li>Prof (Dr) Prerna Gaur, Chair, IEEE India Council and Director, NSUT, New Delhi</li>
