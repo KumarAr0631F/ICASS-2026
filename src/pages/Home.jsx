@@ -105,7 +105,7 @@ const Home = () => {
               automation, and sustainable technologies. The primary focus of the
               conference is to address the growing need for innovative solutions
               that integrate cutting-edge technology with sustainability
-              principles to address global challenges. The conference is scheduled to be conducted in hybrid mode from 12th-13th February, 2026(Conference proposal is submitted to IEEE Delhi Section).
+              principles to address global challenges. The conference is scheduled to be conducted in hybrid mode from 12th-13th February, 2026.
             </p>
           </div>
           {/* About Manav Rachna University */}

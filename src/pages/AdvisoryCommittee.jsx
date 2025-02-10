@@ -44,21 +44,25 @@ const AdvisoryCommittee = () => {
           <ul className="list-disc ml-6 mb-3 text-justify text-gray-700">
             <li>Prof (Dr) Bhim Singh, SERB National Science Chair and Professor Emeritus, IIT Delhi, Delhi</li>
             <li>Mr Deepak Mathur, Vice President, IEEE MGA</li>
-            <li>Prof (Dr) MN Hoda, Director, Bharati Vidyapeeth's Institute of Computer Applications and Management, Delhi</li>
-            <li>Prof (Dr) Anjana Gosain, Professor and Dean, USICT, GGSIPU, New Delhi</li>
+            <li>Prof (Dr) MN Hoda, Chairperson, IEEE Delhi Section and Director, Bharati Vidyapeeth's Institute of Computer Science Applications and Management, Delhi</li>
             <li>Prof (Dr) Prerna Gaur, Chair, IEEE India Council and Director, NSUT, New Delhi</li>
-            <li>Prof (Dr) Ranganath. M. Singari, Professor, Department of Mechanical Engineering, DTU</li>
-            <li>Prof (Dr) MPS Bhatia, Professor, NSUT, New Delhi</li>
+            <li>Prof (Dr) Anjana Gosain, Professor and Dean, USICT, GGSIPU, New Delhi</li>
+            <li>Prof (Dr) Ranganath M. Singari, Professor, Department of Mechanical Engineering, DTU</li>
+            <li>Prof (Dr) M P S Bhatia, Professor, NSUT, New Delhi</li>
             <li>Prof (Dr) Vasudha Bhatnagar, Professor, DTU, New Delhi</li>
             <li>Prof (Dr) B V R Reddy, Professor, USICT, GGSIPU, New Delhi</li>
             <li>Prof (Dr) Deepti Gupta, Professor, IIT Bombay, Mumbai</li>
             <li>Prof (Dr) Arpan K Kar, Professor, IIT Delhi, New Delhi</li>
-            <li>Prof (Dr) I. K. Bhat, Ex VC, Manav Rachna University, Faridabad</li>
-            <li>Prof (Dr) M. Emran Khan, Professor, Department of Mechanical Engineering, JMI, Delhi</li>
+            <li>Prof (Dr) I K Bhat, Ex VC, Manav Rachna University, Faridabad</li>
+            <li>Prof (Dr) M Emran Khan, Professor, Department of Mechanical Engineering, JMI, Delhi</li>
+            <li>Prof (Dr) Sanjeev Sofat, Professor, Department of CSE, PEC University of Technology, Chadigarh</li>
             <li>Prof (Dr) B Balamurugan, Professor and Dean Academics, Shiv Nadar University, Noida</li>
-            <li>Mr Sanjay Jain, Head of Google for Education, India</li>
+            <li>Prof (Dr) Mangey Ram, Professor and Dean (Research and Collaborations), Graphic Era University,Dehradun</li>
+            <li>Mr Sanjay Jain, Head of Google for Education, Google, India</li>
             <li>Mr Anil Kumar Saini, Scientist, CEERI, Pilani</li>
-            <li>Prof (Dr) Amrita Rai, Professor, Lloyd College, Greater Noida</li>
+            <li>Prof (Dr) Amrita Rai, Professor, Lloyd College, Greater Noida
+            </li>
+            <li>Dr Abhilasha Rakesh Vyas, Busuness and Technology Associate Delivery Manager, Accenture, India and Co-Convener, Women in Tech Wing, GESIA IT Association, Ahmedabad, Gujarat</li>
           </ul>
         </div>
       </div>
