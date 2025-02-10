@@ -12,16 +12,16 @@ const TechnicalProgramCommittee = () => {
           </h2>
           <ul className="list-disc ml-6 mb-3 text-justify text-gray-700">
             <li>
-              Prof (Dr) A.S. Siddiqui, Professor, Jamia Milia Islamia, New Delhi
+              Prof (Dr) A S Siddiqui, Professor, Jamia Milia Islamia, New Delhi
             </li>
-            <li>Prof (Dr) Ajay Gairola, Professor, IIT Roorkee,UP</li>
-            <li>Prof (Dr) K.V. Arya, Professor, IIITM, Gwalior</li>
+            <li>Prof (Dr) Ajay Gairola, Professor, IIT Roorkee, UP</li>
+            <li>Prof (Dr) K V Arya, Professor, IIITM, Gwalior</li>
             <li>
-              Prof (Dr) M.P. Singh, Director, SET, Dr. Bhimrao Ambedkar
+              Prof (Dr) M P Singh, Director, SET, Dr. Bhimrao Ambedkar
               University, Agra
             </li>
             <li>
-              Prof (Dr) M. R. Tyagi, Adjunct Professor, Department of Mechanical
+              Prof (Dr) M R Tyagi, Adjunct Professor, Department of Mechanical
               Engineering, MRU, Faridabad
             </li>
             <li>
@@ -33,22 +33,31 @@ const TechnicalProgramCommittee = () => {
               Riyadh, Saudi Arabia
             </li>
             <li>
-              Prof (Dr) Ashok Mittal, Professor, Department of Electronics and
-              Communication Engineering, NSUT, New Delhi
+              Prof (Dr) Ashok Mittal, Professor, Department of ECE, NSUT, New
+              Delhi
             </li>
             <li>Prof (Dr) Amit, Professor, DTU, New Delhi</li>
             <li>
-              Prof (Dr) C. Patvardhan, Professor, Dayalbagh Educational
+              Prof (Dr) C Patvardhan, Professor, Dayalbagh Educational
               Institute, Agra
             </li>
             <li>
-              Prof (Dr) Komal Bhatia, Professor, J. C. Bose University of Science
-              and Technology, Faridabad
+              Prof (Dr) Komal Bhatia, Professor, J. C. Bose University of
+              Science and Technology, Faridabad
             </li>
             <li>
               Prof (Dr) Munish Vashishtha, Professor, J. C. Bose University of
               Science and Technology, Faridabad
             </li>
+            <li>
+              Prof (Dr) Sanjeev Kr Singh, Professor and Dean (Basic and Applied
+              Sciences), Galgotias University, Greater Noida
+            </li>
+            <li>
+              Prof (Dr) Shilpy Agrawal, Professor, Galgotias University, Greater
+              Noida
+            </li>
+            <li>Prof (Dr) Anuj Kumar, Professor, DY Patil University, Pune</li>
             <li>
               Dr Sapna Gambhir, Associate Professor, John Mason University, USA
             </li>
@@ -91,16 +100,24 @@ const TechnicalProgramCommittee = () => {
               Dr Deepak Gupta, Assistant Professor, Maharaja Agrasen Institute
               of Technology, New Delhi
             </li>
-            <li>
-              Ms Neha Gupta, Assistant Professor, Bharti Vidyapith College of
-              Engineering, New Delhi
-            </li>
             <li>Dr Kumod Kumar Gupta, Assistant Professor, NIET, Noida</li>
             <li>Dr Samayveer Singh, Assistant Professor, NIT, Jalandhar</li>
             <li>Dr Vidhi Khanduja, Assistant Professor, Delhi University</li>
             <li>
               Dr Divya Chaudhary, Assistant Professor, Northeastern University,
               Seattle, USA
+            </li>
+            <li>
+              Dr Sumita Gupta, Assistant Professor, Amity School of Engineering
+              & Technology, Amity University, Noida
+            </li>
+            <li>
+              Dr Vibhor Kumar, Researcher, Texas A&M University, College
+              Station, Texas, USA
+            </li>
+            <li>
+              Ms Neha Gupta, Assistant Professor, Bharti Vidyapith College of
+              Engineering, New Delhi
             </li>
             <li>
               Mr Anil Kumar Saini, Principal, Scientist, CEERI, Pilani, India
@@ -115,7 +132,8 @@ const TechnicalProgramCommittee = () => {
             </li>
             <li>Ms Priyanka Mangla, Scientist D, ISRO, New Delhi, India</li>
             <li>
-              Mr Vineet Valentine Davis, Chief Operating Officer, Welspun New Energy Ltd, Mumbai, India
+              Mr Vineet Valentine Davis, Chief Operating Officer, Welspun New
+              Energy Ltd, Mumbai, India
             </li>
           </ul>
         </div>
