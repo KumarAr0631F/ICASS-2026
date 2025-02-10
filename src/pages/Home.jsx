@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 
 import "./Home.css";
 import AutoSlidingCarousel from "./AutoSlidingCarousel";
+import Countdown from "./Countdown";
 
 const Home = () => {
   const [openTrackOne, setOpenTrackOne] = useState(false);
@@ -84,6 +85,8 @@ const Home = () => {
           </p>
         </div>
       </div> */}
+
+      <Countdown/>
 
         {/* Content Wrapper */}
         <div className="w-full max-w-6xl px-4 md:px-8 lg:px-12 py-8">
