@@ -86,7 +86,7 @@ const Home = () => {
         </div>
       </div> */}
 
-      <Countdown/>
+      {/* <Countdown/> */}
 
         {/* Content Wrapper */}
         <div className="w-full max-w-6xl px-4 md:px-8 lg:px-12 py-8">
