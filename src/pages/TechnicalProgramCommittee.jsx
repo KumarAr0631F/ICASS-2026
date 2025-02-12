@@ -135,6 +135,10 @@ const TechnicalProgramCommittee = () => {
               Mr Vineet Valentine Davis, Chief Operating Officer, Welspun New
               Energy Ltd, Mumbai, India
             </li>
+            <li>Dr Manoj K Singh, Associate Professor, Bennett University, Nolda</li>
+            <li>
+              Dr Sangeeta Pant, Associate Professor, Symbiosis International University, Pune, India
+            </li>
           </ul>
         </div>
       </div>
