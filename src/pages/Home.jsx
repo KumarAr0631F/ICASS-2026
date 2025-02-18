@@ -99,7 +99,7 @@ const Home = () => {
             <p className="text-base md:text-lg text-gray-700 text-justify">
               The{" "}
               <b>
-                International Conference on Intelligent Computing and Automation
+                1st International Conference on Intelligent Computing and Automation
                 for Sustainable Solutions (ICASS-2026)
               </b>{" "}
               is a prestigious platform that brings together researchers,
