@@ -37,7 +37,7 @@ const Registration = () => {
         </h1>
         <div className="overflow-x-hidden">
           <div className="mx-auto flex justify-center text-sm">
-            <table className="table-auto  w-[60%] max-w-[90%] border  border-gray-700 bg-white shadow-lg rounded-lg table-layout-fixed">
+            <table className="table-auto  w-[60%] max-w-[90%] border  border-gray-700 bg-white rounded-lg table-layout-fixed">
               <thead className="border border-gray-700">
                 <tr className="bg-gray-200 text-gray-800">
                   <th className="px-2 py-2 text-center border border-gray-700">

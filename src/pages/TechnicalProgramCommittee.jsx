@@ -78,7 +78,7 @@ const TechnicalProgramCommittee = () => {
               Dr Nihar Ranjan Roy, Associate Professor and Head, CSE, Vivekanand
               Institute of Professional Studies, New Delhi
             </li>
-            <li>Dr. Anand Gupta, Associate Professor, NSUT, New Delhi</li>
+            <li>Dr Anand Gupta, Associate Professor, NSUT, New Delhi</li>
             <li>
               Dr Vishal Gupta, Associate Professor, UIET, Punjab University
             </li>
