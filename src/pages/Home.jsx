@@ -6,6 +6,7 @@ import { useNavigate } from "react-router-dom";
 import "./Home.css";
 import AutoSlidingCarousel from "./AutoSlidingCarousel";
 import Countdown from "./Countdown";
+import Counter from "../components/Counter";
 
 const Home = () => {
   const [openTrackOne, setOpenTrackOne] = useState(false);
