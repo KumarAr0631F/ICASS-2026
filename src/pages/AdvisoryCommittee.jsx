@@ -64,6 +64,7 @@ const AdvisoryCommittee = () => {
             </li>
             <li>Dr Abhilasha Rakesh Vyas, Busuness and Technology Associate Delivery Manager, Accenture, India and Co-Convener, Women in Tech Wing, GESIA IT Association, Ahmedabad, Gujarat</li>
             <li>Prof (Dr) Sanjeev Kr Singh, Professor and Dean (School of Basic Sciences), Galgotias University, Greater Noida</li>
+            <li>Dr Aanjey Mani Tripathi, Professor, SCSE, Galgotias University</li>
           </ul>
         </div>
       </div>

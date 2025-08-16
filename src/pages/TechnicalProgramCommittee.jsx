@@ -116,8 +116,7 @@ const TechnicalProgramCommittee = () => {
               Station, Texas, USA
             </li>
             <li>
-              Ms Neha Gupta, Assistant Professor, Bharti Vidyapith College of
-              Engineering, New Delhi
+              Ms Neha Gupta, Assistant Professor, Bharati Vidyapeeth's college of engineering, paschim vihar, new delhi
             </li>
             <li>
               Mr Anil Kumar Saini, Principal, Scientist, CEERI, Pilani, India

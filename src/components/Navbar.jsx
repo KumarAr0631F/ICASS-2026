@@ -51,6 +51,7 @@ const Navbar = () => {
           <img src={assets.mru_logo} alt="Logo 2" className="h-10 w-auto " />
           <img src={assets.mru_soe} alt="Logo 3" className="h-10 w-auto" />
           <img src={assets.mru} alt="Logo 4" className="h-10 w-auto" />
+          <img src={assets.iic} alt="Logo 5" className="h-10 w-auto" />
         </div>
 
         <div className="ml-6">

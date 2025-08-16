@@ -9,6 +9,16 @@ const OrganisingCommitte = () => {
         <div className="mb-3">
           <hr className="border-t border-blue-500 mb-5" />
 
+          <h2 className="text-xl font-semibold text-gray-700">
+            Conference Oversight Committee
+          </h2>
+          <ul className="list-disc ml-6 mb-3 text-justify text-gray-700">
+            <li>Prof Rajnish Sharma (Section Vice Chair & Member-IEEE Delhi Section STDCOM on T & P Act)</li>
+            <li>Prof Vivek Shrivastava (Section Exec Com Member Co-opted & Member-IEEE Delhi Section STDCOM on T & P Act)</li>
+            <li>Dr Ekta Gandotra (Member-IEEE Delhi Section STDCOM on T & P Act)</li>
+            <li>Prof Sneha Kabra (Section Secretary & Member-IEEE Delhi Section STDCOM on T & P Act)</li>
+          </ul>
+
           {/* Chief Patrons */}
           <h2 className="text-xl font-semibold text-gray-700">
             Registration Committee
@@ -17,7 +27,6 @@ const OrganisingCommitte = () => {
             <li>Dr Ranjana Jain, Associate Professor, DoCST, MRU, Faridabad</li>
             <li>Dr Meena Chaudhary, Associate Professor, MRU, Faridabad</li>
             <li>Dr Ekta Rawat, Assistant Professor, DoSc, MRU, Faridabad</li>
-            <li>Mr Varun Yadav, Assistant Professor, DoECE, MRU, Faridabad</li>
             <li>Ms Jyoti Nanwal, DoCST, MRU, Faridabad</li>
             <li>
               Mr Nazish Ahmad Samsi, Assistant Professor, DoME, MRU, Faridabad
@@ -134,9 +143,6 @@ const OrganisingCommitte = () => {
             <li>
               Dr Abhishek Saxena, Associate Professor, DoCST, MRU, Faridabad
             </li>
-            <li>
-              Dr Pawan Kumar Sharma, Associate Professor, DoECE, MRU, Faridabad
-            </li>
           </ul>
           <h2 className="text-xl font-semibold text-gray-800">
             Event Management Committee
@@ -168,6 +174,7 @@ const OrganisingCommitte = () => {
             Graphics and Printing
           </h2>
           <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
+            <li>Mr Aniket Singh, Assistant Professor, DoCST, MRU, Faridabad</li>
             <li>
               Mr Anup Singh Kushwaha, Assistant Professor, DoCST, MRU, Faridabad
             </li>

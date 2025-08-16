@@ -14,6 +14,7 @@ import place_4 from "./place_4.png";
 import place_5 from "./place_5.png";
 import place_6 from "./place_6.png";
 import manav_rachna from "./manav_rachna.png"
+import iic from './IIC.jpg'
 
 export const assets = {
   icass2026,
@@ -32,4 +33,5 @@ export const assets = {
   place_5,
   place_6,
   manav_rachna,
+  iic
 };

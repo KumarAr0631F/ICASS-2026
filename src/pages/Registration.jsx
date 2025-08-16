@@ -12,17 +12,17 @@ const Registration = () => {
           <div className="flex justify-center items-center">
             <ul className="text-xl list-disc mb-5 list-inside text-start">
               <li className="sm:text-lg">
-                Full Paper Submission Deadline: 30<sup>th</sup> August, 2025
+                Full Paper Submission Deadline: 30<sup>th</sup> September, 2025
               </li>
               <li className="sm:text-lg">
-                Notification of Acceptance: 30<sup>th</sup> October, 2025
+                Notification of Acceptance: 30<sup>th</sup> November, 2025
               </li>
               <li className="sm:text-lg">
-                Registration Deadline: 10<sup>th</sup> November,
+                Registration Deadline: 15<sup>th</sup> December,
                 2025
               </li>
               <li className="sm:text-lg">
-              Camera-Ready Submission Deadline: 30<sup>th</sup> November,
+              Camera-Ready Submission Deadline: 30<sup>th</sup> December,
                 2025
               </li>
               <li className="sm:text-lg">

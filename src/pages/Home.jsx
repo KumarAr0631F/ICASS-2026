@@ -5,8 +5,6 @@ import { useNavigate } from "react-router-dom";
 
 import "./Home.css";
 import AutoSlidingCarousel from "./AutoSlidingCarousel";
-import Countdown from "./Countdown";
-import Counter from "../components/Counter";
 
 const Home = () => {
   const [openTrackOne, setOpenTrackOne] = useState(false);
@@ -55,13 +53,13 @@ const Home = () => {
             direction="left"
             className="py-1 text-center flex text-sm md:text-lg"
           >
-            Full Paper Submission Deadline:- 30th August, 2025
+            Full Paper Submission Deadline:- 30th September, 2025
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Notification of Acceptance:- 30th October, 2025
+            Notification of Acceptance:- 30th November, 2025
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Registration Deadline:- 10th November, 2025
+            Registration Deadline:- 15th December, 2025
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Camera Ready Submission Deadline:- 30th November, 2025
+            Camera Ready Submission Deadline:- 30th December, 2025
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             Conference Date:- 12th - 13th February, 2026
           </marquee>
@@ -86,8 +84,6 @@ const Home = () => {
           </p>
         </div>
       </div> */}
-
-      {/* <Countdown/> */}
 
         {/* Content Wrapper */}
         <div className="w-full max-w-6xl px-4 md:px-8 lg:px-12 py-8">
@@ -470,7 +466,7 @@ const Home = () => {
           </div> */}
           <div className="mt-5">
             <h3 className="text-blue-700 text-2xl md:text-3xl font-bold">
-              Our Sponsors
+              Financial Supporters
             </h3>
             <hr className="bg-blue-700 border h-1 w-full my-2" />
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">

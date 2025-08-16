@@ -52,15 +52,16 @@ const Patrons = () => {
           </h2>
           <ul className="list-disc text-justify  ml-6 text-gray-700 mb-3">
             <li>
-              Prof (Dr) Manpreet Kaur, Professor and Head, DoCST, MRU, Faridabad
+              Prof (Dr) Manpreet Kaur, Director E-Learning and Professor, DoCST, MRU, Faridabad
             </li>
           </ul>
           <h2 className="text-xl font-medium text-gray-700">
             Executive Chair(s)
           </h2>
           <ul className="list-disc text-justify  ml-6 text-gray-700 mb-3">
+            <li>Dr Jyotsna Pandit, Dean & HOD Sciences, MRU, Faridabad</li>
             <li>
-              Prof (Dr) Deepa Arora, Director QAA and Professor, DoSc MRU,
+              Prof (Dr) Deepa Arora, Director QAA and Professor, DoSc, MRU,
               Faridabad
             </li>
             <li>
@@ -96,6 +97,7 @@ const Patrons = () => {
             Technical Program Chair(s)
           </h2>
           <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
+            <li>Prof (Dr) Bhim Singh, Director Publications & Patents and Head, DoME, MRU, Faridabad</li>
             <li>
               Prof (Dr) D K Sharma, Dean Examination and Professor, DoSc, MRU,
               Faridabad
@@ -110,7 +112,7 @@ const Patrons = () => {
             Steering Committee Chair(s)
           </h2>
           <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
-            <li>Prof (Dr) Ajit, Professor and Head, DoME, MRU, Faridabad</li>
+            
             <li>
               Prof (Dr) Prinima Gupta, Director PhD and Professor, DoCST, MRU,
               Faridabad
@@ -124,11 +126,11 @@ const Patrons = () => {
             Finance Chair/ Treasurer(s)
           </h2>
           <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
-            <li>Prof (Dr) Sandeep Kumar, Professor, DoSc, MRU, Faridabad</li>
-            <li>Dr Chandni Magoo, Associate Head, DoCST, MRU, Faridabad</li>
+            <li>Dr Chandni Magoo, Associate Professor and Associate Head, DoCST, MRU, Faridabad</li>
+            <li>Prof (Dr) Ajit, Professor, DoME, MRU, Faridabad</li>
             <li>Dr J P Sharma, Associate Professor, DoME, MRU, Faridabad</li>
             <li>
-              Ms Shefali Chopra, Dy Registrar Examination and R&S, MRU Faridabad
+              Ms Shefali Chopra, Dy Registrar Examination and R&S, MRU, Faridabad
             </li>
             <li>Dr Nitika, Associate Professor, DoECE, MRU, Faridabad</li>
           </ul>
