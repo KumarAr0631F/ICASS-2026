@@ -97,6 +97,9 @@ const Patrons = () => {
             Technical Program Chair(s)
           </h2>
           <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
+            <li>
+              Dr Jimmy Mehta, Assistant Professor, DoME, MRU, Faridabad
+            </li>
             <li>Prof (Dr) Bhim Singh, Director Publications & Patents and Head, DoME, MRU, Faridabad</li>
             <li>
               Prof (Dr) D K Sharma, Dean Examination and Professor, DoSc, MRU,
