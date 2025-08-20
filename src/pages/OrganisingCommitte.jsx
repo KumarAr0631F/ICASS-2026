@@ -58,16 +58,15 @@ const OrganisingCommitte = () => {
             Publication Committee
           </h2>
           <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
-            <li>
-              Dr Piyush Charan, Associate Professor, DoECE, MRU, Faridabad
-            </li>
+            <li>Dr S K Shukla, Professor, DoSc, MRU, Faridabad</li>
             <li>
               Dr Neha Chaudhary, Assistant Professor, Department of Robotics and AI, MRU, Faridabad
             </li>
-            <li>Dr S K Shukla, Professor, DoSc, MRU, Faridabad</li>
+            <li>
+              Dr Piyush Charan, Associate Professor, DoECE, MRU, Faridabad
+            </li>
             <li>Dr Charu Pathak, Professor, DoECE, MRU, Faridabad</li>
             <li>Dr Manoj Kumar, Associate Professor, DoCST, MRU, Faridabad</li>
-            <li>Dr Zeba Naaz, Assistant Professor, DoME, MRU, Faridabad</li>
             <li>Dr Shalu, Assistant Professor, DoCST, MRU, Faridabad</li>
             <li>Ms Ashima, Assistant Professor, DoCST, MRU, Faridabad</li>
           </ul>
@@ -110,11 +109,11 @@ const OrganisingCommitte = () => {
               Dr K Deepa, Associate Professor, DoECE, MRU, Faridabad
             </li>
             <li>
-              Dr Bhanu Pratap Chaudhary, Assistant Professor, DoECE, MRU,
-              Faridabad
+              Dr Gunjan Chandwani, Assistant Professor, DoCST, MRU, Faridabad
             </li>
             <li>
-              Dr Gunjan Chandwani, Assistant Professor, DoCST, MRU, Faridabad
+              Dr Bhanu Pratap Chaudhary, Assistant Professor, DoECE, MRU,
+              Faridabad
             </li>
             <li>
               Ms Deepanshi Gupta, Assistant Professor, DoCST, MRU, Faridabad
