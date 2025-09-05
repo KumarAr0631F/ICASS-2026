@@ -112,7 +112,7 @@ const Guideline = () => {
               submission requirements.
             </li>
             <li>
-              At least one author for each accepted paper must register and
+              <strong>Mandatory Registration: </strong>At least one author for each accepted paper must register and
               present their accepted paper in the conference for consideration
               of publication in IEEE Xplore.
             </li>
@@ -122,7 +122,10 @@ const Guideline = () => {
             </li>
             <li>
               The decision to accept or reject a paper rests with the Technical
-              Program Committee. Also, conference chair reserves the right to exclude papers not presented or meeting guidelines.
+              Program Committee. 
+            </li>
+            <li>
+              <strong>No-Show Policy: </strong>Also, conference chair reserves the right to exclude papers not presented or meeting guidelines.
             </li>
           </ul>
         </div>

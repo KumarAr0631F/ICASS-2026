@@ -186,7 +186,7 @@ const Navbar = () => {
               onClick={toggleCallDropdown}
               className="text-lg flex w-full"
             >
-              Call For Paper
+              Call For Papers
               <svg
                 className={`w-5 h-5 mt-1 transition-transform duration-300 ${
                   isCallDropdownOpen ? "rotate-180" : "rotate-0"
@@ -373,7 +373,7 @@ const Navbar = () => {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Call For Paper
+                Call For Papers
               </button>
               <ul className="dropdown-menu">
                 <li>
