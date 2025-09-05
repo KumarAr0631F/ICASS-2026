@@ -59,7 +59,7 @@ const Patrons = () => {
             Executive Chair(s)
           </h2>
           <ul className="list-disc text-justify  ml-6 text-gray-700 mb-3">
-            <li>Dr Jyotsna Pandit, Dean & HOD Sciences, MRU, Faridabad</li>
+            <li>Prof (Dr) Jyotsna Pandit, Dean & HOD Sciences, MRU, Faridabad</li>
             <li>
               Prof (Dr) Deepa Arora, Director QAA and Professor, DoSc, MRU,
               Faridabad

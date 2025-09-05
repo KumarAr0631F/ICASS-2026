@@ -10,11 +10,14 @@ const Navbar = () => {
   const [isVenueDropdownOpen, setIsVenueDropdownOpen] = useState(false);
   const [isCommitteesDropdownOpen, setIsCommitteesDropdownOpen] =
     useState(false);
+  const [isCallDropdownOpen, setIsCallDropDownOpen] =
+    useState(false);
 
   const toggleMenu = () => {
     if (isMenuOpen) {
       setIsVenueDropdownOpen(false);
       setIsCommitteesDropdownOpen(false);
+      setIsCallDropDownOpen(false);
       setIsMenuOpen(false);
       document.body.style.overflow = "auto";
     } else {
@@ -29,6 +32,10 @@ const Navbar = () => {
 
   const toggleCommitteesDropdown = () => {
     setIsCommitteesDropdownOpen((prev) => !prev);
+  };
+
+  const toggleCallDropdown = () => {
+    setIsCallDropDownOpen((prev) => !prev);
   };
 
   const handleMenuItemClick = (path) => {
@@ -48,9 +55,8 @@ const Navbar = () => {
               className="h-[64px] w-[160px]"
             />
           </NavLink>
-          <img src={assets.mru_logo} alt="Logo 2" className="h-10 w-auto " />
-          <img src={assets.mru_soe} alt="Logo 3" className="h-10 w-auto" />
           <img src={assets.mru} alt="Logo 4" className="h-10 w-auto" />
+          <img src={assets.mru_soe} alt="Logo 3" className="h-10 w-auto" />
           <img src={assets.iic} alt="Logo 5" className="h-10 w-auto" />
         </div>
 
@@ -175,9 +181,53 @@ const Navbar = () => {
             )}
           </li>
 
+           <li>
+            <button
+              onClick={toggleCallDropdown}
+              className="text-lg flex w-full"
+            >
+              Call For Paper
+              <svg
+                className={`w-5 h-5 mt-1 transition-transform duration-300 ${
+                  isCallDropdownOpen ? "rotate-180" : "rotate-0"
+                }`}
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M19 9l-7 7-7-7"
+                ></path>
+              </svg>
+            </button>
+            {isCallDropdownOpen && (
+              <ul className="ml-5 mt-2 grid items-start space-y-2">
+                {[
+                  { label: "Tracks Information", path: "/tracks-info" },
+                  {
+                    label: "Author's Guidelines",
+                    path: "/guidelines",
+                  }, // Added extraClass
+                ].map((item) => (
+                  <li key={item.label} className={item.extraClass || ""}>
+                    <button
+                      onClick={() => handleMenuItemClick(item.path)}
+                      className="text-base"
+                    >
+                      {item.label}
+                    </button>
+                  </li>
+                ))}
+              </ul>
+            )}
+          </li>
+
           {[
             { label: "Conference Schedule", path: "/schedule" },
-            { label: "Author's Guidelines", path: "/guidelines" },
             { label: "Registration", path: "/registration" },
             { label: "Contact Us", path: "/contact" },
           ].map((item) => (
@@ -315,13 +365,37 @@ const Navbar = () => {
             >
               Conference Schedule
             </NavLink>
-            <NavLink
-              onClick={window.scrollTo(0, 0)}
-              to="/guidelines"
-              className="font-semibold hover:bg-blue-600 px-3 py-2 rounded-md"
-            >
-              Author's Guidelines
-            </NavLink>
+
+            <div className="dropdown-center">
+              <button
+                className="btn text-white border-none hover:bg-blue-600 font-semibold text-xl dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Call For Paper
+              </button>
+              <ul className="dropdown-menu">
+                <li>
+                  <NavLink
+                    onClick={() => window.scrollTo(0, 0)}
+                    className="dropdown-item"
+                    to="/tracks-info"
+                  >
+                    Tracks Information
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    onClick={() => window.scrollTo(0, 0)}
+                    className="dropdown-item"
+                    to="/guidelines"
+                  >
+                    Author's Guidelines
+                  </NavLink>
+                </li>
+              </ul>
+            </div>
             <NavLink
               onClick={window.scrollTo(0, 0)}
               to="/registration"
