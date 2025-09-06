@@ -1,6 +1,6 @@
-  const toggleVenueDropdown = () => {
-    setIsVenueDropdownOpen((prev) => !prev);
-  };
+const toggleVenueDropdown = () => {
+  setIsVenueDropdownOpen((prev) => !prev);
+};
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { assets } from "../assets/assets";
@@ -13,8 +13,7 @@ const Navbar = () => {
   const [isVenueDropdownOpen, setIsVenueDropdownOpen] = useState(false);
   const [isCommitteesDropdownOpen, setIsCommitteesDropdownOpen] =
     useState(false);
-  const [isCallDropdownOpen, setIsCallDropDownOpen] =
-    useState(false);
+  const [isCallDropdownOpen, setIsCallDropDownOpen] = useState(false);
 
   const toggleMenu = () => {
     if (isMenuOpen) {
@@ -26,7 +25,6 @@ const Navbar = () => {
     } else {
       setIsMenuOpen(true);
       document.body.style.overflow = "hidden";
-
     }
   };
 
@@ -207,10 +205,10 @@ const Navbar = () => {
             {isCallDropdownOpen && (
               <ul className="ml-5 mt-2 grid items-start space-y-2">
                 {[
-                  { label: "Tracks Information", path: "/tracks-info" },
+                  { label: "Tracks Information", path: "/callforpapers/tracks-info" },
                   {
                     label: "Author's Guidelines",
-                    path: "/guidelines",
+                    path: "/callforpapers/guidelines",
                   },
                 ].map((item) => (
                   <li key={item.label} className={item.extraClass || ""}>
