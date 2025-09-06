@@ -285,7 +285,7 @@ const Navbar = () => {
             <Link
               to="https://cmt3.research.microsoft.com/ICASS2026/"
               target="_blank"
-              className="bg-red-500 py-1 px-6 text-center text-white rounded-lg transition duration-200 hover:bg-red-600"
+              className="bg-red-500 py-2 px-6 text-center text-white rounded-lg transition duration-200 hover:bg-red-600"
             >
               Submit Your Paper
             </Link>
