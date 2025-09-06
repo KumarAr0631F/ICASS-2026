@@ -6,7 +6,7 @@ const Tracks = () => {
       <h3 className="text-blue-700 text-xl sm:text-2xl font-bold mb-4 sm:mb-6 ml-6">
         Conference Tracks
       </h3>
-      <p className="text-justify m-6">
+      <p className="text-justify ml-6 mr-6">
         The conference <strong>ICASS-2026</strong> aims to foster on the theme
         <b>
           <em>“Harnessing AI for a Digital Future”</em>
@@ -16,7 +16,7 @@ const Tracks = () => {
         will feature the following tracks and related topics (but not limited
         to):
       </p>
-      <div className="bg-white rounded-lg pl-4 sm:p-6 w-full overflow-x-hidden break-words">
+      <div className="bg-white rounded-lg ml-3 sm:p-4 w-full overflow-x-hidden break-words">
         <strong>
           Track-1: Computational Intelligent Systems and Applications
         </strong>
@@ -50,7 +50,7 @@ const Tracks = () => {
         </ul>
       </div>
 
-      <div className="bg-white rounded-lg pl-4 sm:p-6 w-full overflow-x-hidden break-words">
+      <div className="bg-white rounded-lg ml-3 sm:p-4 w-full overflow-x-hidden break-words">
         <strong>Track-2: Data Analytics and Decision Sciences</strong>
         <ul className="list-inside ml-4 sm:ml-5 text-sm sm:text-base space-y-1">
           <li className="list-disc">
@@ -72,7 +72,7 @@ const Tracks = () => {
         </ul>
       </div>
 
-      <div className="bg-white rounded-lg pl-4 sm:p-6 w-full overflow-x-hidden break-words">
+      <div className="bg-white rounded-lg ml-3 sm:p-4 w-full overflow-x-hidden break-words">
         <strong>Track-3: Futuristic Tools, Technologies & Applications</strong>
         <ul className="list-inside ml-4 sm:ml-5 text-sm sm:text-base space-y-1">
           <li className="list-disc">Computational Mechanics and Simulations</li>
@@ -92,7 +92,7 @@ const Tracks = () => {
         </ul>
       </div>
 
-      <div className="bg-white rounded-lg pl-4 sm:p-6 w-full overflow-x-hidden break-words">
+      <div className="bg-white rounded-lg ml-3 sm:p-4 w-full overflow-x-hidden break-words">
         <strong>Track-4: Smart Electronics and Next-Gen Communication</strong>
         <ul className="list-inside ml-4 sm:ml-5 text-sm sm:text-base space-y-1">
           <li className="list-disc">5G and 6G Technology</li>
@@ -120,7 +120,7 @@ const Tracks = () => {
         </ul>
       </div>
 
-      <div className="bg-white rounded-lg pl-4 sm:p-6 w-full overflow-x-hidden break-words">
+      <div className="bg-white rounded-lg ml-3 sm:p-4 w-full overflow-x-hidden break-words">
         <strong>Track-5: Smart Cities and Sustainability</strong>
         <ul className="list-inside ml-4 sm:ml-5 text-sm sm:text-base space-y-1">
           <li className="list-disc">Smart Energy Efficient Systems</li>
@@ -134,7 +134,7 @@ const Tracks = () => {
         </ul>
       </div>
 
-      <div className="bg-white rounded-lg pl-4 sm:p-6 w-full overflow-x-hidden break-words">
+      <div className="bg-white rounded-lg ml-3 sm:p-4 w-full overflow-x-hidden break-words">
         <strong>Track-6: Industry 5.0 and Cyber Physical Systems</strong>
         <ul className="list-inside ml-4 sm:ml-5 text-sm sm:text-base space-y-1">
           <li className="list-disc">Advanced Robotics and Automation</li>
@@ -150,7 +150,7 @@ const Tracks = () => {
         </ul>
       </div>
 
-      <div className="bg-white rounded-lg pl-4 sm:p-6 w-full overflow-x-hidden break-words">
+      <div className="bg-white rounded-lg ml-3 sm:p-4 w-full overflow-x-hidden break-words">
         <strong>Track-7: Smart Materials for Sustainable Technology</strong>
         <ul className="list-inside ml-5">
           <li className="list-disc">Eco-friendly Smart Materials</li>

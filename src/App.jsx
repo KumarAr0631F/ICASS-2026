@@ -22,7 +22,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/guidelines" element={<Guideline />} />
+        <Route path="/callforpapers/guidelines" element={<Guideline />} />
         <Route path="/registration" element={<Registration />} />
         <Route path="/schedule" element={<ConferenceSchedule />} />
         <Route path="/venue" element={<TravelGuide />} />
@@ -31,7 +31,7 @@ const App = () => {
         <Route path="/patrons" element={<Patrons />} />
         <Route path="/organising-committee" element={<OrganisingCommitte />} />
         <Route path="/advisory-committee" element={<AdvisoryCommittee />} />
-        <Route path="/tracks-info" element={<Tracks />} />
+        <Route path="/callforpapers/tracks-info" element={<Tracks />} />
         <Route
           path="/technical-committee"
           element={<TechnicalProgramCommittee />}

@@ -1,3 +1,6 @@
+  const toggleVenueDropdown = () => {
+    setIsVenueDropdownOpen((prev) => !prev);
+  };
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { assets } from "../assets/assets";
@@ -23,11 +26,8 @@ const Navbar = () => {
     } else {
       setIsMenuOpen(true);
       document.body.style.overflow = "hidden";
-    }
-  };
 
-  const toggleVenueDropdown = () => {
-    setIsVenueDropdownOpen((prev) => !prev);
+    }
   };
 
   const toggleCommitteesDropdown = () => {
@@ -181,7 +181,7 @@ const Navbar = () => {
             )}
           </li>
 
-           <li>
+          <li>
             <button
               onClick={toggleCallDropdown}
               className="text-lg flex w-full"
@@ -211,7 +211,7 @@ const Navbar = () => {
                   {
                     label: "Author's Guidelines",
                     path: "/guidelines",
-                  }, // Added extraClass
+                  },
                 ].map((item) => (
                   <li key={item.label} className={item.extraClass || ""}>
                     <button
@@ -380,7 +380,7 @@ const Navbar = () => {
                   <NavLink
                     onClick={() => window.scrollTo(0, 0)}
                     className="dropdown-item"
-                    to="/tracks-info"
+                    to="/callforpapers/tracks-info"
                   >
                     Tracks Information
                   </NavLink>
@@ -389,7 +389,7 @@ const Navbar = () => {
                   <NavLink
                     onClick={() => window.scrollTo(0, 0)}
                     className="dropdown-item"
-                    to="/guidelines"
+                    to="/callforpapers/guidelines"
                   >
                     Author's Guidelines
                   </NavLink>
