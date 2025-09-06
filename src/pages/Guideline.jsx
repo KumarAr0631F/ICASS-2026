@@ -3,7 +3,8 @@ import { NavLink } from "react-router-dom";
 
 const PDF_FILE_URL1 = "https://icass-2026.in/conference-template-a4.docx";
 const PDF_FILE_URL2 = "https://icass-2026.in/IEEEtran_HOWTO LaTeX.pdf";
-const PDF_FILE_URL3 = "https://icass-2026.in/IEEE-conference-template-062824.pdf";
+const PDF_FILE_URL3 =
+  "https://icass-2026.in/IEEE-conference-template-062824.pdf";
 const PDF_FILE_URL4 = "https://icass-2026.in/IEEEtran_bst_HOWTO.pdf";
 
 const Guideline = () => {
@@ -46,10 +47,10 @@ const Guideline = () => {
         <div className="sm:p-5 rounded-lg w-full">
           <ul className="list-decimal ml-5 text-justify lg:mt-[0rem] sm:text-lg pl-10text-gray-900 space-y-2">
             <li>
-              Paper Length: Maximum of 6 pages, including figures, tables, and
-              references. Two additional pages are permitted with a charge of ₹
-              1000 per page (Indian authors) or $50 per page (International
-              authors).
+              <strong>Paper Length:</strong> The paper length is minimum 4 pages
+              and Maximum 6 pages, including figures, tables, and references.
+              Two additional pages are permitted with a charge of ₹ 1000 per
+              page (Indian authors) or $50 per page (International authors).
             </li>
 
             <li>
@@ -58,14 +59,33 @@ const Guideline = () => {
             </li>
             <ul className="ml-5">
               <li>1. MS Word Template</li>
-              <a href="conference-template-a4.docx" download={"conference-template-a4.docx"} className="text-blue-700 cursor-pointer underline list-disc ml-10">A4</a>
+              <a
+                href="conference-template-a4.docx"
+                download={"conference-template-a4.docx"}
+                className="text-blue-700 cursor-pointer underline list-disc ml-10"
+              >
+                A4
+              </a>
               <li>2. LaTeX Template</li>
-              <li onClick={()=> downloadFileAtURL(PDF_FILE_URL2)} className=" list-disc ml-10 cursor-pointer underline text-blue-700">
+              <li
+                onClick={() => downloadFileAtURL(PDF_FILE_URL2)}
+                className=" list-disc ml-10 cursor-pointer underline text-blue-700"
+              >
                 LaTeX Template Instructions [Be sure to use the template's
                 conference mode.]
               </li>
-              <li  onClick={()=> downloadFileAtURL(PDF_FILE_URL3)} className=" list-disc ml-10 cursor-pointer underline text-blue-700">Template</li>
-              <li  onClick={()=> downloadFileAtURL(PDF_FILE_URL4)} className=" list-disc ml-10 cursor-pointer underline text-blue-700">LaTeX Bibliography Files</li>
+              <li
+                onClick={() => downloadFileAtURL(PDF_FILE_URL3)}
+                className=" list-disc ml-10 cursor-pointer underline text-blue-700"
+              >
+                Template
+              </li>
+              <li
+                onClick={() => downloadFileAtURL(PDF_FILE_URL4)}
+                className=" list-disc ml-10 cursor-pointer underline text-blue-700"
+              >
+                LaTeX Bibliography Files
+              </li>
             </ul>
           </ul>
         </div>
@@ -112,9 +132,9 @@ const Guideline = () => {
               submission requirements.
             </li>
             <li>
-              <strong>Mandatory Registration: </strong>At least one author for each accepted paper must register and
-              present their accepted paper in the conference for consideration
-              of publication in IEEE Xplore.
+              <strong>Mandatory Registration: </strong>At least one author for
+              each accepted paper must register and present their accepted paper
+              in the conference for consideration of publication in IEEE Xplore.
             </li>
             <li>
               In case of more than one paper submissions by author(s), each
@@ -122,10 +142,11 @@ const Guideline = () => {
             </li>
             <li>
               The decision to accept or reject a paper rests with the Technical
-              Program Committee. 
+              Program Committee.
             </li>
             <li>
-              <strong>No-Show Policy: </strong>Also, conference chair reserves the right to exclude papers not presented or meeting guidelines.
+              <strong>No-Show Policy: </strong>Also, conference chair reserves
+              the right to exclude papers not presented or meeting guidelines.
             </li>
           </ul>
         </div>

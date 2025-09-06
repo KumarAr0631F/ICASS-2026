@@ -22,6 +22,18 @@ const Tracks = () => {
           <strong>
             Track-1: Computational Intelligent Systems and Applications
           </strong>
+
+          <p className="flex">
+            <b>Track Chairs:</b>
+            <ul className="ml-2 mb-3">
+              <li>
+                Dr Urmila Pilania, Associate Professor, DoCST, MRU, Faridabad
+              </li>
+              <li>
+                Dr Deepti Thakral, Associate Professor, DoCST, MRU, Faridabad
+              </li>
+            </ul>
+          </p>
           <ul className="list-inside ml-4 sm:ml-5 text-sm sm:text-base space-y-1">
             <li className="list-disc">
               AI, Machine Learning & its Applications
@@ -56,6 +68,18 @@ const Tracks = () => {
         {/* Track 2 */}
         <div className="bg-white rounded-lg w-full overflow-x-hidden break-words">
           <strong>Track-2: Data Analytics and Decision Sciences</strong>
+          <h3></h3>
+          <p className="flex">
+            <b>Track Chairs:</b>
+            <ul className="ml-2 mb-3">
+              <li>
+                Dr Piyush Charan, Associate Professor, DoR&AI, MRU, Faridabad
+              </li>
+              <li>
+                Dr Awwab Mohammad, Assistant Professor, DoR&AI, MRU, Faridabad
+              </li>
+            </ul>
+          </p>
           <ul className="list-inside ml-4 sm:ml-5 text-sm sm:text-base space-y-1">
             <li className="list-disc">
               Data Analytics and Big Data Technologies with Applications
@@ -80,6 +104,18 @@ const Tracks = () => {
           <strong>
             Track-3: Futuristic Tools, Technologies & Applications
           </strong>
+          <h3></h3>
+          <p className="flex">
+            <b>Track Chairs:</b>
+            <ul className="ml-2 mb-3">
+              <li>
+                Dr Mamta Arora, Associate Professor, DoCST, MRU, Faridabad
+              </li>
+              <li>
+                Dr Monika Garg, Associate Professor, DoR&AI, MRU, Faridabad
+              </li>
+            </ul>
+          </p>
           <ul className="list-inside ml-5">
             <li className="list-disc">
               Computational Mechanics and Simulations
@@ -102,6 +138,18 @@ const Tracks = () => {
 
         <div>
           <strong>Track-4: Smart Electronics and Next-Gen Communication</strong>
+          <h3></h3>
+          <p className="flex">
+            <b>Track Chairs:</b>
+            <ul className="ml-2 mb-3">
+              <li>
+                Dr Mohit Kumar Singh, Associate Professor, DoECE, MRU, Faridabad
+              </li>
+              <li>
+                Dr Neetu Chauhan, Associate Professor, DoECE, MRU, Faridabad
+              </li>
+            </ul>
+          </p>
           <ul className="list-inside ml-5">
             <li className="list-disc">5G and 6G Technology</li>
             <li className="list-disc">
@@ -130,6 +178,18 @@ const Tracks = () => {
 
         <div>
           <strong>Track-5: Smart Cities and Sustainability</strong>
+          <h3></h3>
+          <p className="flex">
+            <b>Track Chairs:</b>
+            <ul className="ml-2 mb-3">
+              <li>
+                Dr Neha Chaudhary, Assistant Professor, DoR&AI, MRU, Faridabad
+              </li>
+              <li>
+                Dr Richa Adlakha, Assistant Professor, DoME, MRU, Faridabad
+              </li>
+            </ul>
+          </p>
           <ul className="list-inside ml-5">
             <li className="list-disc">Smart Energy Efficient Systems</li>
             <li className="list-disc">Sustainable Manufacturing Practices</li>
@@ -148,6 +208,16 @@ const Tracks = () => {
 
         <div>
           <strong>Track-6: Industry 5.0 and Cyber Physical Systems</strong>
+          <h3></h3>
+          <p className="flex">
+            <b>Track Chairs:</b>
+            <ul className="ml-2 mb-3">
+              <li>
+                Dr Smriti Mishra, Associate Professor, DoME, MRU, Faridabad
+              </li>
+              <li>Dr Rajnesh, Assistant Professor, DoME, MRU, Faridabad</li>
+            </ul>
+          </p>
           <ul className="list-inside ml-5">
             <li className="list-disc">Advanced Robotics and Automation</li>
             <li className="list-disc">
@@ -166,6 +236,16 @@ const Tracks = () => {
 
         <div>
           <strong>Track-7: Smart Materials for Sustainable Technology</strong>
+          <h3></h3>
+          <p className="flex">
+            <b>Track Chairs:</b>
+            <ul className="ml-2 mb-3">
+              <li>Dr Javed Idrisi, Professor, DoSc, MRU, Faridabad</li>
+              <li>
+                Dr Anshuman Sahai, Associate Professor, DoSc, MRU, Faridabad
+              </li>
+            </ul>
+          </p>
           <ul className="list-inside ml-5">
             <li className="list-disc">Eco-friendly Smart Materials</li>
             <li className="list-disc">

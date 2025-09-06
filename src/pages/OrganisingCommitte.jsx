@@ -59,10 +59,10 @@ const OrganisingCommitte = () => {
           <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
             <li>Dr S K Shukla, Professor, DoSc, MRU, Faridabad</li>
             <li>
-              Dr Neha Chaudhary, Assistant Professor, Department of Robotics and AI, MRU, Faridabad
+              Dr Neha Chaudhary, Assistant Professor, DoR&AI, MRU, Faridabad
             </li>
             <li>
-              Dr Piyush Charan, Associate Professor, DoECE, MRU, Faridabad
+              Dr Piyush Charan, Associate Professor, DoR&AI, MRU, Faridabad
             </li>
             <li>Dr Charu Pathak, Professor, DoECE, MRU, Faridabad</li>
             <li>Dr Manoj Kumar, Associate Professor, DoCST, MRU, Faridabad</li>
@@ -156,7 +156,7 @@ const OrganisingCommitte = () => {
             <li>
               Ms Anupriya Sharma, Assistant Professor, DoCST, MRU, Faridabad
             </li>
-            <li>Dr Monika Garg, Associate Professor, DoCST, MRU, Faridabad</li>
+            <li>Dr Monika Garg, Associate Professor, DoR&AI, MRU, Faridabad</li>
             <li>
               Dr Deepti Thakral, Associate Professor, DoCST, MRU, Faridabad
             </li>
@@ -184,7 +184,7 @@ const OrganisingCommitte = () => {
               Mr Anup Singh Kushwaha, Assistant Professor, DoCST, MRU, Faridabad
             </li>
             <li>
-              Dr Awwab Mohammad, Assistant Professor, DoCST, MRU, Faridabad
+              Dr Awwab Mohammad, Assistant Professor, DoR&AI, MRU, Faridabad
             </li>
           </ul>
         </div>
