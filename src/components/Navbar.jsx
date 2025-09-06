@@ -164,7 +164,7 @@ const Navbar = () => {
                   },
                   { label: "Advisory Committee", path: "/advisory-committee" },
                   {
-                    label: "Techinal Committee",
+                    label: "Technical Committee",
                     path: "/technical-committee",
                   }, // Added extraClass
                 ].map((item) => (
