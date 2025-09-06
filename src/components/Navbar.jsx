@@ -296,7 +296,7 @@ const Navbar = () => {
         {/* Navbar Container */}
         <div className="flex items-center justify-between">
           {/* Navigation Links */}
-          <div className="flex items-center text-xl space-x-6">
+          <div className="flex items-center text-lg space-x-6">
             {/* Home Link */}
             <NavLink
               onClick={window.scrollTo(0, 0)}
@@ -308,7 +308,7 @@ const Navbar = () => {
 
             <div className="dropdown-center">
               <button
-                className="btn text-white border-none hover:bg-blue-600 font-semibold text-xl dropdown-toggle"
+                className="btn text-white border-none hover:bg-blue-600 font-semibold text-lg dropdown-toggle"
                 type="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
@@ -366,7 +366,7 @@ const Navbar = () => {
 
             <div className="dropdown-center">
               <button
-                className="btn text-white border-none hover:bg-blue-600 font-semibold text-xl dropdown-toggle"
+                className="btn text-white border-none hover:bg-blue-600 font-semibold text-lg dropdown-toggle"
                 type="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
@@ -404,7 +404,7 @@ const Navbar = () => {
 
             <div className="dropdown-center">
               <button
-                className="btn text-white border-none hover:bg-blue-600 font-semibold text-xl dropdown-toggle"
+                className="btn text-white border-none hover:bg-blue-600 font-semibold text-lg dropdown-toggle"
                 type="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"

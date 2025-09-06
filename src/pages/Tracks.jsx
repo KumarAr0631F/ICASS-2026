@@ -2,11 +2,11 @@ import React from "react";
 
 const Tracks = () => {
   return (
-    <div className="px-4 py-4 sm:px-6 sm:py-6 w-full overflow-x-hidden min-w-0 flex flex-col items-center">
+    <div className="px-4 py-4 sm:px-6 sm:py-6 w-full overflow-x-hidden min-w-0">
       <h3 className="text-blue-700 text-xl sm:text-2xl font-bold mb-4 sm:mb-6 text-center w-full">
         Conference Tracks
       </h3>
-      <p className="text-justify w-full max-w-3xl mx-auto mb-4">
+      <p className="text-justify w-full  mb-4">
         The conference <strong>ICASS-2026</strong> aims to foster on the theme
         <b>
           <em>“Harnessing AI for a Digital Future”</em>
@@ -16,7 +16,7 @@ const Tracks = () => {
         will feature the following tracks and related topics (but not limited
         to):
       </p>
-      <div className="flex flex-col gap-4 w-full max-w-3xl mx-auto">
+      <div className="flex flex-col gap-4 w-full ">
         {/* Track 1 */}
         <div className="bg-white rounded-lg w-full overflow-x-hidden break-words">
           <strong>
