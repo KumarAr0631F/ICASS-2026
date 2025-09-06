@@ -479,7 +479,7 @@ const Home = () => {
               </div>
 
               <img
-                className="w-[15rem] h-[15rem] items-center"
+                className="w-[15rem] h-[10rem] items-center"
                 src={assets.sponsor_logo_3}
                 alt=""
               />

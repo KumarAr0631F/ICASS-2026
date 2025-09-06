@@ -7,16 +7,15 @@ const OrganisingCommitte = () => {
       <div className="container mx-auto px-6 md:px-12">
         {/* Patrons Section */}
         <div className="mb-3">
-          <hr className="border-t border-blue-500 mb-5" />
 
-          <h2 className="text-xl font-semibold text-gray-700">
-            Conference Oversight Committee
+          <h2 className="text-xl mt-4 font-semibold text-gray-700">
+            Conference Oversight Committee
           </h2>
           <ul className="list-disc ml-6 mb-3 text-justify text-gray-700">
-            <li>Prof Rajnish Sharma (Section Vice Chair & Member-IEEE Delhi Section STDCOM on T & P Act)</li>
-            <li>Prof Vivek Shrivastava (Section Exec Com Member Co-opted & Member-IEEE Delhi Section STDCOM on T & P Act)</li>
-            <li>Dr Ekta Gandotra (Member-IEEE Delhi Section STDCOM on T & P Act)</li>
-            <li>Prof Sneha Kabra (Section Secretary & Member-IEEE Delhi Section STDCOM on T & P Act)</li>
+            <li>Prof Rajnish Sharma (Section Vice Chair & Member-IEEE Delhi Section STDCOM on T & P Act)</li>
+            <li>Prof Vivek Shrivastava (Section Exec Com Member Co-opted & Member-IEEE Delhi Section STDCOM on T & P Act)</li>
+            <li>Dr Ekta Gandotra (Member-IEEE Delhi Section STDCOM on T & P Act)</li>
+            <li>Prof Sneha Kabra (Section Secretary & Member-IEEE Delhi Section STDCOM on T & P Act)</li>
           </ul>
 
           {/* Chief Patrons */}
@@ -54,7 +53,7 @@ const OrganisingCommitte = () => {
         {/* Chairs Section */}
         <div>
           {/* General Chair */}
-          <h2 className="text-xl font-medium text-gray-700">
+          <h2 className="text-xl font-bold text-gray-700">
             Publication Committee
           </h2>
           <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
@@ -72,7 +71,7 @@ const OrganisingCommitte = () => {
           </ul>
 
           {/* Conference Chair */}
-          <h2 className="text-xl font-medium text-gray-700">
+          <h2 className="text-xl font-bold text-gray-700">
             Publicity Committee
           </h2>
           <ul className="list-disc text-justify  ml-6 text-gray-700 mb-3">

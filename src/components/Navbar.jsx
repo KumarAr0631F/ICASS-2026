@@ -1,6 +1,4 @@
-const toggleVenueDropdown = () => {
-  setIsVenueDropdownOpen((prev) => !prev);
-};
+
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { assets } from "../assets/assets";
@@ -35,6 +33,10 @@ const Navbar = () => {
   const toggleCallDropdown = () => {
     setIsCallDropDownOpen((prev) => !prev);
   };
+
+  const toggleVenueDropdown = () => {
+  setIsVenueDropdownOpen((prev) => !prev);
+};
 
   const handleMenuItemClick = (path) => {
     toggleMenu();

@@ -2,8 +2,8 @@ import React from "react";
 
 const AdvisoryCommittee = () => {
   return (
-    <div className="container mx-auto px-6 md:px-12 p-5">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-32">
+    <div className="container mx-auto px-6 md:px-12 py-3">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div>
           <h2 className="text-xl font-semibold mb-3 text-gray-700">
             International Advisory Committee

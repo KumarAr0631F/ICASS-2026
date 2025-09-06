@@ -4,8 +4,8 @@ const TechnicalProgramCommittee = () => {
   return (
     <div>
       {/* Content Section */}
-      <div className="container flex flex-col md:flex-row gap-8 p-5 mx-auto px-6 md:px-12">
-        <div className="mb-3">
+      <div className="container flex flex-col md:flex-row gap-8 py-4 mx-auto px-6 md:px-12">
+        <div>
           {/* Chief Patrons */}
           <h2 className="text-xl font-semibold mb-3 text-gray-700">
             Technical Program Committee
@@ -24,6 +24,7 @@ const TechnicalProgramCommittee = () => {
               Prof (Dr) M R Tyagi, Adjunct Professor, Department of Mechanical
               Engineering, MRU, Faridabad
             </li>
+            <li>Prof (Dr) Bhim Singh, Director Publications & Patents and Head, DoME, MRU, Faridabad</li>
             <li>
               Prof (Dr) Shailender Kumar, Professor, Computer Science &
               Technology, Delhi University
@@ -36,6 +37,7 @@ const TechnicalProgramCommittee = () => {
               Prof (Dr) Ashok Mittal, Professor, Department of ECE, NSUT, New
               Delhi
             </li>
+            <li>Prof (Dr) Sachin Lakra, Professor, DoCST, MRU, Faridabad</li>
             <li>Prof (Dr) Amit, Professor, DTU, New Delhi</li>
             <li>
               Prof (Dr) C Patvardhan, Professor, Dayalbagh Educational
@@ -49,6 +51,7 @@ const TechnicalProgramCommittee = () => {
               Prof (Dr) Munish Vashishtha, Professor, J. C. Bose University of
               Science and Technology, Faridabad
             </li>
+            <li>Dr S K Shukla, Professor, DoSc, MRU, Faridabad</li>
             <li>
               Prof (Dr) Sanjeev Kr Singh, Professor and Dean (Basic and Applied
               Sciences), Galgotias University, Greater Noida

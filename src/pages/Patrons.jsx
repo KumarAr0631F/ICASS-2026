@@ -7,10 +7,9 @@ const Patrons = () => {
       <div className="container mx-auto px-6 md:px-12">
         {/* Patrons Section */}
         <div className="mb-3">
-          <hr className="border-t border-blue-500 mb-5" />
 
           {/* Chief Patrons */}
-          <h2 className="text-xl font-semibold text-gray-700">
+          <h2 className="text-xl mt-4 font-semibold text-gray-700">
             Chief Patron(s)
           </h2>
           <ul className="list-disc ml-6 mb-3 text-justify text-gray-700">
@@ -39,7 +38,7 @@ const Patrons = () => {
         {/* Chairs Section */}
         <div>
           {/* General Chair */}
-          <h2 className="text-xl font-medium text-gray-700">General Chair</h2>
+          <h2 className="text-xl font-bold text-gray-700">General Chair</h2>
           <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
             <li>
               Prof (Dr) Dipali Bansal, Professor and Dean, SoE, MRU, Faridabad
@@ -47,7 +46,7 @@ const Patrons = () => {
           </ul>
 
           {/* Conference Chair */}
-          <h2 className="text-xl font-medium text-gray-700">
+          <h2 className="text-xl font-bold text-gray-700">
             Conference Chair
           </h2>
           <ul className="list-disc text-justify  ml-6 text-gray-700 mb-3">
@@ -55,7 +54,7 @@ const Patrons = () => {
               Prof (Dr) Manpreet Kaur, Director E-Learning and Professor, DoCST, MRU, Faridabad
             </li>
           </ul>
-          <h2 className="text-xl font-medium text-gray-700">
+          <h2 className="text-xl font-bold text-gray-700">
             Executive Chair(s)
           </h2>
           <ul className="list-disc text-justify  ml-6 text-gray-700 mb-3">
