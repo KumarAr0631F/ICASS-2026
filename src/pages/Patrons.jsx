@@ -38,7 +38,7 @@ const Patrons = () => {
         {/* Chairs Section */}
         <div>
           {/* General Chair */}
-          <h2 className="text-xl font-bold text-gray-700">General Chair</h2>
+          <h2 className="text-xl font-semibold text-gray-700">General Chair</h2>
           <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
             <li>
               Prof (Dr) Dipali Bansal, Professor and Dean, SoE, MRU, Faridabad
@@ -46,7 +46,7 @@ const Patrons = () => {
           </ul>
 
           {/* Conference Chair */}
-          <h2 className="text-xl font-bold text-gray-700">
+          <h2 className="text-xl font-semibold text-gray-700">
             Conference Chair
           </h2>
           <ul className="list-disc text-justify  ml-6 text-gray-700 mb-3">
@@ -54,7 +54,7 @@ const Patrons = () => {
               Prof (Dr) Manpreet Kaur, Director E-Learning and Professor, DoCST, MRU, Faridabad
             </li>
           </ul>
-          <h2 className="text-xl font-bold text-gray-700">
+          <h2 className="text-xl font-semibold text-gray-700">
             Executive Chair(s)
           </h2>
           <ul className="list-disc text-justify  ml-6 text-gray-700 mb-3">
@@ -99,6 +99,9 @@ const Patrons = () => {
             <li>Prof (Dr) Bhim Singh, Director Publications & Patents and Head, DoME, MRU, Faridabad</li>
             <li>
               Dr Jimmy Mehta, Assistant Professor, DoME, MRU, Faridabad
+            </li>
+            <li>
+              Prof (Dr) Kavita Singh, Professor, DoECE, MRU, Faridabad
             </li>
             <li>
               Prof (Dr) D K Sharma, Dean Examination and Professor, DoSc, MRU,

@@ -53,7 +53,7 @@ const OrganisingCommitte = () => {
         {/* Chairs Section */}
         <div>
           {/* General Chair */}
-          <h2 className="text-xl font-bold text-gray-700">
+          <h2 className="text-xl font-semibold text-gray-700">
             Publication Committee
           </h2>
           <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
@@ -71,7 +71,7 @@ const OrganisingCommitte = () => {
           </ul>
 
           {/* Conference Chair */}
-          <h2 className="text-xl font-bold text-gray-700">
+          <h2 className="text-xl font-semibold text-gray-700">
             Publicity Committee
           </h2>
           <ul className="list-disc text-justify  ml-6 text-gray-700 mb-3">
