@@ -19,7 +19,7 @@ const Guideline = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 p-4 sm:px-6 lg:px-8 flex flex-col items-center">
+    <div className="min-h-screen p-4 sm:px-6 lg:px-8 flex flex-col items-center">
       {/* Author's Guidelines Section */}
       <div className="flex flex-col items-center justify-center sm:p-6  w-full sm:w-3/4 lg:w-2/3">
         <h3 className="text-3xl text-blue-600 font-bold text-center">

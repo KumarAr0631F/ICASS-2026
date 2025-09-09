@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <div className="flex justify-center items-center min-h-screen bg-gradient-to-r from-blue-50 to-gray-100 px-4 sm:px-6 md:px-8">
+    <div className="flex justify-center items-center min-h-screen bg-gradient-to-r from-blue-50 px-4 sm:px-6 md:px-8">
       <div className="bg-white shadow-2xl rounded-2xl p-8 w-full max-w-3xl border border-gray-200 flex flex-col justify-center items-center">
         <h2 className="text-3xl font-extrabold text-blue-700 mb-6 text-center">
           Contact Information

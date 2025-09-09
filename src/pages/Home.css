@@ -5,3 +5,18 @@
     height: 40rem;
     width: 100%;
 }
+
+@keyframes dropdown-open {
+  0% { max-height: 0; opacity: 0; }
+  100% { max-height: 500px; opacity: 1; }
+}
+@keyframes dropdown-close {
+  0% { max-height: 500px; opacity: 1; }
+  100% { max-height: 0; opacity: 0; }
+}
+.animate-dropdown-open {
+  animation: dropdown-open 0.5s ease forwards;
+}
+.animate-dropdown-close {
+  animation: dropdown-close 0.5s ease forwards;
+}

@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const Registration = () => {
   return (
-    <div className="min-h-screen bg-gray-100 flex justify-center">
+    <div className="min-h-screen flex justify-center">
       <div className="container mx-auto p-4">
         <div className="text-center">
           <h1 className="text-3xl text-blue-700 mb-5">

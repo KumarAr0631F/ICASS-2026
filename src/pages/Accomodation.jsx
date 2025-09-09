@@ -2,7 +2,7 @@ import React from "react";
 
 const Accomodation = () => {
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-100">
+    <div className="flex items-center justify-center min-h-screen">
       <div className=" text-gray=-900 text-4xl font-semibold py-4 px-8 rounded">
         to be updated Soon...
       </div>
