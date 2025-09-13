@@ -8,8 +8,6 @@ import AutoSlidingCarousel from "./AutoSlidingCarousel";
 import TracksDropdown from "./TracksDropdown";
 
 const Home = () => {
-  
-
   const handlClickk = () => {
     Navigate("/contact");
   };
@@ -62,7 +60,7 @@ const Home = () => {
         {/* Content Wrapper */}
         <div className="w-full max-w-6xl px-4 md:px-8 lg:px-12 py-8">
           {/* About Conference */}
-          <div className="mb-12">
+          <div className="mb-8">
             <h3 className="text-blue-700 text-2xl md:text-3xl font-bold">
               About ICASS-2026
             </h3>
@@ -70,20 +68,46 @@ const Home = () => {
             <p className="text-base md:text-lg text-gray-700 text-justify">
               The{" "}
               <b>
-                1st International Conference on Intelligent Computing and Automation
-                for Sustainable Solutions (ICASS-2026)
+                1st International Conference on Intelligent Computing and
+                Automation for Sustainable Solutions (ICASS-2026)
               </b>{" "}
-              is a prestigious platform that brings together researchers,
+              is a prestigious platform that will bring together researchers,
               academicians, industry experts, and practitioners to discuss and
               share advancements in the fields of intelligent computing,
-              automation, and sustainable technologies. The primary focus of the
-              conference is to address the growing need for innovative solutions
-              that integrate cutting-edge technology with sustainability
-              principles to address global challenges. The conference is scheduled to be conducted in hybrid mode from 12th-13th February, 2026.
+              automation, and sustainable technologies. Themed at “Harnessing AI
+              for a Digital Future”, the conference is envisioned as a premier
+              platform to deliberate on the transformative role of intelligent
+              computing and automation in building a sustainable and
+              technology-driven world. The conference is aimed at addressing the
+              growing need for innovative solutions that integrate cutting-edge
+              technology with sustainability principles to address global
+              challenges. The conference is scheduled to be conducted in hybrid
+              mode from 12th-13th February, 2026.
+            </p>
+          </div>
+          <div className="mb-8">
+            <h3 className="text-blue-700 text-2xl md:text-3xl font-bold">
+              Scope ICASS-2026
+            </h3>
+            <hr className="bg-blue-700 border h-1 w-full my-2" />
+            <p className="text-base md:text-lg text-gray-700 text-justify">
+              The scope of ICASS-2026 encompasses a broad range of
+              interdisciplinary domains that integrate intelligent computing and
+              automation with sustainable practices. Key focus areas include
+              (but not limited to) artificial intelligence, machine learning,
+              deep learning, data science, robotics, Internet of Things (IoT),
+              cyber-physical systems, green computing, energy-efficient
+              architectures, smart materials, next gen communication etc. to
+              address the challenges of sustainable industrial development.
+              ICASS-2026 highlights the role of intelligent technologies in
+              domains such as smart cities, healthcare, agriculture, education,
+              industry, and environmental monitoring etc. where
+              technology-driven solutions are vital for achieving long-term
+              sustainability and societal well-being.
             </p>
           </div>
           {/* About Manav Rachna University */}
-          <div className="mb-12">
+          <div className="mb-8">
             <h3 className="text-blue-700 text-2xl md:text-3xl font-bold">
               About Manav Rachna University
             </h3>
@@ -96,54 +120,77 @@ const Home = () => {
               >
                 (http://manavrachna.edu.in)
               </NavLink>{" "}
-              is a leader in educational excellence providing high-quality
-              education with an environment of academic rigor and innovation.
-              The university offers UG/PG/Doctoral programmes in various
-              disciplines including engineering, management, law, applied
-              sciences, education and humanities etc. It has recently received
-              the prestigious NAAC Grade A accreditation in June 2024 and
-              Platinum band in the Outcome-Based Education Rankings 2024.
-              Additionally, the university has been recognized in the Diamond
-              band category under the Sustainable Institutions of India Green
-              Rankings 2024, underscoring the commitment to sustainability and
-              environmental stewardship. With its striving vision and
-              distinctive methodology, the university has received QS I Gauge
-              Overall Diamond rating, with a Platinum rating in Academic
-              Development & Employability and a Diamond rating in Teaching
-              Learning Process, Faculty Quality, Facilities and Social
-              Responsibility. MRU has also been ranked 5th in Delhi NCR & 20th
-              in North India under Private & Deemed Multidisciplinary
-              Universities category also ranked 13th nationally and 9th in North
-              India among Emerging Multidisciplinary Universities in the
-              prestigious THE WEEK 2024 rankings.
+              was established under the Haryana State Legislature Act No. 26 of
+              2014 and is one of the leading private state universities in
+              Haryana, India. It is recognized by the University Grants
+              Commission (UGC) under Section 2(f) of the UGC Act, 1956, and is
+              dedicated to providing world-class education with a global
+              outlook. The university has been awarded an “A” grade by NAAC
+              (2024–2029), and its B.Tech Computer Science & Engineering program
+              has received NBA accreditation (2023–2026). In a landmark
+              achievement, MRU became the first university in India to be
+              accredited by the International Baccalaureate (IB), underscoring
+              its alignment with international educational standards. It has
+              also earned prestigious recognitions from QS I-Gauge, including
+              the Platinum Badge in Engineering Subject Ratings (2025–2027), the
+              Overall Diamond Rating in University Rankings (2025–2028), the
+              Platinum band in Outcome-Based Education (OBE) consecutively for
+              2024 & 2025, the QS Institution of Happiness Award (2024), and the
+              Great Place to Work recognition for 2025–26. These accomplishments
+              reflect MRU’s commitment to academic rigor, innovation, and
+              student welfare. MRU comprises five schools and eight departments,
+              offering a diverse range of undergraduate, postgraduate, and Ph.D.
+              programs in fields such as Engineering, Management & Commerce,
+              Law, Education & Humanities, and Sciences. All programs are
+              approved by statutory bodies like AICTE, NCTE, and BCI, ensuring
+              that academic and professional standards are maintained at the
+              highest levels. The university’s ethos is built on five core
+              values—Student Centricity, Integrity, Excellence, Inclusivity, and
+              Sustainability. These principles guide its academic environment
+              and encourage ethical conduct, equal opportunity, and continuous
+              learning. By fostering innovation, research, and holistic
+              development, MRU empowers its students to become skilled
+              professionals and responsible global citizens committed to making
+              a positive impact on society.
             </p>
           </div>
 
-          <div className="mb-12">
+          <div className="mb-8">
             <h3 className="text-blue-700 text-2xl md:text-3xl font-bold">
               About School of Engineering
             </h3>
             <hr className="bg-blue-700 border h-1 w-full my-2" />
             <p className="text-base md:text-lg text-gray-700 text-justify">
-              The School of Engineering at Manav Rachna University is a premier
-              institution dedicated to providing top-tier engineering education.
-              It offers a wide array of undergraduate, postgraduate and PhD
-              programs, focusing on a blend of theoretical knowledge and
-              practical application. The school is equipped with
-              state-of-the-art infrastructure, including modern laboratories,
-              advanced research facilities, and cutting-edge technology. The
-              school places a strong emphasis on innovation, problem-solving,
-              and skill development, and fosters a culture of entrepreneurship,
-              encouraging students to think creatively and contribute to society
-              through their engineering expertise. The school has won various
-              awards and accreditations such as QS I-Gauge 2025 subject ratings
-              for Engineering, NBA etc. which is the hallmark of the quality
-              technical education.
+              The School of Engineering at Manav Rachna University is a
+              distinguished center of excellence committed to delivering
+              high-quality engineering education. It offers a comprehensive
+              range of undergraduate, postgraduate, and Ph.D. programs across
+              disciplines such as Computer Science Engineering, AIML, Cyber
+              Security, GenAI, Full Stack Development, Mechanical Engineering,
+              Smart Manufacturing & Automation, Electric Vehicle Technology,
+              Electronics & Communication Engineering, and VLSI & Chip Design.
+              The school is supported by state-of-the-art infrastructure,
+              including advanced laboratories, research facilities, and the
+              latest technological tools. The school has collaborations with
+              leading industry and academic partners such as Google Cloud,
+              Xebia, CISCO, KPMG, L&T Edutech, and Truechip, enriching learning
+              experiences and providing students with real-world exposure.
+              Additionally, it houses a specialized Drone Lab in association
+              with AVPL, offering cutting-edge research and innovation
+              opportunities in emerging technologies. With a strong focus on
+              innovation, practical problem-solving, and skill enhancement, the
+              school nurtures an entrepreneurial mindset, encouraging students
+              to think creatively and apply their engineering knowledge for
+              societal benefit. Its commitment to academic excellence is
+              reflected in numerous accolades and accreditations, including QS
+              I-Gauge 2025 subject ratings for Engineering and NBA
+              certification, which stand as benchmarks of superior
+              technical education.
             </p>
           </div>
 
           {/* Conference Topics */}
-          <div className="mb-12">
+          <div className="mb-8">
             <h3 className="text-blue-700 text-2xl font-bold">
               Conference Tracks
             </h3>
@@ -161,8 +208,6 @@ const Home = () => {
             </p>
 
             <TracksDropdown />
-
-            
           </div>
 
           {/* Key Highlights */}
@@ -234,9 +279,7 @@ const Home = () => {
               <img src={assets.sponsor_logo_8} alt="" />
             </div>
           </div>
-          
         </div>
-        
       </div>
     </>
   );
