@@ -51,7 +51,7 @@ const TechnicalProgramCommittee = () => {
               Prof (Dr) Munish Vashishtha, Professor, J. C. Bose University of
               Science and Technology, Faridabad
             </li>
-            <li>Dr S K Shukla, Professor, DoSc, MRU, Faridabad</li>
+            <li>Dr S K Shukla, Professor, SoSc, MRU, Faridabad</li>
             <li>
               Prof (Dr) Sanjeev Kr Singh, Professor and Dean (Basic and Applied
               Sciences), Galgotias University, Greater Noida

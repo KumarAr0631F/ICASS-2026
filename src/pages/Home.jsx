@@ -87,7 +87,7 @@ const Home = () => {
           </div>
           <div className="mb-8">
             <h3 className="text-blue-700 text-2xl md:text-3xl font-bold">
-              Scope ICASS-2026
+              Scope of ICASS-2026
             </h3>
             <hr className="bg-blue-700 border h-1 w-full my-2" />
             <p className="text-base md:text-lg text-gray-700 text-justify">
@@ -253,14 +253,14 @@ const Home = () => {
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
               <div className=" flex items-center justify-center text-center">
                 <img
-                  className="w-[15rem] h-auto"
+                  className="w-40 h-auto"
                   src={assets.sponsor_logo_2}
                   alt=""
                 />
               </div>
 
               <img
-                className="w-[15rem] h-[15rem] items-center object-contain sm:object-cover sm:w-[15rem] sm:h-[15rem]"
+                className="w-40 h-auto items-center object-contain sm:object-cover sm:w-[15rem] sm:h-[15rem]"
                 src={assets.sponsor_logo_3}
                 alt=""
               />
@@ -271,12 +271,14 @@ const Home = () => {
               Knowledge Partners
             </h3>
             <hr className="bg-blue-700 border h-1 w-full my-2" />
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 items-center">
-              <img src={assets.sponsor_logo_4} alt="" />
-              <img src={assets.sponsor_logo_5} alt="" />
-              <img src={assets.sponsor_logo_6} alt="" />
-              <img src={assets.sponsor_logo_7} alt="" />
-              <img src={assets.sponsor_logo_8} alt="" />
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-4 items-center">
+              <img className="w-40 h-auto ml-20 object-contain" src={assets.sponsor_logo_4} alt="" />
+              <img className="w-40 ml-20 h-auto object-contain" src={assets.sponsor_logo_5} alt="" />
+              <img className="w-40 ml-20 h-auto object-contain" src={assets.sponsor_logo_6} alt="" />
+              <img className="w-40 ml-20 h-auto object-contain" src={assets.sponsor_logo_7} alt="" />
+              <img className="w-40 ml-20  h-auto object-contain" src={assets.sponsor_logo_8} alt="" />
+              <img className="w-40 ml-20 h-auto object-contain" src={assets.sponsor_logo_9} alt="" />
+              <img className="w-40 ml-20 h-auto object-contain" src={assets.sponsor_logo_10} alt="" />
             </div>
           </div>
         </div>

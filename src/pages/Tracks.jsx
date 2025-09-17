@@ -16,9 +16,9 @@ const Tracks = () => {
         will feature the following tracks and related topics (but not limited
         to):
       </p>
-      <div className="flex flex-col gap-4 w-full ">
+      <div className="grid gap-4 w-full sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-2 border-">
         {/* Track 1 */}
-        <div className="bg-white rounded-lg w-full overflow-x-hidden break-words">
+        <div className="bg-white border-2 border-gray-300 p-3 rounded-lg w-full overflow-x-hidden break-words">
           <strong>
             Track-1: Computational Intelligent Systems and Applications
           </strong>
@@ -66,7 +66,7 @@ const Tracks = () => {
           </ul>
         </div>
         {/* Track 2 */}
-        <div className="bg-white rounded-lg w-full overflow-x-hidden break-words">
+        <div className="bg-white border-2 border-gray-300 p-3 rounded-lg w-full overflow-x-hidden break-words">
           <strong>Track-2: Data Analytics and Decision Sciences</strong>
           <h3></h3>
           <p className="flex">
@@ -100,7 +100,7 @@ const Tracks = () => {
           </ul>
         </div>
 
-        <div className="bg-white rounded-lg w-full overflow-x-hidden break-words">
+        <div className="bg-white border-2 border-gray-300 p-3 rounded-lg w-full overflow-x-hidden break-words">
           <strong>
             Track-3: Futuristic Tools, Technologies & Applications
           </strong>
@@ -136,7 +136,7 @@ const Tracks = () => {
           </ul>
         </div>
 
-        <div>
+        <div className="bg-white border-2 border-gray-300 p-3 rounded-lg w-full overflow-x-hidden break-words">
           <strong>Track-4: Smart Electronics and Next-Gen Communication</strong>
           <h3></h3>
           <p className="flex">
@@ -176,7 +176,7 @@ const Tracks = () => {
           </ul>
         </div>
 
-        <div>
+        <div className="bg-white border-2 border-gray-300 p-3 rounded-lg w-full overflow-x-hidden break-words">
           <strong>Track-5: Smart Cities and Sustainability</strong>
           <h3></h3>
           <p className="flex">
@@ -206,7 +206,7 @@ const Tracks = () => {
           </ul>
         </div>
 
-        <div>
+        <div className="bg-white border-2 border-gray-300 p-3 rounded-lg w-full overflow-x-hidden break-words">
           <strong>Track-6: Industry 5.0 and Cyber Physical Systems</strong>
           <h3></h3>
           <p className="flex">
@@ -234,7 +234,7 @@ const Tracks = () => {
           </ul>
         </div>
 
-        <div>
+        <div className="bg-white border-2 border-gray-300 p-3 rounded-lg w-full overflow-x-hidden break-words">
           <strong>Track-7: Smart Materials for Sustainable Technology</strong>
           <h3></h3>
           <p className="flex">

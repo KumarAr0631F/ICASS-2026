@@ -25,7 +25,7 @@ const OrganisingCommitte = () => {
           <ul className="list-disc ml-6 mb-3 text-justify text-gray-700">
             <li>Dr Ranjana Jain, Associate Professor, DoCST, MRU, Faridabad</li>
             <li>Dr Meena Chaudhary, Associate Professor, MRU, Faridabad</li>
-            <li>Dr Ekta Rawat, Assistant Professor, DoSc, MRU, Faridabad</li>
+            <li>Dr Ekta Rawat, Assistant Professor, SoSc, MRU, Faridabad</li>
             <li>Ms Jyoti Nanwal, DoCST, MRU, Faridabad</li>
             <li>
               Mr Nazish Ahmad Samsi, Assistant Professor, DoME, MRU, Faridabad
@@ -57,7 +57,7 @@ const OrganisingCommitte = () => {
             Publication Committee
           </h2>
           <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
-            <li>Dr S K Shukla, Professor, DoSc, MRU, Faridabad</li>
+            <li>Dr S K Shukla, Professor, SoSc, MRU, Faridabad</li>
             <li>
               Dr Neha Chaudhary, Assistant Professor, DoR&AI, MRU, Faridabad
             </li>
@@ -91,7 +91,7 @@ const OrganisingCommitte = () => {
           </h2>
           <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
             
-            <li>Dr A Jayamani, Assistant Professor, DoSc, MRU, Faridabad</li>
+            <li>Dr A Jayamani, Assistant Professor, SoSc, MRU, Faridabad</li>
             <li>
               Dr Piyush Mahendru, Assistant Professor, DoME, MRU, Faridabad
             </li>
@@ -129,7 +129,7 @@ const OrganisingCommitte = () => {
             <li>
               Dr Sanjay Singh, Associate Professor, DoCST, MRU, Faridabad
             </li>
-            <li>Dr Jai Prakash, Associate Professor, DoSc, MRU, Faridabad</li>
+            <li>Dr Jai Prakash, Associate Professor, SoSc, MRU, Faridabad</li>
             <li>
               Mr Pradeep Kr Mouria, Assistant Professor, DoME, MRU, Faridabad
             </li>
@@ -137,7 +137,7 @@ const OrganisingCommitte = () => {
               Mr Mandeep Bhadana, Assistant Professor, DoME, MRU, Faridabad
             </li>
             <li>
-              Dr Deepti Maikhuri, Assistant Professor, DoSc, MRU, Faridabad
+              Dr Deepti Maikhuri, Assistant Professor, SoSc, MRU, Faridabad
             </li>
           </ul>
           <h2 className="text-xl font-semibold text-gray-800">
@@ -161,13 +161,13 @@ const OrganisingCommitte = () => {
               Dr Deepti Thakral, Associate Professor, DoCST, MRU, Faridabad
             </li>
             <li>Dr Priti Gupta, Assistant Professor, DoECE, MRU, Faridabad</li>
-            <li>Dr Ananna Bardhan, Assistant Professor, DoSc, MRU, Faridabad</li>
+            <li>Dr Ananna Bardhan, Assistant Professor, SoSc, MRU, Faridabad</li>
           </ul>
           <h2 className="text-xl font-semibold text-gray-800">
             Technical Report and Content Writing
           </h2>
           <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
-            <li>Dr Javed Idrisi, Professor, DoSc, MRU, Faridabad</li>
+            <li>Dr Javed Idrisi, Professor, SoSc, MRU, Faridabad</li>
             <li>
               Dr Neelu Chaudhary, Associate Professor, DoCST, MRU, Faridabad
             </li>

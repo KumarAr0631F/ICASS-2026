@@ -37,7 +37,17 @@ const Patrons = () => {
 
         {/* Chairs Section */}
         <div>
-          {/* General Chair */}
+          {/* Special Session Chair */}
+          <h2 className="text-xl font-semibold text-gray-700">Special Session Chair</h2>
+          <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
+            <li>
+              Dr Jitendra Pal Singh, Ramanujan Fellow, SoSc, MRU, Faridabad
+            </li>
+            <li>
+              Dr Monika Lamba, Assistant Professor, DoCST, MRU, Faridabad
+            </li>
+          </ul>
+
           <h2 className="text-xl font-semibold text-gray-700">General Chair</h2>
           <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
             <li>
@@ -60,12 +70,12 @@ const Patrons = () => {
           <ul className="list-disc text-justify  ml-6 text-gray-700 mb-3">
             <li>Prof (Dr) Jyotsna Pandit, Dean & HOD Sciences, MRU, Faridabad</li>
             <li>
-              Prof (Dr) Deepa Arora, Director QAA and Professor, DoSc, MRU,
+              Prof (Dr) Deepa Arora, Director QAA and Professor, SoSc, MRU,
               Faridabad
             </li>
             <li>
               Prof (Dr) Meena Kapahi, Director International Relations and
-              Professor, DoSc, MRU, Faridabad
+              Professor, SoSc, MRU, Faridabad
             </li>
           </ul>
         </div>
@@ -104,7 +114,7 @@ const Patrons = () => {
               Prof (Dr) Kavita Singh, Professor, DoECE, MRU, Faridabad
             </li>
             <li>
-              Prof (Dr) D K Sharma, Dean Examination and Professor, DoSc, MRU,
+              Prof (Dr) D K Sharma, Dean Examination and Professor, SoSc, MRU,
               Faridabad
             </li>
             <li>Prof (Dr) Joginder Singh, Professor, DoME, MRU, Faridabad</li>
@@ -144,7 +154,7 @@ const Patrons = () => {
           </h2>
           <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
             <li>Prof (Dr) Sachin Lakra, Professor, DoCST, MRU, Faridabad</li>
-            <li>Dr Aparna Vyas, Associate Professor, DoSc, MRU, Faridabad</li>
+            <li>Dr Aparna Vyas, Associate Professor, SoSc, MRU, Faridabad</li>
             <li>
               Dr Urmila Pilania, Associate Professor, DoCST, MRU, Faridabad
             </li>
@@ -152,7 +162,7 @@ const Patrons = () => {
               Dr Priyanka Bansal, Professor, DoECE, MRU, Faridabad
             </li>
             <li>
-              Dr Jitendra Pal Singh, Ramanujan Fellow, DoSc, MRU, Faridabad
+              Dr Jitendra Pal Singh, Ramanujan Fellow, SoSc, MRU, Faridabad
             </li>
           </ul>
           <h2 className="text-xl font-semibold text-gray-800">
@@ -162,7 +172,7 @@ const Patrons = () => {
             <li>Prof (Dr) Parneeta Dhaliwal, Professor, DoCST, MRU, Faridabad</li>
             <li>Dr Mamta Arora, Associate Professor, DoCST, MRU, Faridabad</li>
             <li>Dr Smriti Mishra, Associate Professor, DoME, MRU, Faridabad</li>
-            <li>Dr Arpit Sand, Professor, DoSc, MRU, Faridabad</li>
+            <li>Dr Arpit Sand, Professor, SoSc, MRU, Faridabad</li>
           </ul>
         </div>
       </div>
