@@ -2,12 +2,15 @@ import React, { useState } from "react";
 import { assets } from "../assets/assets";
 import { NavLink } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
+import { ChevronDown } from "lucide-react";
 
 import "./Home.css";
 import AutoSlidingCarousel from "./AutoSlidingCarousel";
 import TracksDropdown from "./TracksDropdown";
 
 const Home = () => {
+  const [showSupporters, setShowSupporters] = useState(false);
+  const [supporterDropdownState, setSupporterDropdownState] = useState('closed'); // 'open', 'opening', 'closing', 'closed'
   const handlClickk = () => {
     Navigate("/contact");
   };
@@ -246,24 +249,28 @@ const Home = () => {
             </p>
           </div> */}
           <div className="mt-5">
-            <h3 className="text-blue-700 text-2xl md:text-3xl font-bold">
+            <h3 className="text-blue-700 text-2xl md:text-3xl font-bold flex items-center justify-between cursor-pointer" onClick={() => {
+              if (supporterDropdownState === 'open') {
+                setSupporterDropdownState('closing');
+                setTimeout(() => setSupporterDropdownState('closed'), 500);
+              } else if (supporterDropdownState === 'closed') {
+                setSupporterDropdownState('opening');
+                setTimeout(() => setSupporterDropdownState('open'), 500);
+              }
+            }}>
               Financial Supporters
+              <ChevronDown className={`ml-2 transition-transform duration-300 ${supporterDropdownState === 'open' || supporterDropdownState === 'opening' ? 'rotate-180' : ''}`} size={28} />
             </h3>
             <hr className="bg-blue-700 border h-1 w-full my-2" />
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
-              <div className=" flex items-center justify-center text-center">
-                <img
-                  className="w-40 h-auto"
-                  src={assets.sponsor_logo_2}
-                  alt=""
-                />
-              </div>
-
-              <img
-                className="w-40 h-auto items-center object-contain sm:object-cover sm:w-[15rem] sm:h-[15rem]"
-                src={assets.sponsor_logo_3}
-                alt=""
-              />
+            <div className={`overflow-hidden ${supporterDropdownState === 'open' ? 'animate-dropdown-open' : supporterDropdownState === 'opening' ? 'animate-dropdown-open' : supporterDropdownState === 'closing' ? 'animate-dropdown-close' : ''}`}> 
+              {(supporterDropdownState === 'open' || supporterDropdownState === 'opening' || supporterDropdownState === 'closing') && (
+                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 p-4">
+                  <div className="flex items-center justify-center text-center">
+                    <img className="w-40 h-auto" src={assets.sponsor_logo_2} alt="" />
+                  </div>
+                  <img className="w-40 h-auto items-center object-contain sm:object-cover sm:w-[15rem] sm:h-[15rem]" src={assets.sponsor_logo_3} alt="" />
+                </div>
+              )}
             </div>
           </div>
           <div className="mt-5">
@@ -271,14 +278,50 @@ const Home = () => {
               Knowledge Partners
             </h3>
             <hr className="bg-blue-700 border h-1 w-full my-2" />
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-4 items-center">
-              <img className="w-40 h-auto ml-20 object-contain" src={assets.sponsor_logo_4} alt="" />
-              <img className="w-40 ml-20 h-auto object-contain" src={assets.sponsor_logo_5} alt="" />
-              <img className="w-40 ml-20 h-auto object-contain" src={assets.sponsor_logo_6} alt="" />
-              <img className="w-40 ml-20 h-auto object-contain" src={assets.sponsor_logo_7} alt="" />
-              <img className="w-40 ml-20  h-auto object-contain" src={assets.sponsor_logo_8} alt="" />
-              <img className="w-40 ml-20 h-auto object-contain" src={assets.sponsor_logo_9} alt="" />
-              <img className="w-40 ml-20 h-auto object-contain" src={assets.sponsor_logo_10} alt="" />
+            <div className="w-full overflow-x-auto whitespace-nowrap flex gap-8 py-2">
+              <marquee behavior="scroll" direction="left">
+                <img
+                  src={assets.sponsor_logo_4}
+                  className="w-40 h-auto inline-block"
+                  alt=""
+                />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img
+                  src={assets.sponsor_logo_5}
+                  className="w-40 h-auto inline-block"
+                  alt=""
+                />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img
+                  src={assets.sponsor_logo_6}
+                  className="w-40 h-auto inline-block"
+                  alt=""
+                />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img
+                  src={assets.sponsor_logo_7}
+                  className="w-40 h-auto inline-block"
+                  alt=""
+                />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img
+                  src={assets.sponsor_logo_8}
+                  className="w-40 h-auto inline-block"
+                  alt=""
+                />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img
+                  src={assets.sponsor_logo_9}
+                  className="w-40 h-auto inline-block"
+                  alt=""
+                />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img
+                  src={assets.sponsor_logo_10}
+                  className="w-40 h-auto inline-block"
+                  alt=""
+                />
+              </marquee>
             </div>
           </div>
         </div>

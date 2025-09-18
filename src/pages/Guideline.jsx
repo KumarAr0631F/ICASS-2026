@@ -104,6 +104,9 @@ const Guideline = () => {
               formatting guidelines may be rejected.
             </li>
             <li>
+              All accepted, registered and successfully presented papers will be submitted to IEEE Xplore® for possible inclusion for publication.
+            </li>
+            <li>
               Submissions must be original, unpublished work not under review
               elsewhere.
             </li>

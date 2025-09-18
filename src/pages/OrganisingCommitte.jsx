@@ -62,6 +62,9 @@ const OrganisingCommitte = () => {
               Dr Neha Chaudhary, Assistant Professor, DoR&AI, MRU, Faridabad
             </li>
             <li>
+              Dr Richa Adlakha, Assistant Professor, DoME, MRU, Faridabad
+            </li>
+            <li>
               Dr Piyush Charan, Associate Professor, DoR&AI, MRU, Faridabad
             </li>
             <li>Dr Charu Pathak, Professor, DoECE, MRU, Faridabad</li>
