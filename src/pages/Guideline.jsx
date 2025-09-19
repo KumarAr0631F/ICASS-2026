@@ -116,7 +116,7 @@ const Guideline = () => {
             </li>
             <li>All manuscripts must be written in English.</li>
             <li>
-              The page limit is six (6) pages. An additional two pages are
+              Submission should have 4 pages (minimum) to  6 pages (maximum), including figures, tables & references. An additional two pages(max) are
               allowed with extra charges as specified in the{" "}
               <NavLink
                 to="/registration"

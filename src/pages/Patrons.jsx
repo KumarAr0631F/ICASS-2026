@@ -37,16 +37,7 @@ const Patrons = () => {
 
         {/* Chairs Section */}
         <div>
-          {/* Special Session Chair */}
-          <h2 className="text-xl font-semibold text-gray-700">Special Session Chair</h2>
-          <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
-            <li>
-              Dr Jitendra Pal Singh, Ramanujan Fellow, SoSc, MRU, Faridabad
-            </li>
-            <li>
-              Dr Monika Lamba, Assistant Professor, DoCST, MRU, Faridabad
-            </li>
-          </ul>
+          
 
           <h2 className="text-xl font-semibold text-gray-700">General Chair</h2>
           <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
@@ -163,6 +154,16 @@ const Patrons = () => {
             </li>
             <li>
               Dr Jitendra Pal Singh, Ramanujan Fellow, SoSc, MRU, Faridabad
+            </li>
+          </ul>
+          {/* Special Session Chair */}
+          <h2 className="text-xl font-semibold text-gray-700">Special Session Chair</h2>
+          <ul className="list-disc text-justify ml-6 text-gray-700 mb-3">
+            <li>
+              Dr Jitendra Pal Singh, Ramanujan Fellow, SoSc, MRU, Faridabad
+            </li>
+            <li>
+              Dr Monika Lamba, Assistant Professor, DoCST, MRU, Faridabad
             </li>
           </ul>
           <h2 className="text-xl font-semibold text-gray-800">
