@@ -15,6 +15,7 @@ import OrganisingCommitte from "./pages/OrganisingCommitte";
 import AdvisoryCommittee from "./pages/AdvisoryCommittee";
 import TechnicalProgramCommittee from "./pages/TechnicalProgramCommittee";
 import Tracks from "./pages/Tracks";
+import Sponsorships from "./pages/Sponsorships";
 const App = () => {
   return (
     <div>
@@ -32,6 +33,7 @@ const App = () => {
         <Route path="/organising-committee" element={<OrganisingCommitte />} />
         <Route path="/advisory-committee" element={<AdvisoryCommittee />} />
         <Route path="/callforpapers/tracks-info" element={<Tracks />} />
+        <Route path="/sponsorships" element={<Sponsorships />} />
         <Route
           path="/technical-committee"
           element={<TechnicalProgramCommittee />}
