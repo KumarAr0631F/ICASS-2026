@@ -34,26 +34,16 @@ const SpecialSession = () => {
       <div className="w-full flex mt-8">
         <div className=" w-full px-4  text-gray-900 mb-8">
           <p>
-            ICASS 2026 invites proposals to organize Special Sessions related to
-            the conference theme and key topics within the conference scope.
-            Please send your special session proposals as a Word file{" "}
-            <a
-              // href="Revised_Call_for_Papers_Special_Session_ICASS_2026.docx"
-              // download={
-              //   "Revised_Call_for_Papers_Special_Session_ICASS_2026.docx"
-              // }
+            Kindly submit proposal for conducting special session in the prescribed format <a
+              href="Revised_Call_for_Papers_Special_Session_ICASS_2026.docx"
+              download={
+                "Revised_Call_for_Papers_Special_Session_ICASS_2026.docx"
+              }
               className="text-blue-600 cursor-pointer"
             >
-              (download template)
-            </a>{" "}
-            to{" "}
-            <a
-              href="mailto:icass2026@mru.edu.in"
-              className="text-blue-700 underline"
-            >
-              icass2026@mru.edu.in
-            </a>
-            .
+              (format link)
+            </a>{" "} to <a className="text-blue-600 cursor-pointer" href="mailto:icass2026@mru.edu.in">icass2026@mru.edu.in</a> mentioning the subject as “Proposal for Special Track on [Title of your special track]”
+          {" "}
           </p>
         </div>
       </div>
@@ -106,10 +96,8 @@ const SpecialSession = () => {
             subject as “Proposal for Special Track on [Title of your special
             track]”
           </li>
-          <li>Last Date to submit proposal is 30 September 2025.</li>
           <li>
-            Notification of approval to your proposal will be sent within 3 days
-            of submission.
+            All the proposals will be carefully reviewed by the conference TPC committee and will be critically analysed before final selection.
           </li>
         </ul>
       </div>
@@ -145,6 +133,20 @@ const SpecialSession = () => {
           <li>A single author may have a maximum of 3 accepted papers.</li>
           <li>Each paper will be reviewed by at least three reviewers.</li>
           <li>Track Chairs must provide a list of 50 reviewers in Excel format, including: Name, Email ID, Phone Number, Affiliation, CMT ID.</li>
+          <li>Session chairs have the responsibility of disseminating call for papers</li>
+          <li>For conducting special session, there must be at least minimum 40 submissions with at-least 8 registered papers (i.e registration fee paid for atleast one author) in the session.</li>
+        </ul>
+      </div>
+
+      <div>
+        <p className="text-3xl font-semibold text-blue-600 text-center mb-4">
+          Benefits to Track Chairs
+        </p>
+        <ul className="list-disc list-inside text-gray-800 w-full px-4 mb-8">
+          <li>Conference Kit (on attending in person)</li>
+          <li>Honorarium (including TA) according to conference norms.</li>
+          <li>Local hospitality (if attending physically)</li>
+          <li>One paper registration fee waived</li>
         </ul>
       </div>
     </div>
