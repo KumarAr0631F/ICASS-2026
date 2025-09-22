@@ -34,15 +34,16 @@ const SpecialSession = () => {
       <div className="w-full flex mt-8">
         <div className=" w-full px-4  text-gray-900 mb-8">
           <p>
-            Kindly submit proposal for conducting special session in the prescribed format <a
+            ICASS 2026 invites proposals to organize Special Sessions related to the conference theme and key topics within the conference scope. Please send your special session proposals as a Word file <a
               href="Revised_Call_for_Papers_Special_Session_ICASS_2026.docx"
               download={
                 "Revised_Call_for_Papers_Special_Session_ICASS_2026.docx"
               }
               className="text-blue-600 cursor-pointer"
             >
-              (format link)
-            </a>{" "} to <a className="text-blue-600 cursor-pointer" href="mailto:icass2026@mru.edu.in">icass2026@mru.edu.in</a> mentioning the subject as “Proposal for Special Track on [Title of your special track]”
+              (Download link)
+            </a>{" "} to <a className="text-blue-600 cursor-pointer" href="mailto:icass2026@mru.edu.in">icass2026@mru.edu.in</a>
+            .
           {" "}
           </p>
         </div>
@@ -92,9 +93,15 @@ const SpecialSession = () => {
         </p>
         <ul className="list-disc list-inside text-gray-800 w-full px-4 mb-8">
           <li>
-            Kindly submit this proposal to icass2026@mru.edu.in mentioning the
-            subject as “Proposal for Special Track on [Title of your special
-            track]”
+            Kindly submit proposal for conducting special session in the prescribed format <a
+              href="Revised_Call_for_Papers_Special_Session_ICASS_2026.docx"
+              download={
+                "Revised_Call_for_Papers_Special_Session_ICASS_2026.docx"
+              }
+              className="text-blue-600 cursor-pointer"
+            >
+              (format link)
+            </a>{" "} to <a className="text-blue-600 cursor-pointer" href="mailto:icass2026@mru.edu.in">icass2026@mru.edu.in</a> mentioning the subject as “Proposal for Special Track on [Title of your special track]”
           </li>
           <li>
             All the proposals will be carefully reviewed by the conference TPC committee and will be critically analysed before final selection.
