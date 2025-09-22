@@ -229,7 +229,8 @@ const Navbar = () => {
           {[
             { label: "Conference Schedule", path: "/schedule" },
             { label: "Registration", path: "/registration" },
-            { label: "Sponsorships", path: "/sponsorships" },
+            // { label: "Sponsorships", path: "/sponsorships" },
+            { label: "Call for Special Session", path: "/special-session" },
             { label: "Contact Us", path: "/contact" },
           ].map((item) => (
             <li key={item.label}>
@@ -304,14 +305,14 @@ const Navbar = () => {
             <NavLink
               onClick={window.scrollTo(0, 0)}
               to="/"
-              className="font-semibold hover:bg-blue-600 px-3 py-2 rounded-md"
+              className="font-semibold text-sm hover:bg-blue-600 px-3 py-2 rounded-md"
             >
               Home
             </NavLink>
 
             <div className="dropdown-center">
               <button
-                className="btn text-white border-none hover:bg-blue-600 font-semibold text-lg dropdown-toggle"
+                className="btn text-white border-none hover:bg-blue-600 font-semibold text-sm dropdown-toggle"
                 type="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
@@ -322,7 +323,7 @@ const Navbar = () => {
                 <li>
                   <NavLink
                     onClick={() => window.scrollTo(0, 0)}
-                    className="dropdown-item"
+                    className="dropdown-item text-sm"
                     to="/patrons"
                   >
                     Patrons & Chairs
@@ -331,7 +332,7 @@ const Navbar = () => {
                 <li>
                   <NavLink
                     onClick={() => window.scrollTo(0, 0)}
-                    className="dropdown-item"
+                    className="dropdown-item text-sm"
                     to="/organising-committee"
                   >
                     Organising Committee
@@ -340,7 +341,7 @@ const Navbar = () => {
                 <li>
                   <NavLink
                     onClick={() => window.scrollTo(0, 0)}
-                    className="dropdown-item"
+                    className="dropdown-item text-sm"
                     to="/advisory-committee"
                   >
                     Advisory Committee
@@ -349,7 +350,7 @@ const Navbar = () => {
                 <li>
                   <NavLink
                     onClick={() => window.scrollTo(0, 0)}
-                    className="dropdown-item"
+                    className="dropdown-item text-sm"
                     to="/Technical-committee"
                   >
                     Technical Program Committee
@@ -362,14 +363,14 @@ const Navbar = () => {
             <NavLink
               onClick={window.scrollTo(0, 0)}
               to="/schedule"
-              className="font-semibold hover:bg-blue-600 px-3 py-2 rounded-md"
+              className="font-semibold text-sm hover:bg-blue-600 px-3 py-2 rounded-md"
             >
               Conference Schedule
             </NavLink>
 
             <div className="dropdown-center">
               <button
-                className="btn text-white border-none hover:bg-blue-600 font-semibold text-lg dropdown-toggle"
+                className="btn text-white  border-none hover:bg-blue-600 font-semibold text-sm dropdown-toggle"
                 type="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
@@ -380,7 +381,7 @@ const Navbar = () => {
                 <li>
                   <NavLink
                     onClick={() => window.scrollTo(0, 0)}
-                    className="dropdown-item"
+                    className="dropdown-item text-sm"
                     to="/callforpapers/tracks-info"
                   >
                     Tracks Information
@@ -389,7 +390,7 @@ const Navbar = () => {
                 <li>
                   <NavLink
                     onClick={() => window.scrollTo(0, 0)}
-                    className="dropdown-item"
+                    className="dropdown-item text-sm"
                     to="/callforpapers/guidelines"
                   >
                     Author's Guidelines
@@ -400,35 +401,49 @@ const Navbar = () => {
             <NavLink
               onClick={window.scrollTo(0, 0)}
               to="/registration"
-              className="font-semibold hover:bg-blue-600 px-3 py-2 rounded-md"
+              className="font-semibold text-sm hover:bg-blue-600 px-3 py-2 rounded-md"
             >
               Registration
             </NavLink>
 
-            <NavLink
+            {/* <NavLink
               onClick={window.scrollTo(0, 0)}
               to="/sponsorships"
-              className="font-semibold hover:bg-blue-600 px-3 py-2 rounded-md"
+              className="font-semibold text-sm hover:bg-blue-600 px-3 py-2 rounded-md"
             >
               Sponsorships
-            </NavLink>
+            </NavLink> */}
+
+
+            <div style={{ position: 'relative', display: 'inline-block' }}>
+              <NavLink
+                onClick={window.scrollTo(0, 0)}
+                to="/special-session"
+                className="font-semibold text-sm hover:bg-blue-600 px-3 py-2 rounded-md"
+              >
+                Call for Special Session
+              </NavLink>
+              <span className="absolute -top-4 right-0 z-50 bg-red-600 text-white font-bold text-xs px-2 py-1 rounded-full shadow-lg" style={{ pointerEvents: 'none' }}>
+                NEW
+              </span>
+            </div>
 
 
 
             <div className="dropdown-center">
               <button
-                className="btn text-white border-none hover:bg-blue-600 font-semibold text-lg dropdown-toggle"
+                className="btn text-white border-none hover:bg-blue-600 font-semibold text-sm dropdown-toggle"
                 type="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
                 Venue & Travels
               </button>
-              <ul className="dropdown-menu">
+              <ul className="dropdown-menu text-sm">
                 <li>
                   <NavLink
                     onClick={() => window.scrollTo(0, 0)}
-                    className="dropdown-item"
+                    className="dropdown-item text-sm"
                     to="/venue"
                   >
                     Conference Venue
@@ -437,7 +452,7 @@ const Navbar = () => {
                 <li>
                   <NavLink
                     onClick={() => window.scrollTo(0, 0)}
-                    className="dropdown-item"
+                    className="dropdown-item text-sm"
                     to="/accommodation"
                   >
                     Accommodation
@@ -446,7 +461,7 @@ const Navbar = () => {
                 <li>
                   <NavLink
                     onClick={() => window.scrollTo(0, 0)}
-                    className="dropdown-item"
+                    className="dropdown-item text-sm"
                     to="/tourist-places"
                   >
                     Tourist Places nearby
@@ -458,7 +473,7 @@ const Navbar = () => {
             <NavLink
               onClick={window.scrollTo(0, 0)}
               to="/contact"
-              className="font-semibold hover:bg-blue-600 px-3 py-2 rounded-md"
+              className="font-semibold text-sm hover:bg-blue-600 px-3 py-2 rounded-md"
             >
               Contact Us
             </NavLink>

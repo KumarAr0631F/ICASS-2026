@@ -74,8 +74,6 @@ const Sponsorships = () => {
               <td className="px-2 py-2 border border-gray-300 text-green-600 font-bold">&#10003;</td>
               
             </tr>
-           
-            
           </tbody>
         </table>
       </div>

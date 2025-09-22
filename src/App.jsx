@@ -16,6 +16,7 @@ import AdvisoryCommittee from "./pages/AdvisoryCommittee";
 import TechnicalProgramCommittee from "./pages/TechnicalProgramCommittee";
 import Tracks from "./pages/Tracks";
 import Sponsorships from "./pages/Sponsorships";
+import SpecialSession from "./pages/SpecialSession";
 const App = () => {
   return (
     <div>
@@ -34,6 +35,7 @@ const App = () => {
         <Route path="/advisory-committee" element={<AdvisoryCommittee />} />
         <Route path="/callforpapers/tracks-info" element={<Tracks />} />
         <Route path="/sponsorships" element={<Sponsorships />} />
+        <Route path="/special-session" element={<SpecialSession />} />
         <Route
           path="/technical-committee"
           element={<TechnicalProgramCommittee />}

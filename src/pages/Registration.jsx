@@ -12,7 +12,7 @@ const Registration = () => {
           <div className="flex justify-center items-center">
             <ul className="text-xl list-disc mb-5 list-inside text-start">
               <li className="sm:text-lg">
-                Full Paper Submission Deadline: <span className="line-through text-gray-500">30<sup>th</sup> September, 2025</span> 30<sup>th</sup> October, 2025(updated)
+                Full Paper Submission Deadline: <span className="line-through text-gray-500">30<sup>th</sup> September, 2025</span> 30<sup>th</sup> October, 2025(extended)
               </li>
               <li className="sm:text-lg">
                 Notification of Acceptance: 30<sup>th</sup> November, 2025
