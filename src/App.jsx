@@ -17,9 +17,11 @@ import TechnicalProgramCommittee from "./pages/TechnicalProgramCommittee";
 import Tracks from "./pages/Tracks";
 import Sponsorships from "./pages/Sponsorships";
 import SpecialSession from "./pages/SpecialSession";
+import PreConferenceWorkshop from "./pages/PreConferenceWorkshop";
+import Layout from "./components/Layout";
 const App = () => {
   return (
-    <div>
+    <div className="min-h-screen flex flex-col">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -34,8 +36,9 @@ const App = () => {
         <Route path="/organising-committee" element={<OrganisingCommitte />} />
         <Route path="/advisory-committee" element={<AdvisoryCommittee />} />
         <Route path="/callforpapers/tracks-info" element={<Tracks />} />
-        <Route path="/sponsorships" element={<Sponsorships />} />
+        <Route path="/call-for-financial-supporters" element={<Sponsorships />} />
         <Route path="/special-session" element={<SpecialSession />} />
+        <Route path="/pre-conference-workshop" element={<PreConferenceWorkshop />} />
         <Route
           path="/technical-committee"
           element={<TechnicalProgramCommittee />}

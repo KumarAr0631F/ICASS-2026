@@ -3,7 +3,7 @@ import mru_logo from "./mru_logo.jpeg";
 import mru from "./mru.jpg";
 import mru_panorama_2_copy from "./mru_panorama_2_copy.jpg";
 import mru_poster from "./mru_poster.png";
-import mru_soe from "./mru_soe.jpg";
+import SOE from "./SOE.png";
 import sponsor_logo_2 from "./sponsor_logo_2.png";
 import sponsor_logo_3 from "./sponsor_logo_3.png";
 import sponsor_logo_4 from "./sponsor_logo_4.png";
@@ -21,6 +21,10 @@ import place_5 from "./place_5.png";
 import place_6 from "./place_6.png";
 import manav_rachna from "./manav_rachna.png"
 import iic from './IIC.jpg'
+import Payment_code from "./Payment_code.png";
+import IEEE_logo from "./IEEE_logo.jpg";
+import IEEE_Delhi from './IEEE_Delhi.jpg'
+import CDAC from "./CDAC.jpg";
 
 export const assets = {
   icass2026,
@@ -28,7 +32,7 @@ export const assets = {
   mru_panorama_2_copy,
   mru_poster,
   mru,
-  mru_soe,
+  SOE,
   sponsor_logo_2,
   sponsor_logo_3,
   sponsor_logo_4,
@@ -45,5 +49,9 @@ export const assets = {
   place_5,
   place_6,
   manav_rachna,
-  iic
+  iic,
+  Payment_code,
+  IEEE_logo,
+  IEEE_Delhi,
+  CDAC
 };

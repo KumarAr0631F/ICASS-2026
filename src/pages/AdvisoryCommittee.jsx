@@ -4,17 +4,17 @@ const AdvisoryCommittee = () => {
   return (
     <div className="container mx-auto px-6 md:px-12 py-3">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        
+        {/* International Advisory Committee */}
         <div>
           <h2 className="text-xl font-semibold mb-3 text-gray-700">
             International Advisory Committee
           </h2>
-          <ul className="list-disc ml-6 mb-3 text-justify text-gray-700">
+          <ul className="list-disc ml-6 mb-3 text-justify text-gray-700 space-y-1">
             <li>Prof (Dr) Uma Jha, Senior IEEE Fellow and Professor of Practice, ECE, University of Florida, Gainesville, Florida, USA</li>
             <li>Prof (Dr) Parag Kulkarni, Professor, Tokyo International University, Japan and Founder, Chief Scientist and Advisor, iKnowlation Research Labs Pvt Ltd</li>
             <li>Dr Marta Zurek-Mortka, Head of Mechatronics and Prototyping Centre, Lukasiewicz Research Network - Institute for Sustainable Technologies, Warsaw, Poland</li>
-            <li>
-              Prof (Dr) Tanzila Saba, AI Lab Leader, Associate Director of Research and Initiative Center, Prince Sultan University, Riyadh, Saudi Arabia
-            </li>
+            <li>Prof (Dr) Tanzila Saba, AI Lab Leader, Associate Director of Research and Initiative Center, Prince Sultan University, Riyadh, Saudi Arabia</li>
             <li>Prof (Dr) Wen-Cheng Lai, Professor, Dept. of Electrical Eng., Ming Chi University of Technology, Taiwan</li>
             <li>Prof (Dr) Valentina Emilia Balas, Professor, Aurel Vlaicu University of Arad, Romania</li>
             <li>Prof (Dr) Prashant Jha, Professor, MedTech Innovation and Entrepreneurship, King’s College, London, UK</li>
@@ -37,11 +37,12 @@ const AdvisoryCommittee = () => {
           </ul>
         </div>
 
+        {/* National Advisory Committee */}
         <div>
           <h3 className="text-xl font-semibold mb-3 text-gray-700">
             National Advisory Committee
           </h3>
-          <ul className="list-disc ml-6 mb-3 text-justify text-gray-700">
+          <ul className="list-disc ml-6 mb-3 text-justify text-gray-700 space-y-1">
             <li>Prof (Dr) Bhim Singh, SERB National Science Chair and Professor Emeritus, IIT Delhi, Delhi</li>
             <li>Mr Deepak Mathur, Vice President, IEEE MGA</li>
             <li>Prof (Dr) MN Hoda, Chairperson, IEEE Delhi Section and Director, Bharati Vidyapeeth's Institute of Computer Science Applications and Management, Delhi</li>
@@ -57,16 +58,16 @@ const AdvisoryCommittee = () => {
             <li>Prof (Dr) M Emran Khan, Professor, Department of Mechanical Engineering, JMI, Delhi</li>
             <li>Prof (Dr) Sanjeev Sofat, Professor, Department of CSE, PEC University of Technology, Chadigarh</li>
             <li>Prof (Dr) B Balamurugan, Professor and Dean Academics, Shiv Nadar University, Noida</li>
-            <li>Prof (Dr) Mangey Ram, Professor and Dean (Research and Collaborations), Graphic Era University,Dehradun</li>
+            <li>Prof (Dr) Mangey Ram, Professor and Dean (Research and Collaborations), Graphic Era University, Dehradun</li>
             <li>Mr Sanjay Jain, Head of Google for Education, Google, India</li>
             <li>Mr Anil Kumar Saini, Scientist, CEERI, Pilani</li>
-            <li>Prof (Dr) Amrita Rai, Professor, Lloyd College, Greater Noida
-            </li>
-            <li>Dr Abhilasha Rakesh Vyas, Busuness and Technology Associate Delivery Manager, Accenture, India and Co-Convener, Women in Tech Wing, GESIA IT Association, Ahmedabad, Gujarat</li>
+            <li>Prof (Dr) Amrita Rai, Professor, Lloyd College, Greater Noida</li>
+            <li>Dr Abhilasha Rakesh Vyas, Business and Technology Associate Delivery Manager, Accenture, India and Co-Convener, Women in Tech Wing, GESIA IT Association, Ahmedabad, Gujarat</li>
             <li>Prof (Dr) Sanjeev Kr Singh, Professor and Dean (School of Basic Sciences), Galgotias University, Greater Noida</li>
             <li>Dr Aanjey Mani Tripathi, Professor, SCSE, Galgotias University</li>
           </ul>
         </div>
+
       </div>
     </div>
   );

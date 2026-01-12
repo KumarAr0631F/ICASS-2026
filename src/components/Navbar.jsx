@@ -1,9 +1,9 @@
-
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { assets } from "../assets/assets";
 import { NavLink } from "react-router-dom";
 import { Link } from "react-router-dom";
+import Navbar2 from "./Navbar2";
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -35,8 +35,8 @@ const Navbar = () => {
   };
 
   const toggleVenueDropdown = () => {
-  setIsVenueDropdownOpen((prev) => !prev);
-};
+    setIsVenueDropdownOpen((prev) => !prev);
+  };
 
   const handleMenuItemClick = (path) => {
     toggleMenu();
@@ -55,12 +55,16 @@ const Navbar = () => {
               className="h-[64px] w-[160px]"
             />
           </NavLink>
-          <img src={assets.mru} alt="Logo 4" className="h-10 w-auto" />
-          <img src={assets.mru_soe} alt="Logo 3" className="h-10 w-auto" />
-          <img src={assets.iic} alt="Logo 5" className="h-10 w-auto" />
+          <img src={assets.SOE} alt="Logo 2" className="h-10 w-auto" />
+          <img src={assets.iic} alt="Logo 3" className="h-10 w-auto" />
         </div>
 
-        <div className="ml-6">
+        <div className="ml-6 flex gap-3 items-center justify-end">
+          <img
+            src={assets.IEEE_Delhi}
+            alt="IEEE Delhi Logo"
+            className="w-32 h-10 object-contain"
+          />
           <Link
             to="https://cmt3.research.microsoft.com/ICASS2026/"
             target="_blank"
@@ -121,7 +125,7 @@ const Navbar = () => {
         }`}
         style={{ overflowY: "auto" }}
       >
-        <ul className="flex flex-col space-y-4 py-8 px-4">
+        <ul className="flex flex-col space-y-4 py-8 px-3">
           <li>
             <button
               onClick={() => handleMenuItemClick("/")}
@@ -207,7 +211,10 @@ const Navbar = () => {
             {isCallDropdownOpen && (
               <ul className="ml-5 mt-2 grid items-start space-y-2">
                 {[
-                  { label: "Tracks Information", path: "/callforpapers/tracks-info" },
+                  {
+                    label: "Tracks Information",
+                    path: "/callforpapers/tracks-info",
+                  },
                   {
                     label: "Author's Guidelines",
                     path: "/callforpapers/guidelines",
@@ -231,6 +238,14 @@ const Navbar = () => {
             { label: "Registration", path: "/registration" },
             // { label: "Sponsorships", path: "/sponsorships" },
             { label: "Call for Special Session", path: "/special-session" },
+            {
+              label: "Pre-Conference Workshop",
+              path: "/pre-conference-workshop",
+            },
+            {
+              label: "Call for Financial Supporters",
+              path: "/call-for-financial-supporters",
+            },
             { label: "Contact Us", path: "/contact" },
           ].map((item) => (
             <li key={item.label}>
@@ -368,7 +383,10 @@ const Navbar = () => {
               Conference Schedule
             </NavLink>
 
-            <div className="dropdown-center">
+            <div
+              className="dropdown-center"
+              style={{ position: "relative", zIndex: 100 }}
+            >
               <button
                 className="btn text-white  border-none hover:bg-blue-600 font-semibold text-sm dropdown-toggle"
                 type="button"
@@ -377,7 +395,7 @@ const Navbar = () => {
               >
                 Call For Papers
               </button>
-              <ul className="dropdown-menu">
+              <ul className="dropdown-menu" style={{ zIndex: 50 }}>
                 <li>
                   <NavLink
                     onClick={() => window.scrollTo(0, 0)}
@@ -406,16 +424,7 @@ const Navbar = () => {
               Registration
             </NavLink>
 
-            {/* <NavLink
-              onClick={window.scrollTo(0, 0)}
-              to="/sponsorships"
-              className="font-semibold text-sm hover:bg-blue-600 px-3 py-2 rounded-md"
-            >
-              Sponsorships
-            </NavLink> */}
-
-
-            <div style={{ position: 'relative', display: 'inline-block' }}>
+            <div style={{ position: "relative", display: "inline-block" }}>
               <NavLink
                 onClick={window.scrollTo(0, 0)}
                 to="/special-session"
@@ -423,12 +432,13 @@ const Navbar = () => {
               >
                 Call for Special Session
               </NavLink>
-              <span className="absolute -top-4 right-0 z-50 bg-red-600 text-white font-bold text-xs px-2 py-1 rounded-full shadow-lg" style={{ pointerEvents: 'none' }}>
-                NEW
+              <span
+                className="absolute -top-4 right-0 z-50 bg-red-600 text-white font-bold text-xs px-2 py-1 rounded-full shadow-lg"
+                style={{ pointerEvents: "none" }}
+              >
+                CLOSED
               </span>
             </div>
-
-
 
             <div className="dropdown-center">
               <button
@@ -480,6 +490,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
+      <Navbar2 />
     </nav>
   );
 };

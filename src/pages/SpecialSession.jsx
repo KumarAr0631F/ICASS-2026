@@ -32,7 +32,7 @@ const SpecialSession = () => {
         </div>
       </div>
       <div className="w-full flex mt-8">
-        <div className=" w-full px-4  text-gray-900 mb-8">
+        <div className=" w-full px-4 text-justify text-gray-900 mb-8">
           <p>
             ICASS 2026 invites proposals to organize Special Sessions related to the conference theme and key topics within the conference scope. Please send your special session proposals as a Word file <a
               href="Revised_Call_for_Papers_Special_Session_ICASS_2026.docx"
@@ -49,7 +49,7 @@ const SpecialSession = () => {
         </div>
       </div>
 
-      <div className="w-full flex justify-center mt-2 mb-8">
+      <div className="w-full flex justify-center pl-3 mt-2 mb-8">
         <div className="text-center">
           <p className="text-red-600 font-semibold">
             Special Session Proposal Submission: 5th October, 2025
@@ -88,10 +88,10 @@ const SpecialSession = () => {
       </div>
 
       <div>
-        <p className="text-3xl font-semibold text-blue-600 text-center mb-4">
+        <p className="text-3xl font-semibold text-blue-600 text-center ml-3 mb-4">
           Proposal Submission Process
         </p>
-        <ul className="list-disc list-inside text-gray-800 w-full px-4 mb-8">
+        <ul className="list-disc list-inside text-justify text-gray-800 w-full px-4 mb-8">
           <li>
             Kindly submit proposal for conducting special session in the prescribed format <a
               href="Revised_Call_for_Papers_Special_Session_ICASS_2026.docx"
@@ -109,7 +109,7 @@ const SpecialSession = () => {
         </ul>
       </div>
 
-      <div className="mb-8 ml-5">
+      <div className="mb-8 ml-5 mr-5">
         <p className="text-3xl font-semibold text-blue-600 text-center mb-4">
           Paper Submission Process
         </p>
@@ -127,15 +127,15 @@ const SpecialSession = () => {
         </p>
       </div>
 
-      <div>
+      <div >
         <p className="text-3xl font-semibold text-blue-600 text-center mb-4">
           Guidelines For the Track Chair 
         </p>
-        <ul className="list-decimal list-inside text-gray-800 w-full px-4 mb-8">
+        <ul className="list-decimal text-justify list-inside text-gray-800 w-full px-4 mb-8">
           <li>Proposed track must align with the scope of ICASS 2026.</li>
           <li>Maximum 2 track chairs for one single special track are allowed.</li>
           <li>All papers must be submitted through the conference CMT portal.</li>
-          <li>A minimum of 50 paper submissions is mandatory to qualify for track-related benefits.</li>
+          <li>A minimum of 40 paper submissions is mandatory to qualify for track-related benefits.</li>
           <li>A Track Chair may submit up to 2 papers as an author in their own track.</li>
           <li>A single author may have a maximum of 3 accepted papers.</li>
           <li>Each paper will be reviewed by at least three reviewers.</li>

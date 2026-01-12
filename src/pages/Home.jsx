@@ -1,16 +1,19 @@
 import React, { useState } from "react";
 import { assets } from "../assets/assets";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import { ChevronDown } from "lucide-react";
 
 import "./Home.css";
 import AutoSlidingCarousel from "./AutoSlidingCarousel";
 import TracksDropdown from "./TracksDropdown";
+import TrackDropDown2 from "../components/TrackDropDown2";
+import Popup from "../components/Popup";
 
 const Home = () => {
   const [showSupporters, setShowSupporters] = useState(false);
-  const [supporterDropdownState, setSupporterDropdownState] = useState('closed'); // 'open', 'opening', 'closing', 'closed'
+  const [supporterDropdownState, setSupporterDropdownState] =
+    useState("closed"); // 'open', 'opening', 'closing', 'closed'
   const handlClickk = () => {
     Navigate("/contact");
   };
@@ -18,6 +21,7 @@ const Home = () => {
   return (
     <>
       <AutoSlidingCarousel />
+      <Popup />
       <div className="w-full min-h-screen flex flex-col items-center justify-center">
         {/* Full-width Image */}
 
@@ -26,17 +30,11 @@ const Home = () => {
           <marquee
             behavior="scroll"
             direction="left"
-            className="py-1 text-center flex text-sm md:text-lg"
+            className="py-1 h-16 text-center flex text-xl md:text-2xl font-bold items-center justify-center"
           >
-            Full Paper Submission Deadline:- 30th October, 2025
+            !!Paper Submissions are Closed Now!!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Notification of Acceptance:- 30th November, 2025
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Registration Deadline:- 15th December, 2025
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Camera Ready Submission Deadline:- 30th December, 2025
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Conference Date:- 12th - 13th February, 2026
+            <Link to="https://docs.google.com/forms/d/e/1FAIpQLSchA7FIhwyrPCcrKbl54rDpc5ZIM2VoDGknDslSTj5W4idiTw/viewform" className="text-blue-400 underline" target="_blank">Click Here</Link>&nbsp;to register your accepted Paper
           </marquee>
         </div>
 
@@ -62,6 +60,22 @@ const Home = () => {
 
         {/* Content Wrapper */}
         <div className="w-full max-w-6xl px-4 md:px-8 lg:px-12 py-8">
+          <div className="flex flex-col md:flex-row items-center justify-center gap-6 mb-8">
+            <img
+              src={assets.IEEE_logo}
+              alt="IEEE Logo"
+              className="w-24 h-24 md:w-32 md:h-32 mx-auto mb-2 md:mb-0"
+            />
+            <div className="text-center text-red-500 text-xl md:text-2xl font-semibold">
+              <h1>Technically Sponsored By IEEE Delhi Section</h1>
+              <p>Conference #69550</p>
+            </div>
+            <img
+              src={assets.IEEE_Delhi}
+              alt="IEEE Delhi Logo"
+              className="w-32 sm:h-14 md:w-32 md:h-14 mx-auto mb-2 md:mb-0"
+            />
+          </div>
           {/* About Conference */}
           <div className="mb-8">
             <h3 className="text-blue-700 text-2xl md:text-3xl font-bold">
@@ -213,6 +227,14 @@ const Home = () => {
             <TracksDropdown />
           </div>
 
+          {/* Special Topics */}
+          <div className="mb-8">
+            <h3 className="text-blue-700 text-2xl font-bold">Special Tracks</h3>
+            <hr className="bg-blue-700 border h-1 w-full my-2" />
+
+            <TrackDropDown2 />
+          </div>
+
           {/* Key Highlights */}
           <div>
             <h3 className="text-blue-700 text-2xl md:text-3xl font-bold">
@@ -249,26 +271,57 @@ const Home = () => {
             </p>
           </div> */}
           <div className="mt-5">
-            <h3 className="text-blue-700 text-2xl md:text-3xl font-bold flex items-center justify-between cursor-pointer" onClick={() => {
-              if (supporterDropdownState === 'open') {
-                setSupporterDropdownState('closing');
-                setTimeout(() => setSupporterDropdownState('closed'), 500);
-              } else if (supporterDropdownState === 'closed') {
-                setSupporterDropdownState('opening');
-                setTimeout(() => setSupporterDropdownState('open'), 500);
-              }
-            }}>
+            <h3
+              className="text-blue-700 text-2xl md:text-3xl font-bold flex items-center justify-between cursor-pointer"
+              onClick={() => {
+                if (supporterDropdownState === "open") {
+                  setSupporterDropdownState("closing");
+                  setTimeout(() => setSupporterDropdownState("closed"), 500);
+                } else if (supporterDropdownState === "closed") {
+                  setSupporterDropdownState("opening");
+                  setTimeout(() => setSupporterDropdownState("open"), 500);
+                }
+              }}
+            >
               Financial Supporters
-              <ChevronDown className={`ml-2 transition-transform duration-300 ${supporterDropdownState === 'open' || supporterDropdownState === 'opening' ? 'rotate-180' : ''}`} size={28} />
+              <ChevronDown
+                className={`ml-2 transition-transform duration-300 ${
+                  supporterDropdownState === "open" ||
+                  supporterDropdownState === "opening"
+                    ? "rotate-180"
+                    : ""
+                }`}
+                size={28}
+              />
             </h3>
             <hr className="bg-blue-700 border h-1 w-full my-2" />
-            <div className={`overflow-hidden ${supporterDropdownState === 'open' ? 'animate-dropdown-open' : supporterDropdownState === 'opening' ? 'animate-dropdown-open' : supporterDropdownState === 'closing' ? 'animate-dropdown-close' : ''}`}> 
-              {(supporterDropdownState === 'open' || supporterDropdownState === 'opening' || supporterDropdownState === 'closing') && (
+            <div
+              className={`overflow-hidden ${
+                supporterDropdownState === "open"
+                  ? "animate-dropdown-open"
+                  : supporterDropdownState === "opening"
+                  ? "animate-dropdown-open"
+                  : supporterDropdownState === "closing"
+                  ? "animate-dropdown-close"
+                  : ""
+              }`}
+            >
+              {(supporterDropdownState === "open" ||
+                supporterDropdownState === "opening" ||
+                supporterDropdownState === "closing") && (
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 p-4">
                   <div className="flex items-center justify-center text-center">
-                    <img className="w-40 h-auto" src={assets.sponsor_logo_2} alt="" />
+                    <img
+                      className="w-40 h-auto"
+                      src={assets.sponsor_logo_2}
+                      alt=""
+                    />
                   </div>
-                  <img className="w-40 h-auto items-center object-contain sm:object-cover sm:w-[15rem] sm:h-[15rem]" src={assets.sponsor_logo_3} alt="" />
+                  <img
+                    className="w-40 h-auto items-center object-contain sm:object-cover sm:w-[15rem] sm:h-[15rem]"
+                    src={assets.sponsor_logo_3}
+                    alt=""
+                  />
                 </div>
               )}
             </div>
@@ -278,47 +331,47 @@ const Home = () => {
               Knowledge Partners
             </h3>
             <hr className="bg-blue-700 border h-1 w-full my-2" />
-            <div className="w-full overflow-x-auto whitespace-nowrap flex gap-8 py-2">
+            <div className="w-full overflow-x-auto whitespace-nowrap flex gap-5 py-2">
               <marquee behavior="scroll" direction="left">
                 <img
                   src={assets.sponsor_logo_4}
-                  className="w-40 h-auto inline-block"
+                  className="w-36 h-auto inline-block"
                   alt=""
                 />
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <img
                   src={assets.sponsor_logo_5}
-                  className="w-40 h-auto inline-block"
+                  className="w-36 h-auto inline-block"
                   alt=""
                 />
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <img
                   src={assets.sponsor_logo_6}
-                  className="w-40 h-auto inline-block"
+                  className="w-36 h-auto inline-block"
                   alt=""
                 />
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <img
                   src={assets.sponsor_logo_7}
-                  className="w-40 h-auto inline-block"
+                  className="w-36 h-auto inline-block"
                   alt=""
                 />
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <img
                   src={assets.sponsor_logo_8}
-                  className="w-40 h-auto inline-block"
+                  className="w-36 h-auto inline-block"
                   alt=""
                 />
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <img
                   src={assets.sponsor_logo_9}
-                  className="w-40 h-auto inline-block"
+                  className="w-36 h-auto inline-block"
                   alt=""
                 />
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <img
                   src={assets.sponsor_logo_10}
-                  className="w-40 h-auto inline-block"
+                  className="w-36 h-auto inline-block"
                   alt=""
                 />
               </marquee>

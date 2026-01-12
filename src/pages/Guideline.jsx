@@ -104,7 +104,7 @@ const Guideline = () => {
               formatting guidelines may be rejected.
             </li>
             <li>
-              All accepted, registered and successfully presented papers will be submitted to IEEE Xplore® for possible inclusion for publication.
+              All accepted, registered and successfully presented papers will be submitted to IEEE Xplore®(Scopus) for possible inclusion for publication.
             </li>
             <li>
               Submissions must be original, unpublished work not under review
@@ -140,16 +140,20 @@ const Guideline = () => {
               in the conference for consideration of publication in IEEE Xplore.
             </li>
             <li>
-              In case of more than one paper submissions by author(s), each
-              accepted paper needs to be registered separately.
-            </li>
-            <li>
-              The decision to accept or reject a paper rests with the Technical
-              Program Committee.
+              <strong>Multiple Submissions: </strong>
+              <ul className="list-disc ml-5">
+                <li>In case of more than one paper submissions by author(s), each
+              accepted paper needs to be registered separately.</li>
+              <li>Maximum three registrations allowed on one author name, other accepted papers need to be register on separate author names.</li>
+              </ul>
             </li>
             <li>
               <strong>No-Show Policy: </strong>Also, conference chair reserves
               the right to exclude papers not presented or meeting guidelines.
+            </li>
+            <li>
+              The decision to accept or reject a paper rests with the Technical
+              Program Committee.
             </li>
           </ul>
         </div>
