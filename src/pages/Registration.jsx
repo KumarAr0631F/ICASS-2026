@@ -68,21 +68,35 @@ const Registration = () => {
         </div>
 
         {/* ------------------ Submit Button ------------------ */}
-        <div className="mt-4 flex justify-center">
+        <div className="mt-4 flex justify-center gap-6">
           <NavLink
             to={"https://cmt3.research.microsoft.com/ICASS2026/"}
             className="bg-red-500 rounded-lg cursor-pointer px-6 py-2.5 text-white font-medium hover:bg-red-600 transition-all duration-300 shadow-md"
           >
             Submit Your Paper
           </NavLink>
+          <NavLink
+            to={"https://cmt3.research.microsoft.com/ICASS2026/"}
+            className="bg-red-500 rounded-lg cursor-pointer px-6 py-2.5 text-white font-medium hover:bg-red-600 transition-all duration-300 shadow-md"
+          >
+            Submit Your Poster
+          </NavLink>
         </div>
-        <div className="mt-4 flex justify-center">
+        <div className="mt-4 flex justify-center gap-6">
           <NavLink
             to={"https://forms.gle/w4emCbWMPtnp5tfF8"}
             target="_blank"
             className="bg-red-500 rounded-lg cursor-pointer px-3 py-2.5 text-white font-medium hover:bg-red-600 transition-all duration-300 shadow-md"
           >
             ICASS 2026 Paper Registration form
+          </NavLink>
+
+          <NavLink
+            to={"https://forms.gle/w4emCbWMPtnp5tfF8"}
+            target="_blank"
+            className="bg-red-500 rounded-lg cursor-pointer px-3 py-2.5 text-white font-medium hover:bg-red-600 transition-all duration-300 shadow-md"
+          >
+            Register Your Poster Here
           </NavLink>
         </div>
       </div>

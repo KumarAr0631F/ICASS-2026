@@ -137,8 +137,11 @@ const ImportantDates = () => {
               <p className="text-gray-600 line-through font-semibold text-left">
                 5<sup>th</sup> January, 2026
               </p>
-              <p className="text-green-600 font-semibold text-left">
+              <p className="text-gray-600 line-through font-semibold text-left">
                 10<sup>th</sup> January, 2026
+              </p>
+              <p className="text-green-600 font-semibold text-left">
+                20<sup>th</sup> January, 2026
               </p>
             </div>
 
@@ -180,8 +183,11 @@ const ImportantDates = () => {
               <p className="text-gray-600 line-through font-semibold text-left">
                 10<sup>th</sup> January, 2026
               </p>
-              <p className="text-green-600 font-semibold text-left">
+              <p className="text-gray-600 line-through font-semibold text-left">
                 15<sup>th</sup> January, 2026
+              </p>
+              <p className="text-green-600 font-semibold text-left">
+                20<sup>th</sup> January, 2026
               </p>
             </div>
 
