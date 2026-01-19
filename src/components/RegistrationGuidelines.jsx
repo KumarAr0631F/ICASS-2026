@@ -31,7 +31,7 @@ const guidelines = [
       <><span className="font-bold">Second Paper Registration:</span> In Case of more than one registration by a single author, 10% discount on registration amount of one paper will be provided.</>,
       "Author can avail only one type of discount.",
     ],
-    bg: "bg-gray-100 border-gray-200"
+    bg: "bg-green-100 border-green-200"
   }
 ];
 

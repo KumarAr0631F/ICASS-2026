@@ -120,12 +120,12 @@ const Navbar = () => {
       </div>
 
       <div
-        className={`fixed top-[4rem] right-0 h-[calc(100vh-4rem)] w-64 bg-slate-100 shadow-lg z-40 transform transition-transform duration-300 ${
+        className={`fixed top-[4rem] right-0 h-[calc(100vh-4rem)] w-72 bg-slate-100 shadow-lg z-40 transform transition-transform duration-300 ${
           isMenuOpen ? "translate-x-0" : "translate-x-full"
         }`}
         style={{ overflowY: "auto" }}
       >
-        <ul className="flex flex-col space-y-4 py-8 px-3">
+        <ul className="flex flex-col space-y-4 py-8 px-4">
           <li>
             <button
               onClick={() => handleMenuItemClick("/")}

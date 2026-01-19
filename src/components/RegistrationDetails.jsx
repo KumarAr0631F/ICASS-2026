@@ -144,21 +144,7 @@ const RegistrationDetails = () => {
                   </td>
                 </tr>
 
-                {/* Row 5 */}
-                <tr className="hover:bg-blue-50 transition-colors duration-200">
-                  <td className="px-2 sm:px-3 py-2 sm:py-3 font-bold text-gray-800 text-xs sm:text-sm">
-                    Poster Registration
-                  </td>
-                  <td className="px-1 sm:px-3 py-2 sm:py-3 text-center border-l border-gray-200">
-                    <span className="text-gray-400 text-xs sm:text-sm">—</span>
-                  </td>
-                  <td className="px-1 sm:px-3 py-2 sm:py-3 text-center border-l border-gray-200">
-                    <span className="text-blue-700 font-semibold text-xs sm:text-sm">1,200</span>
-                  </td>
-                  <td className="px-1 sm:px-3 py-2 sm:py-3 text-center border-l border-gray-200">
-                    <span className="text-blue-700 font-semibold text-xs sm:text-sm">25</span>
-                  </td>
-                </tr>
+                
               </tbody>
             </table>
           </div>

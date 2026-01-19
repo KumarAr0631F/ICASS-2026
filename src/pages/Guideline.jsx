@@ -59,13 +59,12 @@ const Guideline = () => {
             </li>
             <ul className="ml-5">
               <li>1. MS Word Template</li>
-              <a
-                href="conference-template-a4.docx"
-                download={"conference-template-a4.docx"}
-                className="text-blue-700 cursor-pointer underline list-disc ml-10"
+              <li
+                onClick={() => downloadFileAtURL(PDF_FILE_URL1)}
+                className=" list-disc ml-10 cursor-pointer underline text-blue-700"
               >
                 A4
-              </a>
+              </li>
               <li>2. LaTeX Template</li>
               <li
                 onClick={() => downloadFileAtURL(PDF_FILE_URL2)}
