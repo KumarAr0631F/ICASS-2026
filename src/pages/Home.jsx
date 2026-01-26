@@ -320,6 +320,13 @@ const Home = () => {
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 p-4">
                   <div className="flex items-center justify-center text-center">
                     <img
+                      className="w-48 h-auto"
+                      src={assets.STPI_logo}
+                      alt=""
+                    />
+                  </div>
+                  <div className="flex items-center justify-center text-center">
+                    <img
                       className="w-40 h-auto"
                       src={assets.sponsor_logo_2}
                       alt=""
@@ -330,13 +337,7 @@ const Home = () => {
                     src={assets.sponsor_logo_3}
                     alt=""
                   />
-                  <div className="flex items-center justify-center text-center">
-                    <img
-                      className="w-48 h-auto"
-                      src={assets.STPI_logo}
-                      alt=""
-                    />
-                  </div>
+                  
                 </div>
               )}
             </div>
