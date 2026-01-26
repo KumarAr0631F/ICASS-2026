@@ -19,6 +19,8 @@ import Sponsorships from "./pages/Sponsorships";
 import SpecialSession from "./pages/SpecialSession";
 import PreConferenceWorkshop from "./pages/PreConferenceWorkshop";
 import Layout from "./components/Layout";
+import Speakers from "./pages/Speakers";
+import DistinguishGuests from "./pages/DistinguishGuests";
 const App = () => {
   return (
     <div className="min-h-screen flex flex-col">
@@ -39,10 +41,12 @@ const App = () => {
         <Route path="/call-for-financial-supporters" element={<Sponsorships />} />
         <Route path="/special-session" element={<SpecialSession />} />
         <Route path="/pre-conference-workshop" element={<PreConferenceWorkshop />} />
+        <Route path="/speakers" element={<Speakers />} />
         <Route
           path="/technical-committee"
           element={<TechnicalProgramCommittee />}
         />
+        <Route path="/distinguish-guests" element={<DistinguishGuests />} />
       </Routes>
       <Footer />
     </div>

@@ -32,9 +32,17 @@ const Home = () => {
             direction="left"
             className="py-1 h-16 text-center flex text-xl md:text-2xl font-bold items-center justify-center"
           >
-            !!Paper Submissions are Closed Now!!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            !!Paper Submissions are Closed
+            Now!!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <Link to="https://docs.google.com/forms/d/e/1FAIpQLSchA7FIhwyrPCcrKbl54rDpc5ZIM2VoDGknDslSTj5W4idiTw/viewform" className="text-blue-400 underline" target="_blank">Click Here</Link>&nbsp;to register your accepted Paper
+            <Link
+              to="https://docs.google.com/forms/d/e/1FAIpQLSchA7FIhwyrPCcrKbl54rDpc5ZIM2VoDGknDslSTj5W4idiTw/viewform"
+              className="text-blue-400 underline"
+              target="_blank"
+            >
+              Click Here
+            </Link>
+            &nbsp;to register your accepted Paper
           </marquee>
         </div>
 
@@ -300,10 +308,10 @@ const Home = () => {
                 supporterDropdownState === "open"
                   ? "animate-dropdown-open"
                   : supporterDropdownState === "opening"
-                  ? "animate-dropdown-open"
-                  : supporterDropdownState === "closing"
-                  ? "animate-dropdown-close"
-                  : ""
+                    ? "animate-dropdown-open"
+                    : supporterDropdownState === "closing"
+                      ? "animate-dropdown-close"
+                      : ""
               }`}
             >
               {(supporterDropdownState === "open" ||
@@ -322,6 +330,13 @@ const Home = () => {
                     src={assets.sponsor_logo_3}
                     alt=""
                   />
+                  <div className="flex items-center justify-center text-center">
+                    <img
+                      className="w-48 h-auto"
+                      src={assets.STPI_logo}
+                      alt=""
+                    />
+                  </div>
                 </div>
               )}
             </div>

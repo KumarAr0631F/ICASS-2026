@@ -25,6 +25,9 @@ import Payment_code from "./Payment_code.png";
 import IEEE_logo from "./IEEE_logo.jpg";
 import IEEE_Delhi from './IEEE_Delhi.jpg'
 import CDAC from "./CDAC.jpg";
+import speaker_1 from "./speaker_1.png";
+import speaker_2 from "./speaker_2.png";
+import STPI_logo from "./STPI_logo.png";
 
 export const assets = {
   icass2026,
@@ -53,5 +56,8 @@ export const assets = {
   Payment_code,
   IEEE_logo,
   IEEE_Delhi,
-  CDAC
+  CDAC,
+  speaker_1,
+  speaker_2,
+  STPI_logo,
 };

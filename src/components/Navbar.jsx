@@ -12,12 +12,14 @@ const Navbar = () => {
   const [isCommitteesDropdownOpen, setIsCommitteesDropdownOpen] =
     useState(false);
   const [isCallDropdownOpen, setIsCallDropDownOpen] = useState(false);
+  const [isDetailsDropdownOpen, setIsDetailsDropdownOpen] = useState(false);
 
   const toggleMenu = () => {
     if (isMenuOpen) {
       setIsVenueDropdownOpen(false);
       setIsCommitteesDropdownOpen(false);
       setIsCallDropDownOpen(false);
+      setIsDetailsDropdownOpen(false);
       setIsMenuOpen(false);
       document.body.style.overflow = "auto";
     } else {
@@ -36,6 +38,10 @@ const Navbar = () => {
 
   const toggleVenueDropdown = () => {
     setIsVenueDropdownOpen((prev) => !prev);
+  };
+
+  const toggleDetailsDropdown = () => {
+    setIsDetailsDropdownOpen((prev) => !prev);
   };
 
   const handleMenuItemClick = (path) => {
@@ -233,8 +239,63 @@ const Navbar = () => {
             )}
           </li>
 
+          <li>
+            <button
+              onClick={toggleDetailsDropdown}
+              className="text-lg flex w-full"
+            >
+              Conference Details
+              <svg
+                className={`w-5 h-5 mt-1 transition-transform duration-300 ${
+                  isDetailsDropdownOpen ? "rotate-180" : "rotate-0"
+                }`}
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M19 9l-7 7-7-7"
+                ></path>
+              </svg>
+            </button>
+            {isDetailsDropdownOpen && (
+              <ul className="ml-5 mt-2 grid items-start space-y-2">
+                {[
+                  {
+                    label: "Speakers",
+                    path: "/speakers",
+                  },
+                  {
+                    label: "Patrons & Chairs",
+                    path: "/patrons",
+                  },
+                  {
+                    label: "Distinguish Guests",
+                    path: "/distinguish-guests",
+                  },
+                  {
+                    label: "Conference Schedule",
+                    path: "/schedule",
+                  },
+                ].map((item) => (
+                  <li key={item.label} className={item.extraClass || ""}>
+                    <button
+                      onClick={() => handleMenuItemClick(item.path)}
+                      className="text-base"
+                    >
+                      {item.label}
+                    </button>
+                  </li>
+                ))}
+              </ul>
+            )}
+          </li>
+
           {[
-            { label: "Conference Schedule", path: "/schedule" },
             { label: "Registration", path: "/registration" },
             // { label: "Sponsorships", path: "/sponsorships" },
             { label: "Call for Special Session", path: "/special-session" },
@@ -375,13 +436,54 @@ const Navbar = () => {
             </div>
 
             {/* Other Nav Links */}
-            <NavLink
-              onClick={window.scrollTo(0, 0)}
-              to="/schedule"
-              className="font-semibold text-sm hover:bg-blue-600 px-3 py-2 rounded-md"
-            >
-              Conference Schedule
-            </NavLink>
+            <div className="dropdown-center">
+              <button
+                className="btn text-white border-none hover:bg-blue-600 font-semibold text-sm dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Conference Details
+              </button>
+              <ul className="dropdown-menu">
+                <li>
+                  <NavLink
+                    onClick={() => window.scrollTo(0, 0)}
+                    className="dropdown-item text-sm"
+                    to="/speakers"
+                  >
+                    Speakers
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    onClick={() => window.scrollTo(0, 0)}
+                    className="dropdown-item text-sm"
+                    to="/patrons"
+                  >
+                    Patrons & Chairs
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    onClick={() => window.scrollTo(0, 0)}
+                    className="dropdown-item text-sm"
+                    to="/distinguish-guests"
+                  >
+                    Distinguish Guests
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    onClick={() => window.scrollTo(0, 0)}
+                    className="dropdown-item text-sm"
+                    to="/schedule"
+                  >
+                    Conference Schedule
+                  </NavLink>
+                </li>
+              </ul>
+            </div>
 
             <div
               className="dropdown-center"
