@@ -28,6 +28,7 @@ import CDAC from "./CDAC.jpg";
 import speaker_1 from "./speaker_1.png";
 import speaker_2 from "./speaker_2.png";
 import STPI_logo from "./STPI_logo.png";
+import sonepar_logo from "./sonepar_logo.jpeg";
 
 export const assets = {
   icass2026,
@@ -60,4 +61,5 @@ export const assets = {
   speaker_1,
   speaker_2,
   STPI_logo,
+  sonepar_logo,
 };

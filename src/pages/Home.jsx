@@ -327,6 +327,13 @@ const Home = () => {
                   </div>
                   <div className="flex items-center justify-center text-center">
                     <img
+                      className="w-48 h-auto"
+                      src={assets.sonepar_logo}
+                      alt=""
+                    />
+                  </div>
+                  <div className="flex items-center justify-center text-center">
+                    <img
                       className="w-40 h-auto"
                       src={assets.sponsor_logo_2}
                       alt=""

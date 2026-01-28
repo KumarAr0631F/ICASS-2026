@@ -13,9 +13,9 @@ const SpeakerCard = ({ image, name, designation }) => {
       </div>
       
       {/* Speaker Info */}
-      <div className="p-4 text-center">
+      <div className="p-2 text-center">
         <h3 className="text-xl font-bold text-gray-800 mb-1">{name}</h3>
-        <p className="text-gray-500 text-sm">{designation}</p>
+        <p className="text-gray-900 text-sm">{designation}</p>
       </div>
     </div>
   )
